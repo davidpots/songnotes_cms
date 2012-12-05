@@ -11,3 +11,50 @@
  *= require_self
  *= require_tree .
  */
+
+
+body  { margin: 0; padding: 0; font-family: "Open Sans", sans-serif; font-size: 14px; line-height: 1.4em; }
+a     { color: #0088cc; text-decoration: none; }
+table { border-collapse: collapse; font-size: 12px; }
+table td { border: 1px solid #ddd; text-align: left; padding: 8px; }
+table th { border: 1px solid #ddd; text-align: left; padding: 8px; background: #eee; }
+
+
+
+.directory { padding: 0; border-bottom: 1px solid #ddd;}
+.directory li { list-style: none; }
+.directory li a { color: #888; font-size: 14px; display: block; border-top: 1px solid #ddd; padding: 12px 16px; }
+.directory li a strong { color: #333; font-size: 16px; }
+
+
+
+
+
+
+/* Large desktop */
+@media (min-width: 980px) { 
+  pre { font-size: 18px; }
+  body { width: 940px; margin: 0 auto; font-size: 18px; }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+  pre { font-size: 16px; }
+  body { width: 768px; margin: 0 auto; }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  pre { font-size: 12px; }
+  body { width: 480px; margin: 0 auto; }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  pre { font-size: 9px; }
+  body { background: yellow; font-size: 12px; }
+}
+
+pre { font-size:1em;white-space: pre; color: #555; font-family: "Open Sans",monospace; word-wrap: normal; border-radius: 0; border-left: 0; border-right: 0; }
+pre .chords { color: red; }
+pre .chords strong { font-weight: bold; color: #ed6124; }

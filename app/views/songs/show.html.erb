@@ -20,11 +20,14 @@
   <%= @song.album %>
 </p>
 
-<p>
-  <b>Lyrics:</b>
-  <%= @song.lyrics %>
-</p>
+<p><b>Lyrics (text):</b></p>
+<pre><%= @song.lyrics_text.present? ? (@song.lyrics_text).html_safe : "n/a" %></pre>
 
+<p><b>Lyrics (HTML,mono):</b></p>
+<pre><%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : "n/a" %></pre>
+
+<p><b>Lyrics (HTML,custom):</b></p>
+<pre><%= @song.lyrics_html_custom.present? ? (@song.lyrics_html_custom).html_safe : "n/a" %></pre>
 
 <%= link_to 'Edit', edit_song_path(@song) %> |
 <%= link_to 'Back', songs_path %>

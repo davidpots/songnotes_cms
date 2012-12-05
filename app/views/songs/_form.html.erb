@@ -28,8 +28,16 @@
     <%= f.text_field :album %>
   </div>
   <div class="field">
-    <%= f.label :lyrics %><br />
-    <%= f.text_area :lyrics %>
+    <%= f.label "Lyrics (text)" %><br />
+    <%= f.text_area :lyrics_text %>
+  </div>
+  <div class="field">
+    <%= f.label "Lyrics (HTML, mono)" %><br />
+    <%= f.text_area :lyrics_html_mono %>
+  </div>
+  <div class="field">
+    <%= f.label "Lyrics (HTML, custom)" %><br />
+    <%= f.text_area :lyrics_html_custom %>
   </div>
   <div class="actions">
     <%= f.submit %>

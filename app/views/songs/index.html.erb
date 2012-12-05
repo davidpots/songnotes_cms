@@ -1,12 +1,25 @@
 <h1>Listing songs</h1>
 
+<ul class="directory">
+  <% @songs.each do |song| %>
+  <li>
+    <a href="<%= songs_path %>">
+      <strong><%= song.title %></strong><br />
+      <%= song.artist %>
+    </a>
+  </li>
+  <% end %>
+</ul>
+<br /><br /><br />
 <table>
   <tr>
     <th>Title</th>
     <th>Artist</th>
     <th>Year</th>
     <th>Album</th>
-    <th>Lyrics</th>
+    <th>Lyrics – Text</th>
+    <th>Lyrics – HTML (mono)</th>
+    <th>Lyrics – HTML (custom)</th>
     <th></th>
     <th></th>
     <th></th>
@@ -18,10 +31,12 @@
     <td><%= song.artist %></td>
     <td><%= song.year %></td>
     <td><%= song.album %></td>
-    <td><%= song.lyrics %></td>
-    <td><%= link_to 'Show', song %></td>
+    <td><%= song.lyrics_text.present? ? "yes" : "--" %></td>
+    <td><%= song.lyrics_html_mono.present? ? "yes" : "--" %></td>
+    <td><%= song.lyrics_html_custom.present? ? "yes" : "--" %></td>
+    <td><%= link_to 'View', song %></td>
     <td><%= link_to 'Edit', edit_song_path(song) %></td>
-    <td><%= link_to 'Destroy', song, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Delete', song, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
