@@ -11,18 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121205032529) do
+ActiveRecord::Schema.define(:version => 20121206113309) do
 
   create_table "songs", :force => true do |t|
     t.string   "title"
     t.string   "artist"
     t.integer  "year"
     t.string   "album"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.datetime "created_at",                            :null => false
+    t.datetime "updated_at",                            :null => false
     t.text     "lyrics_text"
     t.text     "lyrics_html_mono"
     t.text     "lyrics_html_custom"
+    t.boolean  "published",          :default => false
   end
 
 end

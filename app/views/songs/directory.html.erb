@@ -1,0 +1,12 @@
+<ul class="directory">
+  <% @songs.each do |song| %>
+  <li>
+    <a href="<%= song_url(:id => song.id) %>">
+      <strong><%= song.title %></strong><br />
+      <%= song.artist %>
+    </a>
+  </li>
+  <% end %>
+</ul>
+
+<p><%= link_to "admin", admin_url %></p>
