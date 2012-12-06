@@ -1,0 +1,30 @@
+<p>
+  <b>Title:</b>
+  <%= @song.title %>
+</p>
+
+<p>
+  <b>Artist:</b>
+  <%= @song.artist %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @song.year %>
+</p>
+
+<p>
+  <b>Album:</b>
+  <%= @song.album %>
+</p>
+
+<p><b>Lyrics (text):</b></p>
+<pre><%= @song.lyrics_text.present? ? (@song.lyrics_text).html_safe : "n/a" %></pre>
+
+<p><b>Lyrics (HTML,mono):</b></p>
+<pre><%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : "n/a" %></pre>
+
+<p><b>Lyrics (HTML,custom):</b></p>
+<pre><%= @song.lyrics_html_custom.present? ? (@song.lyrics_html_custom).html_safe : "n/a" %></pre>
+
+<%= link_to 'Back', song_directory_path %>

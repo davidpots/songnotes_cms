@@ -1,4 +1,13 @@
 class SongsController < ApplicationController
+
+  def directory
+    @songs = Song.where(published: true).all
+  end
+
+  def details
+    @song = Song.find(params[:id])
+  end
+
   # GET /songs
   # GET /songs.json
   def index

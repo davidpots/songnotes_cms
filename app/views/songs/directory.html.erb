@@ -1,7 +1,7 @@
 <ul class="directory">
   <% @songs.each do |song| %>
   <li>
-    <a href="<%= song_url(:id => song.id) %>">
+    <a href="<%= song_details_url(:id => song.id) %>">
       <strong><%= song.title %></strong><br />
       <%= song.artist %>
     </a>
@@ -9,4 +9,4 @@
   <% end %>
 </ul>
 
-<p><%= link_to "admin", admin_url %></p>
+<p><%= link_to "admin", songs_url %></p>
