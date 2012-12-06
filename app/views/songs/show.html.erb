@@ -30,4 +30,4 @@
 <pre><%= @song.lyrics_html_custom.present? ? (@song.lyrics_html_custom).html_safe : "n/a" %></pre>
 
 <%= link_to 'Edit', edit_song_path(@song) %> |
-<%= link_to 'Back', songs_path %>
+<%= link_to 'Back', admin_path %>

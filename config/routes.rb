@@ -1,15 +1,13 @@
 Songnotes::Application.routes.draw do
 
+  root to: 'songs#directory'
+
+  match 'admin' => 'songs#index', :as => 'admin'
+
   match 'directory' => 'songs#directory', :as => 'song_directory'
   match 'details/:id' => 'songs#details', :as => 'song_details'
 
-  resources :songs do
-    collection  do
-      get 'directory'
-    end
-  end
-
-  root to: 'songs#directory'
+  resources :songs
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
