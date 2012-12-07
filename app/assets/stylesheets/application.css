@@ -13,8 +13,28 @@
  */
 
 
-body  { margin: 0; padding: 0; font-family: "Open Sans", sans-serif; font-size: 14px; line-height: 1.4em; }
+body  { margin: 32px 0; padding: 0; font-family: "Source Sans Pro", sans-serif; font-weight: 300; background: #444; color: #444; font-size: 19px; line-height: 25px; }
 a     { color: #0088cc; text-decoration: none; }
+
+h1    { color: #252525; font-size: 60px; line-height: 60px; font-weight: 600; padding: 0; margin: 0 0 5px 0; }
+h2    { color: #333; font-size: 26px; font-weight: 600; padding: 0; margin: 0 0 20px 0; }
+h3    { font-size: 24px; line-height: 32px; font-weight: 200; padding: 0; margin: 0 0 0 0; color: #777; }
+h4    { font-size: 15px; line-height: 19px; font-weight: 300; padding: 0; margin: 0; color: #aaa; }
+
+p     { padding: 0; margin: 0 0 21px 0; }
+
+.container { background: #fff; padding: 24px 32px; }
+
+.bucket       { padding: 24px 0 18px; border-top: 3px double #eaeaea; }
+
+.song_header        { border-top: none; padding-top: 10px; padding-bottom: 21px; }
+.lyrics             { padding-bottom: 48px; }
+
+.footer_link        { margin: 128px 0 0 0; }
+.footer_link a      { display: block; background: #333; padding: 20px; color: #fff;  }
+
+
+
 table { border-collapse: collapse; font-size: 12px; }
 table td { border: 1px solid #ddd; text-align: left; padding: 8px; }
 table th { border: 1px solid #ddd; text-align: left; padding: 8px; background: #eee; }
@@ -33,28 +53,27 @@ table th { border: 1px solid #ddd; text-align: left; padding: 8px; background: #
 
 /* Large desktop */
 @media (min-width: 980px) { 
-  pre { font-size: 18px; }
-  body { width: 940px; margin: 0 auto; font-size: 18px; }
+  pre { font-size: 16px; line-height: 20px; }
+  .container { width: 940px; margin: 0 auto; }
 }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
   pre { font-size: 16px; }
-  body { width: 768px; margin: 0 auto; }
+  .container { width: 768px; margin: 0 auto; }
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
   pre { font-size: 12px; }
-  body { width: 480px; margin: 0 auto; }
+  .container { width: 480px; margin: 0 auto; }
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) { 
   pre { font-size: 9px; }
-  body { background: yellow; font-size: 12px; }
+  .container { width: 100%; font-size: 12px; }
 }
 
-pre { font-size:1em;white-space: pre; color: #555; font-family: "Open Sans",monospace; word-wrap: normal; border-radius: 0; border-left: 0; border-right: 0; }
-pre .chords { color: red; }
-pre .chords strong { font-weight: bold; color: #ed6124; }
+pre { color: #555; margin: 0; padding: 0; white-space: pre; font-family: "Source Code Pro"; font-weight: 400; word-wrap: normal; border-radius: 0; border-left: 0; border-right: 0; }
+pre .chords { font-weight: 600; color: #D30922; }
