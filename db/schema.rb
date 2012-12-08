@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121206113309) do
+ActiveRecord::Schema.define(:version => 20121208114604) do
 
   create_table "songs", :force => true do |t|
     t.string   "title"
@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(:version => 20121206113309) do
     t.text     "lyrics_html_mono"
     t.text     "lyrics_html_custom"
     t.boolean  "published",          :default => false
+    t.text     "notes"
+    t.string   "record_label"
   end
 
 end
