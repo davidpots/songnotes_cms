@@ -3,7 +3,7 @@
 <%# ---------------------------------------------- %>
 <div class="bucket song_header">
   <h1><%= @song.title %></h1>
-  <h3><%= @song.artist %></h3>
+  <h3>by <%= @song.artist %></h3>
   <!-- <h4><%= @song.album %> &bull; <%= @song.year %></h4> -->
 </div> <!-- end: .bucket .song_header -->
 
@@ -11,7 +11,6 @@
 <%#    LYRICS & CHORDS                             %>
 <%# ---------------------------------------------- %>
 <div class="bucket lyrics">
-  <h2>Lyrics &amp; Chords</h2>
   <pre><%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : (@song.lyrics_text).html_safe %></pre>
 </div> <!-- end: .bucket -->
 
@@ -24,6 +23,26 @@
     <%= (@song.notes).html_safe %>
   </div> <!-- end: .bucket -->
 <% end %>
+
+<div class="bucket">
+  <h2>Chords</h2>
+<pre><span style="font-weight:600">INTRO</span>
+| <span class="chords">Am</span> . . . | <span class="chords">C</span> . . . | <span class="chords">F</span> . . . | <span class="chords">C</span> . . . | (x2)
+
+<span style="font-weight:600">VERSE</span>
+<span style="color:#999;font-weight:200;">("Sail on the horizon...")</span>
+| <span class="chords">G</span> . . . | . . . . | <span class="chords">C</span> . . . | . . . . | 
+| <span class="chords">G</span> . . . | . . . . | <span class="chords">C</span> . . . | . . . . |
+| <span class="chords">F</span> . . . | <span class="chords">C</span> . . . | <span class="chords">F</span> . . . | <span class="chords">G</span> . . . |
+| <span class="chords">F</span> . . . | <span class="chords">C</span> . . . | <span class="chords">G</span> . . . | <span class="chords">C</span> . . . |
+
+<span style="font-weight:600">CHORUS</span>
+<span style="color:#999;font-weight:200;">("A sailor spends his Christmas...")</span>
+| <span class="chords">Am</span> . . . | <span class="chords">Em</span> . . . | <span class="chords">F</span> . . . | <span class="chords">G</span> . . . |
+| <span class="chords">F</span>  . <span class="chords">C</span> . | <span class="chords">F</span>  . <span class="chords">C</span> . | <span class="chords">F</span> . . . | <span class="chords">G</span> . . . |
+| <span class="chords">F</span>  . . . | <span class="chords">C</span>  . . . | <span class="chords">F</span> . . . | <span class="chords">G</span> . . . |
+| <span class="chords">F</span>  . . . | <span class="chords">C</span>  . . . | <span class="chords">G</span> . . . | <span class="chords">C</span> . . . |</pre>
+</div>
 
 <%# ---------------------------------------------- %>
 <%#    SONG INFO                                   %>

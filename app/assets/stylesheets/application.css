@@ -30,7 +30,8 @@ p strong  { font-weight: 600; }
 
 .song_header        { border-top: none; padding-top: 10px; padding-bottom: 21px; }
 .lyrics             { }
-.info              { padding-bottom: 0px; }
+.section_head       { font-weight: 100; font-style:normal; display: inline-block; margin-bottom: 5px; color: #bbb; }
+.info               { padding-bottom: 0px; }
 
 
 .footer_link        { margin: 128px 0 0 0; }
@@ -38,7 +39,7 @@ p strong  { font-weight: 600; }
 
 
 
-table { border-collapse: collapse; font-size: 12px; }
+table { border-collapse: collapse; font-size: 15px; }
 table td { border: 1px solid #ddd; text-align: left; padding: 8px; }
 table th { border: 1px solid #ddd; text-align: left; padding: 8px; background: #eee; }
 
@@ -78,5 +79,17 @@ table th { border: 1px solid #ddd; text-align: left; padding: 8px; background: #
   .container { width: 100%; font-size: 12px; }
 }
 
+/* ----------------- ADMIN -------------------- */
+body.admin        { margin: 0; padding: 0; background: #fff; font-weight: 500; font-size: 18px; }
+.admin .container { width: 100%; padding: 28px; }
+.admin form .field       { overflow: hidden; width: auto; border-bottom: 1px solid #eee; padding: 5px 0; }
+.admin form .field label { float: left; width: 150px; display: block; font-weight: 600; }
+.admin form .field .radio_label { width: auto; width: 50px;}
+.admin form .field input,
+.admin form .field textarea { float: left; font-size: 14px; padding: 5px; }
+.admin form .field textarea { width: 800px; height: 100px; font-family: "Source Code Pro" }
+
 pre { color: #555; margin: 0; padding: 0; white-space: pre; font-family: "Source Code Pro"; font-weight: 400; word-wrap: normal; border-radius: 0; border-left: 0; border-right: 0; }
 pre .chords { font-weight: 600; color: #D30922; }
+pre strong { font-weight: 500; }
+pre em { font-style: normal; }
