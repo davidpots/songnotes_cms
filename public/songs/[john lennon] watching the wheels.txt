@@ -1,0 +1,114 @@
+WATCHING THE WHEELS
+by John Lennon
+===============================================================================
+
+INTRO
+| C . . . F . . . C . . . F . . . |
+
+VERSE
+C                       F
+People say I'm crazy...
+               C
+Doing what I'm doing
+Well, they give me all kinds of warnings
+To save me from ruin
+
+    PRE-CHORUS
+    F               Dm
+    When I say that I'm OK
+               G
+    Well, they look at me kind of strange
+    Surely you're not happy now
+    You no longer play the game
+
+People say I'm lazy
+Dreaming my life away
+Well they give me all kinds of advice
+Designed to enlighten me
+
+    When I tell them that I'm doing fine
+    Watching shadows on the wall
+    Don't you miss the big time boy
+    You're no longer on the ball
+
+        CHORUS
+        F           G                         C                   Am
+        ...I'm just sitting here watching the wheels go round and round
+        F           Dm                        F
+        ...I really love to watch them roll
+        G                          Am
+        ...No longer riding on the merry-go-round
+        F         F7               C - C/B - C/A      C/G - F
+        ...I just had to let it go
+
+Ah, people asking questions
+Lost in confusion
+Well, I tell them there's no problem
+Only solutions
+
+    Well, they shake their heads and they look at me
+    As if I've lost my mind
+    I tell them there's no hurry
+    I'm just sitting here doing time
+
+        I'm just sitting here watching the wheels go round and round
+        I really love to watch them roll
+        No longer riding on the merry-go-round
+        F         F7                    C    C/B    C/A    C/G
+        ...I just had to let it go
+        F         Fm6              Cmaj7
+        ...I just had to let it go
+
+===============================================================================
+CHORDS
+===============================================================================
+
+INTRO
+| C . . . | F . . . | C . . . | F . . . |
+
+VERSE
+"People say I'm crazy..."
+| C . . . | F . . . | C . . . | . . . . |
+| C . . . | F . . . | C . . . | . . . . |
+
+PRE-CHORUS
+"When the say that I'm okay..."
+| F . Dm . | G . . . | F . Dm . | G . . . |
+| G . .  . |
+
+CHORUS
+"I'm just sitting here watching the wheels..."
+| F . G . | C  . Am . | F . Dm . | .  .  F   .   |
+| G . . . | Am . .  . | F . F7 . | C C/B C/A C/G |
+| F . . . | F  . .  . |
+
+ENDING
+walkdown after the first "I just had to let it go..."
+| C . C/B . | C/A . C/G . | F . Fm6 . | Cmaj7 . . . |
+                                        (let ring)
+                                        
+===============================================================================
+NOTES
+===============================================================================
+
+Note that this is modeled after the acoustic version of the song.
+
+Very standard chords for the most part. Many of the F chords seem to in fact be Fmaj7, my preferred variant of which is shown below. Also note the Fm6, Cmaj7, and the C walkdowns.
+
+e-|---1----0----1----3---|--0------1----1------0-----|---0----0-----0-----0-----|-
+B-|---1----1----3----0---|--1------1----3------0-----|---1----1-----1-----1-----|-
+G-|---2----0----2----0---|--2------2----1------0-----|---0----0-----0-----0-----|-
+D-|---3----2----0----0---|--3------1----3------2-----|---2----------------------|-
+A-|---3----3---------2---|-(3)-----3----3------3-----|---3----2-----0-----------|-
+E-|---1--------------3---|-(1)-----1----1------------|--------------------3-----|-
+      F    C    Dm   G     Fmaj7   F7   Fm6   Cmaj7      C    C/B   C/A   C/G
+
+===============================================================================
+SONG INFO
+===============================================================================    
+
+Song: Watching the Wheels
+Artist: John Lennon
+Album: Double Fantasy
+Year: 1981
+Label: Geffen

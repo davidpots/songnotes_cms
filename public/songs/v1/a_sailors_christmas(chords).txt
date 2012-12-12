@@ -2,12 +2,14 @@ INTRO
 | Am . . . | C . . . | F . . . | C . . . | (x2)
 
 VERSE
+"Sail on the horizon's got a landfall rendezvous..."
 | G . . . | . . . . | C . . . | . . . . | 
 | G . . . | . . . . | C . . . | . . . . |
 | F . . . | C . . . | F . . . | G . . . |
 | F . . . | C . . . | G . . . | C . . . |
 
 CHORUS
+"A sailor spends his Christmas in a harbor on the hook..."
 | Am . . . | Em . . . | F . . . | G . . . |
 | F  . C . | F  . C . | F . . . | G . . . |
 | F  . . . | C  . . . | F . . . | G . . . |
