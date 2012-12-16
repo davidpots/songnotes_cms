@@ -10,7 +10,6 @@
     <th>Album</th>
     <th>Text</th>
     <th>HTML (mono)</th>
-    <th>HTML (custom)</th>
     <th>Notes</th>
     <th>Published</th>
     <th>Record Label</th>
@@ -25,7 +24,6 @@
     <td><%= song.album %></td>
     <td><%= song.lyrics_text.present? ? "yes" : "--" %></td>
     <td><%= song.lyrics_html_mono.present? ? "yes" : "--" %></td>
-    <td><%= song.lyrics_html_custom.present? ? "yes" : "--" %></td>
     <td><%= song.notes.present? ? "yes" : "--" %></td>
     <td><%= song.published? ? "yes" : "no" %></td>
     <td><%= song.record_label? ? song.record_label : "--" %></td>

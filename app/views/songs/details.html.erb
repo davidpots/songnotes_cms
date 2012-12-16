@@ -10,7 +10,7 @@
 <%# ---------------------------------------------- %>
 <%#    LYRICS & CHORDS                             %>
 <%# ---------------------------------------------- %>
-<div class="bucket lyrics">
+<div class="bucket song_lyrics">
   <pre><%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : (@song.lyrics_text).html_safe %></pre>
 </div> <!-- end: .bucket -->
 
@@ -18,36 +18,43 @@
 <%#    NOTES                                       %>
 <%# ---------------------------------------------- %>
 <% if @song.notes.present? %>
-  <div class="bucket notes">
+  <div class="bucket song_notes">
     <h2>Notes</h2>
     <%= (@song.notes).html_safe %>
   </div> <!-- end: .bucket -->
 <% end %>
 
-<div class="bucket">
+<div class="bucket song_chords">
   <h2>Chords</h2>
-<pre><span style="font-weight:600">INTRO</span>
-| <span class="chords">Am</span> . . . | <span class="chords">C</span> . . . | <span class="chords">F</span> . . . | <span class="chords">C</span> . . . | (x2)
+<pre class="pre_chords"><strong class="section_head">INTRO</strong>
+<span class="chord_notation">| <strong class="chord">C</strong> . . . | <strong class="chord">F</strong> . . . | <strong class="chord">C</strong> . . . | <strong class="chord">F</strong> . . . |</span>
 
-<span style="font-weight:600">VERSE</span>
-<span style="color:#999;font-weight:200;">("Sail on the horizon...")</span>
-| <span class="chords">G</span> . . . | . . . . | <span class="chords">C</span> . . . | . . . . | 
-| <span class="chords">G</span> . . . | . . . . | <span class="chords">C</span> . . . | . . . . |
-| <span class="chords">F</span> . . . | <span class="chords">C</span> . . . | <span class="chords">F</span> . . . | <span class="chords">G</span> . . . |
-| <span class="chords">F</span> . . . | <span class="chords">C</span> . . . | <span class="chords">G</span> . . . | <span class="chords">C</span> . . . |
+<strong class="section_head">VERSE</strong>
+<em class="sub_head">"People say I'm crazy..."</em>
+<span class="chord_notation">| <strong class="chord">C</strong> . . . | <strong class="chord">F</strong> . . . | <strong class="chord">C</strong> . . . | . . . . |
+| <strong class="chord">C</strong> . . . | <strong class="chord">F</strong> . . . | <strong class="chord">C</strong> . . . | . . . . |</span>
 
-<span style="font-weight:600">CHORUS</span>
-<span style="color:#999;font-weight:200;">("A sailor spends his Christmas...")</span>
-| <span class="chords">Am</span> . . . | <span class="chords">Em</span> . . . | <span class="chords">F</span> . . . | <span class="chords">G</span> . . . |
-| <span class="chords">F</span>  . <span class="chords">C</span> . | <span class="chords">F</span>  . <span class="chords">C</span> . | <span class="chords">F</span> . . . | <span class="chords">G</span> . . . |
-| <span class="chords">F</span>  . . . | <span class="chords">C</span>  . . . | <span class="chords">F</span> . . . | <span class="chords">G</span> . . . |
-| <span class="chords">F</span>  . . . | <span class="chords">C</span>  . . . | <span class="chords">G</span> . . . | <span class="chords">C</span> . . . |</pre>
+<strong class="section_head">PRE-CHORUS</strong>
+<em class="sub_head">"When the say that I'm okay..."</em>
+<span class="chord_notation">| <strong class="chord">F</strong> . <strong class="chord">Dm</strong> . | <strong class="chord">G</strong> . . . | <strong class="chord">F</strong> . <strong class="chord">Dm</strong> . | <strong class="chord">G</strong> . . . |
+| <strong class="chord">G</strong> . .  . |</span>
+
+<strong class="section_head">CHORUS</strong>
+<em class="sub_head">"I'm just sitting here watching the wheels..."</em>
+<span class="chord_notation">| <strong class="chord">F</strong> . <strong class="chord">G</strong> . | <strong class="chord">C</strong>  . <strong class="chord">Am</strong> . | <strong class="chord">F</strong> . <strong class="chord">Dm</strong> . | .  .  <strong class="chord">F</strong>   .   |
+| <strong class="chord">G</strong> . . . | <strong class="chord">Am</strong> . .  . | <strong class="chord">F</strong> . <strong class="chord">F7</strong> . | <strong class="chord">C</strong> <strong class="chord">C/B</strong> <strong class="chord">C/A</strong> <strong class="chord">C/G</strong> |
+| <strong class="chord">F</strong> . . . | <strong class="chord">F</strong>  . .  . |</span>
+
+<strong class="section_head">ENDING</strong>
+<em class="sub_head">walkdown after the first "I just had to let it go..."</em>
+<span class="chord_notation">| <strong class="chord">C</strong> . <strong class="chord">C/B</strong> . | <strong class="chord">C/A</strong> . <strong class="chord">C/G</strong> . | <strong class="chord">F</strong> . <strong class="chord">Fm</strong> . | <strong class="chord">Cmaj7</strong> . . . |<span class="note">
+                                       (let ring)</span></span></pre>
 </div>
 
 <%# ---------------------------------------------- %>
 <%#    SONG INFO                                   %>
 <%# ---------------------------------------------- %>
-<div class="bucket info">
+<div class="bucket song_info">
   <h2>Song Info</h2>
   <p>
     <strong>Song: </strong><%= @song.title %><br />

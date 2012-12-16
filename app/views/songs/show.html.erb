@@ -26,9 +26,6 @@
 <p><b>Lyrics (HTML,mono):</b></p>
 <pre><%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : "n/a" %></pre>
 
-<p><b>Lyrics (HTML,custom):</b></p>
-<pre><%= @song.lyrics_html_custom.present? ? (@song.lyrics_html_custom).html_safe : "n/a" %></pre>
-
 <p><b>Notes:</b></p>
 <%= @song.notes.present? ? (@song.notes).html_safe : "n/a" %>
 
