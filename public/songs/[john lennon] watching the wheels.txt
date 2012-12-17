@@ -84,8 +84,8 @@ CHORUS
 
 ENDING
 walkdown after the first "I just had to let it go..."
-| C . C/B . | C/A . C/G . | F . Fm . | Cmaj7 . . . |
-                                        (let ring)
+| C . C/B . | C/A . C/G . | F . Fm . | Cmaj7 . . . | 
+                                       (let ring)
                                         
 ===============================================================================
 NOTES

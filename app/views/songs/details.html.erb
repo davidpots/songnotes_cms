@@ -8,7 +8,7 @@
 </div> <!-- end: .bucket .song_header -->
 
 <%# ---------------------------------------------- %>
-<%#    LYRICS & CHORDS                             %>
+<%#    LYRICS                                      %>
 <%# ---------------------------------------------- %>
 <div class="bucket song_lyrics">
   <pre><%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : (@song.lyrics_text).html_safe %></pre>
@@ -24,32 +24,15 @@
   </div> <!-- end: .bucket -->
 <% end %>
 
+<%# ---------------------------------------------- %>
+<%#    CHORDS                                       %>
+<%# ---------------------------------------------- %>
+<% if @song.chords.present? %>
 <div class="bucket song_chords">
   <h2>Chords</h2>
-<pre class="pre_chords"><strong class="section_head">INTRO</strong>
-<span class="chord_notation">| <strong class="chord">C</strong> . . . | <strong class="chord">F</strong> . . . | <strong class="chord">C</strong> . . . | <strong class="chord">F</strong> . . . |</span>
-
-<strong class="section_head">VERSE</strong>
-<em class="sub_head">"People say I'm crazy..."</em>
-<span class="chord_notation">| <strong class="chord">C</strong> . . . | <strong class="chord">F</strong> . . . | <strong class="chord">C</strong> . . . | . . . . |
-| <strong class="chord">C</strong> . . . | <strong class="chord">F</strong> . . . | <strong class="chord">C</strong> . . . | . . . . |</span>
-
-<strong class="section_head">PRE-CHORUS</strong>
-<em class="sub_head">"When the say that I'm okay..."</em>
-<span class="chord_notation">| <strong class="chord">F</strong> . <strong class="chord">Dm</strong> . | <strong class="chord">G</strong> . . . | <strong class="chord">F</strong> . <strong class="chord">Dm</strong> . | <strong class="chord">G</strong> . . . |
-| <strong class="chord">G</strong> . .  . |</span>
-
-<strong class="section_head">CHORUS</strong>
-<em class="sub_head">"I'm just sitting here watching the wheels..."</em>
-<span class="chord_notation">| <strong class="chord">F</strong> . <strong class="chord">G</strong> . | <strong class="chord">C</strong>  . <strong class="chord">Am</strong> . | <strong class="chord">F</strong> . <strong class="chord">Dm</strong> . | .  .  <strong class="chord">F</strong>   .   |
-| <strong class="chord">G</strong> . . . | <strong class="chord">Am</strong> . .  . | <strong class="chord">F</strong> . <strong class="chord">F7</strong> . | <strong class="chord">C</strong> <strong class="chord">C/B</strong> <strong class="chord">C/A</strong> <strong class="chord">C/G</strong> |
-| <strong class="chord">F</strong> . . . | <strong class="chord">F</strong>  . .  . |</span>
-
-<strong class="section_head">ENDING</strong>
-<em class="sub_head">walkdown after the first "I just had to let it go..."</em>
-<span class="chord_notation">| <strong class="chord">C</strong> . <strong class="chord">C/B</strong> . | <strong class="chord">C/A</strong> . <strong class="chord">C/G</strong> . | <strong class="chord">F</strong> . <strong class="chord">Fm</strong> . | <strong class="chord">Cmaj7</strong> . . . |<span class="note">
-                                       (let ring)</span></span></pre>
+    <%= (@song.chords).html_safe %>
 </div>
+<% end %>
 
 <%# ---------------------------------------------- %>
 <%#    SONG INFO                                   %>

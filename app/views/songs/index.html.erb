@@ -11,6 +11,7 @@
     <th>Text</th>
     <th>HTML (mono)</th>
     <th>Notes</th>
+    <th>Chords</th>
     <th>Published</th>
     <th>Record Label</th>
     <th colspan="3"></th>
@@ -25,6 +26,7 @@
     <td><%= song.lyrics_text.present? ? "yes" : "--" %></td>
     <td><%= song.lyrics_html_mono.present? ? "yes" : "--" %></td>
     <td><%= song.notes.present? ? "yes" : "--" %></td>
+    <td><%= song.chords.present? ? "yes" : "--" %></td>
     <td><%= song.published? ? "yes" : "no" %></td>
     <td><%= song.record_label? ? song.record_label : "--" %></td>
     <td><%= link_to 'View', song %></td>

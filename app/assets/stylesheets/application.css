@@ -39,7 +39,7 @@ p strong  { font-weight: 600; }
 .chord              { font-weight: 600; color: #D30922; }
 .section_head       { color: #444; font-weight: 600; }
 .sub_head           { color: #999; font-weight: 300; }
-.note               { color: #999; font-weight: 300; }
+.note               { }
 
 .footer_link        { margin: 128px 0 0 0; }
 .footer_link a      { display: block; background: #333; padding: 20px; color: #fff;  }
