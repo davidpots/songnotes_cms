@@ -100,7 +100,7 @@ pre em { font-style: normal; }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
-      .container { width: 100%; background: yellow; }
+      .container { background: yellow; }
     }
     
     .container { overflow: hidden; }
@@ -110,7 +110,7 @@ pre em { font-style: normal; }
 /* -------------------------------------------- */
 
     body.admin        { margin: 0; padding: 0; background: #fff; font-weight: 500; font-size: 18px; }
-    .admin .container { width: 100%; }
+    .admin .container { }
     .admin form .field       { overflow: hidden; width: auto; border-bottom: 1px solid #eee; padding: 5px 0; }
     .admin form .field label { float: left; width: 150px; display: block; font-weight: 600; }
     .admin form .field .radio_label { width: auto; width: 50px;}
