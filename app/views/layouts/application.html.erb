@@ -6,7 +6,7 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic|Source+Code+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
 
 </head>
@@ -17,15 +17,25 @@
     </div> <!-- end: .container-inner -->
   </div> <!-- end: .container -->
   <script>
-    if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
-      var viewportmeta = document.querySelector('meta[name="viewport"]');
-      if (viewportmeta) {
-        viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
-        document.body.addEventListener('gesturestart', function() {
-          viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
-        }, false);
-      }
-    }
+var viewportmeta = document.querySelector && document.querySelector(‘meta[name="viewport"]‘),
+ua = navigator.userAgent;
+
+function allowscale() {
+viewportmeta.content = “width=device-width, minimum-scale=0.25, maximum-scale=3.2″;
+}
+var t=setTimeout(“allowscale()”,1000);
+
+function doorientationchange(){
+
+if (viewportmeta && /iPhone|iPad/.test(ua) && !/Opera Mini/.test(ua)) {
+if(((window.orientation)&2)==2) {
+location.reload(false); // Safari messes up when changing into landscape mode… so reload to fix it.
+}
+}
+}
+
+document.addEventListener(“orientationchange”,doorientationchange,false);
+
   </script>
 </body>
 </html>
