@@ -79,27 +79,25 @@ pre em { font-style: normal; }
 
     /* Large desktop */
     @media (min-width: 980px) { 
-/*      pre { font-size: 16px; line-height: 20px; }
-      .container { width: 940px; margin: 0 auto; }*/
+      .container { width: 940px; margin: 0 auto; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
-/*      pre { font-size: 16px; }
-      .container { width: 768px; margin: 0 auto; }*/
+      .container { width: 768px; margin: 0 auto; }
     }
 
     /* Landscape phone to portrait tablet */
     @media (max-width: 767px) { 
-/*      pre { font-size: 12px; }
-      .container { width: 480px; margin: 0 auto; }*/
+      .container { width: 480px; margin: 0 auto; }
     }
 
     /* Landscape phones and down */
     @media (max-width: 480px) { 
-/*      pre { font-size: 9px; }
-      .container { width: 100%; font-size: 12px; }*/
+      .container { width: 100%; }
     }
+    
+    .container { overflow: hidden; }
 
 /* -------------------------------------------- */
 /* ----------------- ADMIN -------------------- */
