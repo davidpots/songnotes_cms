@@ -24,7 +24,7 @@ h4    { font-size: 15px; line-height: 19px; font-weight: 300; padding: 0; margin
 p         { padding: 0; margin: 0 0 21px 0; }
 p strong  { font-weight: 600; }
 
-.container       { }
+.container       { overflow: hidden; }
 .container-inner { padding: 20px; }
 
 .bucket       { padding: 24px 0 35px; border-top: 3px double #eaeaea; }
@@ -80,43 +80,46 @@ pre em { font-style: normal; }
 
     /* Large desktop */
     @media (min-width: 980px) { 
-      body { font-size: 19px; line-height: 25px; border-top: 5px solid orange; }
-      .container { width: 940px; margin: 0 auto; }
+      body              { font-size: 19px; line-height: 25px; border-top: 5px solid orange; }
+      .container        { width: 940px; margin: 0 auto; }
+      .container-inner  { padding: 20px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
-      body { font-size: 15px; line-height: 20px; border-top: 5px solid purple; }
-      .container { min-width: 768px; max-width: 979px; }
+      body              { font-size: 15px; line-height: 20px; border-top: 5px solid purple; }
+      .container        { min-width: 768px; max-width: 979px; }
+      .container-inner  { padding: 18px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 640px) and (max-width: 767px) { 
-      body { font-size: 14px; line-height: 18px; border-top: 5px solid yellow; }
-      .container { min-width: 640px; max-width: 767px; }
-      h1 { font-size: 40px; line-height: 40px; }
-      h3 { font-size: 21px; line-height: 21px; }
+      body              { font-size: 14px; line-height: 18px; border-top: 5px solid yellow; }
+      .container        { min-width: 640px; max-width: 767px; }
+      .container-inner  { padding: 16px; }      
+      h1                { font-size: 40px; line-height: 40px; }
+      h3                { font-size: 21px; line-height: 21px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 480px) and (max-width: 639px) { 
-      body { font-size: 9px; line-height: 13px; border-top: 5px solid blue; }
-      .container { min-width: 480px; max-width: 639px; }
-      h1 { font-size: 32px; line-height: 32px; }
-      h3 { font-size: 19px; line-height: 19px; }
-      pre { letter-spacing: -1px; }
+      body              { font-size: 10px; line-height: 13px; border-top: 5px solid blue; }
+      .container        { min-width: 480px; max-width: 639px; }
+      .container-inner  { padding: 14px; }
+      h1                { font-size: 32px; line-height: 32px; }
+      h3                { font-size: 19px; line-height: 19px; }
+      pre               { letter-spacing: -1px; }
     }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
-      body { font-size: 9px; line-height: 13px; border-top: 5px solid red; }
-      .container { min-width: 320px; max-width: 479px; }
-      pre { letter-spacing: -2px; }
-      h1 { font-size: 24px; line-height: 24px; }
-      h3 { font-size: 16px; line-height: 16px; }
+      body              { font-size: 9px; line-height: 12px; border-top: 5px solid red; }
+      .container        { min-width: 320px; max-width: 479px; }
+      .container-inner  { padding: 10px; }      
+      pre               { letter-spacing: -1px; }
+      h1                { font-size: 24px; line-height: 24px; }
+      h3                { font-size: 16px; line-height: 16px; }
     }
-    
-    .container { overflow: hidden; }
 
 /* -------------------------------------------- */
 /* ----------------- ADMIN -------------------- */
