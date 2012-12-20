@@ -80,21 +80,22 @@ pre em { font-style: normal; }
 
     /* Large desktop */
     @media (min-width: 980px) { 
+      body { font-size: 19px; line-height: 25px; border-top: 5px solid orange; }
       .container { width: 940px; margin: 0 auto; }
       .container-inner { padding: 21px 38px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
-      body { margin: 0; }
+      body { margin: 0; font-size: 16px; line-height: 21px; border-top: 5px solid purple; }
       .container { min-width: 768px; max-width: 979px; }
       .container-inner { padding: 16px 24px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 640px) and (max-width: 767px) { 
-      body { margin: 0; }
-      .container { min-width: 640px; max-width: 767px; font-size: 14px; line-height: 18px; }
+      body { margin: 0; font-size: 14px; line-height: 18px; border-top: 5px solid yellow; }
+      .container { min-width: 640px; max-width: 767px; }
       .container-inner { padding: 16px 24px; }
       h1 { font-size: 40px; line-height: 40px; }
       h3 { font-size: 21px; line-height: 21px; }
@@ -102,8 +103,8 @@ pre em { font-style: normal; }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 480px) and (max-width: 639px) { 
-      body { margin: 0; }
-      .container { min-width: 480px; max-width: 639px; font-size: 14px; line-height: 18px; }
+      body { margin: 0; font-size: 14px; line-height: 18px; border-top: 5px solid blue; }
+      .container { min-width: 480px; max-width: 639px; }
       .container-inner { padding: 16px 24px; }
       h1 { font-size: 32px; line-height: 32px; }
       h3 { font-size: 19px; line-height: 19px; }
@@ -111,8 +112,8 @@ pre em { font-style: normal; }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
-      body { margin: 0; }
-      .container { min-width: 320px; max-width: 479px;  font-size: 12px; line-height: 15px; }
+      body { margin: 0; font-size: 11px; line-height: 14px; border-top: 5px solid red; }
+      .container { min-width: 320px; max-width: 479px; }
       .container-inner { padding: 14px 20px; }
       pre { letter-spacing: -1px; }
       h1 { font-size: 24px; line-height: 24px; }
