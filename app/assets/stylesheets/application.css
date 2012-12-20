@@ -26,12 +26,13 @@ p strong  { font-weight: 600; }
 
 .container { background: #fff; padding: 24px 32px; }
 
-.bucket       { padding: 24px 0 72px; border-top: 3px double #eaeaea; }
+.bucket       { padding: 24px 0 35px; border-top: 3px double #eaeaea; }
 
 .song_header        { border-top: none; padding-top: 10px; padding-bottom: 21px; }
 .song_lyrics        { }
 .song_lyrics .section_head { display: inline-block; margin-bottom: 4px; }
 .song_notes         { }
+.song_notes pre    { margin: 0 0 24px 0; }
 .song_chords        { }
 .song_info          { padding-bottom: 0px; }
 
