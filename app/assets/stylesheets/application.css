@@ -85,17 +85,22 @@ pre em { font-style: normal; }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
-      .container { width: 768px; margin: 0 auto; }
+      .container { width: 768px; margin: 0 auto; background: #ffffaa; }
     }
 
-    /* Landscape phone to portrait tablet */
-    @media (max-width: 767px) { 
-      .container { width: 480px; margin: 0 auto; }
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 640px) and (max-width: 767px) { 
+      .container { width: 640px; margin: 0 auto; background: teal; }
+    }
+
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 480px) and (max-width: 639px) { 
+      .container { width: 480px; margin: 0 auto; background: pink; }
     }
 
     /* Landscape phones and down */
-    @media (max-width: 480px) { 
-      .container { width: 100%; }
+    @media (max-width: 479px) { 
+      .container { width: 100%; background: yellow; }
     }
     
     .container { overflow: hidden; }
