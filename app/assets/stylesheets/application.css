@@ -100,17 +100,18 @@ pre em { font-style: normal; }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 480px) and (max-width: 639px) { 
-      body { font-size: 14px; line-height: 18px; border-top: 5px solid blue; }
+      body { font-size: 9px; line-height: 13px; border-top: 5px solid blue; }
       .container { min-width: 480px; max-width: 639px; }
       h1 { font-size: 32px; line-height: 32px; }
       h3 { font-size: 19px; line-height: 19px; }
+      pre { letter-spacing: -1px; }
     }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
-      body { font-size: 11px; line-height: 14px; border-top: 5px solid red; }
+      body { font-size: 9px; line-height: 13px; border-top: 5px solid red; }
       .container { min-width: 320px; max-width: 479px; }
-      pre { letter-spacing: -1px; }
+      pre { letter-spacing: -2px; }
       h1 { font-size: 24px; line-height: 24px; }
       h3 { font-size: 16px; line-height: 16px; }
     }
