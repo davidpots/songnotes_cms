@@ -24,7 +24,8 @@ h4    { font-size: 15px; line-height: 19px; font-weight: 300; padding: 0; margin
 p         { padding: 0; margin: 0 0 21px 0; }
 p strong  { font-weight: 600; }
 
-.container { background: #fff; padding: 24px 32px; }
+.container { background: #fff; }
+.container-inner { padding: 24px 20px; }
 
 .bucket       { padding: 24px 0 35px; border-top: 3px double #eaeaea; }
 
@@ -104,7 +105,7 @@ pre em { font-style: normal; }
 /* -------------------------------------------- */
 
     body.admin        { margin: 0; padding: 0; background: #fff; font-weight: 500; font-size: 18px; }
-    .admin .container { width: 100%; padding: 28px; }
+    .admin .container { width: 100%; }
     .admin form .field       { overflow: hidden; width: auto; border-bottom: 1px solid #eee; padding: 5px 0; }
     .admin form .field label { float: left; width: 150px; display: block; font-weight: 600; }
     .admin form .field .radio_label { width: auto; width: 50px;}

@@ -12,7 +12,9 @@
 </head>
 <body class="<%= "admin" if ((action_name == "index") || (action_name == "new") || (action_name == "edit") || (action_name == "show")) %>">
   <div class="container">
-    <%= yield %>
+    <div class="container-inner">
+      <%= yield %>
+    </div> <!-- end: .container-inner -->
   </div> <!-- end: .container -->
 </body>
 </html>
