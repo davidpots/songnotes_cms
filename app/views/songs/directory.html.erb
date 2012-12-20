@@ -2,8 +2,8 @@
   <% @songs.each do |song| %>
   <li>
     <a href="<%= song_details_url(:id => song.id) %>">
-      <strong><%= song.title %></strong><br />
-      <%= song.artist %>
+      <strong><%= song.title %></strong>
+      <%= song.artist %> &bull; <%= song.year %>
     </a>
   </li>
   <% end %>

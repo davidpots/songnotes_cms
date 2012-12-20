@@ -29,7 +29,7 @@ p strong  { font-weight: 600; }
 
 .bucket       { padding: 24px 0 35px; border-top: 3px double #eaeaea; }
 
-.song_header        { border-top: none; padding-top: 10px; padding-bottom: 21px; }
+.song_header        { border-top: none; padding-top: 0px; padding-bottom: 21px; }
 .song_lyrics        { }
 .song_lyrics .section_head { display: inline-block; margin-bottom: 4px; }
 .song_notes         { }
@@ -66,9 +66,9 @@ pre em { font-style: normal; }
 
 
 .directory { padding: 0; border-bottom: 1px solid #ddd;}
-.directory li { list-style: none; }
-.directory li a { color: #888; font-size: 14px; display: block; border-top: 1px solid #ddd; padding: 12px 16px; }
-.directory li a strong { color: #333; font-size: 16px; }
+.directory li { list-style: none; margin: 0 0 14px 0; }
+.directory li a { color: #333; font-size: 14px; display: block; background: #afe0f4; padding: 14px 16px 11px; border-radius: 8px; }
+.directory li a strong { color: #333; font-size: 16px; font-weight: 300; font-size: 36px; line-height: 36px; display: block; margin: 0 0 4px 0; }
 
 
 
@@ -80,21 +80,21 @@ pre em { font-style: normal; }
 
     /* Large desktop */
     @media (min-width: 980px) { 
-      body              { font-size: 19px; line-height: 25px; border-top: 5px solid orange; }
+      body              { font-size: 16px; line-height: 19px; }
       .container        { width: 940px; margin: 0 auto; }
       .container-inner  { padding: 20px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
-      body              { font-size: 15px; line-height: 20px; border-top: 5px solid purple; }
+      body              { font-size: 15px; line-height: 20px; }
       .container        { min-width: 768px; max-width: 979px; }
       .container-inner  { padding: 18px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 640px) and (max-width: 767px) { 
-      body              { font-size: 14px; line-height: 18px; border-top: 5px solid yellow; }
+      body              { font-size: 14px; line-height: 18px; }
       .container        { min-width: 640px; max-width: 767px; }
       .container-inner  { padding: 16px; }      
       h1                { font-size: 40px; line-height: 40px; }
@@ -103,7 +103,7 @@ pre em { font-style: normal; }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 480px) and (max-width: 639px) { 
-      body              { font-size: 10px; line-height: 13px; border-top: 5px solid blue; }
+      body              { font-size: 10px; line-height: 13px; }
       .container        { min-width: 480px; max-width: 639px; }
       .container-inner  { padding: 14px; }
       h1                { font-size: 32px; line-height: 32px; }
@@ -113,7 +113,7 @@ pre em { font-style: normal; }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
-      body              { font-size: 9px; line-height: 12px; border-top: 5px solid red; }
+      body              { font-size: 9px; line-height: 12px; }
       .container        { min-width: 320px; max-width: 479px; }
       .container-inner  { padding: 10px; }      
       pre               { letter-spacing: -1px; }
