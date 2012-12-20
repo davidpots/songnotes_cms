@@ -95,12 +95,12 @@ pre em { font-style: normal; }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 480px) and (max-width: 639px) { 
-      .container { width: 480px; margin: 0 auto; background: pink; }
+      .container { min-width: 480px; max-width: 639px; margin: 0 auto; background: pink; }
     }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
-      .container { background: yellow; }
+      .container { background: yellow; min-width: 320px; max-width: 479px; }
     }
     
     .container { overflow: hidden; }
