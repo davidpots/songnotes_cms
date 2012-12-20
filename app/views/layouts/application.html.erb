@@ -6,7 +6,7 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic|Source+Code+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
 
 </head>
@@ -16,5 +16,25 @@
       <%= yield %>
     </div> <!-- end: .container-inner -->
   </div> <!-- end: .container -->
+  <script>
+    var metas = document.getElementsByTagName('meta');
+    var i;
+    if (navigator.userAgent.match(/iPhone/i)) {
+      for (i=0; i<metas.length; i++) {
+        if (metas[i].name == "viewport") {
+          metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+        }
+      }
+      document.getElementsByTagName('body')[0].addEventListener("gesturestart", gestureStart, false);
+    }
+    function gestureStart() {
+      //$('meta[name="viewport"]').attr('content', 'width=device-width, minimum-scale=0.25, maximum-scale=1.6');
+      for (i=0; i<metas.length; i++) {
+        if (metas[i].name == "viewport") {
+          metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+        }
+      }
+    }
+  </script>
 </body>
 </html>
