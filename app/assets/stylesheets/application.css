@@ -59,7 +59,9 @@ pre em { font-style: normal; }
 
 
 
-
+h1.title        { font-weight:500; color: #333; text-align: center; font-size: 70px; line-height: 90px; }
+p.title         { font-weight:100; text-align: center; }
+p.title a       { color:#77bcd8; }
 
 
 
@@ -90,6 +92,7 @@ pre em { font-style: normal; }
       body              { font-size: 15px; line-height: 20px; }
       .container        { min-width: 768px; max-width: 979px; }
       .container-inner  { padding: 18px; }
+      h1.title          { font-size: 50px; line-height: 70px; }
     }
 
     /* Portrait tablet to landscape and desktop */
@@ -99,6 +102,7 @@ pre em { font-style: normal; }
       .container-inner  { padding: 16px; }      
       h1                { font-size: 40px; line-height: 40px; }
       h3                { font-size: 21px; line-height: 21px; }
+      h1.title          { font-size: 36px; line-height: 45px; }
     }
 
     /* Portrait tablet to landscape and desktop */
@@ -108,6 +112,7 @@ pre em { font-style: normal; }
       .container-inner  { padding: 14px; }
       h1                { font-size: 32px; line-height: 32px; }
       h3                { font-size: 19px; line-height: 19px; }
+      h1.title          { font-size: 32px; line-height: 38px; }
       pre               { letter-spacing: -1px; }
     }
 
@@ -119,6 +124,7 @@ pre em { font-style: normal; }
       pre               { letter-spacing: -1px; }
       h1                { font-size: 24px; line-height: 24px; }
       h3                { font-size: 16px; line-height: 16px; }
+      h1.title          { font-size: 28px; line-height: 25px; }
     }
 
 /* -------------------------------------------- */
