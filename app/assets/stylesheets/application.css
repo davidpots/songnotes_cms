@@ -17,31 +17,50 @@ body  { margin: 0; padding: 0; font-family: "Source Sans Pro", sans-serif; font-
 a     { color: #0088cc; text-decoration: none; }
 
 h1    { color: #252525; font-size: 60px; line-height: 60px; font-weight: 600; padding: 0; margin: 0 0 5px 0; }
-h2    { color: #333; font-size: 26px; font-weight: 600; padding: 0; margin: 0 0 20px 0; }
-h3    { font-size: 24px; line-height: 32px; font-weight: 200; padding: 0; margin: 0 0 0 0; color: #777; }
-h4    { font-size: 15px; line-height: 19px; font-weight: 300; padding: 0; margin: 0; color: #aaa; }
+h2    { color: #333; font-size: 32px; line-height: 36px; font-weight: 600; padding: 0; margin: 0 0 20px 0; }
+/*h3    { font-size: 24px; line-height: 32px; font-weight: 200; padding: 0; margin: 0 0 0 0; color: #777; }*/
+h4    { font-size: 17px; line-height: 20px; font-family: 'Source Sans Pro', sans-serif; font-weight: 600; display: inline-block; margin: 0 0 3px 0; color: #444; }
+h5    { font-size: 15px; line-height: 18px; font-family: 'Source Sans Pro', sans-serif; font-weight: 300; color: #aaa; padding: 0; margin: 0 0 5px 0; }
 
-p         { padding: 0; margin: 0 0 21px 0; }
+p         { padding: 0; margin: 0 0 14px 0; font-size: 18px; line-height: 22px; }
 p strong  { font-weight: 600; }
 
 .container       { overflow: hidden; }
-.container-inner { padding: 20px; }
 
-.bucket       { padding: 24px 0 35px; border-top: 3px double #eaeaea; }
+.chord_notation       { font-weight: 100; color: #555; }
+.chord_notation .note { font-weight: 400; }
 
-.song_header        { border-top: none; padding-top: 0px; padding-bottom: 21px; }
-.song_lyrics        { }
-.song_lyrics .section_head { display: inline-block; margin-bottom: 4px; }
-.song_notes         { }
-.song_notes pre    { margin: 0 0 24px 0; }
-.song_chords        { }
+.bucket             { padding: 24px 0 35px; border-top: 3px double #e6e6e6; }
+
+/* -- Universal -- */
+
+
+
+.song_header.container{ width: 100%; background: #008FD4; }
+.song_header .bucket  { padding-top: 16px; padding-bottom: 13px; border: none; }
+.song_header h1       { color: #fff; font-weight: 300; font-size: 40px; line-height: 40px; margin: 0 0 4px 0; }
+.song_header p        { color: #fff; font-weight: 100; font-size: 17px; line-height: 22px; margin: 0 0 4px 0; }
+
+.song_lyrics .bucket        { padding-bottom: 72px; border: none; }
+.song_lyrics .section_head  { }
+
+.song_notes                 { margin-bottom: 21px; }
+.song_notes .bucket         { }
+.song_notes pre             { margin: 20px 0 24px 0; }
+
+.song_chords                  { }
+.song_chords .section_head    { }
+.song_chords .sub_head        { }
+.song_chords .chord_notation  { margin: 0 0 18px 0; }
+.song_chords pre .note        { }
+
 .song_info          { padding-bottom: 0px; }
 
-.chords_inline      { color: #D30922; font-weight: 400; }
-.chord              { font-weight: 600; color: #D30922; }
-.section_head       { color: #444; font-weight: 600; }
-.sub_head           { color: #999; font-weight: 300; }
-.note               { }
+
+
+.chords_inline      { color: #EB4A24; font-weight: 400; }
+.chord              { font-weight: 600; color: #EB4A24; }
+
 
 .footer_link        { margin: 128px 0 0 0; }
 .footer_link a      { display: block; background: #333; padding: 20px; color: #fff;  }
@@ -59,9 +78,9 @@ pre em { font-style: normal; }
 
 
 
-h1.title        { font-weight:500; color: #333; text-align: center; font-size: 70px; line-height: 90px; }
-p.title         { font-weight:100; text-align: center; }
-p.title a       { color:#77bcd8; }
+h1.title        { font-weight:600; color: #333; text-align: center; font-size: 70px; line-height: 90px; }
+p.title         { font-weight:300; text-align: center; margin: 0 0 24px 0; }
+p.title a       { color:#008FD4; }
 
 
 
@@ -69,13 +88,14 @@ p.title a       { color:#77bcd8; }
 
 .directory { padding: 0; border-bottom: 1px solid #ddd;}
 .directory li { list-style: none; margin: 0 0 14px 0; }
-.directory li a { color: #333; font-size: 14px; display: block; background: #afe0f4; padding: 14px 16px 11px; border-radius: 8px; }
-.directory li a strong { color: #333; font-size: 16px; font-weight: 300; font-size: 36px; line-height: 36px; display: block; margin: 0 0 4px 0; }
+.directory li a { color: #fff; font-size: 14px; display: block; background: #008FD4; padding: 14px 16px 13px; }
+.directory li a strong { color: #fff; font-size: 16px; font-weight: 300; font-size: 36px; line-height: 36px; display: block; margin: 0 0 4px 0; }
 
 
 
 
 
+   
 /* -------------------------------------------- */
 /* ----------------- RESPONSIVE --------------- */
 /* -------------------------------------------- */
@@ -83,36 +103,42 @@ p.title a       { color:#77bcd8; }
     /* Large desktop */
     @media (min-width: 980px) { 
       body              { font-size: 16px; line-height: 19px; }
-      .container        { width: 940px; margin: 0 auto; }
-      .container-inner  { padding: 20px; }
+      .container        { }
+      .bucket           { width: 940px; margin: 0 auto; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
       body              { font-size: 15px; line-height: 20px; }
       .container        { min-width: 768px; max-width: 979px; }
-      .container-inner  { padding: 18px; }
-      h1.title          { font-size: 50px; line-height: 70px; }
+      .bucket           { padding: 18px; }
+      h4                { font-size: 15px; line-height: 18px; }
+      h1.title          { font-size: 72px; line-height: 72px; margin: 0 0 12px 0; }
+      p.title           { font-size: 19px; line-height: 21px; margin: 0 0 19px 0; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 640px) and (max-width: 767px) { 
       body              { font-size: 14px; line-height: 18px; }
       .container        { min-width: 640px; max-width: 767px; }
-      .container-inner  { padding: 16px; }      
+      .bucket           { padding: 16px; }      
       h1                { font-size: 40px; line-height: 40px; }
       h3                { font-size: 21px; line-height: 21px; }
-      h1.title          { font-size: 36px; line-height: 45px; }
+      h4                { font-size: 14px; line-height: 17px; }
+      h1.title          { font-size: 64px; line-height: 64px; }
+      p.title           { font-size: 18px; line-height: 21px; margin: 0 0 19px 0; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 480px) and (max-width: 639px) { 
       body              { font-size: 10px; line-height: 13px; }
       .container        { min-width: 480px; max-width: 639px; }
-      .container-inner  { padding: 14px; }
+      .bucket           { padding: 14px; }
       h1                { font-size: 32px; line-height: 32px; }
       h3                { font-size: 19px; line-height: 19px; }
-      h1.title          { font-size: 32px; line-height: 38px; }
+      h4                { font-size: 12px; line-height: 14px; }
+      h1.title          { font-size: 54px; line-height: 54px; }
+      p.title           { font-size: 18px; line-height: 21px; margin: 0 0 19px 0; }
       pre               { letter-spacing: -1px; }
     }
 
@@ -120,11 +146,13 @@ p.title a       { color:#77bcd8; }
     @media (max-width: 479px) { 
       body              { font-size: 9px; line-height: 12px; }
       .container        { min-width: 320px; max-width: 479px; }
-      .container-inner  { padding: 10px; }      
+      .bucket           { padding: 10px; }      
       pre               { letter-spacing: -1px; }
       h1                { font-size: 24px; line-height: 24px; }
       h3                { font-size: 16px; line-height: 16px; }
-      h1.title          { font-size: 28px; line-height: 25px; }
+      h4                { font-size: 12px; line-height: 14px; }
+      h1.title          { font-size: 48px; line-height: 48px; }
+      p.title           { font-size: 16px; line-height: 19px; margin: 0 0 15px 0; }
     }
 
 /* -------------------------------------------- */

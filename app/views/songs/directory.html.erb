@@ -1,13 +1,15 @@
-<h1 class="title">SONGNOTES</h1>
-<p class="title">hand-crafted guitar tabs from <a href="http://twitter.com/davidpots">@davidpots</a></p>
-<ul class="directory">
-  <% @songs.each do |song| %>
-  <li>
-    <a href="<%= song_details_url(:id => song.id) %>">
-      <strong><%= song.title %></strong>
-      <%= song.artist %> &bull; <%= song.year %>
-    </a>
-  </li>
-  <% end %>
-</ul>
-<p style="font-weight:100; text-align: center;">more coming soon.</p>
+<div class="bucket">
+  <h1 class="title">SONGNOTES</h1>
+  <p class="title">hand-crafted guitar tabs from <a href="http://twitter.com/davidpots">@davidpots</a></p>
+  <ul class="directory">
+    <% @songs.each do |song| %>
+    <li>
+      <a href="<%= song_details_url(:id => song.id) %>">
+        <strong><%= song.title %></strong>
+        <%= song.artist %> &bull; <%= song.year %>
+      </a>
+    </li>
+    <% end %>
+  </ul>
+  <p style="font-weight:100; text-align: center;">more coming soon.</p>
+</div>
