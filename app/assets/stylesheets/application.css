@@ -37,12 +37,26 @@ p strong  { font-weight: 600; }
 
 
 .song_header.container{ width: 100%; background: #008FD4; }
-.song_header .bucket  { padding-top: 16px; padding-bottom: 13px; border: none; }
+.song_header .bucket  { padding-top: 16px; padding-bottom: 13px; border: none; position: relative; }
 .song_header h1       { color: #fff; font-weight: 300; font-size: 40px; line-height: 40px; margin: 0 0 4px 0; }
 .song_header p        { color: #fff; font-weight: 100; font-size: 17px; line-height: 22px; margin: 0 0 4px 0; }
 
-.song_lyrics .bucket        { padding-bottom: 72px; border: none; }
+.song_lyrics                            { }
+.song_lyrics .bucket                    { padding-bottom: 72px; border: none; }
+.song_lyrics .cpanel                    { background: #e6e6e6; position: relative; }
+.song_lyrics .cpanel .bucket            { padding: 18px; position: relative; }
+
+.chord_switch                         { margin: 5px 0; padding: 0; overflow: hidden; width: auto; }
+.chord_switch > li                    { list-style: none; padding: 0; margin: 0 1px 0 0; float: left; }
+.chord_switch > li a                  { display: block; background: #fff; padding: 8px 15px; font-weight: 600; font-size: 14px; }
+.chord_switch > li a.active           { background: #EB4A24; color: #fff; }
+
 .song_lyrics .section_head  { }
+.song_lyrics .intro .note   { font-size: 88%; }
+
+#cpanel_toggle              { position: absolute; right: 32px; top: 24px; background: #0081bf url("/assets/song_dots_default.png") center center no-repeat; color: #fff; width: 57px; height: 48px; display: inline-block; border-radius: 5px; }
+#cpanel_toggle.active       { background-color: transparent; background-image: url("/assets/song_dots_close.png"); }
+#cpanel_arrow               { position: absolute; top: 81px; right: 50px; }
 
 .song_notes                 { margin-bottom: 21px; }
 .song_notes .bucket         { }
@@ -52,7 +66,7 @@ p strong  { font-weight: 600; }
 .song_chords .section_head    { }
 .song_chords .sub_head        { }
 .song_chords .chord_notation  { margin: 0 0 18px 0; }
-.song_chords pre .note        { }
+.song_chords pre .note        { font-size: 88%; }
 
 .song_info          { padding-bottom: 0px; }
 

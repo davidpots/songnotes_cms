@@ -1,18 +1,26 @@
 SONG_TITLE
 by Artist_Name
 ===============================================================================
+INTRO
+    | . . . . | . . . . | . . . . | . . . . |
 
 VERSE
-Integer posuere erat a ante venenatis dapibus
-Pposuere velit aliquet, cras justo odio
-Facilisis in, egestas eget quam loremius
-Nullam quis risus eget urna mollis ornare vel eu leo
-
-    CHORUS
     Integer posuere erat a ante venenatis dapibus
-    Pposuere velit aliquet, cras justo odio
+    Posuere velit aliquet, cras justo odio
     Facilisis in, egestas eget quam loremius
     Nullam quis risus eget urna mollis ornare vel eu leo
+
+PRE-CHORUS    
+        Integer posuere erat a ante venenatis dapibus
+        Pposuere velit aliquet, cras justo odio
+        Facilisis in, egestas eget quam loremius
+        Nullam quis risus eget urna mollis ornare vel eu leo
+
+CHORUS    
+            Integer posuere erat a ante venenatis dapibus
+            Pposuere velit aliquet, cras justo odio
+            Facilisis in, egestas eget quam loremius
+            Nullam quis risus eget urna mollis ornare vel eu leo
 
 ===============================================================================
 CHORDS
@@ -30,6 +38,17 @@ CHORUS
 NOTES
 ===============================================================================
 
+SECTION ONE
+Lorem ipsum dolor sit amet.
+
+e-|----------------------------------------------------------------------------
+B-|----------------------------------------------------------------------------
+G-|----------------------------------------------------------------------------
+D-|----------------------------------------------------------------------------
+A-|----------------------------------------------------------------------------
+E-|----------------------------------------------------------------------------
+
+SECTION TWO
 Lorem ipsum dolor sit amet.
 
 e-|----------------------------------------------------------------------------

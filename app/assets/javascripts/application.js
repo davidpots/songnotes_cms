@@ -13,3 +13,40 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(document).ready(function(){
+	$("#chords_show_once").click(function(){
+		$(this).toggleClass("active");
+		$("#chords_show_none").removeClass("active");
+		$("#chords_show_all").removeClass("active");
+		return false;
+	});
+});
+
+$(document).ready(function(){
+	$("#chords_show_none").click(function(){
+		$(this).toggleClass("active");
+		$("#chords_show_once").removeClass("active");
+		$("#chords_show_all").removeClass("active");
+		return false;
+	});
+});
+
+$(document).ready(function(){
+	$("#chords_show_all").click(function(){
+		$(this).toggleClass("active");
+		$("#chords_show_none").removeClass("active");
+		$("#chords_show_once").removeClass("active");
+		return false;
+	});
+});
+
+$(document).ready(function(){
+	$("#cpanel_toggle").click(function(){
+	  $(this).toggleClass("active");
+	  $('#cpanel_arrow').toggle();
+		$(".cpanel").toggleClass("active").toggle();
+		return false;
+	});
+});
+
