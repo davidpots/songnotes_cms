@@ -5,58 +5,79 @@ INTRO
     | C . . . | F . . . | C . . . | F . . . | (with riff, x2)
 
 VERSE
-    C         F     C    F       C                    F    F G
+    C         F     C    F       C                    F   G
     Blue jean baby, L.A. lady... seamstress for the band
+    C      F     C      F      C                      F   G
     Pretty-eyed, pirate smile... you’ll marry a music man
-    F     Em   Am            D/F#    Dm7 E7             Am    G  G7
+    F     Em   Am            D       Dm  E7             Am    G
     Ballerina, you must have seen her... dancing in the sand
-    C         F      C      F          C                 G   F  Em Dm 
+    C         F      C      F        C                   G    F   Em  Dm 
     Now she’s in me, always with me... tiny dancer in my hand
-                                                         [intro chords x1]
+                                                         [intro chords]
 
+    C     F      C           F      C                          F   G
     Jesus freaks, out in the street... handing tickets out for God
+    C       F    C         F       C                           F   G
     Turning back, she just laughs... the boulevard is not that bad
-    Piano man, makes a stand... in the auditorium
-    Looking on, she sings the songs... the words she knows, the tune she hums
+    F     Em   Am        D      Dm       E7     Am    G      
+    Piano man... makes a stand... in the auditorium
+    C       F   C             F     C                                   G F Em Dm    
+    Looking on, she sings the song... the words she knows, the tune she hums
+                                                                   [intro chords]
 
 PRE-CHORUS    
         Ab                Bb             Gm7             Cm
         ...But oh, how it feels so real… lying here with no one near
-           Ab                   Bb                 G/B     G7
+           Ab                   Bb                 G       G7
         Only you... and you can hear me when I say softly, slowly...
 
 CHORUS    
             F           C           Dm     C
             ...Hold me closer tiny dancer
-            F             C                Asus4
+            F             C                A4
             ...Count the headlights on the highway
             F         C                  Dm     C
             ...Lay me down in sheets of linen
-            F            C           Asus4
+            F            C           A4
             ...You had a busy day today
 
-            Hold me closer tiny dancer
-            Count the headlights on the highway
-            Lay me down in sheets of linen
-            You had a busy day today
+            [repeat chorus]
 
+    C         F     C    F       C                    F   G
     Blue jean baby, L.A. lady... seamstress for the band
+    C      F     C      F      C                      F   G
     Pretty-eyed, pirate smile... you’ll marry a music man
+    F     Em   Am            D       Dm  E7             Am    G
     Ballerina, you must have seen her... dancing in the sand
+    C         F      C      F        C                   G    F   Em  Dm 
     Now she’s in me, always with me... tiny dancer in my hand
+                                                         [intro chords]
 
-        But oh, how it feels so real... lying here with no one near
-        Only you... and you can hear me when I say softly, slowly…
+    C     F      C           F      C                          F   G
+    Jesus freaks, out in the street... handing tickets out for God
+    C       F    C         F       C                           F   G
+    Turning back, she just laughs... the boulevard is not that bad
+    F     Em   Am        D      Dm       E7     Am    G      
+    Piano man... makes a stand... in the auditorium
+    C       F   C             F     C                                   G F Em Dm    
+    Looking on, she sings the song... the words she knows, the tune she hums
+                                                                   [intro chords]
 
-            Hold me closer tiny dancer
-            Count the headlights on the highway
-            Lay me down in sheets of linen
-            You had a busy day today
+        Ab                Bb             Gm7             Cm
+        ...But oh, how it feels so real… lying here with no one near
+           Ab                   Bb                 G       G7
+        Only you... and you can hear me when I say softly, slowly...
 
-            Hold me closer tiny dancer
-            Count the headlights on the highway
-            Lay me down in sheets of linen
-            You had a busy day today
+            F           C           Dm     C
+            ...Hold me closer tiny dancer
+            F             C                A4
+            ...Count the headlights on the highway
+            F         C                  Dm     C
+            ...Lay me down in sheets of linen
+            F            C           A4
+            ...You had a busy day today
+
+            [repeat chorus]
 
 ===============================================================================
 CHORDS
@@ -71,8 +92,8 @@ VERSE
 | C . . . | C . . . | F . . . | F . G . |
 
 "Ballerina, you must have seen her..."
-| F  . . . | Em . . . | Am . . . | D . .  . |
-| Dm . . . | E7 . . . | Am . . . | G . G7 . |
+| F  . . . | Em . . . | Am . . . | D . . . |
+| Dm . . . | E7 . . . | Am . . . | G . . . |
 
 "Now she's in me, always with me..."
 | C . . . | F . . . | C . . . | F  . .  . | 
