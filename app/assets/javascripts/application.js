@@ -16,7 +16,7 @@
 
 $(document).ready(function(){
 	$("#chords_show_once").click(function(){
-		$(this).toggleClass("active");
+		$(this).addClass("active");
 		$("#chords_show_none").removeClass("active");
 		$("#chords_show_all").removeClass("active");
 		$('.chords_inline').show();
@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$("#chords_show_none").click(function(){
-		$(this).toggleClass("active");
+		$(this).addClass("active");
 		$("#chords_show_once").removeClass("active");
 		$("#chords_show_all").removeClass("active");
 		$('.chords_inline').hide();
@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$("#chords_show_all").click(function(){
-		$(this).toggleClass("active");
+		$(this).addClass("active");
 		$('.chords_repeated').show();
 		$("#chords_show_none").removeClass("active");
 		$("#chords_show_once").removeClass("active");

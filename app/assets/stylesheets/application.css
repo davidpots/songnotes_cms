@@ -37,11 +37,11 @@ p strong  { font-weight: 600; }
 
 .uni_header           { background: #333; }
 .uni_header .bucket   { padding-top: 0; padding-bottom: 0; border: none; }
-.uni_header .bucket a { display: block; padding: 10px 0 9px; text-transform: uppercase; font-size: 12px; line-height: 18px; font-weight: 100; color: #fff; letter-spacing: 2px;}
+.uni_header .bucket a { display: block; padding: 10px 0 9px; text-transform: uppercase; font-size: 12px; line-height: 18px; font-weight: 300; color: #fff; letter-spacing: 2px;}
 
 .song_header.container{ width: 100%; background: #008FD4; }
 .song_header .bucket  { padding-top: 18px; padding-bottom: 13px; border: none; position: relative; }
-.song_header h1       { color: #fff; font-weight: 200; font-size: 48px; line-height: 40px; margin: 0 0 8px 0; }
+.song_header h1       { color: #fff; font-weight: 300; font-size: 48px; line-height: 40px; margin: 0 0 8px 0; }
 .song_header p        { color: #fff; font-weight: 100; font-size: 17px; line-height: 22px; margin: 0 0 4px 0; }
 
 .song_lyrics                            { }
