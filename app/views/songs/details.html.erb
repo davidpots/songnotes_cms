@@ -1,3 +1,10 @@
+<div class="container uni_header">
+  <div class="bucket">
+    <%= link_to "songnotes", root_path %>
+  </div> <!-- end: .bucket -->
+</div> <!-- end: .container uni_header -->
+
+
 <%# ---------------------------------------------- %>
 <%#    SONG HEADER                                 %>
 <%# ---------------------------------------------- %>
@@ -16,11 +23,11 @@
 <div class="container song_lyrics">
   <div class="cpanel" style="display:none;">
     <div class="bucket">
-      <h4>Show chords?</h4>
+      <h4>Chord Options:</h4>
       <ul class="chord_switch">
-        <li><a id="chords_show_none" href="#">hide all chords</a></li>
-        <li><a id="chords_show_once" href="#" class="active">show each progression once</a></li>
-        <li><a id="chords_show_all" href="#">show for entire song</a></li>
+        <li><a id="chords_show_none" href="#">Show None</a></li>
+        <li><a id="chords_show_once" href="#" class="active">Show Each Progression Once</a></li>
+        <li><a id="chords_show_all" href="#">Show For Entire Song</a></li>
       </ul>
     </div>
   </div>

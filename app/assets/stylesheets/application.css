@@ -35,28 +35,32 @@ p strong  { font-weight: 600; }
 /* -- Universal -- */
 
 
+.uni_header           { background: #333; }
+.uni_header .bucket   { padding: 0; border: none; }
+.uni_header .bucket a { display: block; padding: 10px 0 9px; text-transform: uppercase; font-size: 12px; line-height: 18px; font-weight: 100; color: #fff; letter-spacing: 2px;}
 
 .song_header.container{ width: 100%; background: #008FD4; }
-.song_header .bucket  { padding-top: 16px; padding-bottom: 13px; border: none; position: relative; }
-.song_header h1       { color: #fff; font-weight: 300; font-size: 40px; line-height: 40px; margin: 0 0 4px 0; }
+.song_header .bucket  { padding-top: 18px; padding-bottom: 13px; border: none; position: relative; }
+.song_header h1       { color: #fff; font-weight: 200; font-size: 48px; line-height: 40px; margin: 0 0 8px 0; }
 .song_header p        { color: #fff; font-weight: 100; font-size: 17px; line-height: 22px; margin: 0 0 4px 0; }
 
 .song_lyrics                            { }
 .song_lyrics .bucket                    { padding-bottom: 72px; border: none; }
 .song_lyrics .cpanel                    { background: #e6e6e6; position: relative; }
 .song_lyrics .cpanel .bucket            { padding: 18px; position: relative; }
+.song_lyrics .cpanel .bucket h4         { float: left; line-height: 40px; margin: 0 10px 0 0; font-weight: 300; }
 
-.chord_switch                         { margin: 5px 0; padding: 0; overflow: hidden; width: auto; }
+.chord_switch                         { margin: 0; padding: 0; overflow: hidden; width: auto; }
 .chord_switch > li                    { list-style: none; padding: 0; margin: 0 1px 0 0; float: left; }
-.chord_switch > li a                  { display: block; background: #fff; padding: 8px 15px; font-weight: 600; font-size: 14px; }
-.chord_switch > li a.active           { background: #EB4A24; color: #fff; }
+.chord_switch > li a                  { display: block; background: #fff; line-height: 40px; padding: 0 12px; font-weight: 300; font-size: 14px; }
+.chord_switch > li a.active           { background: #EB4A24; color: #fff; font-weight: 400; }
 
 .song_lyrics .section_head  { }
 .song_lyrics .intro .note   { font-size: 88%; }
 
-#cpanel_toggle              { position: absolute; right: 32px; top: 24px; background: #0081bf url("/assets/song_dots_default.png") center center no-repeat; color: #fff; width: 57px; height: 48px; display: inline-block; border-radius: 5px; }
-#cpanel_toggle.active       { background-color: transparent; background-image: url("/assets/song_dots_close.png"); }
-#cpanel_arrow               { position: absolute; top: 81px; right: 50px; }
+#cpanel_toggle              { position: absolute; right: 32px; top: 24px; background: #0081bf url("/assets/song_dots_default.png") center center no-repeat; color: #fff; width: 52px; height: 48px; display: inline-block; }
+#cpanel_toggle.active       { background-color: #333; background-image: url("/assets/song_dots_close.png"); }
+#cpanel_arrow               { position: absolute; top: 90px; right: 47px; }
 
 .song_notes                 { margin-bottom: 21px; }
 .song_notes .bucket         { }
@@ -72,8 +76,9 @@ p strong  { font-weight: 600; }
 
 
 
-.chords_inline      { color: #EB4A24; font-weight: 400; }
-.chord              { font-weight: 600; color: #EB4A24; }
+.chords_inline                        { color: #EB4A24; font-weight: 400; }
+.chords_inline.chords_repeated        { display: none; }
+.chord                                { font-weight: 600; color: #EB4A24; }
 
 
 .footer_link        { margin: 128px 0 0 0; }

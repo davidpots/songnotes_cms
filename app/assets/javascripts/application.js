@@ -19,6 +19,8 @@ $(document).ready(function(){
 		$(this).toggleClass("active");
 		$("#chords_show_none").removeClass("active");
 		$("#chords_show_all").removeClass("active");
+		$('.chords_inline').show();
+		$('.chords_repeated').hide();
 		return false;
 	});
 });
@@ -28,6 +30,7 @@ $(document).ready(function(){
 		$(this).toggleClass("active");
 		$("#chords_show_once").removeClass("active");
 		$("#chords_show_all").removeClass("active");
+		$('.chords_inline').hide();
 		return false;
 	});
 });
@@ -35,8 +38,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$("#chords_show_all").click(function(){
 		$(this).toggleClass("active");
+		$('.chords_repeated').show();
 		$("#chords_show_none").removeClass("active");
 		$("#chords_show_once").removeClass("active");
+		$('.chords_inline').show();
+		$('.chords_repeated').show();
 		return false;
 	});
 });
