@@ -64,6 +64,7 @@ p strong  { font-weight: 600; }
 
 .song_notes                 { margin-bottom: 21px; }
 .song_notes .bucket         { }
+.song_notes h4              { margin-bottom: 7px; }
 .song_notes pre             { margin: 20px 0 24px 0; }
 
 .song_chords                  { }
