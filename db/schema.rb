@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121216210900) do
+ActiveRecord::Schema.define(:version => 20121224235854) do
 
   create_table "songs", :force => true do |t|
     t.string   "title"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20121216210900) do
     t.text     "notes"
     t.string   "record_label"
     t.text     "chords"
+    t.boolean  "repeated_chords",  :default => false
   end
 
 end

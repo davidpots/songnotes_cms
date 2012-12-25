@@ -20,6 +20,13 @@
     <%= f.label :published, 'False', :value => 'False', :class => "radio_label" %>
   </div>
   <div class="field">
+    <%= f.label "Has repeated chords?" %>
+    <%= f.radio_button :repeated_chords, true %>
+    <%= f.label :repeated_chords, 'True', :value => 'True', :class => "radio_label" %>
+    <%= f.radio_button :repeated_chords, false %>
+    <%= f.label :repeated_chords, 'False', :value => 'False', :class => "radio_label" %>
+  </div>
+  <div class="field">
     <%= f.label :title %>
     <%= f.text_field :title %>
   </div>

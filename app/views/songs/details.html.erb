@@ -27,7 +27,9 @@
       <ul class="chord_switch">
         <li><a id="chords_show_none" href="#">Show None</a></li>
         <li><a id="chords_show_once" href="#" class="active">Show Each Progression Once</a></li>
-        <li><a id="chords_show_all" href="#">Show For Entire Song</a></li>
+        <% if @song.repeated_chords == true %>
+          <li><a id="chords_show_all" href="#">Show For Entire Song</a></li>
+        <% end %>
       </ul>
     </div>
   </div>
