@@ -1,7 +1,7 @@
 class SongsController < ApplicationController
 
   def directory
-    @songs = Song.where(published: true).all
+    @songs = Song.where(published: true).all(:order => 'title')
   end
 
   def details

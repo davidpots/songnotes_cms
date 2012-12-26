@@ -37,7 +37,7 @@ p strong  { font-weight: 600; }
 
 .uni_header           { background: #333; }
 .uni_header .bucket   { padding-top: 0; padding-bottom: 0; border: none; }
-.uni_header .bucket a { display: block; padding: 10px 0 9px; text-transform: uppercase; font-size: 12px; line-height: 18px; font-weight: 300; color: #fff; letter-spacing: 2px;}
+.uni_header .bucket a { display: block; padding: 10px 0 8px; text-transform: uppercase; font-size: 12px; line-height: 18px; font-weight: 300; color: #fff; letter-spacing: 2px;}
 
 .song_header.container{ width: 100%; background: #008FD4; }
 .song_header .bucket  { padding-top: 18px; padding-bottom: 13px; border: none; position: relative; }
@@ -56,7 +56,7 @@ p strong  { font-weight: 600; }
 .chord_switch > li a.active           { background: #EB4A24; color: #fff; font-weight: 400; }
 
 .song_lyrics .section_head  { }
-.song_lyrics .intro .note   { font-size: 88%; }
+.note         { font-size: 88%; color: #999; }
 
 #cpanel_toggle              { position: absolute; right: 32px; top: 24px; background: #0081bf url("/assets/song_dots_default.png") center center no-repeat; color: #fff; width: 52px; height: 48px; display: inline-block; }
 #cpanel_toggle.active       { background-color: #333; background-image: url("/assets/song_dots_close.png"); }
