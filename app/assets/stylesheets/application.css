@@ -41,7 +41,7 @@ p strong  { font-weight: 600; }
 
 .song_header.container{ width: 100%; background: #008FD4; }
 .song_header .bucket  { padding-top: 18px; padding-bottom: 13px; border: none; position: relative; }
-.song_header h1       { color: #fff; font-weight: 300; font-size: 48px; line-height: 40px; margin: 0 0 8px 0; }
+.song_header h1       { color: #fff; font-weight: 300; font-size: 46px; line-height: 40px; margin: 0 0 8px 0; }
 .song_header p        { color: #fff; font-weight: 100; font-size: 17px; line-height: 22px; margin: 0 0 4px 0; }
 
 .song_lyrics                            { }

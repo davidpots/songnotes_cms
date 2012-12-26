@@ -1,0 +1,122 @@
+TRYING TO REASON WITH HURRICANE SEASON
+by Jimmy Buffett
+===============================================================================
+INTRO
+    D (with riff)
+
+VERSE
+    D                               G                     D 
+    Squalls out on the gulf stream, big storm is coming soon
+      G                D              E7                         A7 
+    I passed out in my hammock... and God, I slept till way past noon
+    G                     D                                      C  G/B  A7 
+    Stood up and tried to focus, I hoped I wouldn't have to look far
+      G                         D          A7                        D 
+    I knew I could use a Bloody Mary, so I stumbled next door to the bar
+
+CHORUS
+                  Bm                    F#m 
+        And now I must confess, I could use some rest
+        G              A7             D 
+        I can't run at this pace very long
+                  Bm                       F#m 
+        Yes, it's quite insane, I think it hurts my brain
+               G                  A7            D 
+        But it cleans me out, and then I can go on
+
+    There's something about this Sunday, it's a most peculiar gray
+    Strollin' down the avenue that's known as A1A
+    Feelin' tired then I got inspired, I knew that it wouldn't last long
+    So all alone I walked back home sat on my beach and then I made up this song
+
+        And now I must confess, I could use some rest
+        I can't run at this pace very long
+        Yes, it's quite insane, I think it hurts my brain
+        But it cleans me out, and then I can go on
+
+INTERLUDE
+
+            | G . . . | A7 . . . | D . . . | D . . . |
+            | G . . . | A7 . . . | D . . . | D . . . |
+
+    Well, the wind is blowing harder now, fifty knots, or thereabouts
+    There's whitecaps on the ocean, and I'm watching for water-spouts
+    It's time to close the shudders, it's time to go inside
+    In a week I'll be in gay Paris, that's a mighty-long airplane ride
+
+        And now I must confess, I could use some rest
+        I can't run at this pace very long
+        Yes, it's quite insane, I think it hurts my brain
+        But it cleans me out, and then I can go on
+
+===============================================================================
+CHORDS
+===============================================================================
+
+INTRO
+| D . . . | D . . . | D . . . | D . . . | (with riff)
+
+VERSE
+"Squalls out on the gulf stream..."
+| D . . . | D . . . | G  . . . | D  . . . |
+| G . . . | D . . . | E7 . . . | A7 . . . |
+
+"Stood up and tried to focus..."
+| G  . . . | D . . . | D . . . | C  . G/B . |
+| A7 . . . | G . . . | D . . . | A7 .  .  . |
+| D  . . . |
+
+CHORUS
+"And now I must confess, I could use some rest..."
+| Bm . . . | .  . . . | F#m . . . | . . . . |
+| G  . . . | A7 . . . | D   . . . | . . . . |
+                                           (repeat)
+
+INTERLUDE
+| G . . . | A7 . . . | D . . . | D . . . | (x2)
+
+===============================================================================
+NOTES
+===============================================================================
+
+General Chords Used
+
+e-|---2----3-----3-----0----0----0----0-----2------2---
+B-|---3----0-----0-----2----2----0----3-----2------3---
+G-|---2----0-----0-----2----0----1----1-----2------2---
+D-|---0----0-----0-----2----2----2----0-----4------4---
+A-|--------2-----2-----0----0----2----2-----4------2---
+E-|--------3---------------------0----0-----2----------
+      D    G    G/B    A    A7   E    E7    F#m    Bm 
+
+INTRO RIFF
+To roughly reproduce the slide guitar (?) intro from the album recording of this song, I play the intro a follows. In between the following chords I fingerpick each D formation.
+
+e-|----/7-------5--- ... ----/12-------10---
+B-|----/7------7---- ... ----/12------10----
+G-|----/7-----7----- ... ----/12-----11-----
+D-|----------0------ ... -----------0-------
+A-|----------------- ... -------------------
+E-|----------------- ... -------------------
+       D6    D                D9    D 
+
+D-CHORD VARIATIONS
+Here are some general D-chord formations I use at different points within the song.
+
+e-|---2----5----5----10----10----|----7------12---
+B-|---3----7----7----10----10----|----7------12---
+G-|---2----7----7----11----11----|----7------12---
+D-|---0----7----0----12----0-----|----0------0----
+A-|--------5--------(12)---------|----------------
+E-|-----------------(10)---------|----------------
+      D                               D6     D9 
+
+===============================================================================
+SONG INFO
+===============================================================================    
+
+Song: Trying to Reason with Hurricane Season
+Artist: Jimmy Buffett
+Album: A1A
+Year: 1974
+Label: Dunhill
