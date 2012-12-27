@@ -44,19 +44,19 @@
 <% if @song.notes.present? %>
 <div class="container song_notes">
   <div class="bucket">
-    <h2>Notes</h2>
+    <h2>Notes &amp; Tabs</h2>
     <%= (@song.notes).html_safe %>
   </div> <!-- end: .bucket -->
 </div>
 <% end %>
 
 <%# ---------------------------------------------- %>
-<%#    CHORDS                                       %>
+<%#    CHORD PROGRESSIONS                          %>
 <%# ---------------------------------------------- %>
 <% if @song.chords.present? %>
 <div class="container song_chords">
   <div class="bucket">
-    <h2>Chords</h2>
+    <h2>Chords Progressions</h2>
     <%= (@song.chords).html_safe %>
   </div>
 </div>
@@ -67,7 +67,7 @@
 <%# ---------------------------------------------- %>
 <div class="container song_info">
   <div class="bucket">
-    <h2>Song Info</h2>
+    <h2>About This Song</h2>
     <p>
       <strong>Song: </strong><%= @song.title %><br />
       <strong>Artist: </strong><%= @song.artist %><br />
