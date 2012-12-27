@@ -5,77 +5,126 @@ INTRO
     | A . . . | D2 . . . | (x4)
 
 VERSE
-    A                       G              A                 G
-    Early one morning the sun was shining, I was laying in bed
-    A                  G                      D2
-    Wondering if she'd changed at all, if her hair was still red
-    Her folks, they said our lives together sure was gonna be rough
-    They never did like mama's homemade dress, papa's banquet wasn't big enough
+    A                     G
+    Early one morning the sun was shining
+    I was laying in bed
+    Wondering if she'd changed at all
+           D2
+    If her hair was still red
+    
+    Her folks, they said our lives together
+    Sure was gonna be rough
+    They never did like mama's homemade dress
+    Papa's banquet wasn't big enough
 
 CHORUS
-            E                     F#m                 A2                  D2
-        And I was standing on the side of the road, rain falling on my shoes
-        E                       F#m             
-        ...Heading up for the east coast
-             A2                    D2           E
+            E                     F#m 
+        And I was standing on the side of the road
+        A2                 D2 
+        Rain falling on my shoes
+        E                  F#m
+        Heading up for the east coast
+             A2                   D2           E
         Lord knows I've paid some dues getting through
-        G       D2    A
+        G       D2    A    D2
         Tangled up in blue
-                           [intro chords x4]
+                       [intro chords x3]
 
-    She was married when we first met, soon to be divorced
-    Helped her out of a jam I guess, but I used a little too much force
-    We drove that car as far as we could, abandoned it out west
-    Split up on the docks at night, both agreeing that it was best
+    She was married when we first met
+    soon to be divorced
+    Helped her out of a jam I guess
+    But I used a little too much force
+    
+    We drove that car as far as we could
+    Abandoned it out west
+    Split up on the docks at night
+    Both agreeing that it was best
 
-    She turned around to look at me as I was walking away
-    I heard her say over my shoulder, "We'll meet again someday on the avenue"
-    Tangled up in blue
+        She turned around to look at me
+        As I was walking away
+        I heard her say over my shoulder
+        "We'll meet again someday on the avenue"
+        Tangled up in blue
 
-    I had a job in the great north woods workin' as a cook for a spell
-    But I never did like it all that much and one day the axe just fell
-    So I drifted down to New Orleans where my luck it was to be employed
-    Workin' for a while on a fishing boat right outside of Delacroix
+    I had a job in the great north woods
+    Workin' as a cook for a spell
+    But I never did like it all that much
+    And one day the axe just fell
 
-    But all the while I was alone, the past was close behind
-    I've seen a lot of women, but she never escaped my mind, and I just grew
-    Tangled up in blue
+    So I drifted down to New Orleans
+    Where my luck it was to be employed
+    Workin' for a while on a fishing boat
+    Right outside of Delacroix
 
-    She was working in a topless place and I stopped in for a beer
-    I just kept lookin' at the side of her face in the spotlight so clear
-    And later on when the crowd thinned down I'se just about to do the same
-    She was standing there in back of my chair, said to me "Don't I know your name?"
+        But all the while I was alone
+        The past was close behind
+        I've seen a lot of women
+        But she never escaped my mind, and I just grew
+        Tangled up in blue
 
-    I muttered something underneath my breath, she studied the lines on my face
-    I must admit I felt a little uneasy when she bent down to tie the laces of my shoes
-    Tangled up in blue
+    She was working in a topless place
+    And I stopped in for a beer
+    I just kept lookin' at the side of her face
+    In the spotlight so clear
 
-    She lit a burner on the stove and offered me a pipe
-    "I thought you'd never say hello," she said. "You look like the silent type."
-    Then she opened up a book of poems and handed it to me
-    Written by an Italian poet from the thirteenth century
+    And later on when the crowd thinned down
+    I was just about to do the same
+    She was standing there in back of my chair
+    Said to me "Don't I know your name?"
 
-    And everyone of them words rang true and glowed like burning coal
-    Pouring off of every page like it was written in my soul from me to you
-    Tangled up in blue
+        I muttered something underneath my breath
+        She studied the lines on my face
+        I must admit I felt a little uneasy
+        When she bent down to tie the laces of my shoe
+        Tangled up in blue
 
-    I lived with him on Montague Street in a basement down the stairs
-    There was music in the cafes at night and revolution in the air
-    And he started into dealing with slaves and something inside of him died
-    She had to sell everything she owned, and froze up inside
+    She lit a burner on the stove
+    And offered me a pipe
+    "I thought you'd never say hello," she said
+    "You look like the silent type."
+    
+    Then she opened up a book of poems
+    And handed it to me
+    Written by an Italian poet
+    From the thirteenth century
 
-    And when then finally the bottom fell out, I became withdrawn
-    The only thing I knew how to do was to keep on keeping on like a bird that flew
-    Tangled on in blue
+        And everyone of them words rang true
+        And glowed like burning coal
+        Pouring off of every page
+        Like it was written in my soul from me to you
+        Tangled up in blue
 
-    So now I'm going back again, I get to get to her somehow
-    All the people we used to know, there an illusion to me now
-    Some are mathematicians, some are carpenters wives
-    Don't know how it all got started, I don't know what they're doing with their lives
+    I lived with him on Montague Street
+    In a basement down the stairs
+    There was music in the cafes at night
+    And revolution in the air
 
-    But me, I'm still on the road, heading for another joint
-    We always did feel the same we just saw it from a different point of view
-    Tangled up in blue
+    And he started into dealing with slaves
+    And something inside of him died
+    She had to sell everything she owned
+    And froze up inside
+
+        And when then finally the bottom fell out
+        I became withdrawn
+        The only thing I knew how to do
+        Was to keep on keeping on like a bird that flew
+        Tangled on in blue
+
+    So now I'm going back again
+    I get to get to her somehow
+    All the people we used to know
+    They're an illusion to me now
+
+    Some are mathematicians
+    Some are carpenters wives
+    Don't know how it all got started
+    I don't know what they're doing with their lives
+
+        But me, I'm still on the road
+        Heading for another joint
+        We always did feel the same
+        We just saw it from a different point of view
+        Tangled up in blue
 
 
 ===============================================================================
@@ -95,7 +144,7 @@ CHORUS
 | E . . . | F#m . . . | A2 . . . | D2 . . . |
 | E . . . | F#m . . . | A2 . . . | D2 . . . |
 | E . . . | E   . . . | G → D2 → A
-                                [start intro chords on A]
+                                [on A, start intro chords x4]
 
 ===============================================================================
 NOTES
