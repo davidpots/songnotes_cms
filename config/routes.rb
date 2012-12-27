@@ -2,7 +2,7 @@ Songnotes::Application.routes.draw do
 
   root to: 'songs#directory'
 
-  match 'admin' => 'songs#index', :as => 'admin'
+  match 'adminius' => 'songs#index', :as => 'admin'
 
   match 'directory' => 'songs#directory', :as => 'song_directory'
   match 'details/:id' => 'songs#details', :as => 'song_details'
