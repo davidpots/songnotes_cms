@@ -2,7 +2,7 @@ SONG_TITLE
 by Artist_Name
 ===============================================================================
 INTRO
-    | . . . . | . . . . | . . . . | . . . . |
+    | . . . . | . . . . | . . . . | . . . . | →
 
 VERSE
     Integer posuere erat a ante venenatis dapibus
