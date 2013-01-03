@@ -56,7 +56,7 @@ p strong  { font-weight: 600; }
 .chord_switch > li a.active           { background: #EB4A24; color: #fff; font-weight: 400; }
 
 .song_lyrics .section_head  { }
-.note         { font-size: 88%; color: #999; }
+.note         { color: #aaa; }
 
 #cpanel_toggle              { position: absolute; right: 32px; top: 24px; background: #0081bf url("/assets/song_dots_default.png") center center no-repeat; color: #fff; width: 52px; height: 48px; display: inline-block; }
 #cpanel_toggle.active       { background-color: #333; background-image: url("/assets/song_dots_close.png"); }
