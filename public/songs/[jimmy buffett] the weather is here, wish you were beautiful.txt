@@ -75,15 +75,15 @@ INTRO
 
 VERSE
 "He worked hard all year, just wanted a few weeks alone..."
-| G . . . | C . G . | G . . . | . . . . | (repeat)
+| G . . . | D . C . | G . . . | . . . . | (repeat)
 
 "Beside she bitches about the mosquitoes..."
 | C . D . | G . . . | C . D . | G . . . | (repeat)
 
 CHORUS
 "The weather is here, I wish you were beautiful..."
-| C . . . | G . C . | C . . . | F . D . |
-| C . . . | G . C . | G . C . | F . D . |
+| G . . . | C . G . | G . . . | F . D . |
+| G . . . | C . G . | C . G . | F . D . |
 | D . . . |
 
 OUTRO
