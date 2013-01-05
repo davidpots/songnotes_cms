@@ -40,7 +40,7 @@ REFRAIN
     Over ten years have gone by... we can't rewind...
     We're locked in time... But you're still mine...
 
-                D [let ring] 
+                D (let ring) 
     ...Do you remember
 
 ===============================================================================
