@@ -21,7 +21,7 @@ CHORUS
         Take a load for free
         G      D/F#      C         C (let ring)
         Take a load off, Fanny......  and...
-                                  G   G/F#   Em7   D/F#   C 
+                                  G   D/F#   Em   D   C 
         You put the load right on me
 
     I picked up my bag, I went looking for a place to hide
@@ -71,13 +71,13 @@ E-|-----3----------------0-----------
 Walkdown chords
 I'll often play these walkdown chords in place of The Band's guitar riff intro. They're also played at the end of each chorus.
 
-e-|----3------3------3------2------0-----
-B-|----3------3------3------3------1-----
-G-|----0------0------0------2------0-----
+e-|----3------2------0------2------0-----
+B-|----3------3------0------3------1-----
+G-|----0------2------0------2------0-----
 D-|----0------0------2------0------2-----
-A-|----2------x------2------0------3-----
-E-|----3------2------0------2------------
-       G     G/F#   Em7    D/F#    C 
+A-|----2------x------2-------------3-----
+E-|----3------2------0-------------------
+       G     D/F#   Em      D      C 
 
 ===============================================================================
 CHORD PROGRESSIONS
@@ -96,7 +96,7 @@ CHORUS
                   (start the walkdown chords on "me")
 
 WALKDOWN
-| G . G/F# . | Em7 . D/F# . | C . . . | . . . . | (repeat if desired)
+| G . D/F# . | Em . D . | C . . . | . . . . | (repeat as desired)
 
 ===============================================================================
 ABOUT THIS SONG
