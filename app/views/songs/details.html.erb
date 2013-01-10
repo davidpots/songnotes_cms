@@ -71,7 +71,7 @@
     <p>
       <strong>Song: </strong><%= @song.title %><br />
       <strong>Artist: </strong><%= @song.artist %><br />
-      <strong>Album: </strong><%= @song.album %><br />
+      <strong>Album: </strong><%= @song.album.present? ? @song.album : "--" %><br />
       <strong>Year: </strong><%= @song.year %><br />
       <strong>Label: </strong><%= @song.record_label.present? ? @song.record_label : "--" %>
     </p>
