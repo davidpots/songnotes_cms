@@ -1,0 +1,148 @@
+NOTHING ELSE MATTERS
+by Metallica
+===============================================================================
+INTRO
+    Em (with riff)
+
+VERSE
+   Em                   D      C 
+    So close, no matter how far
+   Em                       D           C 
+    Couldn't give much more from the heart
+   Em                D        C 
+    Forever trusting who we are
+   G    B7           Em 
+    And nothing else matters
+
+    Never opened myself this way
+    Life is ours, we live it our way
+    All these words I don't just say
+    And nothing else matters
+    
+    Trust I seek, and I find in you
+    Everyday for us something new
+    Open mind for a different view
+    And nothing else matters
+
+CHORUS
+      C → A → D                            C 
+            .....Never cared for what they do
+          A → D                            C 
+            .....Never cared for what they know
+          A → D        Em 
+            .....But I know
+
+    So close, no matter how far
+    Couldn't give much more from the heart
+    Forever trusting who we are
+    And nothing else matters
+
+        Never cared for what they do
+        Never cared for what they know
+        But I know
+    
+    (verse chords with solo)
+
+    I never opened myself this way
+    Life is ours, we live it our way
+    All these words I don't just say
+    And nothing else matters
+
+    Trust I seek, and I find in you
+    Everyday for us something new
+    Open mind for a different view
+    And nothing else matters
+
+        Never cared for what they say
+        Never cared for games they play
+        Never cared for what they do
+        Never cared for what they know
+        And I know
+
+    So close, no matter how far
+    Couldn't give much more from the heart
+    Forever trusting who we are
+    No, nothing else matters
+
+    (intro chords to end)
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Basic Chords Used
+The chords used in this song can be played as follows. Open (simpler) versions are shown on the left, with barred (advanced) versions shown on the right. Feel free to mix these up depending on the circumstances (electric vs. acoustic, playing as a group vs. individual, etc).
+
+e-|---0-----2----0----0----3----2----      ---7-----5----3----5----3----2----
+B-|---0-----3----1----2----0----0----      ---8-----7----5----5----3----4----
+G-|---0-----2----0----2----0----2----      ---9-----7----5----6----4----2----
+D-|---2-----0----3----2----0----1----  or  ---9-----7----5----7----5----4----
+A-|---2----------2----0----2----2----      ---7-----5----3----7----5----2----
+E-|---0--------------------3---------      ---0---------------5----3---------
+      Em    D    C    A    G    B7            Em    D    C    A    G    B7 
+
+Main Intro Riff / Arpeggio
+The opening riff can be played like this. In standard tuning, you can keep the fretboard entirely empty (technically these notes are in the chord of Em).
+
+e-|------------0-----------------0-----------------0-----------------0--------
+B-|---------0-----0-----------0-----0-----------0-----0-----------0-----0-----
+G-|------0-----------0-----0-----------0-----0-----------0-----0-----------0--
+D-|---------------------------------------------------------------------------
+A-|---------------------------------------------------------------------------
+E-|---0-----------------0-----------------0-----------------0-----------------
+      Em
+
+Secondary Intro Riff / Arpeggio
+Later in the intro, this riff can be heard. It follows the Em → D → C progression you'll hear in the verse, and then (just like the verse) continues to the G → B7 chords before going back to Em.
+
+Version 1 (Open, simpler)
+e-|-----------0----------2---------0---            -------3---------2-----0---
+B-|----------0-----------3---------1---            -------0---------0-----0---
+G-|---------0---------2------------0---            -------0---------2-----0---
+D-|--------2-------0------------2------  3x, then  -------0-------1-------2---
+A-|-------2------------------3---------            -----2-------2---------2---
+E-|---0--------------------------------            ---3-------------------0---
+      Em           D         C                        G         B7        Em 
+
+Version 2 (Barred, advanced)
+e-|-----------7----------5---------3---            -------3---------2-----0---
+B-|----------8-----------7---------5---            -------3---------4-----0---
+G-|---------9---------7----------5-----            -------4---------2-----0---
+D-|--------9-------7----------5--------  3x, then  -------5-------4-------2---
+A-|-------7----------------------------            -----5-------2---------2---
+E-|---0--------------------------------            ---3-------------------0---
+      Em           D         C                        G         B7        Em 
+
+Looking for the complete intro solo?
+If you're looking for the complete intro solo, check out YouTube or other resources online -- other guitarists have covered that with greater skill than I can bring to the table. The chords and riffs above should otherwise be enough for you to make your way through this song adequately. Enjoy!
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+Em (with riff)
+
+VERSE
+"So close, no matter how far..."
+| Em . . | .  . . | D  . . | C . . |
+| Em . . | .  . . | D  . . | C . . |
+| Em . . | .  . . | D  . . | C . . |
+| G  . . | B7 . . | Em . . | . . . |
+
+CHORUS
+"Never cared for what they do..."
+| C  . . | A . . | D . . | . . . |
+| C  . . | A . . | D . . | . . . |
+| C  . . | A . . | D . . | . . . |
+| Em . . | . . . | . . . | . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: Nothing Else Matters
+Artist: Metallica
+Album: Metallica
+Year: 1992
+Label: Elektra
