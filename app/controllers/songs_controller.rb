@@ -1,5 +1,5 @@
 class SongsController < ApplicationController
-
+  helper_method :sort_column, :sort_direction
   def directory
     @songs = Song.where(published: true).all(:order => 'title')
   end
@@ -8,49 +8,24 @@ class SongsController < ApplicationController
     @song = Song.find(params[:id])
   end
 
-  # GET /songs
-  # GET /songs.json
   def index
-    @songs = Song.all(:order => 'title')
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @songs }
-    end
+    @songs = Song.order(sort_column + ' ' + sort_direction)
   end
 
-  # GET /songs/1
-  # GET /songs/1.json
   def show
     @song = Song.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @song }
-    end
   end
 
-  # GET /songs/new
-  # GET /songs/new.json
   def new
     @song = Song.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @song }
-    end
   end
 
-  # GET /songs/1/edit
   def edit
     @song = Song.find(params[:id])
   end
 
-  # POST /songs
-  # POST /songs.json
   def create
     @song = Song.new(params[:song])
-
     respond_to do |format|
       if @song.save
         format.html { redirect_to @song, notice: 'Song was successfully created.' }
@@ -62,11 +37,8 @@ class SongsController < ApplicationController
     end
   end
 
-  # PUT /songs/1
-  # PUT /songs/1.json
   def update
     @song = Song.find(params[:id])
-
     respond_to do |format|
       if @song.update_attributes(params[:song])
         format.html { redirect_to @song, notice: 'Song was successfully updated.' }
@@ -78,15 +50,22 @@ class SongsController < ApplicationController
     end
   end
 
-  # DELETE /songs/1
-  # DELETE /songs/1.json
   def destroy
     @song = Song.find(params[:id])
     @song.destroy
-
     respond_to do |format|
       format.html { redirect_to songs_url }
       format.json { head :no_content }
     end
+  end
+  
+  private
+
+  def sort_column
+    params[:sort] || "title"
+  end
+  
+  def sort_direction
+    params[:direction] || "asc"
   end
 end
