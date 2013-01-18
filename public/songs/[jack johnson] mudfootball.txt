@@ -1,0 +1,157 @@
+MUDFOOTBALL
+by Jack Johnson
+===============================================================================
+
+INTRO
+    G ... D7 ... (x2)
+
+VERSE
+    G 
+    Saturday morning and it's time to go
+    One of these could be the day but who coulda known
+    D7 
+    Loadin' in the back of a pick-up truck
+    Ridin' with the boys and pushin' the luck
+
+    Singin' songs loud on the way to the game
+    Wishin' everything could still be the same
+    China's homeruns over the backstop
+    Ke-kua on the barb and soda-pop, well
+
+CHORUS
+        Em         Am 
+        We used to laugh a lot
+            C  
+        But only because we thought
+             G               D7             G     D7 
+        That everything good always would remain
+        G                             D7            G      D7 
+        Nothing gonna change, there's no need to complain
+
+    (intro chords)
+
+    Sunday morning and it's time to go
+    Been raining all night so everybody knows
+    Over to the field for tackle football
+    Big hits, big hats, yeah give me the ball
+
+    Rain is pourin', touchdown scorin'
+    Keep on rollin', never borin'
+    Karma, karma, karma chameleon
+    We're talking kinda funny from helium, well
+
+        We used to laugh a lot
+        But only because we thought
+        That everything good always would remain
+        Nothing gonna change, there's no need to complain
+
+    (breakdown riff, see below for tab)
+
+    Monday morning and it's time to go
+    Wet trunks and schoolbooks and sand on my toes
+    Do anything you can to dodge the bus stop blues
+    They're drivin' a padiddle with a burnt out fuse
+
+    Well, my best friend Kenny wants to go with you
+    So meet him by the sugar mill after school
+    My best friend Kenny wants to go with you
+    So meet him by the sugar mill after school, well
+
+        We used to laugh a lot But only because we thought
+        That everything good always would remain
+
+        Em         Am 
+        We used to laugh a lot
+            C  
+        But only because we thought
+             A 
+        That everything good always would 
+        C			       G     D7    G    D7  
+        Everything good always would remain... hmmmm
+    
+    (intro chords to end)
+
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Chords Used
+This song uses the following chords. Most notably, pay attention to the way the G and D7 are played -- this is very handy (nigh, essential!) for playing the intro riff exactly like the album. With this said, I've included a few variations of each chord (some open, and others barred). Put these together as you see fit. Jack Johnson tends to bar everything he plays, if you're interested in sounding like him.
+
+How Jack plays the chords (barred)
+e-|---------------------5--------------
+B-|----3----3-----8-----5--------------
+G-|----4----5-----9-----5-----9----6---
+D-|----5----4-----9-----7----10----7---
+A-|----5----5-----7-----7----10----7---
+E-|---------------------5-----8----5---
+       G    D7    Em    Am    C    A 
+
+Easy way to play the chords (open)
+e-|----3----2-----0-----0-----0----0---
+B-|----0----1-----0-----1-----1----2---
+G-|----0----2-----0-----2-----0----2---
+D-|----0----0-----2-----2-----2----2---
+A-|----2----------2-----0-----3----0---
+E-|----3----------0--------------------
+       G    D7    Em    Am    C    A 
+
+
+Intro Strumming Riff
+The G and D7 played in the intro are played as follows. Note the strumming pattern -- every third strum you'll play the chord, with the two strums in between being muted. The result is you'll be alternating between up- and down-strums when playing the actual chords.
+
+e-|-------------------------------------|-------------------------------------|-
+B-|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x-x--|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x-x--|-
+G-|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x-x--|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x-x--|-
+D-|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|-
+A-|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|-
+E-|-------------------------------------|-------------------------------------|-
+     v ^ v ^ v ^ v v ^ v ^ v ^ v ^ v ^     v ^ v ^ v ^ v v ^ v ^ v ^ v ^ v ^      
+     G                                     G 
+
+ -|-------------------------------------|-------------------------------------|-
+ -|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x-x--|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x-x--|-
+ -|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|-
+ -|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x-x--|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x-x--|-
+ -|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|-
+ -|-------------------------------------|-------------------------------------|-
+     v ^ v ^ v ^ v v ^ v ^ v ^ v ^ v ^     v ^ v ^ v ^ v v ^ v ^ v ^ v ^ v ^      
+     D7                                    D7 
+
+Breakdown Riff
+Before the final verse, there is a breakdown riff that is played as follows. Listen along for the exact strumming pattern -- it is somewhat similar (but not identical) to the intro riff. As with the intro, you'll want to mute the other strings as best you can so you can strum rather furiously for added rhythmic effect.
+
+e-|-------------------------|--------------------------|-----------
+B-|-------------------------|--------------------------|-----------
+G-|--10---9---7---10--9--7--|--10---9---7----10--9--7--|--7/---7/--
+D-|---x---x---x----x--x--x--|---x---x---x-----x--x--x--|--x----x---  x2
+A-|---8---7---5----8--7--5--|---8---7---5-----8--7--5--|--5/---5/--
+E-|-------------------------|--------------------------|-----------
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+| G . . . | . . . . | D7 . . . | . . . . | (x2)
+
+VERSE
+"Monday morning, and it's time to go..."
+| G . . . | . . . . | D7 . . . | . . . . | (repeat)
+
+CHORUS
+"We used to laugh a lot..."
+| Em . . . | Am . . . | C . . . | .  . . . |
+| G  . . . | D7 . . . | G . . . | D7 . . . |
+| G  . . . | D7 . . . | G . . . | D7 . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: Mudfootball
+Artist: Jack Johnson
+Album: Inaudible Melodies
+Year: 2001
+Label: Everloving
