@@ -166,7 +166,7 @@ p.title a       { color:#008FD4; }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
-      body              { font-size: 10px; line-height: 13px; }
+      body              { font-size: 8px; line-height: 11px; }
       .container        { min-width: 320px; max-width: 479px; }
       .bucket           { padding: 10px; }      
       pre               { letter-spacing: 0px; }
