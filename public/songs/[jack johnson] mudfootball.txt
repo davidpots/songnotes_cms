@@ -101,23 +101,23 @@ E-|----3----------0--------------------
 Intro Strumming Riff
 The G and D7 played in the intro are played as follows. Note the strumming pattern -- every third strum you'll play the chord, with the two strums in between being muted. The result is you'll be alternating between up- and down-strums when playing the actual chords.
 
-e-|-------------------------------------|-------------------------------------|-
-B-|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x-x--|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x-x--|-
-G-|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x-x--|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x-x--|-
-D-|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|-
-A-|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|-
-E-|-------------------------------------|-------------------------------------|-
-     v ^ v ^ v ^ v v ^ v ^ v ^ v ^ v ^     v ^ v ^ v ^ v v ^ v ^ v ^ v ^ v ^      
-     G                                     G 
+e-|-----------------------------------|-----------------------------------|-
+B-|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x--|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x--|-
+G-|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x--|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x--|-
+D-|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x--|-
+A-|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x--|-
+E-|-----------------------------------|-----------------------------------|-
+     v ^ v ^ v ^ v ^ v ^ v ^ v ^ v ^     v ^ v ^ v ^ v ^ v ^ v ^ v ^ v ^
+     G                                   G 
 
- -|-------------------------------------|-------------------------------------|-
- -|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x-x--|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x-x--|-
- -|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|-
- -|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x-x--|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x-x--|-
- -|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x-x--|-
- -|-------------------------------------|-------------------------------------|-
-     v ^ v ^ v ^ v v ^ v ^ v ^ v ^ v ^     v ^ v ^ v ^ v v ^ v ^ v ^ v ^ v ^      
-     D7                                    D7 
+ -|-----------------------------------|-----------------------------------|-
+ -|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x--|--3-x-x-3-x-x-3-x-x-3-x-x-3-x-x-x--|-
+ -|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x--|-
+ -|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x--|--4-x-x-4-x-x-4-x-x-4-x-x-4-x-x-x--|-
+ -|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x--|--5-x-x-5-x-x-5-x-x-5-x-x-5-x-x-x--|-
+ -|-----------------------------------|-----------------------------------|-
+     v ^ v ^ v ^ v ^ v ^ v ^ v ^ v ^     v ^ v ^ v ^ v ^ v ^ v ^ v ^ v ^
+     D7                                  D7 
 
 Breakdown Riff
 Before the final verse, there is a breakdown riff that is played as follows. Listen along for the exact strumming pattern -- it is somewhat similar (but not identical) to the intro riff. As with the intro, you'll want to mute the other strings as best you can so you can strum rather furiously for added rhythmic effect.
