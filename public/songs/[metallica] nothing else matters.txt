@@ -25,11 +25,11 @@ VERSE
     And nothing else matters
 
 CHORUS
-      C → A → D                            C 
+      C → Am → D                           C 
             .....Never cared for what they do
-          A → D                            C 
+          Am → D                           C 
             .....Never cared for what they know
-          A → D        Em 
+          Am → D       Em 
             .....But I know
 
     So close, no matter how far
@@ -74,12 +74,12 @@ Basic Chords Used
 The chords used in this song can be played as follows. Open (simpler) versions are shown on the left, with barred (advanced) versions shown on the right. Feel free to mix these up depending on the circumstances (electric vs. acoustic, playing as a group vs. individual, etc).
 
 e-|---0-----2----0----0----3----2----      ---7-----5----3----5----3----2----
-B-|---0-----3----1----2----0----0----      ---8-----7----5----5----3----4----
-G-|---0-----2----0----2----0----2----      ---9-----7----5----6----4----2----
+B-|---0-----3----1----1----0----0----      ---8-----7----5----5----3----4----
+G-|---0-----2----0----2----0----2----      ---9-----7----5----5----4----2----
 D-|---2-----0----3----2----0----1----  or  ---9-----7----5----7----5----4----
 A-|---2----------2----0----2----2----      ---7-----5----3----7----5----2----
 E-|---0--------------------3---------      ---0---------------5----3---------
-      Em    D    C    A    G    B7            Em    D    C    A    G    B7 
+      Em    D    C    Am   G    B7            Em    D    C    Am   G    B7 
 
 Main Intro Riff / Arpeggio
 The opening riff can be played like this. In standard tuning, you can keep the fretboard entirely empty (technically these notes are in the chord of Em).
@@ -92,7 +92,7 @@ A-|---------------------------------------------------------------------------
 E-|---0-----------------0-----------------0-----------------0-----------------
       Em
 
-Secondary Intro Riff / Arpeggio
+Secondary Intro Riff
 Later in the intro, this riff can be heard. It follows the Em → D → C progression you'll hear in the verse, and then (just like the verse) continues to the G → B7 chords before going back to Em.
 
 Version 1 (Open, simpler)
@@ -107,9 +107,9 @@ E-|---0--------------------------------            ---3-------------------0---
 Version 2 (Barred, advanced)
 e-|-----------7----------5---------3---            -------3---------2-----0---
 B-|----------8-----------7---------5---            -------3---------4-----0---
-G-|---------9---------7----------5-----            -------4---------2-----0---
-D-|--------9-------7----------5--------  3x, then  -------5-------4-------2---
-A-|-------7----------------------------            -----5-------2---------2---
+G-|---------9------------7---------5---            -------4---------2-----0---
+D-|--------9----------7---------5------  3x, then  -------5-------4-------2---
+A-|-------7--------5---------3---------            -----5-------2---------2---
 E-|---0--------------------------------            ---3-------------------0---
       Em           D         C                        G         B7        Em 
 
@@ -132,10 +132,10 @@ VERSE
 
 CHORUS
 "Never cared for what they do..."
-| C  . . | A . . | D . . | . . . |
-| C  . . | A . . | D . . | . . . |
-| C  . . | A . . | D . . | . . . |
-| Em . . | . . . | . . . | . . . |
+| C  . . | Am . . | D . . | . . . |
+| C  . . | Am . . | D . . | . . . |
+| C  . . | Am . . | D . . | . . . |
+| Em . . | .  . . | . . . | . . . |
 
 ===============================================================================
 ABOUT THIS SONG
