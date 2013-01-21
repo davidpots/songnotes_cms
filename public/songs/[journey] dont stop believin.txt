@@ -6,69 +6,100 @@ INTRO
     | E . . . | B . . . | G#m . . . | A . . . |
 
 VERSE
-   E       B               C#m            A 
-    Just a small town girl... living in a lonely world
-   E             B                    G#m    A 
-    She took the midnight train going any----where
+    E        B               C#m             B 
+      Just a small town girl...  living in a lonely world
+    E              B                     G#m        A 
+      She took the midnight train, going anywhere
 
-    Just a city boy... born and raised in south Detroit
-    He took the midnight train going anywhere
+      Just a city boy
+      Born and raised in south Detroit
+      He took the midnight train
+      Going anywhere
 
-    (intro chords x1)
+      (intro chords x1)
 
-    A singer in a smoky room... a smell of wine and cheap perfume
-    For a smile they can share the night, it goes on and on and on and on
+      A singer in a smoky room
+      A smell of wine and cheap perfume
+      For a smile they can share the night
+      It goes on and on and on and on
 	
 CHORUS
-        A                   E 
-        Strangers, waiting... up and down the boulevard
-              A                           E 
-        Their shadows, searching in the night
-        A                   E 
-        Streetlight, people... living just to find emotion
-        A                        B 
-        Hiding, somewhere in the night...
-                                       E  B  C#m  A 
+          A                   E 
+          Strangers, waiting... up and down the boulevard
+                A                           E 
+          Their shadows, searching in the night
+          A                   E 
+          Streetlight, people... living just to find emotion
+          A                        B 
+          Hiding, somewhere in the night...
+                                         E  B  C#m  A 
 
-    Working hard to get my fill... everybody wants a thrill
-    Paying anything to roll the dice, just one more time
+      Working hard to get my fill
+      Everybody wants a thrill
+      Paying anything to roll the dice
+      Just one more time
 
-    Some will win, some will lose... some were born to sing the blues
-    Oh the movie never ends, it goes on and on and on and on
+      Some will win, some will lose
+      Some were born to sing the blues
+      Oh the movie never ends
+      It goes on and on and on and on
 
-        Strangers, waiting... up and down the boulevard
-        Their shadows, searching in the night
-        Streetlight, people... living just to find emotion
-        Hiding, somewhere in the night
+          Strangers, waiting... up and down the boulevard
+          Their shadows, searching in the night
+          Streetlight, people... living just to find emotion
+          Hiding, somewhere in the night
     
-    (intro chords x1, with solo)
+      (intro chords x1, with solo)
         
 FINALE
-            E            B        C#m                   A 
-            Don't stop believing....... hold on to that feeling
-            E           B         G#m       A 
-            Streetlight people, ohhhhhhhhhhhhhhh
+              E            B        C#m                   A 
+              Don't stop believing....... hold on to that feeling
+              E           B         G#m       A 
+              Streetlight people, ohhhhhhhhhhhhhhh
 
-            Don't stop believing....... hold on to that feeling
-            Streetlight people, ohhhhhhhhhhhhhhh
+              Don't stop believing....... hold on to that feeling
+              Streetlight people, ohhhhhhhhhhhhhhh
 
-            Don't stop believing....... hold on to that feeling
-            Streetlight people, ohhhhhhhhhhhhhhh
+              Don't stop believing....... hold on to that feeling
+              Streetlight people, ohhhhhhhhhhhhhhh
 
 ===============================================================================
 NOTES & TABS
 ===============================================================================
 
-Chords Used
+Basic Chords Used
 This song uses the following chords. For the E, A, and B I show a few different ways to play them (each at different a position on the fretboard)... use these as desired, if at all. Take note that the intro, verse, and finale (as I name these sections above) all use the exact same chord progression. As such, if you're playing this by yourself you'll likely want to find a way to change up the dynamics (to build things up for the finale, etc).
 
-e-|----0----7---|---0----5---|---2----7---|----4------4-----
-B-|----0----9---|---2----5---|---4----7---|----5------4-----
-G-|----1----9---|---2----6---|---4----8---|----6------4-----
-D-|----2----9---|---2----7---|---4----9---|----6------6-----
-A-|----2----7---|---0----7---|---2----9---|----4------6-----
-E-|----0----0---|--------5---|--------7---|-----------4-----
-       E            A            B            C#m    G#m 
+e-|----0-----2-----4------4------5-----
+B-|----0-----4-----5------4------5-----
+G-|----1-----4-----6------4------6-----
+D-|----2-----4-----6------6------7-----
+A-|----2-----2-----4------6------7-----
+E-|----0------------------4------5-----
+       E     B    C#m    G#m     A 
+
+For Additional Strumming Power...
+When playing the primary chord progression (in the verse / solo / finale), I like to sometimes play the chords as follows. This gives a fuller sound, since significantly more open strings are used in these versions of the chords -- mainly, the top and even bottom E strings. Very good to save for the finale, while strumming at full power.
+
+e-|----0-----0-----0-----0-----
+B-|----0-----0-----5-----2-----
+G-|----1-----4-----6-----2-----
+D-|----2-----4-----6-----2-----
+A-|----2-----2-----4-----0-----
+E-|----0----(0)---(0)---(0)----
+       E     B    C#m    A        
+       
+Optional Chorus Riff
+When playing this song alone, I like to play the chorus section with the following chords & riff. It helps imitate the sound of the full band version of the song. The main thing to note here is the notes played on the high E (1st) string, which emulate the instrumental melody heard at this part of the song. If you can, give the high E string some extra oomph when strumming along (to make the melody stand out a bit more).
+
+e-|---2------0----2----4--------2----4--------------------2----4-------|--
+B-|---2------2----2----2--------0----0--------------------0----0-------|-- 
+G-|---2------2----2----2--------1----1--------------------1----1-------|--  
+D-|---2------2----2----2--------2----2--------------------2----2-------|--   etc.
+A-|---0------0----0----0--------x----x---------------------------------|--
+E-|----------------------------(0)--(0)--------------------------------|--
+      A                         E 
+     "Strang-ers, wait-ing...          ...up and down the boulevard..."
 
 ===============================================================================
 CHORD PROGRESSIONS
