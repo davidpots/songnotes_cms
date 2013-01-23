@@ -1,81 +1,41 @@
-<% title "#{@song.title} by #{@song.artist} :: Tabs, Chords, and Lyrics" %>
+<%= link_to 'Edit', edit_song_path(@song) %> |
+<%= link_to 'Back', admin_path %>
+<p id="notice"><%= notice %></p>
 
-<div class="container uni_header">
-  <div class="bucket">
-    <%= link_to "songnotes", root_path %>
-  </div> <!-- end: .bucket -->
-</div> <!-- end: .container uni_header -->
+<p>
+  <b>Title:</b>
+  <%= @song.title %>
+</p>
 
+<p>
+  <b>Artist:</b>
+  <%= @song.artist %>
+</p>
 
-<%# ---------------------------------------------- %>
-<%#    SONG HEADER                                 %>
-<%# ---------------------------------------------- %>
-<div class="container song_header">
-  <div class="bucket">
-    <h1><%= @song.title %></h1>
-    <p>by <%= @song.artist %></p>
-    <a id="cpanel_toggle" href="">&nbsp;</a>
-    <img id="cpanel_arrow" style="display:none;" src="/assets/song_dots_arrow.png" />
-  </div> <!-- end: .bucket .song_header -->
-</div>
+<p>
+  <b>Year:</b>
+  <%= @song.year %>
+</p>
 
-<%# ---------------------------------------------- %>
-<%#    LYRICS                                      %>
-<%# ---------------------------------------------- %>
-<div class="container song_lyrics">
-  <div class="cpanel" style="display:none;">
-    <div class="bucket">
-      <h4>Chord Options:</h4>
-      <ul class="chord_switch">
-        <li><a id="chords_show_none" href="#">Show None</a></li>
-        <li><a id="chords_show_once" href="#" class="active">Show Each Progression Once</a></li>
-        <% if @song.repeated_chords == true %>
-          <li><a id="chords_show_all" href="#">Show For Entire Song</a></li>
-        <% end %>
-      </ul>
-    </div>
-  </div>
-  <div class="bucket">
-    <%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : (@song.lyrics_text).html_safe %>
-  </div> <!-- end: .bucket -->
-</div>
+<p>
+  <b>Album:</b>
+  <%= @song.album %>
+</p>
 
-<%# ---------------------------------------------- %>
-<%#    NOTES                                       %>
-<%# ---------------------------------------------- %>
-<% if @song.notes.present? %>
-<div class="container song_notes">
-  <div class="bucket">
-    <h2>Notes &amp; Tabs</h2>
-    <%= (@song.notes).html_safe %>
-  </div> <!-- end: .bucket -->
-</div>
-<% end %>
+<p><b>Lyrics (text):</b></p>
+<pre><%= @song.lyrics_text.present? ? (@song.lyrics_text).html_safe : "n/a" %></pre>
 
-<%# ---------------------------------------------- %>
-<%#    CHORD PROGRESSIONS                          %>
-<%# ---------------------------------------------- %>
-<% if @song.chords.present? %>
-<div class="container song_chords">
-  <div class="bucket">
-    <h2>Chords Progressions</h2>
-    <%= (@song.chords).html_safe %>
-  </div>
-</div>
-<% end %>
+<p><b>Lyrics (HTML,mono):</b></p>
+<pre><%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : "n/a" %></pre>
 
-<%# ---------------------------------------------- %>
-<%#    SONG INFO                                   %>
-<%# ---------------------------------------------- %>
-<div class="container song_info">
-  <div class="bucket">
-    <h2>About This Song</h2>
-    <p>
-      <strong>Song: </strong><%= @song.title %><br />
-      <strong>Artist: </strong><%= @song.artist %><br />
-      <strong>Album: </strong><%= @song.album.present? ? @song.album : "--" %><br />
-      <strong>Year: </strong><%= @song.year %><br />
-      <strong>Label: </strong><%= @song.record_label.present? ? @song.record_label : "--" %>
-    </p>
-  </div> <!-- end: .bucket -->
-</div>
+<p><b>Chords:</b></p>
+<%= @song.chords.present? ? (@song.chords).html_safe : "n/a" %>
+
+<p><b>Notes:</b></p>
+<%= @song.notes.present? ? (@song.notes).html_safe : "n/a" %>
+
+<p><b>Record Label:</b>
+<%= @song.record_label.present? ? @song.record_label : "n/a" %></p>
+
+<%= link_to 'Edit', edit_song_path(@song) %> |
+<%= link_to 'Back', admin_path %>

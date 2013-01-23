@@ -1,31 +1,17 @@
-<div style="padding: 20px;">
-    <h1>You have <span style="background:yellow"><%= @songs.count %></span> published songs</h1>
-
-    <p style="margin:20px 0"><%= link_to 'Add New Song', new_song_path %></p>
-
-    <table>
-      <tr>
-        <th><%= sortable "title" %></th>
-        <th><%= sortable "artist" %></th>
-        <th><%= sortable "year" %></th>
-        <th><%= sortable "album" %></th>
-        <th><%= sortable "record_label","Record label" %></th>
-        <th colspan="3"></th>
-      </tr>
-
+<div class="bucket" style="border:none;">
+  <h1 class="title">SONGNOTES</h1>
+  <p class="title">hand-crafted guitar tabs from <a href="http://twitter.com/davidpots">@davidpots</a></p>
+  <p><%= link_to "go to admin", admin_url %></p>
+  <ul class="directory">
     <% @songs.each do |song| %>
-      <tr>
-        <td><%= song.title %></td>
-        <td><%= song.artist %></td>
-        <td><%= song.year %></td>
-        <td><%= song.album %></td>
-        <td><%= song.record_label? ? song.record_label : "--" %></td>
-        <td><%= link_to 'View', song %></td>
-        <td><%= link_to 'Edit', edit_song_path(song) %></td>
-        <td><%= link_to 'Delete', song, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+    <li>
+      <%= link_to(song) do %>
+        <strong><%= song.title %></strong>
+        <%= song.artist %> &bull; <%= song.year %>
+      <% end %>
+    </li>
     <% end %>
-    </table>
-
-    <br />
+  </ul>
+  <p style="text-align: center;"><strong>More coming soon.</strong></p>
+  <p style="text-align: center;">Is there a specific song you'd like to see added?<br /><a href="http://twitter.com/davidpots" target="_blank">Tweet at me</a> and I'll make it happen.</p>
 </div>

@@ -15,3 +15,5 @@ group :development do
 end
 
 gem 'jquery-rails'
+
+gem 'friendly_id'

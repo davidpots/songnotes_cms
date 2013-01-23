@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121224235854) do
+ActiveRecord::Schema.define(:version => 20130123142754) do
 
   create_table "songs", :force => true do |t|
     t.string   "title"
@@ -27,6 +27,9 @@ ActiveRecord::Schema.define(:version => 20121224235854) do
     t.string   "record_label"
     t.text     "chords"
     t.boolean  "repeated_chords",  :default => false
+    t.string   "slug"
   end
+
+  add_index "songs", ["slug"], :name => "index_songs_on_urlslug"
 
 end
