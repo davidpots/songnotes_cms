@@ -26,27 +26,19 @@ class SongsController < ApplicationController
 
   def create
     @song = Song.new(params[:song])
-    respond_to do |format|
-      if @song.save
-        format.html { redirect_to @song, notice: 'Song was successfully created.' }
-        format.json { render json: @song, status: :created, location: @song }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @song.errors, status: :unprocessable_entity }
-      end
+    if @song.save
+      redirect_to admin_url, notice: "Successfully created song."
+    else
+      render :new
     end
   end
 
   def update
     @song = Song.find(params[:id])
-    respond_to do |format|
-      if @song.update_attributes(params[:song])
-        format.html { redirect_to @song, notice: 'Song was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @song.errors, status: :unprocessable_entity }
-      end
+    if @song.update_attributes(params[:song])
+      redirect_to admin_url, notice: "Successfully updated song."    
+    else
+      render :edit
     end
   end
 

@@ -193,6 +193,7 @@ p.title a       { color:#008FD4; }
     .admin form .field textarea { float: left; font-size: 14px; padding: 5px; }
     .admin form .field textarea { width: 800px; height: 100px; font-family: "Source Code Pro" }
 
-    table { border-collapse: collapse; font-size: 12px; }
+    table { border-collapse: collapse; font-size: 15px; }
     table td { border: 1px solid #ddd; text-align: left; padding: 8px; }
     table th { border: 1px solid #ddd; text-align: left; padding: 8px; background: #eee; }
+    table td a { display: block; }

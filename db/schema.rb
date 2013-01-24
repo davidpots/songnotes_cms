@@ -30,6 +30,4 @@ ActiveRecord::Schema.define(:version => 20130123142754) do
     t.string   "slug"
   end
 
-  add_index "songs", ["slug"], :name => "index_songs_on_urlslug"
-
 end
