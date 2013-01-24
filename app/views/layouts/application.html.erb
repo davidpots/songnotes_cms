@@ -2,6 +2,8 @@
 <html>
 <head>
   <title><%= content_for?(:title) ? content_for(:title) : "Songnotes :: Hand-Crafted Guitar Tabs, Chords, and Lyrics" %></title>
+  <meta name="description" content="<%= content_for?(:description) ? content_for(:description) : "Songnotes provides guitar tabs, chords, and lyrics to your favorite songs. All tabs are hand-crafted by @davidpots." %>">
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
