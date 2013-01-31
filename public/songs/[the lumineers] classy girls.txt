@@ -101,22 +101,22 @@ Intro/Verse Riff Patterns, v2
 If you want to more closely imitate the higher tone of the recorded version, play it like this. You can play the C and F with the same shape you'd use for a first position D chord. For the G, bar the 12th fret with your index finger.
 
 e-|-----------12------------  -----------13------------  -----------15-----------
-B-|-----13--------13----12--  -----13--------13----13--  -----12-------12----12--
-G-|--12----12--------12-----  --12----12--------12-----  --12----12-------12-----
+B-|-----13--------13----12--  -----13--------13----13--  -----15-------15----15--
+G-|--12----12--------12-----  --14----14--------14-----  --16----16-------16-----
 D-|-------------------------  -------------------------  ------------------------
 A-|-------------------------  -------------------------  ------------------------
 E-|-------------------------  -------------------------  ------------------------
       C                         F                           G 
 
-Note, you can also play the F part of this riff as follows (bar the 10th fret with your index finger). Then, just slide everything up 2 frets to play the G -- which uses the same pattern.
+Note, you can also play the F and G parts of this riff as follows. For the F, bar the 10th with your index finger use pinky for high note). Then, just slide everything up 2 frets to play the G -- which uses the same pattern.
 
-                              -----------13------------
-                              -----10--------10----10--
-                              --10----10--------10-----
-                              -------------------------
-                              -------------------------
-                              -------------------------
-                                F 
+                              -----------13------------  -----------15------------
+                              -----10--------10----10--  -----12--------12----12--
+                              --10----10--------10-----  --12----12--------12-----
+                              -------------------------  -------------------------
+                              -------------------------  -------------------------
+                              -------------------------  -------------------------
+                                F                          G 
 
 Ending Walk-Up Progression
 Here is the way I like to play the final chords in a way that resembles a more pronounced "walk up" leading to the final G and C. This isn't by any means required to make the song work (you can use the open versions of these chords), but it may be handy.

@@ -71,7 +71,7 @@ E-|----3--------------0----
 Optional Riff for the C-chord
 If you want to more closely emulate the piano melody heard on the album, here is a simple addition to you add to the C-chord. Use your pinky to add the extra note (on the B string). Listen along to get the timing down.
 
-e-|----3---------0-----0-----0-----------2----|---
+e-|----3---------0-----0-----3-----------2----|---
 B-|----0---------1-----2-----0-----------3----|---
 G-|----0---------0-----0-----0-----------2----|---
 D-|----0---------2----(2)----0-----------0----|---
