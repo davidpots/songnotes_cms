@@ -108,9 +108,9 @@ p.title a       { color:#008FD4; }
 
 .directory { padding: 0; border-bottom: 1px solid #ddd;}
 .directory li { list-style: none; margin: 0 0 14px 0; }
-.directory li a { color: #fff; font-size: 14px; display: block; background: #008FD4; padding: 14px 16px 13px; }
+.directory li a { color: #fff; font-size: 14px; display: block; background: #008FD4; padding: 14px 16px 13px; position: relative; }
 .directory li a strong { color: #fff; font-size: 16px; font-weight: 300; font-size: 36px; line-height: 36px; display: block; margin: 0 0 4px 0; }
-
+.directory li a .date { position: absolute; right: 20px; bottom: 20px; font-weight: 200; opacity: 0.5; font-size: 24px; }
 
 
 

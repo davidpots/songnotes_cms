@@ -1,7 +1,25 @@
 <div class="bucket" style="border:none;">
-  <h1 class="title">SONGNOTES</h1>
-  <p class="title" style='margin-bottom:10px;'>Hand-crafted guitar tabs, chords, and lyrics all made by a <a href="http://twitter.com/davidpots">single person</a> who cares about good design.</p>
-  <p class="title">Keep posted of song additions (or make a tab request!) by following Songnotes on <a href="http://www.twitter.com/playsongnotes">Twitter</a>.
+  <h1>SONGNOTES</h1>
+  <p style='margin: 20px 0 10px;'>Hand-crafted guitar tabs, chords, and lyrics all made by a <a href="http://twitter.com/davidpots">single person</a> who cares about good design.</p>
+  <p>Keep posted of song additions (or make a tab request!) by following Songnotes on <a href="http://www.twitter.com/playsongnotes">Twitter</a>.
+  
+  <h2>Recently Added</h2>
+
+  <ul class="directory">
+    <% @songs_new.each do |song| %>
+    <li>
+      <%= link_to(song) do %>
+        <strong><%= song.title %></strong>
+        <%= song.artist %> &bull; <%= song.year %>
+        <span class="date"><%= song.created_at.strftime("%b %d, %Y") %></span>
+      <% end %>
+    </li>
+    <% end %>
+  </ul>
+  
+  
+  
+  <h2>All Songs</h2>    
   <ul class="directory">
     <% @songs.each do |song| %>
     <li>

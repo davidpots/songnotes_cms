@@ -2,6 +2,7 @@ class SongsController < ApplicationController
   helper_method :sort_column, :sort_direction
   def index
     @songs = Song.where(published: true).all(:order => 'title')
+    @songs_new = Song.where(published: true).all(:limit => 10, :order => 'created_at DESC')
   end
 
   def show
