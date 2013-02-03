@@ -10,6 +10,7 @@
         <th><%= sortable "artist" %></th>
         <th><%= sortable "year" %></th>
         <th><%= sortable "album" %></th>
+        <th><%= sortable "created_at" %></th>
         <th><%= sortable "record_label","Record label" %></th>
         <th></th>
       </tr>
@@ -20,6 +21,7 @@
         <td><%= song.artist %></td>
         <td><%= song.year %></td>
         <td><%= song.album %></td>
+        <td><%= song.created_at %></td>
         <td><%= song.record_label? ? song.record_label : "--" %></td>
         <td><%= link_to 'Delete', song_details_url(:id => song.id), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
