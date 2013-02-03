@@ -107,7 +107,7 @@ p.title a       { color:#008FD4; }
 .sorter_nav       { margin: 0; padding: 0; overflow: hidden; width: auto; }
 .sorter_nav li    { float: left; list-style: none; padding: 0; margin: 0 3px 0 0; }
 .sorter_nav li.key{ padding: 10px 10px 10px 0; }
-.sorter_nav li a  { float: left; display: block; background: #ddd; color: #777; padding: 10px; }
+.sorter_nav li a  { float: left; display: block; background: #ddd; color: #777; padding: 10px; font-size: 14px; }
 .sorter_nav li.active a { background: #EB4A24; color: #fff; }
 
 
@@ -184,6 +184,8 @@ p.title a       { color:#008FD4; }
       h1.title          { font-size: 48px; line-height: 48px; }
       p.title           { font-size: 16px; line-height: 19px; margin: 0 0 15px 0; }
       #cpanel_toggle    { display: none; }
+      .directory li a strong { font-size: 28px; }
+      .directory li a .alt         { font-size: 12px; }
     }
 
 /* -------------------------------------------- */
