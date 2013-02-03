@@ -33,7 +33,7 @@
 
     <% @songs_by_year.each do |year, songs| %>
       <ul class="directory">
-        <h2><%= year %></h2>
+        <h2><%= year %>s</h2>
         <% for song in songs %>
           <li>
             <%= link_to(song) do %>
@@ -53,7 +53,9 @@
             <%= link_to(song) do %>
               <strong><%= song.title %></strong>
               <%= song.artist %> &bull; <%= song.year %>
-              <span class="alt"><%= time_ago_in_words(created_at) %> ago</span>
+            <% end %>
+            <% if song.created_at > 10.days.ago %>
+              <h1>NEW</h1>
             <% end %>
           </li>
         <% end %>
@@ -62,19 +64,19 @@
       
   <% elsif @nav == 'title' %>
 
-    <ul class="directory">
-      <% @songs.each do |song| %>
-      <li>
-        <%= link_to(song) do %>
-          <strong><%= song.title %></strong>
-          <%= song.artist %> &bull; <%= song.year %>
+      <ul class="directory">
+    <% @songs_by_title.each do |first_letter, songs| %>
+        <h2><%= first_letter %></h2>
+        <% for song in songs %>
+          <li>
+            <%= link_to(song) do %>
+              <strong><%= song.title %></strong>
+              <%= song.artist %> &bull; <%= song.year %>
+            <% end %>
+          </li>
         <% end %>
-      </li>
-      <% end %>
-    </ul>
+    <% end %>
+      </ul>
 
   <% end %>
-  
-  <p style="text-align: center;"><strong>More coming soon.</strong></p>
-  <p style="text-align: center;">Is there a specific song you'd like to see added?<br /><a href="http://twitter.com/davidpots" target="_blank">Tweet at me</a> and I'll make it happen.</p>
 </div>

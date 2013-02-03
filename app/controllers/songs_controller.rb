@@ -2,21 +2,11 @@ class SongsController < ApplicationController
   helper_method :sort_column, :sort_direction
   def index
     @nav = sort_column
-    # if @nav == 'title'
-    #   @songs = Song.where(published: true).all(:order => 'title')
-    # elsif @nav == 'created_at'
-    #   @songs = Song.where(published: true).all(:order => 'created_at DESC')
-    # elsif @nav == 'artist'
-    #   @songs = Song.where(published: true).all(:order => 'artist').group_by(&:artist)
-    # elsif @nav == 'year'
-    #   @songs = Song.where(published: true).all(:order => 'year DESC').group_by(&:year)
-    # end
-    # @songs_newest = Song.where(published: true).all(:limit => 10, :order => 'created_at DESC')
     @songs = Song.order(sort_column + ' ' + sort_direction)
     @songs_by_artist = @songs.group_by { |s| s.artist }
-    @songs_by_year = Song.where(published: true).all(:order => 'year DESC').group_by { |s| s.year }
+    @songs_by_year = Song.where(published: true).all(:order => 'year DESC').group_by { |s| ((s.year/10)*10) }
     @songs_by_created_at = Song.where(published: true).all(:order => 'created_at DESC').group_by { |s| s.created_at }
-    @songs_by_title = @songs.group_by { |s| s.created_at }
+    @songs_by_title = Song.where(published: true).all(:order => 'title ASC').group_by { |s| s.title[0].capitalize.match(/[A-Z]/) ? s.title[0].capitalize : "#" }
   end
 
   def show
