@@ -180,7 +180,7 @@ p strong  { font-weight: 600; }
       .dir_chunk ul li a{ border-radius: 0; padding: 15px; }
       .dir_chunk ul li a .right { top: 29px; right: 20px; }
       .song_lyrics h4 { font-size: 15px; }
-      pre { font-size: 9px; line-height: 12px; }
+      pre { font-size: 10px; line-height: 13px; }
     }
 
     /* Landscape phones and down */
