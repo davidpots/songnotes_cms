@@ -197,6 +197,8 @@ p strong  { font-weight: 600; }
       .dir_chunk ul     { width: 100%; }
       .dir_chunk ul li a{ border-radius: 0; padding: 15px; }
       .dir_chunk ul li a .right { top: 29px; right: 20px; }
+      .song_lyrics h4 { font-size: 12px; }
+      pre { font-size: 7px; line-height: 9px; }
     }
 
 /* -------------------------------------------- */
