@@ -159,6 +159,8 @@ p strong  { font-weight: 600; }
       .bucket.directory { width: 608px; margin: 0 auto; }
       .dir_header ul        { width: 400px; }
       .dir_header ul li     { width: 128px; }
+      .song_lyrics h4 { font-size: 17px; }
+      pre { font-size: 11px; line-height: 13px; }
     }
 
     /* Portrait tablet to landscape and desktop */
@@ -177,6 +179,8 @@ p strong  { font-weight: 600; }
       .dir_chunk ul     { width: 100%; }
       .dir_chunk ul li a{ border-radius: 0; padding: 15px; }
       .dir_chunk ul li a .right { top: 29px; right: 20px; }
+      .song_lyrics h4 { font-size: 15px; }
+      pre { font-size: 9px; line-height: 12px; }
     }
 
     /* Landscape phones and down */
