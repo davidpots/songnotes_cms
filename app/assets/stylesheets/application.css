@@ -198,7 +198,7 @@ p strong  { font-weight: 600; }
       .dir_chunk ul li a { border-radius: 0; padding: 12px 15px 10px; }
       .dir_chunk ul li a strong { font-size: 18px; line-height: 21px; }
       .dir_chunk ul li a .sub { font-size: 14px; line-height: 16px; }
-      .dir_chunk ul li a .right { top: 29px; right: 20px; }
+      .dir_chunk ul li a .right { top: 20px; right: 20px; }
       .song_lyrics h4 { font-size: 12px; }
       pre { font-size: 7px; line-height: 9px; }
     }
