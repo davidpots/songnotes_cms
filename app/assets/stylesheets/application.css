@@ -192,10 +192,12 @@ p strong  { font-weight: 600; }
       .dir_header ul li { width: 84px; }
       .dir_header ul li a { font-size: 16px; }
       .dir_chunk        { padding: 0; }
-      .dir_chunk h2     { margin: 0; padding: 0px; font-size: 21px; line-height: 24px; background: #eee; width: 100%; }
-      .dir_chunk h2 strong { padding-left: 15px; }
+      .dir_chunk h2     { margin: 0; padding: 0px; font-size: 16px; line-height: 19px; background: #eee; width: 100%; }
+      .dir_chunk h2 strong { padding: 8px 15px; }
       .dir_chunk ul     { width: 100%; }
-      .dir_chunk ul li a{ border-radius: 0; padding: 15px; }
+      .dir_chunk ul li a { border-radius: 0; padding: 12px 15px 10px; }
+      .dir_chunk ul li a strong { font-size: 18px; line-height: 21px; }
+      .dir_chunk ul li a .sub { font-size: 14px; line-height: 16px; }
       .dir_chunk ul li a .right { top: 29px; right: 20px; }
       .song_lyrics h4 { font-size: 12px; }
       pre { font-size: 7px; line-height: 9px; }
