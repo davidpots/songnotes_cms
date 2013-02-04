@@ -186,10 +186,10 @@ p strong  { font-weight: 600; }
       .bucket           { padding: 10px; }
       .bucket.directory { width: 100%; padding: 0; }
       .dir_header       { padding: 20px 0; }
-      .dir_header h1    { font-size: 60px; margin-top: 10px;  }
-      .dir_header p     { font-size: 17px; margin-bottom: 7px; }
-      .dir_header ul    { width: 300px; }
-      .dir_header ul li { width: 94px; }
+      .dir_header h1    { font-size: 50px; margin-top: 10px;  }
+      .dir_header p     { font-size: 15px; margin-bottom: 4px; }
+      .dir_header ul    { width: 268px; }
+      .dir_header ul li { width: 84px; }
       .dir_header ul li a { font-size: 16px; }
       .dir_chunk        { padding: 0; }
       .dir_chunk h2     { margin: 0; padding: 0px; font-size: 21px; line-height: 24px; background: #eee; width: 100%; }
