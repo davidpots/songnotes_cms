@@ -39,6 +39,16 @@ p strong  { font-weight: 600; }
 .uni_header .bucket   { padding-top: 0; padding-bottom: 0; border: none; }
 .uni_header .bucket a { display: block; padding: 10px 0 8px; text-transform: uppercase; font-size: 12px; line-height: 18px; font-weight: 300; color: #fff; letter-spacing: 2px;}
 
+.dir_header           { background: #008FD4; color: #fff; text-align: center; }
+.dir_header h1        { color: #fff; margin: 0 0 19px 0; }
+.dir_header p         { font-size: 21px; }
+.dir_header p a       { color: #fff; }
+.dir_header ul        { width: 460px; padding: 0; margin: 20px auto 12px; overflow: hidden; }
+.dir_header ul li     { list-style: none; width: 148px; margin-left: 8px; float: left; padding: 0; }
+.dir_header ul li:first-child { margin-left: 0; }
+.dir_header ul li a   { display: block; line-height: 44px; background: #2179BE; color: #fff; border-radius: 22px; font-weight: 700; font-size: 18px; }
+.dir_header ul li.active a { background: #262626; }
+
 /*  --------------------------------------------- */
 /*  --------------------------------------------- */
 /*  Individual Song View                          */
@@ -108,21 +118,17 @@ p strong  { font-weight: 600; }
 /*  --------------------------------------------- */
 /*  --------------------------------------------- */
 
-    .sorter_nav       { margin: 0; padding: 0; overflow: hidden; width: auto; }
-    .sorter_nav li    { float: left; list-style: none; padding: 0; margin: 0 3px 0 0; }
-    .sorter_nav li.key{ padding: 10px 10px 10px 0; }
-    .sorter_nav li a  { float: left; display: block; background: #ddd; color: #777; padding: 10px; font-size: 14px; }
-    .sorter_nav li.active a { background: #EB4A24; color: #fff; }
-
-    .directory { padding: 0; }
-    .directory h2 { font-size: 18px; font-weight: 600; margin: 0 0 5px 0; }
-    .directory li { list-style: none; margin: 0 0 14px 0; }
-    .directory li a { color: #fff; font-size: 14px; display: block; background: #008FD4; padding: 14px 16px 13px; position: relative; }
-    .directory li a strong { color: #fff; font-size: 16px; font-weight: 300; font-size: 36px; line-height: 36px; display: block; margin: 0 0 4px 0; }
-    .directory li a .alt { position: absolute; right: 20px; bottom: 20px; font-weight: 200; opacity: 0.5; font-size: 16px; }
-
-
-
+    .dir_chunk                { overflow: hidden; width: auto; border-bottom: 1px solid #eee; padding: 10px 0; }
+    .dir_chunk h2             { margin: 0; padding: 0px; font-size: 21px; line-height: 24px; float: left; width: 38%; }
+    .dir_chunk h2 strong      { display: block; padding: 10px; }
+    .dir_chunk ul             { margin: 0; padding: 0; float: right; width: 60%; }
+    .dir_chunk ul li          { list-style: none; }
+    .dir_chunk ul li a        { display: block; padding: 10px 10px 5px; border-radius: 8px; position: relative; border-top: 1px dotted #eee; }
+    .dir_chunk ul li:first-child a { border-top: none; }
+    .dir_chunk ul li a:hover  { background: #f0ffff; }
+    .dir_chunk ul li a strong { color: #008FD4; display: block; font-size: 21px; font-weight: 700; line-height: 24px; padding-right: 45px; }
+    .dir_chunk ul li a .sub   { font-size: 16px; font-style: italic; color: #777; font-weight: 300; display: block; margin: 3px 0; }
+    .dir_chunk ul li a .right { position: absolute; right: 10px; background: #EB4A24; color: white; display: inline-block; top: 20px; padding: 5px; line-height: 14px; border-radius: 4px; font-size: 14px; }
 
    
 /* -------------------------------------------- */
@@ -134,6 +140,7 @@ p strong  { font-weight: 600; }
       body              { font-size: 16px; line-height: 19px; }
       .container        { }
       .bucket           { width: 940px; margin: 0 auto; }
+      .bucket.directory { width: 700px; }
     }
 
     /* Portrait tablet to landscape and desktop */
@@ -141,6 +148,7 @@ p strong  { font-weight: 600; }
       body              {  }
       .container        { min-width: 768px; max-width: 979px; }
       .bucket           { padding: 18px; }
+      .bucket.directory { width: 700px; margin: 0 auto; }
     }
 
     /* Portrait tablet to landscape and desktop */
@@ -148,6 +156,9 @@ p strong  { font-weight: 600; }
       body              {  }
       .container        { min-width: 640px; max-width: 767px; }
       .bucket           { padding: 16px; }      
+      .bucket.directory { width: 608px; margin: 0 auto; }
+      .dir_header ul        { width: 400px; }
+      .dir_header ul li     { width: 128px; }
     }
 
     /* Portrait tablet to landscape and desktop */
@@ -156,16 +167,36 @@ p strong  { font-weight: 600; }
       .container        { min-width: 480px; max-width: 639px; }
       .bucket           { padding: 14px; }
       #cpanel_toggle    { display: none; }
+      .bucket.directory { width: 100%; padding: 0; }
+      .dir_header       { padding: 20px 0; }
+      .dir_header ul    { width: 370px; }
+      .dir_header ul li { width: 118px; }
+      .dir_chunk        { padding: 0; }
+      .dir_chunk h2     { margin: 0; padding: 0px; font-size: 21px; line-height: 24px; background: #eee; width: 100%; }
+      .dir_chunk h2 strong { padding-left: 15px; }
+      .dir_chunk ul     { width: 100%; }
+      .dir_chunk ul li a{ border-radius: 0; padding: 15px; }
+      .dir_chunk ul li a .right { top: 29px; right: 20px; }
     }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
       body              {  }
       .container        { min-width: 320px; max-width: 479px; }
-      .bucket           { padding: 10px; }      
-      #cpanel_toggle    { display: none; }
-      .directory li a strong { font-size: 28px; }
-      .directory li a .alt         { font-size: 12px; }
+      .bucket           { padding: 10px; }
+      .bucket.directory { width: 100%; padding: 0; }
+      .dir_header       { padding: 20px 0; }
+      .dir_header h1    { font-size: 60px; margin-top: 10px;  }
+      .dir_header p     { font-size: 17px; margin-bottom: 7px; }
+      .dir_header ul    { width: 300px; }
+      .dir_header ul li { width: 94px; }
+      .dir_header ul li a { font-size: 16px; }
+      .dir_chunk        { padding: 0; }
+      .dir_chunk h2     { margin: 0; padding: 0px; font-size: 21px; line-height: 24px; background: #eee; width: 100%; }
+      .dir_chunk h2 strong { padding-left: 15px; }
+      .dir_chunk ul     { width: 100%; }
+      .dir_chunk ul li a{ border-radius: 0; padding: 15px; }
+      .dir_chunk ul li a .right { top: 29px; right: 20px; }
     }
 
 /* -------------------------------------------- */
