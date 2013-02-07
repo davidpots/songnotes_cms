@@ -9,33 +9,33 @@ INTRO
 VERSE
    A                          Bm 
     Think I'll pack it in and... buy a pickup
-   E                   A 
+   E                    A 
     Take it down to L.A.
-   A                        Bm 
+   A                          Bm 
     Find a place to call my own... and try to fix up
-   E                  A     A2  A 
+   E                    A     A2
     Start a brand new day
 
    A                                Bm 
     The woman I'm thinking of, she... loved me all up
-   E                    A 
+   E                     A 
     But I'm so down today
-   A                                Bm                   E  E7 (with riff)
+   A                                Bm                   E  E7 
     She's so fine, she's in my mind... I hear her calling
 
 CHORUS    
        A                  Bm 
         See the lonely boy... out on the weekend
-       E                   A 
+       E                  A 
         Trying to make it pay
        A                    Bm 
         Can't relate to joy... he tries to speak and
-       E                 A 
+       E               A 
         Can't begin to say
 
 BREAK
-            Bm  ... E  ... Bm ... E ...    
-            C#m ... F# ... Bm ... E ...  
+            Bm  ... E  ... Bm ... E ...
+            C#m ... F# ... Bm ... E ...
 
     She got pictures on the wall... they make me look up
     From her big brass bed
@@ -51,7 +51,8 @@ BREAK
         Can't relate to joy... he tries to speak and
         Can't begin to say
 
-            Bm  ... E  ... Bm ... E ...    
+OUTRO
+            Bm  ... E  ... Bm ... E ...
             C#m ... F# ... Bm ... E ...
             A   ... Bm ... E  ... A ... (fade to end)
 
@@ -62,39 +63,15 @@ NOTES & TABS
 Basic Chords Used
 Here are the basic chords used to play this song, at its simplest. There are some more complex chord variations and riffs (shown below), but these should do you for your basic needs.
 
-e-|----0----0-----2-----0-----4-----2-----
-B-|----2----0-----3-----0-----5-----2-----
-G-|----2----2-----4-----1-----6-----3-----
-D-|----2----2-----4-----2-----6-----4-----
-A-|----0----0-----2-----2-----4-----4-----
-E-|---------------------0-----------2-----
-       A    A2    Bm    E    C#m    F# 
-       
-The Riff Right Before the Chorus...
-For the E chords / riff played immediately before the chorus, here are some tabs showing how to play it. Use your pinky to add the notes on the E.
+e-|----0----0-----2-----0----0-----4-----2-----
+B-|----2----0-----3-----0----3-----5-----2-----
+G-|----2----2-----4-----1----1-----6-----3-----
+D-|----2----2-----4-----2----2-----6-----4-----
+A-|----0----0-----2-----2----2-----4-----4-----
+E-|---------------------0----0-----------2-----
+       A    A2    Bm    E    E7   C#m    F# 
 
-Version A (like the album)
-e-|---2----------------------|---0---0------0---0----|---0----------------|-
-B-|---3----------------------|---0---0------4---4----|---2----------------|-
-G-|---4----------------------|---1---1------1---1----|---2----------------|-
-D-|---4----------------------|---2---2------2---2----|---2----------------|-
-A-|---2----------------------|---2----------2--------|---0----------------|-
-E-|--------------------------|---0----------0--------|--------------------|-
-      Bm                         E          E7           A 
-    "...I hear her calling...                            ...See the lonely boy..."
-
-
-Version B (how I stubbornly play it)
-e-|---2----------------------|----------------0------|---0----------------|-
-B-|---3----------------------|---0----0--2----0--4---|---2----------------|-
-G-|---4----------------------|---1----1--1----1--1---|---2----------------|-
-D-|---4----------------------|---2----2--2----2--2---|---2----------------|-
-A-|---2----------------------|---2-------------------|---0----------------|-
-E-|--------------------------|---0-------------------|--------------------|-
-      Bm                         E       E6      E7      A 
-    "...I hear her calling...                            ...See the lonely boy..."
-
-Alternative Chorus Chords (Advanced)
+Advanced Chords for the Chorus
 If you want to sound more like Neil Young does when playing the chorus, try these chords out. It isn't as easy, but nicely mixes the sound up. Thanks to this source for these tabs: http://hyperrust.org/OLD-ChordTab/OutOnWeekend.html
 
 e-|---5---------------------7---------------------9---------------------9---
@@ -129,6 +106,11 @@ CHORUS
 BREAK
 | Bm  . . . | E  . . . | Bm . . . | E . . . |
 | C#m . . . | F# . . . | Bm . . . | E . . . |
+
+OUTRO
+| Bm  . . . | E  . . . | Bm . . . | E . . . |
+| C#m . . . | F# . . . | Bm . . . | E . . . |
+| A   . . . | Bm . . . | E  . . . | A . . . | (fade to end)
 
 ===============================================================================
 ABOUT THIS SONG
