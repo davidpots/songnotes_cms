@@ -1,0 +1,105 @@
+HARVEST
+by Neil Young
+===============================================================================
+INTRO
+    D ... D/A ... D ... D/A ... (x2, see tab below)
+
+VERSE
+          D       A         G            D 
+    Did I see you down in a young girl's town
+              D                  A 
+    With your mother in so much pain
+          G      A             Bm         E 
+    I was almost there, at the top of the stairs
+             D 
+    With her screaming in the rain
+
+CHORUS    
+                D        A     G         D 
+        Did she wake you up to tell you that
+               D                 A 
+        It was only a change of plan
+        G               A         Bm        E 
+        Dream up, dream up let me fill your cup
+                 D 
+        With the promise of a man
+    
+    Did I see you walking with the boys
+    Though it was not hand in hand
+    And was some black face in a lonely place
+    When you could understand
+    
+        Did she wake you up to tell you that
+        It was only a change of plan
+        Dream up, dream up let me fill your cup
+        With the promise of a man
+
+BREAK
+            D ... A ... G  ... D ...
+            D ... D ... A  ... A ...
+            G ... A ... Bm ... E ...
+            D ... D ... D  ... D ...
+    
+    Will I see give more than I can take
+    Will I only harvest some
+    As the days fly past will we lose our grasp
+    Or fuse it in the sun
+    
+        Did she wake you up to tell you that
+        It was only a change of plan
+        Dream up, dream up let me fill your cup
+        With the promise of a man
+
+        Dream up, dream up let me fill your cup
+        With the promise of a man
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Basic Chords Used
+Here are the basic chords used to play this song. Be sure to note the D strumming pattern in the tab further below, where I show how to play the alternating bass note during the D chord. This is common throughout the song whenever D is played (listen along for reference).
+
+e-|----2-----2-----0-----0-----3-----2-----0-----
+B-|----3-----3-----2-----2-----0-----3-----0-----
+G-|----2-----2-----2-----2-----0-----4-----1-----
+D-|----0-----------2-----2-----0-----4-----2-----
+A-|----------0-----0-----------2-----2-----2-----
+E-|----------------------0-----3-----------0-----
+       D    D/A    A    A/E    G     Bm    E 
+
+Intro and Verse Strumming Pattern
+The D in the intro (and parts of the verse), as Neil Young plays it on the album, alternates between D and D/A (that is, a D chord with a A note for the bass). Simply alternate your bass note, as shown below. Also note the up-down-up strumming pattern played after the bass note each time. This pattern is repeated throughout much the verse and chorus -- listen along and play it as you please.
+
+e-|------2--2--2--|-----2--2--2--|-----2--2--2--|-----2--2--2----
+B-|------3--3--3--|-----3--3--3--|-----3--3--3--|-----3--3--3----
+G-|------2--2--2--|-----2--2--2--|-----2--2--2--|-----2--2--2----
+D-|---0-----------|--------------|--0-----------|---------------- (repeat)
+A-|---------------|--0-----------|--------------|--0-------------
+E-|---------------|--------------|--------------|----------------
+      v  ^  v  ^     v  ^  v  ^     v  ^  v  ^     v  ^  v  ^
+      D              D/A            D              D/A 
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+| D . . . | D/A . . . | D . . . | D/A . . . | (x2)
+
+VERSE, CHORUS, and BREAK
+"Did I see you down in a young girl's town..."
+| D   . . . | A   . . . | G  . . . | D   . . . |
+| D/A . . . | D   . . . | A  . . . | A/E . . . |
+| G   . . . | A   . . . | Bm . . . | E   . . . |
+| D   . . . | D/A . . . | D  . . . | D/A . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: Harvest
+Artist: Neil Young
+Album: Harvest
+Year: 1972
+Label: Reprise
