@@ -29,3 +29,37 @@
     ul.rows > li                          { margin: 0 0 1px 0; list-style: none; }
     ul.rows > li .row                     { padding: $top_buffer $side_buffer; display: block; position: relative; background: $white; @include clearfix; }
     ul.rows > li .row .sub                { display: block; font-size: $body_copy_size_smaller; color: $body_copy_color_lighter; }
+
+
+//  Browse Nav (Top Fixed)
+
+    .browse_nav                                               { background: #158ECE;position:fixed;top:0;width:100%;z-index:1; }
+    .browse_nav .container                                    {  }
+    .browse_nav ul.browse_nav_wrap                            { position: relative; width:100%; overflow:hidden; z-index: 2; margin: 0; padding: 0; height: $nav_height; }
+    .browse_nav ul.browse_nav_wrap > li                       { list-style: none; float: left; margin: 0; padding: 0; text-align: center; color: #fff; }
+    .browse_nav ul li a                                       { background: $color_primary; height: $nav_height; display: block; line-height: $nav_height;  display: block; color: $color_primary_screen; font-size: $body_copy_size_smaller; }
+    .browse_nav ul li.active a                                { background: $color_primary_darker; color: $white; }
+    .browse_nav ul.browse_nav_wrap > li.home                  { position: absolute; top: 0; left: 0; width: 60px; }
+    .browse_nav ul.browse_nav_wrap > li.browse_links          { position: absolute; top: 0; left: 60px; right: 0px; text-align: center; }
+    .browse_nav ul.browse_nav_wrap > li.browse_links ul       { margin: 0; padding: 0; height: $nav_height; }
+    .browse_nav ul.browse_nav_wrap > li.browse_links ul > li  { list-style: none; margin: 0; padding: 0; float: left; width: 33.3333333333333%; background: $color_primary; }
+
+    // Magic to get the borders right
+    .browse_nav ul.browse_nav_wrap              { margin:0 0 0 -1px;padding:0 1px 0 0;border-right:1px solid $color_primary_darker; }
+    .browse_nav ul.browse_nav_wrap > li a        { box-shadow: inset 1px 0px 0px $color_primary_darker; }
+    .browse_nav li.browse_links li a              { box-shadow: inset 1px 0px 0px $color_primary_darker; }
+
+    // The <li> that gets the home icon...
+    .browse_nav ul > li.home a    { background: url(/assets/icons/home_40px.png) no-repeat center; background-size:20px 20px; height: 0; padding-top: 48px; overflow: hidden; }
+    
+    
+
+
+    // Make the nav go full width if the container is 100% width. Otherwise, the inherited side-margins will be in effect.
+    // --------------------------------------------------------------------------------------------------------------------
+        // Default for wider screens (so left/right edge of content aligns with left/right edge of nav items)
+        .browse_nav_wrap_outer                            { margin: 0 $side_buffer; }
+        // Override for smaller screens (so nav goes full bleed)
+        @media (min-width: 640px) and (max-width: 767px)  { .browse_nav_wrap_outer { margin: 0; } }
+        @media (min-width: 480px) and (max-width: 639px)  { .browse_nav_wrap_outer { margin: 0; } }
+        @media (max-width: 479px)                         { .browse_nav_wrap_outer { margin: 0; } }

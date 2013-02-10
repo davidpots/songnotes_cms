@@ -18,16 +18,23 @@
 
 </head>
 <body>
-<div style="background: #158ECE;position:fixed;top:0;width:100%;z-index:1">
-  <div class="container">
-    <ul style="position: relative;margin:0 0 0 -1px;padding:0 1px 0 0;width:100%;overflow:hidden;border-right:1px solid #1D69A5;">
-      <li style="box-shadow: inset 1px 0px 0px #1D69A5;line-height:48px;list-style:none;float:left;margin:0;padding:0;width:25%;background:#158ECE;text-align:center;color:#fff;">first</li>
-      <li style="box-shadow: inset 1px 0px 0px #1D69A5;line-height:48px;list-style:none;float:left;margin:0;padding:0;width:25%;background:#1D69A5;text-align:center;color:#fff;">second</li>
-      <li style="box-shadow: inset 1px 0px 0px #1D69A5;line-height:48px;list-style:none;float:left;margin:0;padding:0;width:25%;background:#158ECE;text-align:center;color:#fff;">third</li>
-      <li style="box-shadow: inset 1px 0px 0px #1D69A5;line-height:48px;list-style:none;float:left;margin:0;padding:0;width:25%;background:#158ECE;text-align:center;color:#fff;">fourth</li>
-    </ul>
+  <div class="browse_nav">
+    <div class="container">
+      <div class="browse_nav_wrap_outer">
+        <ul class="browse_nav_wrap">
+          <li class="home"><a href="">home</a></li>
+          <li class="browse_links">
+            <ul>
+              <li><a href="">by title</a></li>
+              <li class="active"><a href="">by artist</a></li>
+              <li><a href="">by year</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
-</div>
+
   <div class="container">
     <%= yield %>
   </div> <!-- end: .container -->
