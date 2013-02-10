@@ -44,9 +44,11 @@ p strong  { font-weight: 600; }
 .dir_header p         { font-size: 21px; }
 .dir_header p a       { color: #fff; }
 .dir_header ul        { width: 460px; padding: 0; margin: 20px auto 12px; overflow: hidden; }
-.dir_header ul li     { list-style: none; width: 148px; margin-left: 8px; float: left; padding: 0; }
+.dir_header ul li     { list-style: none; width: 114px; margin-left: 1px; float: left; padding: 0; }
 .dir_header ul li:first-child { margin-left: 0; }
-.dir_header ul li a   { display: block; line-height: 44px; background: #2179BE; color: #fff; border-radius: 22px; font-weight: 700; font-size: 18px; }
+.dir_header ul li:first-child a { border-radius: 4px 0 0 4px; }
+.dir_header ul li:last-child a { border-radius: 0 4px 4px 0; }
+.dir_header ul li a   { display: block; line-height: 44px; background: #2179BE; color: #fff; font-weight: 700; font-size: 14px; }
 .dir_header ul li.active a { background: #262626; }
 
 /*  --------------------------------------------- */
@@ -158,8 +160,8 @@ p strong  { font-weight: 600; }
       .container        { min-width: 640px; max-width: 767px; }
       .bucket           { padding: 16px; }      
       .bucket.directory { width: 608px; margin: 0 auto; }
-      .dir_header ul        { width: 400px; }
-      .dir_header ul li     { width: 128px; }
+      .dir_header ul        { width: 500px; }
+      .dir_header ul li     { width: 124px; }
       .song_lyrics h4 { font-size: 17px; }
       pre { font-size: 11px; line-height: 13px; }
     }
@@ -172,8 +174,8 @@ p strong  { font-weight: 600; }
       #cpanel_toggle    { display: none; }
       .bucket.directory { width: 100%; padding: 0; }
       .dir_header       { padding: 20px 0; }
-      .dir_header ul    { width: 370px; }
-      .dir_header ul li { width: 118px; }
+      .dir_header ul    { width: 400px; }
+      .dir_header ul li { width: 99px; }
       .dir_chunk        { padding: 0; }
       .dir_chunk h2     { margin: 0; padding: 0px; font-size: 21px; line-height: 24px; background: #eee; width: 100%; }
       .dir_chunk h2 strong { padding-left: 15px; }
@@ -193,9 +195,9 @@ p strong  { font-weight: 600; }
       .dir_header       { padding: 20px 0; }
       .dir_header h1    { font-size: 50px; margin-top: 10px;  }
       .dir_header p     { font-size: 15px; margin-bottom: 4px; }
-      .dir_header ul    { width: 268px; }
-      .dir_header ul li { width: 84px; }
-      .dir_header ul li a { font-size: 16px; }
+      .dir_header ul    { width: 300px; }
+      .dir_header ul li { float: none; width: auto; margin: 0 0 1px 0; }
+      .dir_header ul li a { width: auto; float: none; font-size: 15px; font-weight: normal; border-radius: 4px; }
       .dir_chunk        { padding: 0; }
       .dir_chunk h2     { margin: 0; padding: 0px; font-size: 16px; line-height: 19px; background: #eee; width: 100%; }
       .dir_chunk h2 strong { padding: 8px 15px; }

@@ -5,14 +5,37 @@
     <p>All made with care by <a href="http://www.twitter.com/davidpots">@davidpots</a>.</p>
     <p style="margin-top: 28px;"><em>Browse songs by:</em></p>
     <ul>
-      <li class="<% if @nav == 'title' %>active<% end %>"><%= link_to "title", :sort => "title", :direction => "ASC" %></li>
-      <li class="<% if @nav == 'year' %>active<% end %>"><%= link_to "year", :sort => "year", :direction => "DESC" %></li>
-      <li class="<% if @nav == 'artist' %>active<% end %>"><%= link_to "artist", :sort => "artist", :direction => "ASC" %></li>
+      <li class="<% if @nav == 'recent' %>active<% end %>"><%= link_to "date added", :sort => "recent", :direction => "ASC" %></li>
+      <li class="<% if @nav == 'title' %>active<% end %>"><%= link_to "song title", :sort => "title", :direction => "ASC" %></li>
+      <li class="<% if @nav == 'year' %>active<% end %>"><%= link_to "song year", :sort => "year", :direction => "DESC" %></li>
+      <li class="<% if @nav == 'artist' %>active<% end %>"><%= link_to "song artist", :sort => "artist", :direction => "ASC" %></li>
     </ul>
   </div>
 </div>
 <div class="bucket directory" style="border:none;">
-  <% if @nav == 'artist' %>
+
+  <% if @nav == 'recent' %>
+
+    <% @songs_by_months.each do |month,songs| %>
+      <div class="dir_chunk">
+        <h2><strong><%= month.strftime('%B %Y') %></strong></h2>
+        <ul>
+          <% for song in songs %>
+          <li>
+            <%= link_to(song) do %>
+              <strong><%= song.title %></strong>
+              <div class="sub"><%= song.artist %> &bull; <%= song.created_at.strftime('%B %d') %> </div>
+              <% if song.created_at > 5.days.ago %>
+                <div class="right">new</div>
+              <% end %>  
+            <% end %>
+          </li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+  <% elsif @nav == 'artist' %>
 
     <% @songs_by_artist.sort.each do |artist, songs| %>
       <div class="dir_chunk">
