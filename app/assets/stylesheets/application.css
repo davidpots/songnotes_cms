@@ -9,7 +9,6 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
  */
 
 
@@ -41,6 +40,7 @@ p strong  { font-weight: 600; }
 
 .dir_header           { background: #008FD4; color: #fff; text-align: center; }
 .dir_header h1        { color: #fff; margin: 0 0 19px 0; }
+.dir_header h1 a      { color: #fff; }
 .dir_header p         { font-size: 21px; }
 .dir_header p a       { color: #fff; }
 .dir_header ul        { width: 460px; padding: 0; margin: 20px auto 12px; overflow: hidden; }

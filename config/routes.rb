@@ -7,6 +7,8 @@ Songnotes::Application.routes.draw do
   match 'directory' => 'songs#index', :as => 'song_directory'
   match 'details/:id' => 'songs#details', :as => 'song_details'
 
+  match 'sandbox' => 'pages#sandbox', :as => 'sandbox'
+
   resources :songs
 
 

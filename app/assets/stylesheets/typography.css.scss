@@ -1,0 +1,31 @@
+//  --------------------------------------------------------------------------------
+//  General Typography
+//  --------------------------------------------------------------------------------
+  
+    body {  font-family:  $body_fonts_primary; 
+            font-size:    $body_copy_size_reg;
+            line-height:  $body_copy_height_reg;
+            color:        $body_copy_color_reg; }
+
+    //  Links
+        a                     { color: $link_color; text-decoration: none; }
+
+    //  Headers –– Universal
+        h1, h2, h3,
+        h4, h5, h6            { font-family: $body_fonts_primary; font-weight: bold; padding: 0; margin: 0 0 0.5em 0; nowhitespace: afterproperty; color: $body_copy_color_darker; }
+
+    //  Headers –– Basic Variety
+        h1                    { font-size: 28px; line-height: 35px; margin: $top_buffer 0; }
+        h2                    { font-size: 16px; line-height: 21px; margin: 0 0 8px 0; }
+        h3                    { font-size: 16px; margin: 1em 0; }
+        h4                    { font-size: 14px; margin: 1em 0; }
+        h5                    { font-size: 14px; margin: 1em 0; }
+        h6                    { font-size: 14px; margin: 1em 0; }
+
+
+
+//  Default, with side buffer space (add class "rows")
+    ul.rows                               { margin: 0; padding: 0; }                                                                           
+    ul.rows > li                          { margin: 0 0 1px 0; list-style: none; }
+    ul.rows > li .row                     { padding: $top_buffer $side_buffer; display: block; position: relative; background: $white; @include clearfix; }
+    ul.rows > li .row .sub                { display: block; font-size: $body_copy_size_smaller; color: $body_copy_color_lighter; }

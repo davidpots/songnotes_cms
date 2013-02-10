@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= content_for?(:title) ? content_for(:title) : "Songnotes :: Hand-Crafted Guitar Tabs, Chords, and Lyrics" %></title>
+  <meta name="description" content="<%= content_for?(:description) ? content_for(:description) : "Songnotes provides guitar tabs, chords, and lyrics to your favorite songs. All tabs are hand-crafted by @davidpots." %>">
+
+  <%= stylesheet_link_tag    "redux", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <link href='http://fonts.googleapis.com/css?family=<%= @google_font_OpenSans %>|<%= @google_font_SourceCodePro %>' rel='stylesheet' type='text/css'>
+
+  <meta name="google-site-verification" content="-k15quufCzoJ4igMiFVldZfqbthfpAGbTFLAZTq3knw" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  <div class="container">
+    <%= yield %>
+  </div> <!-- end: .container -->
+</body>
+</html>

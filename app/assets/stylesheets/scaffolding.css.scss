@@ -1,0 +1,9 @@
+body { padding: 0; margin: 0; background: $bg_color; }
+
+// Container width is set to 100% viewport or 768px -- whichever is smaller. See responsonsive.scss for this declaration.
+
+// Container should be centered always.
+.container            { margin: 0 auto; }
+
+// Container with buffer should have spacing on top/bottom/left/right
+.container .buffer    { padding: $top_buffer $side_buffer; }

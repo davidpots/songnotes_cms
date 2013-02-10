@@ -1,0 +1,59 @@
+// ------------------------------------------------------------
+//    Google Fonts CSS -- insert into layout <head>
+// ------------------------------------------------------------
+    
+    $google_font_OpenSans:          "Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300";
+    $google_font_AveriaSerifLibre:  "Averia+Serif+Libre:300,400,700,300italic,400italic,700italic";
+    $google_font_SourceCodePro:     "Source+Code+Pro:300,400,600,700";
+
+// ------------------------------------------------------------
+//    Brand Colors
+// ------------------------------------------------------------
+
+    $black: #262626;
+    $white: #ffffff;
+
+    $bg_color: #e6e6e6;
+
+    // Rdio Blue, as per v1
+    $color_primary: #158ECE;
+    $color_primary_darker: #1D69A5;
+    $color_primary_screen: #F1F9FA;
+
+    // Rdio Orange, as per v1
+    $color_secondary: #EA4A24;
+
+// ------------------------------------------------------------
+//    Typography: Colors
+// ------------------------------------------------------------
+
+    $link_color: $color_primary;
+    $body_copy_color_reg: #555;
+    $body_copy_color_darker: #333;
+    $body_copy_color_lighter: #aaa;
+
+// ------------------------------------------------------------
+//    Typography: Font Sizes & Line Height
+// ------------------------------------------------------------
+
+    $body_copy_size_larger:  19px;
+    $body_copy_size_reg:    14px;
+    $body_copy_size_smaller:  12px;
+
+    $body_copy_height_reg: 135%;
+    $body_copy_height_smaller: 125%;
+
+// ------------------------------------------------------------
+//    Typography: Font Families
+// ------------------------------------------------------------
+
+    $body_fonts_primary: 'Open Sans','Helvetica Neue', Arial;
+    $body_fonts_secondary: Geogia, Serif;
+    $body_fonts_mono: monospace,"Courier New";
+
+// ------------------------------------------------------------
+//    Misc. Variables
+// ------------------------------------------------------------
+
+    $side_buffer: 12px;
+    $top_buffer: 12px;
