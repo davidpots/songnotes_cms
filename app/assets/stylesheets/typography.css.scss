@@ -25,7 +25,7 @@
 
 
 //  Default, with side buffer space (add class "rows")
-    ul.rows                               { margin: 0; padding: 0; }                                                                           
+    ul.rows                               { margin: 0 0 24px 0; padding: 0; }
     ul.rows > li                          { margin: 0 0 1px 0; list-style: none; }
     ul.rows > li .row                     { padding: $top_buffer $side_buffer; display: block; position: relative; background: $white; @include clearfix; }
     ul.rows > li .row .sub                { display: block; font-size: $body_copy_size_smaller; color: $body_copy_color_lighter; }
