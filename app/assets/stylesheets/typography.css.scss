@@ -22,6 +22,7 @@
         h5                    { font-size: 14px; margin: 1em 0; }
         h6                    { font-size: 14px; margin: 1em 0; }
 
+        pre                   { font-family: $body_fonts_mono; }
 
 //  =================================================================================================================================
 //  =================================================================================================================================
@@ -45,8 +46,8 @@
 
     .song_show .container { background: #fff; }
     .song_show .uni_header              { background: $black; }
-    .song_show .uni_header .container  { background: $black; height: 48px; }
-    .song_show .uni_header .container a { display: block; height: 48px; line-height: 51px; color: #fff; font-weight: 300; font-size: 12px; }
+    .song_show .uni_header .container  { background: $black; height: 40px; }
+    .song_show .uni_header .container a { display: block; height: 40px; line-height: 44px; color: #fff; font-weight: 300; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
 
     .song_header            { background: $color_primary;}
     .song_header .container { background: $color_primary; padding: 10px 0; }
@@ -54,8 +55,19 @@
     .song_header p          { margin: 0 0 10px 0; font-weight: 300; color: #fff; }
 
     h4                      { margin: 0; }
-    .bucket                 { margin: 0 0 65px 0; }
+    h5.sub_head             { color: #777; font-weight: 300; margin: 0 0 8px 0; }
+    .bucket                 { border-top: 3px double #e6e6e6; margin: 0 0 65px 0; }
     .bucket h2              { font-size: 40px; font-weight: 300; margin: 24px 0;}
+    .song_lyrics .bucket    { border: none; }
+
+    .pre_lyrics h4          { margin-bottom: -10px; font-size: 17px;  font-weight: 600; }
+    pre.chord_notation      { margin: 0 0 18px 0; }
+    
+    .chords_inline          { color: $color_secondary; }
+    .chord_notation         { font-weight: 300; }
+    .note                   { font-weight: 300; color: $body_copy_color_lighter; }
+    .chord                  { color: $color_secondary; }
+
 
 //  =================================================================================================================================
 //  =================================================================================================================================
