@@ -10,10 +10,16 @@
   <div class="buffer">
 
     <h2>Browse all <%= @song_count %> songs</h2>
-    <ul class="segmented segmented_3">
-      <li><%= link_to "by title", song_directory_url(:sort => "title", :direction => "ASC"), :class => "row" %></a></li>
-      <li><%= link_to "by artist", song_directory_url(:sort => "artist", :direction => "ASC"), :class => "row" %></li>
-      <li><%= link_to "by year", song_directory_url(:sort => "year", :direction => "DESC"), :class => "row" %></li>
+    <ul class="rows wide_berth">
+      <li class="arrow solo">
+        <%= link_to ("<strong>by song title</strong>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "row" %>
+      </li>
+      <li class="arrow solo">
+        <%= link_to ("<strong>by artist name</strong>").html_safe, song_directory_url(:sort => "artist", :direction => "ASC"), :class => "row" %>
+      </li>
+      <li class="arrow solo">
+        <%= link_to ("<strong>by year released</strong>").html_safe, song_directory_url(:sort => "year", :direction => "DESC"), :class => "row" %>
+      </li>
     </ul>
   
     <h2>Recently added</h2>
@@ -40,18 +46,12 @@
       <% end %>
     </ul>
 
-    <h2>This is the part where you click...</h2>
-    <ul class="rows wide_berth">
-      <li class="arrow solo">
-        <%= link_to ("<strong>browse by song title</strong>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "row" %>
-      </li>
-      <li class="arrow solo">
-        <%= link_to ("<strong>browse by artist name</strong>").html_safe, song_directory_url(:sort => "artist", :direction => "ASC"), :class => "row" %>
-      </li>
-      <li class="arrow solo">
-        <%= link_to ("<strong>browse by year released</strong>").html_safe, song_directory_url(:sort => "year", :direction => "DESC"), :class => "row" %>
-      </li>
-    </ul>
+<!--     <h2>Explore the songbook...</h2>
+    <ul class="segmented segmented_3">
+      <li><%= link_to "by title", song_directory_url(:sort => "title", :direction => "ASC"), :class => "row" %></a></li>
+      <li><%= link_to "by artist", song_directory_url(:sort => "artist", :direction => "ASC"), :class => "row" %></li>
+      <li><%= link_to "by year", song_directory_url(:sort => "year", :direction => "DESC"), :class => "row" %></li>
+    </ul> -->
 
     <p>You should follow Songnotes on twitter!</p>
 <a href="https://twitter.com/playsongnotes" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @davidpots</a>

@@ -8,7 +8,7 @@ class SongsController < ApplicationController
     # @songs_by_months = @songs_all.group_by { |t| t.created_at.beginning_of_month }
     @songs_by_months = Song.where(published: true).all(:order => 'created_at DESC').group_by { |s| s.created_at.beginning_of_month }
     @songs_by_artist = Song.where(published: true).all(:order => 'title ASC').group_by { |s| s.artist }
-    @songs_by_year = Song.where(published: true).all(:order => 'year DESC').group_by { |s| ((s.year/10)*10) }
+    @songs_by_year = Song.where(published: true).all(:order => 'year DESC').group_by { |s| s.year }
     @songs_by_created_at = Song.where(published: true).all(:order => 'created_at DESC').group_by { |s| s.created_at }
     @songs_by_title = Song.where(published: true).all(:order => 'title ASC').group_by { |s| s.title[0].capitalize.match(/[A-Z]/) ? s.title[0].capitalize : "#" }
   end
@@ -63,7 +63,7 @@ class SongsController < ApplicationController
   private
 
   def sort_column
-    params[:sort] || "recent"
+    params[:sort] || "title"
   end
   
   def sort_direction

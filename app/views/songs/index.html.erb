@@ -1,103 +1,80 @@
-<div class="dir_header">
-  <div class="bucket directory" style="border: none;">
-    <h1><%= link_to "Songnotes", sandbox_url %></h1>
-    <p><blink>Under Construction!</blink></p>
-    <p style="margin-top: 28px;"><em>Browse songs by:</em></p>
-    <ul>
-      <li class="<% if @nav == 'recent' %>active<% end %>"><%= link_to "date added", :sort => "recent", :direction => "ASC" %></li>
-      <li class="<% if @nav == 'title' %>active<% end %>"><%= link_to "song title", :sort => "title", :direction => "ASC" %></li>
-      <li class="<% if @nav == 'year' %>active<% end %>"><%= link_to "song year", :sort => "year", :direction => "DESC" %></li>
-      <li class="<% if @nav == 'artist' %>active<% end %>"><%= link_to "song artist", :sort => "artist", :direction => "ASC" %></li>
-    </ul>
-  </div>
-</div>
-<div class="bucket directory" style="border:none;">
-
-  <% if @nav == 'recent' %>
-
-    <% @songs_by_months.each do |month,songs| %>
-      <div class="dir_chunk">
-        <h2><strong><%= month.strftime('%B %Y') %></strong></h2>
-        <ul>
-          <% for song in songs %>
-          <li>
-            <%= link_to(song) do %>
-              <strong><%= song.title %></strong>
-              <div class="sub"><%= song.artist %> &bull; <%= song.created_at.strftime('%B %d') %> </div>
-              <% if song.created_at > 5.days.ago %>
-                <div class="right">new</div>
-              <% end %>  
-            <% end %>
+  <div class="browse_nav">
+    <div class="container">
+      <div class="browse_nav_wrap_outer">
+        <ul class="browse_nav_wrap">
+          <li class="home"><%= link_to "home", root_url %></li>
+          <li class="browse_links">
+            <ul>
+              <li class="<% if @nav == 'title' %>active<% end %>"><%= link_to "by title", :sort => "title", :direction => "ASC" %></li>
+              <li class="<% if @nav == 'artist' %>active<% end %>"><%= link_to "by artist", :sort => "artist", :direction => "ASC" %></li>
+              <li class="<% if @nav == 'year' %>active<% end %>"><%= link_to "by year", :sort => "year", :direction => "DESC" %></li>
+            </ul>
           </li>
-          <% end %>
         </ul>
       </div>
-    <% end %>
+    </div>
+  </div>
 
-  <% elsif @nav == 'artist' %>
+<div class="container">
+  <div class="buffer">
+<br /><br /><br />
+    <% if @nav == 'artist' %>
 
-    <% @songs_by_artist.sort.each do |artist, songs| %>
-      <div class="dir_chunk">
-        <h2><strong><%= artist %></strong></h2>
-        <ul>
-        <% for song in songs %>
-          <li>
-            <%= link_to(song) do %>
-              <strong><%= song.title %></strong>
-              <div class="sub"><%= song.year %></div>
-              <% if song.created_at > 10.days.ago %>
-                <div class="right">new</div>
-              <% end %>     
-            <% end %>
-          </li>
-        <% end %>
-        </ul>
-      </div> <!-- end: .chunk -->
-    <% end %>
+      <% @songs_by_artist.sort.each do |artist, songs| %>
+          <h2><%= artist %></h2>
+          <ul class="rows">
+          <% for song in songs %>
+            <li class="arrow <% if song.created_at > 10.days.ago %>new<%end%>">
+              <%= link_to(song, :class => "row") do %>
+                <strong><%= song.title %> <% if song.created_at > 10.days.ago %><div class="right">new</div><% end %></strong>
+                <div class="sub"><%= song.artist %></div>
+              <% end %>
+            </li>
+          <% end %>
+          </ul>
+      <% end %>
 
-  <% elsif @nav == 'year' %>
+    <% elsif @nav == 'year' %>
 
-    <% @songs_by_year.each do |year, songs| %>
+      <% @songs_by_year.each do |year, songs| %>
 
-      <div class="dir_chunk">
-        <h2><strong><%= year %>s</strong></h2>
-        <ul>
-        <% for song in songs %>
-          <li>
-            <%= link_to(song) do %>
-              <strong><%= song.title %></strong>
-              <div class="sub"><%= song.artist %> &bull; <%= song.year %></div>
-              <% if song.created_at > 10.days.ago %>
-                <div class="right">new</div>
-              <% end %>     
-            <% end %>
-          </li>
-        <% end %>
-        </ul>
-      </div> <!-- end: .chunk -->
+        <div class="dir_chunk">
+          <h2><%= year %></h2>
+          <ul class="rows">
+          <% for song in songs %>
+            <li class="arrow <% if song.created_at > 10.days.ago %>new<%end%>">
+              <%= link_to(song, :class => "row") do %>
+                <strong><%= song.title %></strong>
+                <div class="sub"><%= song.artist %></div>
+                <% if song.created_at > 10.days.ago %>
+                  <div class="right">new</div>
+                <% end %>     
+              <% end %>
+            </li>
+          <% end %>
+          </ul>
 
-    <% end %>
+      <% end %>
       
-  <% elsif @nav == 'title' %>
+    <% elsif @nav == 'title' %>
 
-    <% @songs_by_title.each do |first_letter, songs| %>
-      <div class="dir_chunk">
-        <h2><strong><%= first_letter %></strong></h2>
-        <ul>
-        <% for song in songs %>
-          <li>
-            <%= link_to(song) do %>
-              <strong><%= song.title %></strong>
-              <div class="sub"><%= song.artist %></div>
-              <% if song.created_at > 10.days.ago %>
-                <div class="right">new</div>
-              <% end %>     
-            <% end %>
-          </li>
-        <% end %>
-        </ul>
-      </div> <!-- end: .chunk -->
+      <% @songs_by_title.each do |first_letter, songs| %>
+          <h2><%= first_letter %></h2>
+          <ul class="rows">
+          <% for song in songs %>
+            <li class="arrow <% if song.created_at > 10.days.ago %>new<%end%>">
+              <%= link_to(song, :class => "row") do %>
+                <strong><%= song.title %></strong>
+                <div class="sub"><%= song.artist %></div>
+                <% if song.created_at > 10.days.ago %>
+                  <div class="right">new</div>
+                <% end %>     
+              <% end %>
+            </li>
+          <% end %>
+          </ul>
+      <% end %>
+
     <% end %>
-
-  <% end %>
-</div>
+  </div> <!-- end: .buffer -->
+</div> <!-- end: .container -->
