@@ -52,8 +52,17 @@
     ul.rows > li.arrow .row               { background: $white url(/assets/icon_arrow_40px.png) right center no-repeat; background-size: 30px 16px; }
 
     // "Solo" single line list items
-    ul.rows > li.solo .row                { padding-top: 20px; padding-bottom: 18px; color: #fff; background-color: $color_primary;}
-    ul.rows > li.solo .row strong         { font-weight: 300; }
+    ul.rows > li.solo .row                { padding-top: 20px; padding-bottom: 18px; }
+
+//  =================================================================================================================================
+//  =================================================================================================================================
+//  Segmented Nav
+//  =================================================================================================================================
+//  =================================================================================================================================
+    ul.segmented        { margin: 0 0 32px 0; padding: 0; overflow: hidden; width: auto; }
+    ul.segmented li     { margin: 0; padding: 0; list-style: none; float: left; width: 33.33333333%; }
+    ul.segmented li a   { display: block; line-height: 48px; background: $color_secondary; color: #fff; margin: 0 0 0 1px; text-align: center; font-weight: 300; }
+    ul.segmented li:first-child a { margin-left: 0; }
 
 //  =================================================================================================================================
 //  =================================================================================================================================

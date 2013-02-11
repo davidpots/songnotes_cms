@@ -1,16 +1,16 @@
     /* Large desktop */
     @media (min-width: 980px) { 
-      .container        { width: 768px; }
+      .container        { width: 640px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
-      .container        { width: 768px; }
+      .container        { width: 640px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 640px) and (max-width: 767px) { 
-      .container        { width: 100%; }
+      .container        { width: 640px; }
     }
 
     /* Portrait tablet to landscape and desktop */
