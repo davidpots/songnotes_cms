@@ -23,17 +23,43 @@
         h6                    { font-size: 14px; margin: 1em 0; }
 
 
+//  =================================================================================================================================
+//  =================================================================================================================================
+//  Welcome
+//  =================================================================================================================================
+//  =================================================================================================================================
+    .welcome  { padding: 27px 0 18px; background: $color_primary; margin: 0 0 10px 0; }
+    .welcome h1 { color: #fff; text-align: center; font-weight: 300; font-size: 48px; line-height: 48px; margin: 0 0 21px 0; }
+    .welcome p { color: #fff; text-align: center; line-height: 21px; }
+    .welcome p a { color: #fff; }
 
+//  =================================================================================================================================
+//  =================================================================================================================================
 //  Default, with side buffer space (add class "rows")
+//  =================================================================================================================================
+//  =================================================================================================================================
     ul.rows                               { margin: 0 0 24px 0; padding: 0; }
     ul.rows > li                          { margin: 0 0 1px 0; list-style: none; }
-    ul.rows > li .row                     { padding: $top_buffer $side_buffer; display: block; position: relative; background: $white; @include clearfix; }
+    ul.rows > li .row                     { padding: $top_buffer $side_buffer 10px; display: block; position: relative; background: $white; @include clearfix; }
+    ul.rows > li .row strong              { display: block; margin: 0 0 1px 0; }
     ul.rows > li .row .sub                { display: block; font-size: $body_copy_size_smaller; color: $body_copy_color_lighter; }
+    ul.rows > li .row .sub em             { color: $body_copy_color_lightest; }
+
+    // For lists that need extra bottom spacing (homepage)
+    ul.rows.wide_berth                    { margin-bottom: 32px; }
 
     // Arrow
     ul.rows > li.arrow .row               { background: $white url(/assets/icon_arrow_40px.png) right center no-repeat; background-size: 30px 16px; }
 
+    // "Solo" single line list items
+    ul.rows > li.solo .row                { padding-top: 20px; padding-bottom: 18px; color: #fff; background-color: $color_primary;}
+    ul.rows > li.solo .row strong         { font-weight: 300; }
+
+//  =================================================================================================================================
+//  =================================================================================================================================
 //  Browse Nav (Top Fixed)
+//  =================================================================================================================================
+//  =================================================================================================================================
 
     .browse_nav                                               { background: #158ECE;position:fixed;top:0;width:100%;z-index:1; }
     .browse_nav .container                                    {  }
@@ -54,9 +80,6 @@
     // The <li> that gets the home icon...
     .browse_nav ul > li.home a    { background: url(/assets/icon_home_40px.png) no-repeat center; background-size:20px 20px; height: 0; padding-top: 48px; overflow: hidden; }
     
-    
-
-
     // Make the nav go full width if the container is 100% width. Otherwise, the inherited side-margins will be in effect.
     // --------------------------------------------------------------------------------------------------------------------
         // Default for wider screens (so left/right edge of content aligns with left/right edge of nav items)

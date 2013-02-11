@@ -1,6 +1,6 @@
 Songnotes::Application.routes.draw do
 
-  root to: 'songs#index'
+  root to: 'pages#home'
 
   match 'adminius' => 'songs#admin', :as => 'admin'
 
@@ -8,6 +8,7 @@ Songnotes::Application.routes.draw do
   match 'details/:id' => 'songs#details', :as => 'song_details'
 
   match 'sandbox' => 'pages#sandbox', :as => 'sandbox'
+  match 'home' => 'pages#home', :as => 'home'
 
   resources :songs
 
