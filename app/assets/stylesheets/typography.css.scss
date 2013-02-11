@@ -30,6 +30,8 @@
     ul.rows > li .row                     { padding: $top_buffer $side_buffer; display: block; position: relative; background: $white; @include clearfix; }
     ul.rows > li .row .sub                { display: block; font-size: $body_copy_size_smaller; color: $body_copy_color_lighter; }
 
+    // Arrow
+    ul.rows > li.arrow .row               { background: $white url(/assets/icon_arrow_40px.png) right center no-repeat; background-size: 30px 16px; }
 
 //  Browse Nav (Top Fixed)
 
