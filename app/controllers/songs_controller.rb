@@ -1,5 +1,6 @@
 class SongsController < ApplicationController
   helper_method :sort_column, :sort_direction
+  layout 'redux'
   def index
     @nav = sort_column
     # @songs = Song.order(sort_column + ' ' + sort_direction)
