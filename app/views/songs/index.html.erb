@@ -27,7 +27,7 @@
             <li class="arrow <% if song.created_at > 10.days.ago %>new<%end%>">
               <%= link_to(song, :class => "row") do %>
                 <strong><%= song.title %> <% if song.created_at > 10.days.ago %><div class="right">new</div><% end %></strong>
-                <div class="sub"><%= song.artist %></div>
+                <div class="sub"><%= song.year %></div>
               <% end %>
             </li>
           <% end %>
