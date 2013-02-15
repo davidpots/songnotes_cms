@@ -42,6 +42,7 @@
 //  =================================================================================================================================
 //  =================================================================================================================================
 
+    body.songs_show       { background: #fff; }
     .song_show            { background: #fff; padding-bottom: 80px; }
 
     .song_show .container   { background: #fff; }
@@ -51,8 +52,8 @@
 
     .song_header            { background: $color_primary;}
     .song_header .container { background: $color_primary; padding-top: 10px; padding-bottom: 10px; }
-    .song_header h1         { margin: 5px 0 10px 0; font-weight: 300; font-size: 40px; color: #fff; }
-    .song_header p          { margin: 0 0 10px 0; font-weight: 300; color: #fff; }
+    .song_header h1         { margin: 10px 0 13px 0; font-weight: 300; font-size: 44px; color: #fff; }
+    .song_header p          { margin: 0 0 8px 0; font-weight: 300; color: #fff; }
 
     h4                      { margin: 0; }
     h5.sub_head             { color: #777; font-weight: 300; margin: 0 0 8px 0; }
