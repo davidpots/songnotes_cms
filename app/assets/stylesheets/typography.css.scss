@@ -50,8 +50,8 @@
     .song_show .uni_header .container a { display: block; height: 40px; line-height: 44px; color: #fff; font-weight: 300; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
 
     .song_header            { background: $color_primary;}
-    .song_header .container { background: $color_primary; padding: 10px 0; }
-    .song_header h1         { margin: 5px 0 10px 0; font-weight: 300; font-size: 36px; color: #fff; }
+    .song_header .container { background: $color_primary; padding-top: 10px; padding-bottom: 10px; }
+    .song_header h1         { margin: 5px 0 10px 0; font-weight: 300; font-size: 40px; color: #fff; }
     .song_header p          { margin: 0 0 10px 0; font-weight: 300; color: #fff; }
 
     h4                      { margin: 0; }
