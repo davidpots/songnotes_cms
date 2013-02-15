@@ -29,7 +29,7 @@
   </script>
 
 </head>
-<body>
+<body class="<% if controller_name == "songs" && action_name == "show" %>songs_show<% end %>">
   <%= yield %>
   <!-- Hi there :) -->
 </body>
