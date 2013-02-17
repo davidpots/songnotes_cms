@@ -18,7 +18,7 @@
         h1                    { font-size: 28px; line-height: 35px; margin: $top_buffer 0; }
         h2                    { font-size: 16px; line-height: 21px; margin: 0 0 8px 0; font-weight: 600; }
         h3                    { font-size: 16px; margin: 1em 0; }
-        h4                    { font-size: 14px; margin: 1em 0; }
+        h4                    { font-size: 17px; font-weight: 600; margin: 1em 0; }
         h5                    { font-size: 14px; margin: 1em 0; }
         h6                    { font-size: 14px; margin: 1em 0; }
 
@@ -58,14 +58,19 @@
     h4                      { margin: 0; }
     h5.sub_head             { color: #777; font-weight: 300; margin: 0 0 8px 0; }
     .bucket                 { border-top: 3px double #e6e6e6; margin: 0 0 65px 0; }
-    .bucket h2              { font-size: 40px; font-weight: 300; margin: 24px 0;}
-    .song_lyrics .bucket    { border: none; }
+    .bucket h2              { font-size: 40px; line-height: 40px; font-weight: 300; margin: 28px 0; }
+    .song_lyrics .bucket    { border: none; padding-top: 15px; }
 
-    .pre_lyrics h4          { margin-bottom: -10px; font-size: 17px;  font-weight: 600; }
+    .pre_lyrics h4          { margin-bottom: -10px; }
     pre.chord_notation      { margin: 0 0 18px 0; }
+
+    .song_notes h4          { margin-top: 30px; margin-bottom: 7px; }
+    .song_notes p           { margin: 0 0 12px 0; }
+    
+    .song_chords h4         { margin-bottom: 7px; }
     
     .chords_inline          { color: $color_secondary; }
-    .chord_notation         { font-weight: 300; }
+    .chord_notation         { font-weight: 300; color: #666; font-weight: 300; }
     .note                   { font-weight: 300; color: $body_copy_color_lighter; }
     .chord                  { color: $color_secondary; }
 
