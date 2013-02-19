@@ -1,0 +1,145 @@
+KING OF SPAIN
+by The Tallest Man on Earth
+===============================================================================
+
+(capo 6th fret)
+
+INTRO
+    D ... D ... G ... A ...   (lighter)
+    D ... D ... G ... A ...
+
+    D ... D ... D ... D ...   (heavier)
+    G ... A ... D ... D ...
+
+VERSE
+                         D 
+    I never knew I was a lover
+                                       Bm 
+    Just 'cause I steal the things you hide
+                                    G            A7 
+    Just 'cause I focus while we're dancing off
+                                D 
+    Just 'cause I offered you a ride
+
+    Still, I am not from Barcelona
+    I am not even from Madrid
+    I am a native of the North folk
+    And that could mess up any kid
+
+CHORUS
+                 A7                           Em/B  
+        Well, if you....... could reinvent my name
+                 A7                           G     Aadd8 
+        Well, if you... oh, could redirect my day
+                               D 
+        I wanna be the King of Spain
+
+    And I will settle in Pamplona
+    And I'll provoke the bulls with words
+    And then I'll send a man to meet them all
+    Blood is fake, so I have heard
+
+    And all the señoritas sighing
+    Oh, will be the fountain of my lies
+    But while we're floating in siestas
+    You search for bottles and for knives
+
+        Well, if you....... could reinvent my name
+        Well, if you... oh, could redirect my day
+        I wanna be the King of Spain
+
+BREAK
+            D ... D ... D ... D ...
+            G ... A ... D ... D ...
+
+    And I'll wear my boots of Spanish leather
+    Oh, while I'm tightening my crown
+    I'll disappear in some flamenco
+    Perhaps I'll reach the other side
+
+    Why are you stamping my illusion?
+    Just cause I stole some eagle's wings
+    Because you named me as your lover
+    Well, I thought I could be anything
+
+        Well, if you....... could reinvent my name
+        Well, if you... oh, could redirect my day
+        I wanna be the King of Spain
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+CAPO 6th FRET, STANDARD TUNING
+The chords and tabs I provide assume you're in standard tuning using a capo on the 6th fret -- which will let you play along with the album if you wish. When the artist plays this song, he is using an open tuning variety which I am not showing here. Look elsewhere online if you want to see exactly how he plays it.
+
+BASIC CHORDS USED
+Here are the basic chords this song uses, relative to the capo (which should be on the 6th fret if you want to play in the same key as the recorded version). The Dadd6 and Add8 shown below are optional, but likely helpful in emulating the sound heard on the record. The Dadd6 is used in the main riff, while the A7 and Aadd8 is used in the chorus.
+
+e-|---2---2----0----3-----3----    ----2------3------5------
+B-|---3---3----2----0-----0----    ----3------2------2------
+G-|---2---4----2----0-----0----    ----4------2------2------
+D-|---0---4----2----2-----0----    ----0------2------2------
+A-|-------2----0----2-----2----    -----------0------0------
+E-|-----------------------3----    -------------------------
+      D   Bm   A   Em/B   G          Dadd6    A7   Aadd8 
+
+PLAYING THE SIGNATURE D-RIFF
+The main riff played throughout this song can be played as follows. Simply use your pinky on the G string to play the Dadd6 (as shown below), and of course listen along for the strumming pattern and proper emphases. Play close attention to when the high E string is either played or not played -- especially in the more subtle sections (when it is not played). In the choruses and heavier sections, alternatively, these strings are emphasized.
+
+e-|--(2)----------|---------------|---------------|---0h2--2--2---|-
+B-|---3----3--3---|---3----3--3---|---3----3--3---|---3----3--3---|-
+G-|---2----2--2---|---4----4--4---|---2----2--2---|---2----2--2---|-
+D-|---0----0--0---|---0----0--0---|---0----0--0---|---0----0--0---|-
+A-|---------------|---------------|---------------|---------------|-
+E-|---------------|---------------|---------------|---------------|-
+      D               Dadd6           D               D 
+
+ -|---------------|---------------|---------------|---2----x--0---||
+ -|---3----3--3---|---3----3--3---|---3----3--3---|---3----3--3---||
+ -|---2----2--2---|---4----4--4---|---2----2--2---|---2----2--2---||
+ -|---0----0--0---|---0----0--0---|---0----0--0---|---0----0--0---||
+ -|---------------|---------------|---------------|---------------||
+ -|---------------|---------------|---------------|---------------||
+      D               Dadd6           D               D 
+
+OPENING INTRO RIFF
+Finally, here is how I like to play the very beginning of the intro. The strumming here is very approximated (and simplified to save space) -- listen along for the exact timing.
+
+e-|---2----2-2-2----5--2--3--2----2-2-2---|---10---9---|--3-3-3--|--5-5-5----||
+B-|---3----3-3-3----3--3--3--3----3-3-3---|---10--10---|--3-3-3--|--5-5-5----||
+G-|---2----2-2-2----2--2--2--2----2-2-2---|------------|--4-4-4--|--6-6-6----||
+D-|---0----0-0-0----0-------------0-0-0---|------------|---------|-----------||
+A-|---------------------------------------|------------|---------|-----------||
+E-|---------------------------------------|------------|---------|-----------||
+      D                                                   G         A 
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+VERSE
+"I never knew I was a lover..."
+| D . . . | . . . . | Bm . . . | . . . . |
+| G . . . | A . . . | D  . . . | D . . . |
+
+CHORUS
+"Well, if you could reinvent my name..."
+| A . . . | . . . . | G . . . | . . . . |
+| A . . . | . . . . | G . . . | A . . . |
+| D . . . | . . . . |
+
+BREAK
+Played in the second part of the intro, and mid-song.
+| D . . . | . . . . | . . . . | . . . . |
+| G . . . | A . . . | D . . . | D . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: King of Spain
+Artist: The Tallest Man on Earth
+Album: There's No Leaving Now
+Year: 2012
+Label: Dead Oceans
