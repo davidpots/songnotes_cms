@@ -1,6 +1,11 @@
 <div class="container">
   <div class="buffer">
 
+    <div class="sandbox_hider">
+      <%#= sanitize @song.lyrics_html_mono %>
+      <pre><%= strip_tags(@new_doc) %></pre>
+    </div>
+
   <br /><br /><br />
     <h2>2012</h2>
     <ul class="rows">

@@ -1,0 +1,6 @@
+//.sandbox_hider { }
+//.sandbox_hider span.intro { display: none; }
+//.sandbox_hider h4 { display: none; }
+//.sandbox_hider span.chords_inline { display: none; }
+
+//*[contains(concat( " ", @class, " " ), concat( " ", "intro", " " ))] | //*[contains(concat( " ", @class, " " ), concat( " ", "chords_inline", " " ))]//*[contains(concat( " ", @class, " " ), concat( " ", "section_head", " " ))]
