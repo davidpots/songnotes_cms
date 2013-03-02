@@ -1,11 +1,11 @@
     /* Large desktop */
     @media (min-width: 980px) { 
-      .container        { width: 640px; }
+      .container        { width: 900px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
-      .container        { width: 640px; }
+      .container        { width: 768px; }
     }
 
     /* Portrait tablet to landscape and desktop */

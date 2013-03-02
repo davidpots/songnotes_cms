@@ -16,12 +16,12 @@
     $bg_color: #e6e6e6;
 
     // Rdio Blue, as per v1
-    $color_primary: #158ECE;
+    $color_primary: #34b1c4;
     $color_primary_darker: #1D69A5;
     $color_primary_screen: #F1F9FA;
 
     // Rdio Orange, as per v1
-    $color_secondary: #EA4A24;
+    $color_secondary: #ed3f1c;
 
 // ------------------------------------------------------------
 //    Typography: Colors
@@ -31,14 +31,14 @@
     $body_copy_color_reg: #555;
     $body_copy_color_darker: #333;
     $body_copy_color_lighter: #aaa;
-    $body_copy_color_lightest: #ddd;
+    $body_copy_color_lightest: #ccc;
 
 // ------------------------------------------------------------
 //    Typography: Font Sizes & Line Height
 // ------------------------------------------------------------
 
     $body_copy_size_larger: 19px;
-    $body_copy_size_reg: 15px;
+    $body_copy_size_reg: 14px;
     $body_copy_size_smaller: 12px;
 
     $body_copy_height_reg: 135%;
@@ -48,14 +48,13 @@
 //    Typography: Font Families
 // ------------------------------------------------------------
 
-    $body_fonts_primary: 'Open Sans','Helvetica Neue', Arial;
-    $body_fonts_secondary: Geogia, Serif;
-    $body_fonts_mono: "Source Code Pro",monospace,"Courier New";
+    $body_fonts_primary: 'Bitter','Helvetica Neue', Arial;
+    $body_fonts_mono: "Anonymous Pro",monospace,"Courier New";
 
 // ------------------------------------------------------------
 //    Misc. Variables
 // ------------------------------------------------------------
 
-    $side_buffer: 12px;
-    $top_buffer: 12px;
+    $side_buffer: 24px;
+    $top_buffer: 21px;
     $nav_height: 48px;

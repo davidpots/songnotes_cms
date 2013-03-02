@@ -9,49 +9,43 @@
 <div class="container">
   <div class="buffer">
 
-    <h2>Browse all <%= @song_count %> songs</h2>
-    <ul class="rows wide_berth">
-      <li class="arrow solo">
-        <%= link_to ("<strong>by song title</strong>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "row" %>
+    <h3 class="bucket_head">Browse all <%= @song_count %> songs</h3>
+    <ul class="tiles">
+      <li class="arrow">
+        <%= link_to ("<h1>by song title</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
       </li>
-      <li class="arrow solo">
-        <%= link_to ("<strong>by artist name</strong>").html_safe, song_directory_url(:sort => "artist", :direction => "ASC"), :class => "row" %>
+      <li class="arrow">
+        <%= link_to ("<h1>by artist name</h1>").html_safe, song_directory_url(:sort => "artist", :direction => "ASC"), :class => "tile" %>
       </li>
-      <li class="arrow solo">
-        <%= link_to ("<strong>by year released</strong>").html_safe, song_directory_url(:sort => "year", :direction => "DESC"), :class => "row" %>
+      <li class="arrow">
+        <%= link_to ("<h1>by year released</h1>").html_safe, song_directory_url(:sort => "year", :direction => "DESC"), :class => "tile" %>
       </li>
     </ul>
   
-    <h2>Recently added</h2>
-    <ul class="rows wide_berth">
+    <h3 class="bucket_head">Recently added to the collection</h3>
+    <ul class="tiles">
       <% @songs_by_months.each do |song| %>
       <li class="arrow">
-        <%= link_to(song, :class => "row") do %>
-          <strong><%= song.title %></strong>
-          <div class="sub"><%= song.artist %> <em>(<%= time_ago_in_words(song.created_at) %> ago)</em></div>
+        <%= link_to(song, :class => "tile") do %>
+          <h1><%= song.title %></h1>
+          <h3><%= song.artist %></h3>
+          <!-- <h4><%= time_ago_in_words(song.created_at) %> ago</h4> -->
         <% end %>
       </li>
       <% end %>
     </ul>
 
-    <h2>Some random suggestions</h2>
-    <ul class="rows wide_berth">
+    <h3 class="bucket_head">Some randomly suggested songs</h3>
+    <ul class="tiles">
       <% @songs_random.each do |song| %>
       <li class="arrow">
-        <%= link_to(song, :class => "row") do %>
-          <strong><%= song.title %></strong>
-          <div class="sub"><%= song.artist %></div>
+        <%= link_to(song, :class => "tile") do %>
+          <h1><%= song.title %></h1>
+          <h3><%= song.artist %></h3>
         <% end %>
       </li>
       <% end %>
     </ul>
-
-<!--     <h2>Explore the songbook...</h2>
-    <ul class="segmented segmented_3">
-      <li><%= link_to "by title", song_directory_url(:sort => "title", :direction => "ASC"), :class => "row" %></a></li>
-      <li><%= link_to "by artist", song_directory_url(:sort => "artist", :direction => "ASC"), :class => "row" %></li>
-      <li><%= link_to "by year", song_directory_url(:sort => "year", :direction => "DESC"), :class => "row" %></li>
-    </ul> -->
 
     <p>You should follow Songnotes on twitter!</p>
 <a href="https://twitter.com/playsongnotes" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @davidpots</a>
