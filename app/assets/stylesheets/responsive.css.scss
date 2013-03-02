@@ -1,26 +1,31 @@
     /* Large desktop */
     @media (min-width: 980px) { 
       .container        { width: 900px; }
+      .container .buffer{ padding-left: 24px; padding-right: 24px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
       .container        { width: 768px; }
+      .container .buffer{ padding-left: 24px; padding-right: 24px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 640px) and (max-width: 767px) { 
       .container        { width: 640px; }
+      .container .buffer{ padding-left: 18px; padding-right: 18px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 480px) and (max-width: 639px) { 
       .container        { width: 100%; }
+      .container .buffer{ padding-left: 10px; padding-right: 10px; }
     }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
       .container        { width: 100%; }
+      .container .buffer{ padding-left: 10px; padding-right: 10px; }
     }
     
     .song_show .container { width: 960px; padding-left: 20px; padding-right: 20px; }
