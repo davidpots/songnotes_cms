@@ -1,0 +1,129 @@
+LEAN ON ME
+by Bill Withers
+===============================================================================
+INTRO    
+    C ... C → walk up   → F 
+          F → walk down → C 
+          C → walk up   → Em → G 
+
+    C ... C → walk up   → F 
+          F → walk down → C 
+          C → walk up   → G → C     (see below for tabs)
+
+VERSE
+    C                 F                    C 
+    Sometimes in our lives... we all have pain
+    C           Em  G 
+    We all have sorrow
+    C              F                   C 
+    But if we are wise, we know that there's 
+    C         G   C 
+    Always tomorrow
+
+    Lean on me when you're not strong
+    And I'll be your friend, I'll help you carry on
+    For it won't be long 'til I'm gonna need
+    Somebody to lean on
+
+    Please, swallow your pride
+    If I have things you need to borrow
+    For no one can fill those of your needs
+    That you won't let show
+
+REFRAIN
+        C 
+        You just call on me, brother, when you need a hand
+                                G    C  
+        We all need somebody to lean on
+        I just might have a problem that you'll understand
+        We all need somebody to lean on
+
+    Lean on me when you're not strong
+    And I'll be your friend, I'll help you carry on
+    For it won't be long 'til I'm gonna need
+    Somebody to lean on
+
+        You just call on me, brother, when you need a hand
+        We all need somebody to lean on
+        I just might have a problem that you'll understand
+        We all need somebody to lean on
+
+    If there is a load
+    You have to bear that you can't carry
+    I'm right up the road, I'll share your load
+    If you just call me
+
+OUTRO
+            G    C 
+            Call me...
+            Call me...
+            Call me...
+            Call me...
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Basic Chords Used
+The basic chords you'll need to play this song can be played as shown below. You can easily abbreviate the F chord by omitting the highest and lowest strings (so it looks like x3321x, from lowest to highest).
+
+e-|----0-----1-----0-----3----
+B-|----1-----1-----0-----0----
+G-|----0-----2-----0-----0----
+D-|----2-----3-----2-----0----
+A-|----3-----3-----2-----2----
+E-|----------1-----0-----3----
+       C     F     Em    G 
+
+Intro & Verse Riff
+The distinctive piano walk-up and walk-down riff heard during the intro and verse can be imitated on guitar as follows. There are many ways you could play this riff, but this is a good and simple version to start with.
+
+e-|----0-------------------------------------0-------------------0---3----
+B-|----1----------------1--------------------1-------------------0---0----
+G-|----0----------------2--------------------0-------------------0---0----
+D-|----2---------0--2---3--------3--2---0----2----------0---2----2---0----
+A-|----3----3-----------3--------------------3-------3-----------2---2----
+E-|--------------------------------------------------------------0---3----
+       C                F                    C                  Em   G 
+      "Sometimes in our lives... we all have pain... we all have sorrow"
+
+ -|----0----------------------------------0------------------0---0----
+ -|----1-------------1--------------------1------------------0---1----
+ -|----0-------------2--------------------0------------------0---0----
+ -|----2------0--2---3-------3--2----0----2----------0----2--0---2----
+ -|----3---3---------3--------------------3-------3----------2---3----
+ -|----------------------------------------------------------3--------
+       C             F                    C                  G   C 
+      "But if we are wise... we know that there's al-ways tomorrow"
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+| C . . . | F . . . | C . . . | Em . G . |
+| C . . . | F . . . | C . . . | G  . C . |
+
+VERSE
+"Sometimes in our lives, we all have pain..."
+| C . . . | F . . . | C . . . | Em . G . |
+| C . . . | F . . . | C . . . | G  . C . |
+
+REFRAIN
+"You just call on me, brother..."
+| C . . . | . . . . | . . . . | G . C . |
+| C . . . | . . . . | . . . . | G . C . |
+
+OUTRO
+"Call me..."
+| G . C . | (repeat)
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: Lean on Me
+Artist: Bill Withers
+Album: Still Bill
+Year: 1972
+Label: Sussex

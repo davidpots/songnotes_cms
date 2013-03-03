@@ -1,13 +1,15 @@
     /* Large desktop */
     @media (min-width: 980px) { 
+      html                        { font-size: 70.0%; }
       .container        { width: 900px; }
       .container .buffer{ padding-left: 24px; padding-right: 24px; }
-      .song_show .container       { width: 960px; }
+      .song_show .container       { width: 900px; }
       ul.tiles > li.arrow .tile   { background-size: 50px 30px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
+      html                        { font-size: 62.5%; }
       .container        { width: 768px; }
       .container .buffer{ padding-left: 24px; padding-right: 24px; }
       .song_show .container       { width: 768px; }

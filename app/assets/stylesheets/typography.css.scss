@@ -68,7 +68,7 @@
 
     .song_show pre          { font-size: 1.4rem; line-height: 1.8rem; }
     .song_show h2           { font-size: 3.5rem; line-height: 3.5rem; margin: 0 0 2.8rem 0; }
-    .song_show h4           { font-size: 1.6rem; line-height: 1.9rem; margin: 0 0 1.0rem 0; }
+    .song_show h4           { font-size: 1.6rem; line-height: 1.9rem; margin: 0 0 0.7rem 0; }
     .song_show p            { font-size: 1.4rem; line-height: 1.9rem; margin: 0 0 1.6rem 0; }
 
 
@@ -76,7 +76,9 @@
     .song_notes .bucket     { padding-bottom: 32px; }
     .song_chords .bucket     { padding-bottom: 32px; }
 
-    .pre_lyrics h4          { margin-bottom: -10px; }
+    .pre_lyrics h4          { margin-bottom: -0.8rem; }
+    .song_chords h4         { margin: 0 0 0.5rem 0; }
+    
     pre.pre_notes           { margin: 0 0 2.5rem 0; }
     pre.chord_notation      { margin: 0 0 18px 0; }
     
