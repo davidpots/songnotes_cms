@@ -9,16 +9,10 @@
 <div class="container">
   <div class="buffer">
 
-    <h3 class="bucket_head">Browse all <%= @song_count %> songs</h3>
+    <h3 class="bucket_head">Welcome!</h3>
     <ul class="tiles">
       <li class="arrow">
-        <%= link_to ("<h1>by song title</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
-      </li>
-      <li class="arrow">
-        <%= link_to ("<h1>by artist name</h1>").html_safe, song_directory_url(:sort => "artist", :direction => "ASC"), :class => "tile" %>
-      </li>
-      <li class="arrow">
-        <%= link_to ("<h1>by year released</h1>").html_safe, song_directory_url(:sort => "year", :direction => "DESC"), :class => "tile" %>
+        <%= link_to ("<h1>Browse all #{@song_count} songs</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
       </li>
     </ul>
   
