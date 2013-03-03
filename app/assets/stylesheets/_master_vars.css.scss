@@ -29,7 +29,7 @@
 
     $link_color: $color_primary;
     $body_copy_color_reg: #555;
-    $body_copy_color_darker: #333;
+    $body_copy_color_darker: #252525;
     $body_copy_color_lighter: #aaa;
     $body_copy_color_lightest: #ccc;
 
@@ -49,7 +49,7 @@
 // ------------------------------------------------------------
 
     $body_fonts_primary: 'Bitter','Helvetica Neue', Arial;
-    $body_fonts_mono: "Anonymous Pro",monospace,"Courier New";
+    $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
 
 // ------------------------------------------------------------
 //    Misc. Variables

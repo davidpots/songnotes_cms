@@ -5,80 +5,69 @@
 
   <div class="uni_header">
     <div class="container">
-      <%= link_to "Songnotes", root_path %>
-    </div> <!-- end: .bucket container -->
+      <div class="buffer">
+        <%= link_to "Songnotes", root_path %>
+      </div> <!-- end: buffer -->
+    </div> <!-- end: .container -->
   </div> <!-- end: .uni_header -->
 
+  <div class="container">
+    <div class="buffer">
+      <div class="tile">
 
-  <%# ---------------------------------------------- %>
-  <%#    SONG HEADER                                 %>
-  <%# ---------------------------------------------- %>
-  <div class="song_header">
-    <div class="container">
-      <h1><%= @song.title %></h1>
-      <p>by <%= @song.artist %></p>
-    </div> <!-- end: .bucket .song_header -->
-  </div>
+        <%# ---------------------------------------------- %>
+        <%#    SONG HEADER                                 %>
+        <%# ---------------------------------------------- %>
+        <div class="song_header bucket">
+          <h1><%= @song.title %></h1>
+          <p><%= @song.artist %></p>
+        </div>
 
-  <%# ---------------------------------------------- %>
-  <%#    LYRICS                                      %>
-  <%# ---------------------------------------------- %>
-  <div class="container song_lyrics">
-    <div class="cpanel" style="display:none;">
-      <div class="bucket">
-        <h4>Chord Options:</h4>
-        <ul class="chord_switch">
-          <li><a id="chords_show_none" href="#">Show None</a></li>
-          <li><a id="chords_show_once" href="#" class="active">Show Each Progression Once</a></li>
-          <% if @song.repeated_chords == true %>
-            <li><a id="chords_show_all" href="#">Show For Entire Song</a></li>
-          <% end %>
-        </ul>
-      </div>
-    </div>
-    <div class="bucket">
-      <%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : (@song.lyrics_text).html_safe %>
-    </div> <!-- end: .bucket -->
-  </div>
+        <%# ---------------------------------------------- %>
+        <%#    LYRICS                                      %>
+        <%# ---------------------------------------------- %>
+        <div class="song_lyrics bucket">
+          <%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : (@song.lyrics_text).html_safe %>
+        </div>
 
-  <%# ---------------------------------------------- %>
-  <%#    NOTES                                       %>
-  <%# ---------------------------------------------- %>
-  <% if @song.notes.present? %>
-  <div class="song_notes container">
-    <div class="bucket">
-      <h2>Notes &amp; Tabs</h2>
-      <%= (@song.notes).html_safe %>
-    </div> <!-- end: .bucket -->
-  </div>
-  <% end %>
+        <%# ---------------------------------------------- %>
+        <%#    NOTES                                       %>
+        <%# ---------------------------------------------- %>
+        <% if @song.notes.present? %>
+        <div class="song_notes">
+          <div class="bucket">
+            <h2>Notes &amp; Tabs</h2>
+            <%= (@song.notes).html_safe %>
+          </div> <!-- end: .bucket -->
+        </div>
+        <% end %>
 
-  <%# ---------------------------------------------- %>
-  <%#    CHORD PROGRESSIONS                          %>
-  <%# ---------------------------------------------- %>
-  <% if @song.chords.present? %>
-  <div class="container song_chords">
-    <div class="bucket">
-      <h2>Chord Progressions</h2>
-      <%= (@song.chords).html_safe %>
-    </div>
-  </div>
-  <% end %>
+        <%# ---------------------------------------------- %>
+        <%#    CHORD PROGRESSIONS                          %>
+        <%# ---------------------------------------------- %>
+        <% if @song.chords.present? %>
+        <div class="song_chords">
+          <div class="bucket">
+            <h2>Chord Progressions</h2>
+            <%= (@song.chords).html_safe %>
+          </div>
+        </div>
+        <% end %>
 
-  <%# ---------------------------------------------- %>
-  <%#    SONG INFO                                   %>
-  <%# ---------------------------------------------- %>
-  <div class="container song_info">
-    <div class="bucket">
-      <h2>About This Song</h2>
-      <p>
-        <strong>Song: </strong><%= @song.title %><br />
-        <strong>Artist: </strong><%= @song.artist %><br />
-        <strong>Album: </strong><%= @song.album.present? ? @song.album : "--" %><br />
-        <strong>Year: </strong><%= @song.year %><br />
-        <strong>Label: </strong><%= @song.record_label.present? ? @song.record_label : "--" %>
-      </p>
-    </div> <!-- end: .bucket -->
-  </div>
-
+        <%# ---------------------------------------------- %>
+        <%#    SONG INFO                                   %>
+        <%# ---------------------------------------------- %>
+        <div class="song_info">
+          <h2>About This Song</h2>
+          <p>
+            <strong>Song: </strong><%= @song.title %><br />
+            <strong>Artist: </strong><%= @song.artist %><br />
+            <strong>Album: </strong><%= @song.album.present? ? @song.album : "--" %><br />
+            <strong>Year: </strong><%= @song.year %><br />
+            <strong>Label: </strong><%= @song.record_label.present? ? @song.record_label : "--" %>
+          </p>
+        </div>
+      </div> <!-- end: .tile -->
+    </div> <!-- end: .buffer -->
+  </div> <!-- end: .container -->
 </div> <!-- end: song_show -->
