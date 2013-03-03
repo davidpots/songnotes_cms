@@ -9,4 +9,4 @@ html, body {-webkit-text-size-adjust: 100%;}
 .container            { margin: 0 auto; }
 
 // Container with buffer should have spacing on top/bottom/left/right
-.container .buffer    { padding-top: $top_buffer; padding-bottom: $top_buffer; }
+.container .buffer    { padding: $top_buffer $side_buffer; }

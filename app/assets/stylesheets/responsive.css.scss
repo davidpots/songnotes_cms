@@ -2,30 +2,42 @@
     @media (min-width: 980px) { 
       .container        { width: 900px; }
       .container .buffer{ padding-left: 24px; padding-right: 24px; }
+      ul.tiles > li.arrow .tile   { background-size: 50px 30px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 768px) and (max-width: 979px) { 
       .container        { width: 768px; }
       .container .buffer{ padding-left: 24px; padding-right: 24px; }
+      ul.tiles > li .tile         { padding: 24px 72px 24px 24px; }
+      ul.tiles > li.arrow .tile   { background-size: 45px 27px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 640px) and (max-width: 767px) { 
-      .container        { width: 640px; }
-      .container .buffer{ padding-left: 18px; padding-right: 18px; }
+      html                        { font-size: 62.5%; }
+      .container                  { width: 100%; }
+      .container .buffer          { padding: $top_buffer 18px; }
+      ul.tiles > li .tile         { padding: 21px 65px 21px 21px; }
+      ul.tiles > li.arrow .tile   { background-size: 40px 24px; }
     }
 
     /* Portrait tablet to landscape and desktop */
     @media (min-width: 480px) and (max-width: 639px) { 
-      .container        { width: 100%; }
-      .container .buffer{ padding-left: 10px; padding-right: 10px; }
+      html                        { font-size: 57%; }
+      .container                  { width: 100%; }
+      .container .buffer          { padding: $top_buffer 14px; }
+      ul.tiles > li .tile         { padding: 18px 60px 18px 18px; }
+      ul.tiles > li.arrow .tile   { background-size: 25px 15px; }
     }
 
     /* Landscape phones and down */
     @media (max-width: 479px) { 
-      .container        { width: 100%; }
-      .container .buffer{ padding-left: 10px; padding-right: 10px; }
+      html                        { font-size: 50%; }
+      .container                  { width: 100%; }
+      .container .buffer          { padding: $top_buffer 10px; }
+      ul.tiles > li .tile         { padding: 14px 60px 14px 14px; }
+      ul.tiles > li.arrow .tile   { background-size: 25px 15px; }
     }
     
     .song_show .container { width: 960px; padding-left: 20px; padding-right: 20px; }

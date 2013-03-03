@@ -2,10 +2,10 @@
 //  General Typography
 //  --------------------------------------------------------------------------------
 
+    html {  font-size:    62.5%; }
     body {  background:   $color_primary; 
             font-family:  $body_fonts_primary; 
-            font-size:    $body_copy_size_reg;
-            line-height:  $body_copy_height_reg;
+            line-height:  1.4rem;
             color:        $body_copy_color_reg; }
 
     //  Links
@@ -16,12 +16,12 @@
         h4, h5, h6            { font-family: $body_fonts_primary; font-weight: bold; padding: 0; margin: 0 0 0.5em 0; nowhitespace: afterproperty; color: $body_copy_color_darker; }
 
     //  Headers –– Basic Variety
-        h1                    { font-size: 44px; line-height: 44px; margin: 0 0 $top_buffer 0; font-weight: bold; }
-        h2                    { font-size: 35px; line-height: 35px; margin: 0 0 $top_buffer 0; font-weight: normal; font-style: italic; }
-        h3                    { font-size: 24px; line-height: 21px; margin: 0 0 18px 0; font-weight: normal; }
+        h1                    { font-size: 2.8rem; line-height: 2.8rem; margin: 0 0 1.8rem 0; font-weight: bold; }
+        h2                    { font-size: 2.4rem; line-height: 2.4rem; margin: 0 0 1.8rem 0; font-weight: normal; font-style: italic; }
+        h3                    { font-size: 2.1rem; line-height: 2.1rem; margin: 0 0 1.2rem 0; font-weight: normal; }
         h3.bucket_head        { color: #fff; }
-        h4                    { font-size: 16px; line-height: 18px; margin: 0 0 $top_buffer 0; font-weight: bold; }
-        h5                    { font-size: 14px; line-height: 17px; margin: 0 0 8px 0; font-weight: normal; font-style: italic; color: $body_copy_color_lighter; }
+        h4                    { font-size: 1.6rem; line-height: 1.8rem; margin: 0 0 1.2rem 0; font-weight: bold; }
+        h5                    { font-size: 1.4rem; line-height: 1.7rem; margin: 0 0 0.8rem 0; font-weight: normal; font-style: italic; color: $body_copy_color_lighter; }
 
         pre                   { font-family: $body_fonts_mono; }
 
@@ -91,10 +91,9 @@
 //  =================================================================================================================================
     ul.tiles                                { margin: 0 0 45px 0; padding: 0; }
     ul.tiles > li                           { margin: 0 0 1px 0; list-style: none; }
-    ul.tiles > li .tile                     { padding: $top_buffer $side_buffer; display: block; position: relative; background: $white; @include clearfix; }
-    ul.tiles > li .tile h1                  { font-size: 32px; margin: 0 0 5px 0; }
-    ul.tiles > li .tile h3                  { font-size: 19px; margin: 0 0 0 0; color: $body_copy_color_lighter; }
-    ul.tiles > li .tile h4                  { font-size: 14px; margin: 5px 0 0 0; color: $body_copy_color_lightest; font-weight: normal; }
+    ul.tiles > li .tile                     { padding: 24px; display: block; position: relative; background: $white; @include clearfix; }
+    ul.tiles > li .tile h1                  { font-size: 2.8rem; margin: 0 0 0.8rem 0; }
+    ul.tiles > li .tile h3                  { font-size: 1.8rem; margin: 0 0 0 0; color: $body_copy_color_lighter; }
     ul.tiles > li .tile .right              { background: $color_secondary; position: absolute; right: 38px; color: #fff; top: 50%; font-size: 11px; line-height: 13px; display: inline-block; padding: 2px 4px 4px; margin-top: -9px; font-weight: 300; }
     ul.tiles > li.new .tile                 { padding-right: 75px; }
 
@@ -106,7 +105,7 @@
     ul.tiles > li:active .tile h4            { color: $color_secondary; }
 
     // Arrow
-    ul.tiles > li.arrow .tile               { background: $white url(/assets/icon_arrow_40px.png) right center no-repeat; background-size: 44px 31px; }
+    ul.tiles > li.arrow .tile               { background: $white url(/assets/icon_arrow.png) right center no-repeat; background-size: 40px 24px; }
 
 
 //  =================================================================================================================================
