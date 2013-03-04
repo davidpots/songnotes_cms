@@ -46,3 +46,6 @@
       ul.tiles > li .tile         { padding: 14px 60px 14px 14px; }
       ul.tiles > li.arrow .tile   { background-size: 25px 15px; }
     }
+
+    // This needs to be universal. To do: put it somewhere that makes more sense
+    .song_show .buffer { padding-top: 0; }

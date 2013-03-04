@@ -53,6 +53,10 @@
 //  =================================================================================================================================
 
     .song_show            { }
+    .song_show .buffer    { padding-top: 0; }
+    
+    // "Back to song list" link
+    .back_to_browse       { color: #fff; font-size: 1.25rem; line-height:1.85rem; display: block; padding: 1.8rem 0 1.4rem 3rem; background: url(/assets/icon_arrow_back.png) no-repeat left center; background-size: 2.1rem 1.2rem; }
     
     .song_show .tile      { padding: 24px 24px; }
 
