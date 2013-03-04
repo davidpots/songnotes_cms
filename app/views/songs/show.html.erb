@@ -69,6 +69,20 @@
           </p>
         </div>
       </div> <!-- end: .tile -->
+      
+      <h3 class="bucket_head">Some random suggestions:</h3>
+
+      <ul class="tiles">    
+      <% @songs_random.each do |song| %>
+        <li class="arrow">
+          <%= link_to(song, :class => "tile") do %>
+            <h1><%= song.title %></h1>
+            <h3><%= song.year %></h3>
+          <% end %>
+        </li>
+      <% end %>
+      </ul>    
+    
       <%= render "shared/back_to_list" %>
     </div> <!-- end: .buffer -->
   </div> <!-- end: .container -->

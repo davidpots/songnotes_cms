@@ -16,6 +16,8 @@ class SongsController < ApplicationController
 
   def show
     @song = Song.find(params[:id])
+    @songs_all = Song.where(published: true).all(:order => 'created_at DESC',:limit=>10)
+    @songs_random = Song.where(published: true).all(:order => 'created_at DESC').sample(7)
   end
 
   def admin
