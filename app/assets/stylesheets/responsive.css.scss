@@ -8,7 +8,7 @@
     }
 
     /* Portrait tablet to landscape and desktop */
-    @media (min-width: 768px) and (max-width: 979px) { 
+    @media (min-width: 769px) and (max-width: 979px) { 
       html                        { font-size: 62.5%; }
       .container        { width: 768px; }
       .container .buffer{ padding-left: 24px; padding-right: 24px; }
@@ -18,7 +18,7 @@
     }
 
     /* Portrait tablet to landscape and desktop */
-    @media (min-width: 640px) and (max-width: 767px) { 
+    @media (min-width: 640px) and (max-width: 768px) { 
       html                        { font-size: 62.5%; }
       .container                  { width: 100%; }
       .container .buffer          { padding: $top_buffer 12px; }
