@@ -2,19 +2,19 @@ I KNEW YOU WERE TROUBLE
 by Taylor Swift
 ===============================================================================
 
-(Capo 4th fret)
+(Capo 6th fret)
 
 INTRO
-    D 
+    C 
 
 VERSE
-    D 
+    C 
     Once upon a time, a few mistakes ago
-    A 
+    G 
     I was in your sights, you got me alone
-        Bm 
+        Am 
     You found me, you found me
-        G 
+        F 
     You found me-ee-ee-ee-ee
     
     I guess you didn't care, and I guess I liked that
@@ -22,15 +22,15 @@ VERSE
     Without me, without me
     Without me-ee-ee-ee-ee, ee-ee
     
-        D                A                       Bm       
+        C                G                       Am 
         ...And he's long gone, when he's next to me
-                     G 
+                     F 
         ...And I realize, the blame is on me
 
 CHORUS
-                   Bm              G                         A 
+                   Am              F                         G 
             'Cause I knew you were trouble when you walked in
-                   D        A
+                   C        G/B 
             It's a shame on me
             Now-ow, flew me to places I never been
             'Til you put me down, oh
@@ -40,7 +40,7 @@ CHORUS
             Now-ow, flew me to places I never been
             Now I'm lying on the cold hard ground
 
-                Bm     G      A            D        A
+                Am     F    G              C        G/B 
                 ....Ahh, ohh....  trouble, trouble, trouble
                 ....Ahh, ohh....  trouble, trouble, trouble
 
@@ -71,13 +71,13 @@ CHORUS
                 Ahh, ohh... trouble, trouble, trouble
 
 BRIDGE
-                            Em  
+                            F 
                     And the saddest fear
-                          Bm 
+                          Am 
                     Comes creeping in
-                             Em 
+                             F 
                     That you never loved me
-                               A 
+                               G 
                     Or her, or anyone, or anything... yeah---
 
             I knew you were trouble when you walked in
@@ -99,45 +99,55 @@ BRIDGE
                 I knew you were trouble when you walked in
                 Trouble, trouble, trouble...
 
-
-
-
-
-
-
-
 ===============================================================================
 NOTES & TABS
 ===============================================================================
 
-SECTION ONE
-Lorem ipsum dolor sit amet.
+Capo on 6th Fret
+If you want to play along with the recording, add a capo to the 6th fret and use the chords shown above. You can play it without the capo if you like -- but you'd need to play it in the key of F# (in standard tuning) to play along with the record.
 
-e-|----------------------------------------------------------------------------
-B-|----------------------------------------------------------------------------
-G-|----------------------------------------------------------------------------
-D-|----------------------------------------------------------------------------
-A-|----------------------------------------------------------------------------
-E-|----------------------------------------------------------------------------
+Chords Used
+Here are the chords you'll need to play this song. The G/B is simply the G chord without the lowest string -- played after the C in the chorus, it helps create a walkdown from the C to G/B to the Am.
+
+e-|----0----3----0-----1----------
+B-|----1----0----1-----1-----0----
+G-|----0----0----2-----2-----0----
+D-|----2----0----2-----3-----0----
+A-|----3----2----0-----3-----2----
+E-|---------3----------1----------
+       C    G    Am    F    G/B 
 
 ===============================================================================
 CHORD PROGRESSIONS
 ===============================================================================
 
 VERSE
-| . . . . | . . . . | . . . . | . . . . |
+"Once upon a time, a few mistakes ago..."
+| C  . . . | . . . . | G . . . | . . . . |
+| Am . . . | . . . . | F . . . | . . . . |     (x2)
+
+"And he's long gone, when he's next to me..."
+| C  . . . | . . . . | G . . . | . . . . |
+| Am . . . | . . . . | F . . . | . . . . |     (x1)
 
 CHORUS
-"Lorem ipsum dolor sit amet..."
-| . . . . | . . . . | . . . . | . . . . |
-| . . . . | . . . . | . . . . | . . . . |
+"I knew you were trouble when you walked in..."
+| Am . . . | F . . . | G . . . | C . G/B . |   (x4)
+
+"Ahh, ohh.... trouble, trouble, trouble..."
+| Am . . . | F . . . | G . . . | C . G/B . |   (x2)
+
+BRIDGE
+"And the saddest fear, come creeping in..."
+| F . . . | . . . . | Am . . . | . . . . |
+| F . . . | . . . . | G  . . . | . . . . |
 
 ===============================================================================
 ABOUT THIS SONG
-===============================================================================    
+===============================================================================
 
-Song: ____
-Artist: ____
-Album: ____
-Year: ____
-Label: ____
+Song: I Knew You Were Trouble
+Artist: Taylor Swift
+Album: Red
+Year: 2012
+Label: Big Machine Records
