@@ -1,0 +1,121 @@
+THE NEEDLE AND THE DAMAGE DONE
+by Neil Young
+===============================================================================
+INTRO
+    | D . . . | Cadd9 . . . | G/B   . . . | G/Bb . . . |
+    | C . . . | C     . . . | Esus4 . . . | E    . . . |   (see below for tab)
+
+VERSE
+    D                           Cadd9 
+    I caught you knockin' at my cellar door
+    G/B                   G/Bb 
+    I love you baby can I have some more
+    C      F                 Esus4   E 
+    Ooooh, ohhhh, the damage done
+    
+    I hit the city and I lost my band
+    I watch the needle take another man
+    Gone, gone... the damage done
+    
+    (intro x1)
+    
+    I sing this song because I love the man
+    I know that some of you don't understand
+    Milk blood, to keep from running out
+    
+    I've seen the needle and the damage done
+    A little part of it in everyone
+    But every junkie's like a setting sun
+    
+    (intro x1, end on G/Bb and let ring)
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Playing the Intro
+The intro / main riff for this song is played as follows as follows. These tabs are also used in the verse (with one difference shown below), as well as the breaks between each verse. Pay attention to the up- and down-strum notations, as these are important for emphasizing both the bass note and melody (via the highest note). A terrific video showing how to play this can be seen here: http://www.youtube.com/watch?v=lA3K5BXLjKo
+
+e-|------2-----0---------------|------------0---------------|-
+B-|------3-----3-----3-----3---|------2-----2-----2-----2---|-
+G-|------2-----2-----2-----2---|------0-----0-----0-----0---|-
+D-|---0-----0-----0-----0------|------2-----2-----2-----2---|-
+A-|----------------------------|---3-----3-----3-----3------|-
+E-|----------------------------|----------------------------|-
+      v  ^  v  ^  v  ^  v  ^       v  ^  v  ^  v  ^  v  ^ 
+      D                            Cadd9 
+
+ -|------------0---------------|------------0---------------|-
+ -|------2-----2-----2-----2---|------2-----2-----2-----2---|-
+ -|------0-----0-----0-----0---|------0-----0-----0-----0---|-
+ -|------0-----0-----0-----0---|------0-----0-----0-----0---|-
+ -|---2-----2-----2-----2------|---1-----1-----1-----1------|-
+ -|----------------------------|----------------------------|-
+      v  ^  v  ^  v  ^  v  ^       v  ^  v  ^  v  ^  v  ^ 
+      G/B                          G/Bb 
+
+ -|---------------------------------------------------------|-
+ -|------1-------1------1-------1-----1-----1-----1-----1---|-
+ -|------0-------0---0-----0h2-----3-----2-----0------------|-
+ -|------2--0h2--------------------------------------3------|-
+ -|---3-----------------------------------------------------|-
+ -|---------------------------------------------------------|-
+      v  ^  v    ^   v  ^  v    ^  v  ^  v  ^  v  ^  v  ^ 
+      C 
+      
+ -|------0-----0-----0-----0---|------0-----0-----0-----0---||
+ -|------0-----0-----0-----0---|------0-----0-----0-----0---||
+ -|---2--2-----2-----2-----2---|---1--1-----1-----1-----1---||
+ -|---------2------------------|---------2------------------||
+ -|---------------2------------|---------------2-----0------||
+ -|---------------------0------|----------------------------||
+      v  ^  v  ^  v  ^  v  ^       v  ^  v  ^  v  ^  v  ^ 
+      Esus4                        E 
+
+Replacing the C-Walkup in the verse
+The verse uses the same tab/riff/progression has the intro, with one exception. Instead of playing the C-walkup (after the G/Bb), you only need to play some simpler C and F strumming as shown below. After the C and F, you continue to the Esus4 and E -- those remain the same. Listen along for reference.
+
+e-|------------0---------------|------------0---------------|-
+B-|------1-----1-----1-----1---|------1-----1-----1-----1---|-
+G-|------0-----0-----0-----0---|------2-----2-----2-----2---|-
+D-|------2-----2-----2-----2---|------3-----3-----3-----3---|-
+A-|---3-----3-----3-----3------|---3-----3-----3-----3------|-
+E-|----------------------------|----------------------------|-
+      v  ^  v  ^  v  ^  v  ^       v  ^  v  ^  v  ^  v  ^ 
+      C                            F/C 
+     "Ohhhhhh,                     ohhhh....        the damage done..."
+
+Alternative E-riff to end each verse
+Sometimes Neil plays this little riff on the final E to end each verse. The third bassnote in the E measure simply slides up to the 4th fret, and then back to the 2nd fret for the next bassnote.
+
+ -|------0-----0-----0-----0---|------0-----0-------0-----0---||
+ -|------0-----0-----0-----0---|------0-----0-------0-----0---||
+ -|---2--2-----2-----2-----2---|---1--1-----1-------1-----1---||
+ -|---------2------------------|---------2-----2/4-----2------||
+ -|---------------2------------|------------------------------||
+ -|---------------------0------|------------------------------||
+      v  ^  v  ^  v  ^  v  ^       v  ^  v  ^  v    ^  v  ^ 
+      Esus4                        E 
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+| D . . . | Cadd9 . . . | G/B   . . . | G/Bb . . . |
+| C . . . | C     . . . | Esus4 . . . | E    . . . |
+
+VERSE
+"I caught you knocking at my cellar door..."
+| D . . . | Cadd9 . . . | G/B   . . . | G/Bb . . . |
+| C . . . | F/C   . . . | Esus4 . . . | E    . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: The Needle and the Damage Done
+Artist: Neil Young
+Album: Harvest
+Year: 1972
+Label: Reprise
