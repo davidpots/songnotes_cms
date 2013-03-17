@@ -70,8 +70,40 @@
         </div>
       </div> <!-- end: .tile -->
       
+      <% unless @songs_same_artist.count < 2 %>
+        <h3 class="bucket_head">Other songs by <%= @artist %></h3>
+        <ul class="tiles" style="margin-bottom:0;">    
+        <% @songs_same_artist.each do |song| %>
+          <li class="arrow">
+            <%= link_to(song, :class => "tile") do %>
+              <h1><%= song.title %></h1>
+              <h3><%= song.artist %></h3>
+            <% end %>
+          </li>
+        <% end %>
+        </ul>
+      <% end %>
+      
+      <% unless @songs_same_year.count < 2 %>
+        <h3 class="bucket_head">Other songs from <%= @year %></h3>
+        <ul class="tiles" style="margin-bottom:0;">    
+        <% @songs_same_year.each do |song| %>
+          <li class="arrow">
+            <%= link_to(song, :class => "tile") do %>
+              <h1><%= song.title %></h1>
+              <h3><%= song.artist %></h3>
+            <% end %>
+          </li>
+        <% end %>
+        </ul>
+      <% end %>
+      
+      
+      
+      
+      
+      
       <h3 class="bucket_head">Some random suggestions</h3>
-
       <ul class="tiles" style="margin-bottom:0;">    
       <% @songs_random.each do |song| %>
         <li class="arrow">

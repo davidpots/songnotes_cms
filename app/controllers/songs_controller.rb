@@ -18,6 +18,12 @@ class SongsController < ApplicationController
     @song = Song.find(params[:id])
     @songs_all = Song.where(published: true).all(:order => 'created_at DESC',:limit=>10)
     @songs_random = Song.where(published: true).all(:order => 'created_at DESC').sample(7)
+
+    @year = @song.year
+    @songs_same_year = Song.where(published: true, year: @year).all(:order => 'title ASC')
+
+    @artist = @song.artist
+    @songs_same_artist = Song.where(published: true, artist: @artist).all(:order => 'title ASC')
   end
 
   def admin
