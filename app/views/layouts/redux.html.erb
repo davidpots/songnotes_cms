@@ -12,6 +12,9 @@
 
   <script type="text/javascript" src="http://www.pgrady.com/scripts/iosbugfix.js"></script> 
 
+  <meta property="og:title" content="<%= content_for?(:title) ? content_for(:title) : "Songnotes :: Hand-Crafted Guitar Tabs, Chords, and Lyrics" %>" />
+  <meta property="og:description" content="<%= content_for?(:description) ? content_for(:description) : "Songnotes provides guitar tabs, chords, and lyrics to your favorite songs. All tabs are hand-crafted by @davidpots." %>" />
+  <meta property="og:type" content="website" />
   <meta property="og:image" content="http://songnotes.davidpots.com/songnotes-avatar.png"/>
 
   <link href='http://fonts.googleapis.com/css?family=<%= @google_font_Bitter %>|<%= @google_font_Anonymous %>' rel='stylesheet' type='text/css'>
@@ -32,6 +35,16 @@
 
 </head>
 <body class="<% if controller_name == "songs" && action_name == "show" %>songs_show<% end %>">
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   <%= yield %>
   <!-- Hi there :) -->
 </body>

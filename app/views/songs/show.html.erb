@@ -1,5 +1,5 @@
-<% title "Chords and Lyrics for '#{@song.title}' by #{@song.artist}" %>
-<% description "Acoustic guitar chords, lyrics, and tabs for #{@song.title} by #{@song.artist}, as heard on '#{@song.album}' released in #{@song.year}." %>
+<% title "'#{@song.title}' by #{@song.artist} - Chords, Lyrics, and Guitar Tabs" %>
+<% description "Learn how to play #{@song.title} by #{@song.artist}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes. This song is heard on the album '#{@song.album}' released in #{@song.year}." %>
 
 <div class="song_show">
 
@@ -68,6 +68,9 @@
             <strong>Label: </strong><%= @song.record_label.present? ? @song.record_label : "--" %>
           </p>
         </div>
+        
+        <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>        
+        
       </div> <!-- end: .tile -->
       
       <% unless @songs_same_artist.count < 2 %>
