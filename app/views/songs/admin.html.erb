@@ -23,7 +23,7 @@
         <td><%= song.album %></td>
         <td><%= song.created_at %></td>
         <td><%= song.record_label? ? song.record_label : "--" %></td>
-        <td><%= link_to 'Delete', song_details_url(:id => song.id), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', admin_url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
     </table>
