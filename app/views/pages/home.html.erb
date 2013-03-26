@@ -1,9 +1,8 @@
 <div class="welcome">
   <div class="container">
     <h1>Songnotes</h1>
-    <%#<p>Hand-crafted guitar tab songbook.<br />Made with care by @davidpots.</p> %>
     <p>Premium guitar tabs, chords, and lyrics.<br />Hand-made with care by <a href="http://twitter.com/davidpots" target="_blank">@davidpots</a>.</p>
-    <div class="fb-like" style="position: relative; left: 50%; margin-left: -150px;" data-send="false" data-width="300" data-show-faces="false" data-action="recommend"></div>
+    <div class="fb-like" data-href="http://songnotes.davidpots.com" style="position: relative; left: 50%; margin-left: -150px;" data-send="false" data-width="300" data-show-faces="false" data-action="recommend"></div>
   </div> <!-- end: .container -->
 </div> <!-- end: .welcome -->
 
@@ -12,6 +11,9 @@
 
     <h3 class="bucket_head">Welcome!</h3>
     <ul class="tiles">
+      <li class="arrow">
+        <%= link_to ("<h1>About this site</h1>").html_safe, about_url, :class => "tile" %>
+      </li>
       <li class="arrow">
         <%= link_to ("<h1>Browse all #{@song_count} songs</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
       </li>

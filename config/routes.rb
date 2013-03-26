@@ -9,6 +9,7 @@ Songnotes::Application.routes.draw do
 
   match 'sandbox' => 'pages#sandbox', :as => 'sandbox'
   match 'home' => 'pages#home', :as => 'home'
+  match 'about' => 'pages#about', :as => 'about'
 
   resources :songs
 
