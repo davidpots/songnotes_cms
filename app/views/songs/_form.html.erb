@@ -35,7 +35,19 @@
   <p class="field">
     <%= f.label "Slug" %><br />
     <%= f.text_field :slug %>
-  </p>  
+  </p>
+  <p class="field">
+    <%= f.label "Key" %><br />
+    <%= f.text_field :key %>
+  </p>
+  <p class="field">
+    <%= f.label "Lyrics (raw)" %><br />
+    <%= f.text_area :lyrics_raw %>
+  </p>
+  <p class="field">
+    <%= f.label "Lyrics (signature line)" %><br />
+    <%= f.text_area :lyrics_signature %>
+  </p>
   <p class="field">
     <%= f.label "Lyrics (text)" %><br />
     <%= f.text_area :lyrics_text %>
@@ -51,7 +63,20 @@
   <p class="field">
     <%= f.label "Chords Progressions" %><br />
     <%= f.text_area :chords %>
-  </p>  
+  </p>
+  <hr />
+  <p class="field">
+    <%= f.label "URL Wikipedia" %><br />
+    <%= f.text_field :url_wikipedia %>
+  </p>
+  <p class="field">
+    <%= f.label "URL YouTube (Official)" %><br />
+    <%= f.text_field :url_youtube_official %>
+  </p>
+  <p class="field">
+    <%= f.label "URL Rdio" %><br />
+    <%= f.text_field :url_rdio %>
+  </p>
   <hr />
   <p class="field">
     <%= f.label "Published?" %>
