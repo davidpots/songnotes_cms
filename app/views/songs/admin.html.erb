@@ -1,8 +1,13 @@
-<div style="padding: 20px; background: #fff;">
-    <p style="background:yellow; padding: 12px 15px;"><%= notice %></p>
-    <h1>You have <span style="background:green;color:white;"><%= @songs.count %></span> published songs</h1>
+<%= render "shared/admin_nav" %>
 
-    <p style="margin:20px 0"><%= link_to 'Add New Song', new_song_path %></p>
+<div class="admin">
+    <% unless notice.blank? %>
+      <p style="background:yellow; padding: 12px 15px;"><%= notice %></p>
+    <% end %>
+
+    <h1>Songs</h1>
+    <p style="font-size: 16px;">You have <%= @songs.count %> published songs.</p>
+    <p style="margin:20px 0"><%= link_to 'Add New Song', new_song_path, :class => 'btn' %></p>
 
     <table>
       <tr>
@@ -18,15 +23,16 @@
     <% @songs.each do |song| %>
       <tr>
         <td><strong><%= link_to song.title, edit_song_path(song) %></strong></td>
-        <td><%= song.artist %></td>
+        <td><%= song.artist.blank? ? "--" : song.artist.name %></td>
         <td><%= song.year %></td>
-        <td><%= song.album %></td>
-        <td><%= song.created_at %></td>
+        <td><%= song.album.blank? ? "--" : song.album.name %></td>
+        <td><%= song.created_at.strftime("%b %e, %Y") %></td>
         <td><%= song.record_label? ? song.record_label : "--" %></td>
         <td><%= link_to 'Delete', admin_url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
     </table>
 
-    <br />
+    <p style="margin:20px 0"><%= link_to 'Add New Song', new_song_path, :class => 'btn' %></p>
+
 </div>

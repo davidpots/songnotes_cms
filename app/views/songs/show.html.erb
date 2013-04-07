@@ -21,7 +21,7 @@
         <%# ---------------------------------------------- %>
         <div class="song_header bucket">
           <h1><%= @song.title %></h1>
-          <p><%= @song.artist %></p>
+          <p><%= @song.artist.name %></p>
         </div>
 
         <%# ---------------------------------------------- %>
@@ -62,8 +62,8 @@
           <h2>About This Song</h2>
           <p>
             <strong>Song: </strong><%= @song.title %><br />
-            <strong>Artist: </strong><%= @song.artist %><br />
-            <strong>Album: </strong><%= @song.album.present? ? @song.album : "--" %><br />
+            <strong>Artist: </strong><%= @song.artist.name %><br />
+            <strong>Album: </strong><%= @song.album.present? ? @song.album.name : "--" %><br />
             <strong>Year: </strong><%= @song.year %><br />
             <strong>Label: </strong><%= @song.record_label.present? ? @song.record_label : "--" %>
           </p>
@@ -75,14 +75,14 @@
         
       </div> <!-- end: .tile -->
       
-      <% unless @songs_same_artist.count < 2 %>
-        <h3 class="bucket_head">Other songs by <%= @artist %></h3>
+      <% unless @artist.songs.count < 2 %>
+        <h3 class="bucket_head">Other songs by <%= @artist.name %></h3>
         <ul class="tiles" style="margin-bottom:0;">    
-        <% @songs_same_artist.each do |song| %>
+        <% @artist.songs.each do |song| %>
           <li class="arrow">
             <%= link_to(song, :class => "tile") do %>
               <h1><%= song.title %></h1>
-              <h3><%= song.artist %></h3>
+              <h3><%= song.year %></h3>
             <% end %>
           </li>
         <% end %>
@@ -96,7 +96,7 @@
           <li class="arrow">
             <%= link_to(song, :class => "tile") do %>
               <h1><%= song.title %></h1>
-              <h3><%= song.artist %></h3>
+              <h3><%= song.artist.name %></h3>
             <% end %>
           </li>
         <% end %>
@@ -114,7 +114,7 @@
         <li class="arrow">
           <%= link_to(song, :class => "tile") do %>
             <h1><%= song.title %></h1>
-            <h3><%= song.artist %></h3>
+            <h3><%= song.artist.name %></h3>
           <% end %>
         </li>
       <% end %>

@@ -1,0 +1,49 @@
+<%= render "shared/admin_nav" %>
+
+<div class="admin">
+
+    <% unless notice.blank? %>
+      <p style="background:yellow; padding: 12px 15px;"><%= notice %></p>
+    <% end %>
+
+    <h1>Albums</h1>
+
+    <p style="margin:20px 0"><%= link_to 'Add New Album', new_album_path, :class => 'btn' %></p>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Artist</th>
+        <th># Songs</th>
+        <th>Label</th>
+        <th>Year</th>
+        <th>Image url</th>
+        <th>Url wikipedia</th>
+        <th>Url rdio</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+
+    <% @albums.each do |album| %>
+      <tr>
+        <td><%= album.name %></td>
+        <td><%= album.artist.blank? ? "--" : album.artist.name %></td>
+        <td><%= album.songs.count %></td>
+        <td><%= album.label %></td>
+        <td><%= album.year %></td>
+        <td><%= album.image_url %></td>
+        <td><%= album.url_wikipedia %></td>
+        <td><%= album.url_rdio %></td>
+        <td><%= link_to 'Show', album %></td>
+        <td><%= link_to 'Edit', edit_album_path(album) %></td>
+        <td><%= link_to 'Destroy', album, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+    </table>
+
+    <br />
+
+    <p style="margin:20px 0"><%= link_to 'Add New Album', new_album_path, :class => 'btn' %></p>
+
+</div>

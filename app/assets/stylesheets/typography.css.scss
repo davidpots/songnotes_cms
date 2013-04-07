@@ -9,7 +9,7 @@
             color:        $body_copy_color_reg; }
 
     //  Links
-        a                     { color: $link_color; text-decoration: none; }
+        a,a:visited,a:hover,a:active                     { color: $link_color; text-decoration: none; }
 
     //  Headers –– Universal
         h1, h2, h3,
@@ -61,6 +61,7 @@
     
     // "Back to song list" link
     .back_to_browse       { color: #fff; font-size: 1.25rem; line-height:1.85rem; display: block; padding: 1.8rem 0 1.4rem 3rem; background: url(/assets/icon_arrow_back.png) no-repeat left center; background-size: 2.1rem 1.2rem; }
+    .back_to_browse:hover { color: #fff; }
     
     .song_show .tile      { padding: 24px 24px; }
     .song_show h3.bucket_head { margin-top: 3.5rem; }
@@ -155,3 +156,32 @@
         @media (min-width: 640px) and (max-width: 767px)  { .browse_nav_wrap_outer { margin: 0; } }
         @media (min-width: 480px) and (max-width: 639px)  { .browse_nav_wrap_outer { margin: 0; } }
         @media (max-width: 479px)                         { .browse_nav_wrap_outer { margin: 0; } }
+
+
+// Buttons
+
+    .btn        { display: inline-block; padding: 7px 15px; background: #0072ff; color: #fff; }
+    .btn:hover  { background: #0072ff; color: #fff; }
+    
+    .btn-secondary { background: #ddd; color: #777; }
+    .btn-secondary:hover { background: #ddd; color: #777; }
+
+    .btn-warning { background: red; color: #fff; }
+    .btn-warning:hover { background: red; color: #fff; }
+
+
+// Admin
+
+    .admin { font-family: "Helvetica Neue", Arial; padding: 20px; background: #fff; }
+
+    // Table Formatting
+    .admin table { border-collapse: collapse; }
+    .admin table a { display: block; }
+    .admin th,
+    .admin td { padding: 7px; border: 1px solid #ddd; text-align: left; font-size: 16px; }
+    .admin th { background: #333; color: #fff; }
+    .admin th a { background: #333; color: #fff; }
+    .admin td { }
+    
+    // Form Styling
+    .admin textarea { height: 40px; }

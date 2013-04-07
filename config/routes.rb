@@ -1,11 +1,14 @@
 Songnotes::Application.routes.draw do
 
+  resources :albums
+
+  resources :artists
+
   root to: 'pages#home'
 
   match 'adminius' => 'songs#admin', :as => 'admin'
 
   match 'directory' => 'songs#index', :as => 'song_directory'
-  match 'details/:id' => 'songs#details', :as => 'song_details'
 
   match 'sandbox' => 'pages#sandbox', :as => 'sandbox'
   match 'home' => 'pages#home', :as => 'home'

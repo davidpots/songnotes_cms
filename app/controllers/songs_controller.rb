@@ -1,4 +1,5 @@
 class SongsController < ApplicationController
+  before_filter :prepare_artists, :prepare_albums
   helper_method :sort_column, :sort_direction
   layout 'redux'
   def index
@@ -23,15 +24,10 @@ class SongsController < ApplicationController
     @songs_same_year = Song.where(published: true, year: @year).all(:order => 'title ASC')
 
     @artist = @song.artist
-    @songs_same_artist = Song.where(published: true, artist: @artist).all(:order => 'title ASC')
   end
 
   def admin
     @songs = Song.order(sort_column + ' ' + sort_direction)
-  end
-
-  def details
-    @song = Song.find(params[:id])
   end
 
   def new
@@ -78,4 +74,13 @@ class SongsController < ApplicationController
   def sort_direction
     params[:direction] || "asc"
   end
+  
+  def prepare_artists
+    @artists = Artist.all
+  end
+
+  def prepare_albums
+    @albums = Album.all
+  end
+  
 end

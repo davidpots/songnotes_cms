@@ -25,7 +25,7 @@
       <li class="arrow">
         <%= link_to(song, :class => "tile") do %>
           <h1><%= song.title %></h1>
-          <h3><%= song.artist %></h3>
+          <h3><%= song.artist.name %></h3>
           <!-- <h4><%= time_ago_in_words(song.created_at) %> ago</h4> -->
         <% end %>
       </li>
@@ -38,7 +38,7 @@
       <li class="arrow">
         <%= link_to(song, :class => "tile") do %>
           <h1><%= song.title %></h1>
-          <h3><%= song.artist %></h3>
+          <h3><%= song.artist.name %></h3>
         <% end %>
       </li>
       <% end %>

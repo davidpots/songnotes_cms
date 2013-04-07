@@ -12,61 +12,62 @@
     </div>
   <% end %>
 
-
-  <div class="field">
+  <p class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p class="field">
+    <%= f.label :year %><br />
+    <%= f.number_field :year %>
+  </p>
+  <p class="field">
+    <%= f.label "Artist" %><br />
+    <%= f.collection_select(:artist_id, @artists, :id, :name, :include_blank => "")%>
+  </p>
+  <p class="field">
+    <%= f.label "Album" %><br />
+    <%= f.collection_select(:album_id, @albums, :id, :name, :include_blank => "")%>
+  </p>
+  <p class="field">
+    <%= f.label "Record Label" %><br />
+    <%= f.text_field :record_label %>
+  </p>
+  <p class="field">
+    <%= f.label "Slug" %><br />
+    <%= f.text_field :slug %>
+  </p>  
+  <p class="field">
+    <%= f.label "Lyrics (text)" %><br />
+    <%= f.text_area :lyrics_text %>
+  </p>
+  <p class="field">
+    <%= f.label "Lyrics (HTML, mono)" %><br />
+    <%= f.text_area :lyrics_html_mono %>
+  </p>
+  <p class="field">
+    <%= f.label "Notes & Tabs" %><br />
+    <%= f.text_area :notes %>
+  </p>
+  <p class="field">
+    <%= f.label "Chords Progressions" %><br />
+    <%= f.text_area :chords %>
+  </p>  
+  <hr />
+  <p class="field">
     <%= f.label "Published?" %>
     <%= f.radio_button :published, true %>
     <%= f.label :published, 'True', :value => 'True', :class => "radio_label" %>
     <%= f.radio_button :published, false %>
     <%= f.label :published, 'False', :value => 'False', :class => "radio_label" %>
   </div>
-  <div class="field">
+  <p class="field">
     <%= f.label "Has repeated chords?" %>
     <%= f.radio_button :repeated_chords, true %>
     <%= f.label :repeated_chords, 'True', :value => 'True', :class => "radio_label" %>
     <%= f.radio_button :repeated_chords, false %>
     <%= f.label :repeated_chords, 'False', :value => 'False', :class => "radio_label" %>
-  </div>
-  <div class="field">
-    <%= f.label :title %>
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :artist %>
-    <%= f.text_field :artist %>
-  </div>
-  <div class="field">
-    <%= f.label :year %>
-    <%= f.number_field :year %>
-  </div>
-  <div class="field">
-    <%= f.label :album %>
-    <%= f.text_field :album %>
-  </div>
-  <div class="field">
-    <%= f.label "Record Label" %>
-    <%= f.text_field :record_label %>
-  </div>
-  <div class="field">
-    <%= f.label "Slug" %>
-    <%= f.text_field :slug %>
-  </div>  
-  <div class="field">
-    <%= f.label "Lyrics (text)" %>
-    <%= f.text_area :lyrics_text %>
-  </div>
-  <div class="field">
-    <%= f.label "Lyrics (HTML, mono)" %>
-    <%= f.text_area :lyrics_html_mono %>
-  </div>
-  <div class="field">
-    <%= f.label "Chords" %>
-    <%= f.text_area :chords %>
-  </div>  
-  <div class="field">
-    <%= f.label "Notes" %>
-    <%= f.text_area :notes %>
-  </div>
+  </p>
+  <hr />
   <div class="actions">
     <%= f.submit %>
   </div>

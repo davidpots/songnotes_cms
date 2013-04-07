@@ -21,13 +21,13 @@
     <% if @nav == 'artist' %>
 
       <% @songs_by_artist.sort.each do |artist, songs| %>
-          <h3 class="bucket_head"><%= artist %></h3>
+          <h3 class="bucket_head"><%= artist.name %></h3>
           <ul class="tiles">
           <% for song in songs %>
             <li class="arrow <% if song.created_at > 10.days.ago %>new<%end%>">
               <%= link_to(song, :class => "tile") do %>
                 <h1><%= song.title %></h1>
-                <h3><%= song.year %></h3>
+                <h3><%= song.album.blank? ? "--" : song.album.name %></h3>
               <% end %>
             </li>
           <% end %>
@@ -45,7 +45,7 @@
             <li class="arrow">
               <%= link_to(song, :class => "tile") do %>
                 <h1><%= song.title %></h1>
-                <h3><%= song.artist %></h3>
+                <h3><%= song.artist.name %></h3>
               <% end %>
             </li>
           <% end %>
@@ -62,7 +62,7 @@
             <li class="arrow">
               <%= link_to(song, :class => "tile") do %>
                 <h1><%= song.title %></h1>
-                <h3><%= song.artist %></h3>
+                <h3><%= song.artist.name %></h3>
               <% end %>
             </li>
           <% end %>

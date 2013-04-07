@@ -1,0 +1,57 @@
+<%= form_for(@artist) do |f| %>
+  <% if @artist.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@artist.errors.count, "error") %> prohibited this artist from being saved:</h2>
+
+      <ul>
+      <% @artist.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :bio_short %><br />
+    <%= f.text_area :bio_short %>
+  </div>
+  <div class="field">
+    <%= f.label :bio_long %><br />
+    <%= f.text_area :bio_long %>
+  </div>
+  <div class="field">
+    <%= f.label :image_url %><br />
+    <%= f.text_field :image_url %>
+  </div>
+  <div class="field">
+    <%= f.label :url_website %><br />
+    <%= f.text_field :url_website %>
+  </div>
+  <div class="field">
+    <%= f.label :url_twitter %><br />
+    <%= f.text_field :url_twitter %>
+  </div>
+  <div class="field">
+    <%= f.label :url_facebook %><br />
+    <%= f.text_field :url_facebook %>
+  </div>
+  <div class="field">
+    <%= f.label :url_wikipedia %><br />
+    <%= f.text_field :url_wikipedia %>
+  </div>
+  <div class="field">
+    <%= f.label :url_youtube_official %><br />
+    <%= f.text_field :url_youtube_official %>
+  </div>
+  <div class="field">
+    <%= f.label :url_rdio %><br />
+    <%= f.text_field :url_rdio %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

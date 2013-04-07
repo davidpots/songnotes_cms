@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @artist.name %>
+</p>
+
+<p>
+  <b>Bio short:</b>
+  <%= @artist.bio_short %>
+</p>
+
+<p>
+  <b>Bio long:</b>
+  <%= @artist.bio_long %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @artist.image_url %>
+</p>
+
+<p>
+  <b>Url website:</b>
+  <%= @artist.url_website %>
+</p>
+
+<p>
+  <b>Url twitter:</b>
+  <%= @artist.url_twitter %>
+</p>
+
+<p>
+  <b>Url facebook:</b>
+  <%= @artist.url_facebook %>
+</p>
+
+<p>
+  <b>Url wikipedia:</b>
+  <%= @artist.url_wikipedia %>
+</p>
+
+<p>
+  <b>Url youtube official:</b>
+  <%= @artist.url_youtube_official %>
+</p>
+
+<p>
+  <b>Url rdio:</b>
+  <%= @artist.url_rdio %>
+</p>
+
+
+<%= link_to 'Edit', edit_artist_path(@artist) %> |
+<%= link_to 'Back', artists_path %>
