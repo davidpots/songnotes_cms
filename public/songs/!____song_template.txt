@@ -55,5 +55,5 @@ ABOUT THIS SONG
 Song: ____
 Artist: ____
 Album: ____
-Year: ____
+Released: Month Day, Year
 Label: ____
