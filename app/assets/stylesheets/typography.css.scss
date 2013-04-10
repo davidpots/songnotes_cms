@@ -178,7 +178,7 @@
     .admin table { border-collapse: collapse; }
     .admin table a { display: block; }
     .admin th,
-    .admin td { padding: 7px; border: 1px solid #ddd; text-align: left; font-size: 16px; }
+    .admin td { padding: 7px; border: 1px solid #ddd; text-align: left; font-size: 16px; white-space: nowrap;}
     .admin th { background: #333; color: #fff; }
     .admin th a { background: #333; color: #fff; }
     .admin td { }

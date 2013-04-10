@@ -57,3 +57,6 @@ Artist: ____
 Album: ____
 Released: Month Day, Year
 Label: ____
+Wikipedia URL: ____
+Rdio URL: ____
+YouTube (offical video): ____
