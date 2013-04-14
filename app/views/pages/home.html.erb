@@ -24,7 +24,7 @@
     <% @recent_songs.each do |song| %>
       <a class="card" href="<%= song_url(song) %>">
         <p class="thumb">
-          <img src="assets/artists/<%= song.artist.image_url %>" />
+          <img src="/assets/artists/<%= song.artist.image_url %>" />
         </p>
         <h1><%= truncate(song.title, length:28) %></h1>
         <h2><%= song.artist.name %></h2>
