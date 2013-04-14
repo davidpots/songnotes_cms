@@ -12,6 +12,7 @@
 
   <table>
     <tr>
+      <th>ID</th>
       <th>Name</th>
       <th># Albums</th>
       <th># Songs</th>
@@ -31,7 +32,8 @@
 
   <% @artists.each do |artist| %>
     <tr>
-      <td><%= artist.name %></td>
+      <td><%= artist.id %></td>
+      <td><%= link_to artist.name, edit_artist_path(artist) %></td>
       <td><%= artist.albums.count %></td>
       <td><%= artist.songs.count %></td>
       <td><%= artist.bio_short %></td>

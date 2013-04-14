@@ -103,9 +103,20 @@
         </ul>
       <% end %>
       
-      
-      
-      
+    <h3 class="bucket_head">Recently added songs</h3>
+    <div class="cards_v1">
+    <% @recent_songs.each do |song| %>
+      <a class="card" href="<%= song_url(song) %>">
+        <p class="thumb">
+          <img src="/assets/artists/<%= song.artist.image_url %>" />
+        </p>
+        <h1><%= truncate(song.title, length:28) %></h1>
+        <h2><%= song.artist.name %></h2>
+      </a>
+    <% end %>
+    </div>
+
+
       
       
       <h3 class="bucket_head">Some random suggestions</h3>

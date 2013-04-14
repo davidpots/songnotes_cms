@@ -15,6 +15,7 @@
       .song_show .container       { width: 768px; }
       ul.tiles > li .tile         { padding: 24px 72px 24px 24px; }
       ul.tiles > li.arrow .tile   { background-size: 45px 27px; }
+      .cards_v1 .card { width: 25.228%; }
     }
 
     /* Portrait tablet to landscape and desktop */
@@ -25,6 +26,7 @@
       .song_show .container       { width: 768px; }
       ul.tiles > li .tile         { padding: 21px 65px 21px 21px; }
       ul.tiles > li.arrow .tile   { background-size: 40px 24px; }
+      .cards_v1 .card { width: 40.45%; }
     }
 
     /* Portrait tablet to landscape and desktop */
@@ -35,6 +37,7 @@
       .song_show .container       { width: 768px; }
       ul.tiles > li .tile         { padding: 18px 60px 18px 18px; }
       ul.tiles > li.arrow .tile   { background-size: 25px 15px; }
+      .cards_v1 .card { width: 37.5%; }
     }
 
     /* Landscape phones and down */
@@ -45,7 +48,9 @@
       .song_show .container       { width: 640px; }
       ul.tiles > li .tile         { padding: 14px 60px 14px 14px; }
       ul.tiles > li.arrow .tile   { background-size: 25px 15px; }
+      .cards_v1 .card { width: 88%; margin-bottom: 12px; }
     }
 
     // This needs to be universal. To do: put it somewhere that makes more sense
     .song_show .buffer { padding-top: 0; }
+    .song_show .cards_v1 .card { width: 173px; }

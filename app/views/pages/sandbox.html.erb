@@ -1,4 +1,111 @@
 <div class="container">
+  <div class="buffer">
+
+    <div class="cards_v1">
+    <% @recent_songs.each do |song| %>
+      <a class="card" href="<%= song_url(song) %>">
+        <p class="thumb">
+          <img src="/assets/artists/<%= song.artist.image_url %>" />
+        </p>
+        <h1><%= truncate(song.title, length:28) %></h1>
+        <h2><%= song.artist.name %></h2>
+      </a>
+    <% end %>
+    </div>
+
+    <h1>Artists (first 10, sorted by name)</h1>
+    <ul>
+    <% @artists.each do |artist| %>
+      <li><strong><%= artist.name %></strong> (<%= artist.songs.count %>)</li>
+    <% end %>
+    </ul>
+    
+    <!-- <div class="cards_v1">
+      <div class="card">
+        <div class="thumb"></div>
+        <h1>Primary</h1>
+        <h2>Secondary</h2>
+        <h3>Tertiary</h3>
+      </div>
+      <div class="card">
+        <div class="thumb"></div>
+        <h1>Primary</h1>
+        <h2>Secondary</h2>
+        <h3>Tertiary</h3>
+      </div>
+      <div class="card">
+        <div class="thumb"></div>
+        <h1>Primary</h1>
+        <h2>Secondary</h2>
+        <h3>Tertiary</h3>
+      </div>
+      <div class="card">
+        <div class="thumb"></div>
+        <h1>Primary</h1>
+        <h2>Secondary</h2>
+        <h3>Tertiary</h3>
+      </div>
+    </div> -->
+
+<br /><br /><br /><br /><br /><br /><br />
+
+    <h1 class="sect_head">Browse by Artist</h1>
+    <div class="cards_v1">
+      <% @songs_by_artist.sort.each do |artist, songs| %>
+          <% for song in songs %>
+            <div class="card">
+              <div class="thumb"></div>
+              <h1><%= song.artist.name %></h1>
+              <h2><%= song.title %></h2>
+              <h3><%= song.year %></h3>
+            </div>
+          <% end %>
+      <% end %>
+    </div> <!-- end: .cards_v1 -->
+
+      <% @songs_by_artist.sort.each do |artist, songs| %>
+          <h3><%= artist.name %></h3>
+          <ul>
+          <% for song in songs %>
+            <li>
+              <%= link_to(song, :class => "tile") do %>
+                <strong><%= song.title %></strong><br />
+                <%= song.album.blank? ? "--" : song.album.name %>
+              <% end %>
+            </li>
+          <% end %>
+          </ul>
+      <% end %>
+
+
+      <% @songs_by_title.each do |first_letter, songs| %>
+          <h3><%= first_letter %></h3>
+          <ul>
+          <% for song in songs %>
+            <li>
+              <%= link_to(song, :class => "tile") do %>
+                <strong><%= song.title %></strong>
+                <%= song.artist.name %>
+              <% end %>
+            </li>
+          <% end %>
+          </ul>
+      <% end %>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <br />  <br />  <br />  <br />  <br />
   <div class="tile" style="padding: 24px 32px;">
 
     <p style="font-size: 1rem;">I am a paragraph with 1rem</p>

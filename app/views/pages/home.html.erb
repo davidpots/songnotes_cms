@@ -20,17 +20,17 @@
     </ul>
   
     <h3 class="bucket_head">Recently added songs</h3>
-    <ul class="tiles">
-      <% @songs_by_months.each do |song| %>
-      <li class="arrow">
-        <%= link_to(song, :class => "tile") do %>
-          <h1><%= song.title %></h1>
-          <h3><%= song.artist.name %></h3>
-          <!-- <h4><%= time_ago_in_words(song.created_at) %> ago</h4> -->
-        <% end %>
-      </li>
-      <% end %>
-    </ul>
+    <div class="cards_v1">
+    <% @recent_songs.each do |song| %>
+      <a class="card" href="<%= song_url(song) %>">
+        <p class="thumb">
+          <img src="/assets/artists/<%= song.artist.image_url %>" />
+        </p>
+        <h1><%= truncate(song.title, length:28) %></h1>
+        <h2><%= song.artist.name %></h2>
+      </a>
+    <% end %>
+    </div>
 
     <h3 class="bucket_head">Some random suggestions</h3>
     <ul class="tiles">
@@ -42,6 +42,16 @@
         <% end %>
       </li>
       <% end %>
+    </ul>
+
+    <h3 class="bucket_head">Looking for more?</h3>
+    <ul class="tiles">
+      <li class="arrow">
+        <%= link_to ("<h1>Browse all #{@song_count} songs</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
+      </li>
+      <li class="arrow">
+        <%= link_to ("<h1>Like us on Facebook</h1>").html_safe, "http://facebook.com/songnotes", :class => "tile" %>
+      </li>
     </ul>
 
     <p>You should follow Songnotes on twitter!</p>

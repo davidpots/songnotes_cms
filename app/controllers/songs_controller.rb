@@ -24,6 +24,9 @@ class SongsController < ApplicationController
     @songs_same_year = Song.where(published: true, year: @year).all(:order => 'title ASC')
 
     @artist = @song.artist
+
+    # Added Apr14, most recent
+    @recent_songs = Song.where(published: true).all(order: 'created_at DESC', limit: 12)
   end
 
   def admin
