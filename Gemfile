@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'pg', '~>0.13.2'
 gem 'bourbon', '1.3.6'
+gem 'devise'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.5'
@@ -11,7 +12,14 @@ group :assets do
 end
 
 group :development do
+  # WHY DO YOU HAVE SQLITE AS A GEM HERE?
   gem 'sqlite3', '1.3.5'
+  gem 'thin'
+end
+
+group :test do
+  gem 'shoulda'
+  gem 'database_cleaner'
 end
 
 gem 'jquery-rails'
