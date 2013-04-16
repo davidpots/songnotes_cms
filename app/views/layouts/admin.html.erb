@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>admin</title>
+
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body class="<%= "admin" if ((action_name == "admin") || (action_name == "new") || (action_name == "edit") || (action_name == "details")) %>">
+  <%= render "shared/admin_nav" %>
+  <%= yield %>
+</body>
+</html>

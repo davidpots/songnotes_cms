@@ -2,14 +2,14 @@
 
 one:
   title: MyString
-  artist: MyString
+  artist: one
   year: 1
-  album: MyString
-  lyrics: MyText
+  album: one
+  lyrics_html_mono: these are some awesome lyrics
 
 two:
   title: MyString
-  artist: MyString
+  artist: two
   year: 1
-  album: MyString
-  lyrics: MyText
+  album: two
+  lyrics_html_mono: these are lyrics
