@@ -1,0 +1,39 @@
+<%# Adds body class for full color background %>
+<% content_for :extra_class_names_for_body do %>colored-bg<% end %>
+
+<%= render "sandbox/sandbox_nav" %>
+
+<div class="container">
+  <div class="full-width">
+    <h1>Full Color Backgrounds</h1>
+    <p>Can be attained by adding class <code>.color-bg</code> to the body tag. As of this writing, this is setup by adding a <code>content_for</code> block to the top of each view where a full color background is necessary. This may be improved somehow -- need to check.</p>
+    <p>But the principle remains -- add the aforementioned class to the body tag.</p>
+  </div> <!-- end: full-width -->
+</div> <!-- end: .container -->
+
+<div class="full-bleed full-bleed-light">
+  <div class="container">
+    <div class="full-width">
+      <h2>Full-Bleed Content</h2>
+      <p>As you can see, the background of this section extends to the ends of the screen. This is done by simply adding a <code>div</code> with class <code>.full-bleed</code> around a <code>.container</code> element. Otherwise, you follow the rules with wrapping things inside the appropriate grid wrappers, such as <code>.full-width</code> and <code>.row></code>, etc.</p>
+      <p>All types of gridded content (shown below) can be used inside of full-bleed areas without any tweaks needed.</p>
+    </div> <!-- end: .full-width -->
+  </div> <!-- end: .container -->
+</div> <!-- end: .full-bleed -->
+
+<div class="full-bleed full-bleed-dark">
+  <div class="container">
+    <div class="full-width">
+      <h2>Full-Bleed Content, Dark Background</h2>
+      <p>You can also have full bleed content on dark backgrounds.</p>
+    </div> <!-- end: .full-width -->
+  </div> <!-- end: .container -->
+</div> <!-- end: .full-bleed -->
+
+<div class="container">
+  <div class="full-width">
+    <p>And at the end of the day, you can see the full color background comes back to save the day.</p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <p>No matter how tall this page gets, the background color will always go all the way to the bottom.</p>
+  </div> <!-- end: full-width -->
+</div> <!-- end: .container -->

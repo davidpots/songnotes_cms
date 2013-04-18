@@ -1,0 +1,79 @@
+// GENERAL RESETS
+// -----------------
+// Nothing here is too sacred / perfect... update as needed.
+
+      body { padding: 0; margin: 0; }
+
+// RESPONSIVE RESETS
+// -----------------
+// Taken from Foldy via https://github.com/davatron5000/Foldy960#readme
+
+      @-o-viewport {
+        width: device-width;
+      }
+      @-ms-viewport {
+        width: device-width;
+      }
+      @viewport {
+        width: device-width;
+      }
+
+      html {
+        overflow-y: auto;
+      }
+
+      img,
+      audio,
+      video,
+      canvas {
+        max-width: 100%;
+      }
+
+      /* apply a natural box layout model to all elements */
+      * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+// CONTAINER SETUP
+// -----------------
+// Taken from Foldy via https://github.com/davatron5000/Foldy960#readme
+
+      .container {
+        max-width: 1028px; // Determines how wide the container will get, at most
+        width: $gridFullWidth;
+        margin:0px auto;
+        position: relative;
+      }
+
+      // Preps the "row" container that all grids live in. The .full-width wrapper comes along for the ride (for clearfix, margin-bottom)
+      .row, .full-width {
+        clear: both;
+        margin-bottom: 1em;
+        @include clearfix;
+      }
+
+      // All grid sizes need to go here!
+      // Establish universal margin + base width + float
+      .grid-half,
+      .grid-tile,
+      .full-width {
+        float: left;                        // We're living in a float left world.
+        width: $gridFullWidth;              // Establish base width. All grid sizes begin as fullWidth (for smaller screens), let breakpoints below mitigate otherwise.
+        margin:0 $gridGutterWidth 0;        // Establish universal gutters to the left/right of each grid unit.
+      }
+
+      // Float exemption for full-width content
+      .full-width {
+        float: none;
+      }
+
+//
+// BREAKPOINT SETUP
+// -----------------
+
+      // "Halved" Grid Element (2-wide always)
+      @media screen and (min-width: 320px) {  .grid-half  { width: $gridHalves;   }}
+
+      // "Tiled" Grid Element (1-wide --> 2-wide --> 3-wide --> 4-wide)
+      @media screen and (min-width: 320px) {                                       }
+      @media screen and (min-width: 480px) {  .grid-tile  { width: $gridHalves;   }}
+      @media screen and (min-width: 768px) {  .grid-tile  { width: $gridThirds;   }}
+      @media screen and (min-width: 960px) {  .grid-tile  { width: $gridQuarters; }}

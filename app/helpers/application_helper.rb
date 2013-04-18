@@ -1,5 +1,15 @@
 module ApplicationHelper
 
+  # Adds class names to the <body> tag
+	def klass_pagename
+    class_names = [params[:controller], params[:action]].compact.join(" ").downcase
+  end
+  
+  # Add a class via any view by doing
+  def klass_extra
+    klass_names ||= " " + content_for(:extra_class_names_for_body)
+  end
+
   # Sort Helper used in Admin Index
   def sortable(column, title = nil)
     title ||= column.titleize

@@ -3,7 +3,7 @@
 //  --------------------------------------------------------------------------------
 
     html {  font-size:    62.5%; }
-    body {  background:   $color_primary; 
+    body {  background:   $bg_color; 
             font-family:  $body_fonts_primary; 
             line-height:  1.4rem;
             color:        $body_copy_color_reg; }
@@ -185,3 +185,38 @@
     
     // Form Styling
     .admin textarea { height: 40px; }
+
+// Card Design (Apr 14, 2013)
+
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+    h1.sect_head { color: #fff; font-weight: normal; }
+
+    .cards_v1 {
+      margin-bottom: 35px; 
+      overflow: hidden;
+      width: auto;
+      margin-left: -20px;
+    }
+
+    .cards_v1 .card { 
+      width: 198px;
+      background: #fff;
+      margin: 0 0 20px 20px;
+      float: left; 
+      height: 205px;
+      display: block;
+    }
+
+    .cards_v1 .card {
+      .wrap { padding: 32px 20px 24px 20px; }
+      // Image
+      .thumb { margin: 0 auto 21px; width: 72px; height: 72px; }
+      .thumb img { border-radius: 36px; width: 72px; height: 72px; background: #ddd; }
+      // Typography
+      h1,h2,h3 { margin: 0; padding: 0; text-align: center; }
+      h1 { font-size: 19px; line-height: 21px; font-weight: bold;   color: $color_secondary;  margin: 0 0 8px 0; font-style: normal; }
+      h2 { font-size: 14px; line-height: 16px; font-weight: bold;   color: #555;              margin: 0 0 8px 0; font-style: normal; }
+      h3 { font-size: 14px; line-height: 16px; font-weight: normal; color: #ccc;              margin: 0 0 0 0;   font-style: normal; }
+    //  h1 { display: table-cell; vertical-align: middle; height: 50px; background:yellow; width: 200px; }
+    }

@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <title><%= content_for?(:title) ? content_for(:title) : "Songnotes :: Hand-Crafted Guitar Tabs, Chords, and Lyrics" %></title>
+
+  <%= stylesheet_link_tag    "sandbox", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+
+  <%# Loads the meta tags %>
+  <%= render :partial => 'layouts/meta_preload' %>
+
+  <%# Loads the <link> tag that enables Google Fonts usage %>
+  <%= render :partial => 'layouts/googlefonts_preload' %>
+
+  <%# Loads the required JS that enables Google Analytics tracking %>
+  <%= render :partial => 'layouts/googleanalytics_preload' %>
+
+  <%# Loads the required JS that enables Facebook "Like" button usage %>
+  <%= render :partial => 'layouts/facebook_preload' %>
+
 </head>
-<body>
+<body class="<%= klass_pagename + klass_extra %>">
+
   <%= yield %>
+
 </body>
 </html>

@@ -1,0 +1,55 @@
+<%= render "sandbox/sandbox_nav" %>
+
+<div class="container">
+  <div class="full-width">
+    <h1>Responsive Grid Structure</h1>
+    <p>Here is how you need to structure your front-end markup so that it plays along with Mr. Grid.</p>
+    <hr />
+    <h3>Full Width Content</h3>
+    <p>For content you always want to be full width, simply wrap it in a <code>div</code> with class <code>.full-width</code></p>
+    <div class="tile-teacher">I am a div with class <span>.full-width</span></div>
+  </div>
+  <div class="full-width">
+    <h3>Halved Columns</h3>
+    <p>For content you always want to be split into two equally wide columns, create a <code>div</code> with class <code>.row</code>. Inside, insert two <code>div</code> elements with class <code>.grid-half</code></p>
+  </div> <!-- end: .full-width -->
+  <div class="row">
+    <div class="grid-half"><div class="tile-teacher">Half Width, all the time.<span>.row .grid-half</span></div></div>
+    <div class="grid-half"><div class="tile-teacher">Half Width, all the time.<span>.row .grid-half</span></div></div>
+  </div> <!-- end: .row -->
+  <div class="full-width">
+    <h3>Repeating Tiles</h3>
+    <p>If you need repeating tiles that go up to four-wide (in the case shown here), create a <code>div</code> with class <code>.row</code>. Inside, insert as many <code>div</code> elements with class <code>.grid-tile</code> as you please. Note, <em>these need to be the same height</em> or things will break!</p>
+  </div> <!-- end: .full-width -->
+  <div class="row">
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+  </div> <!-- end: .row -->
+</div> <!-- end: .container -->
+  
+<div class="full-bleed">
+  <div class="container">
+
+    <div class="full-width">
+      <h3>Here I am again...</h3>
+      <p>Full bleed content areas can be used in the middle of pages, too.</p>
+    </div> <!-- end: .full-width -->
+
+  </div> <!-- end: .container -->
+</div> <!-- end: .full-bleed -->
+
+<div class="container">
+  <div class="full-width">
+    <h3>Need another pattern?</h3>
+    <p>Add it to the stylesheet and also add documentation to this page.</p>
+  </div> <!-- end: .full-width -->
+</div> <!-- end: .container -->
