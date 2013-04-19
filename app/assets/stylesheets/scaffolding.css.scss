@@ -1,12 +1,86 @@
-body { padding: 0; margin: 0; background: $bg_color; }
+// GENERAL RESETS
+// -----------------
+// Nothing here is too sacred / perfect... update as needed.
 
-// to fix iOS orientation zoom bug via http://blog.pgrady.com/post/29511322784/fixing-the-ios-orientation-bug-in-three-steps
-html, body {-webkit-text-size-adjust: 100%;}
+      body { padding: 0; margin: 0; }
 
-// Container width is set to 100% viewport or 768px -- whichever is smaller. See responsonsive.scss for this declaration.
+// RESPONSIVE RESETS
+// -----------------
+// Taken from Foldy via https://github.com/davatron5000/Foldy960#readme
 
-// Container should be centered always.
-.container            { margin: 0 auto; }
+      @-o-viewport {
+        width: device-width;
+      }
+      @-ms-viewport {
+        width: device-width;
+      }
+      @viewport {
+        width: device-width;
+      }
 
-// Container with buffer should have spacing on top/bottom/left/right
-.container .buffer    { padding: $top_buffer $side_buffer; }
+      html {
+        overflow-y: auto;
+      }
+
+      img,
+      audio,
+      video,
+      canvas {
+        max-width: 100%;
+      }
+
+      /* apply a natural box layout model to all elements */
+      * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+// CONTAINER SETUP
+// -----------------
+// Taken from Foldy via https://github.com/davatron5000/Foldy960#readme
+
+      .container {
+        max-width: 1028px; // Determines how wide the container will get, at most
+        width: $gridFullWidth;
+        margin:0px auto;
+        position: relative;
+      }
+
+      // Preps the "row" container that all grids live in. The .full-width wrapper comes along for the ride (for clearfix, margin-bottom)
+      .row, .full-width {
+        clear: both;
+        @include clearfix;
+      }
+      
+      .row { padding-bottom: 32px; }
+
+      // All grid sizes need to go here!
+      // Establish universal margin + base width + float
+      .grid-half,
+      .grid-tile,
+      .grid-onethirds,
+      .grid-twothirds,
+      .full-width {
+        float: left;                        // We're living in a float left world.
+        width: $gridFullWidth;              // Establish base width. All grid sizes begin as fullWidth (for smaller screens), let breakpoints below mitigate otherwise.
+        margin: 0 $gridGutterWidth 20px;       // Establish universal gutters to the left/right of each grid unit.
+      }
+
+      // Float exemption for full-width content
+      .full-width {
+        float: none;
+      }
+
+//
+// BREAKPOINT SETUP
+// -----------------
+
+      // "Halved" Grid Element (2-wide always)
+      @media screen and (min-width: 320px) {  .grid-half  { width: $gridHalves;   }}
+
+      // One Third, Two Third
+      @media screen and (min-width: 900px) {  .grid-onethirds  { width: $gridOneThirds; }}
+      @media screen and (min-width: 900px) {  .grid-twothirds  { width: $gridTwoThirds; }}
+
+      // "Tiled" Grid Element (1-wide --> 2-wide --> 3-wide --> 4-wide)
+      @media screen and (min-width: 320px) {                                       }
+      @media screen and (min-width: 480px) {  .grid-tile  { width: $gridHalves;   }}
+      @media screen and (min-width: 768px) {  .grid-tile  { width: $gridThirds;   }}
+      @media screen and (min-width: 960px) {  .grid-tile  { width: $gridQuarters; }}

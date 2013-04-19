@@ -1,5 +1,5 @@
 <%# Adds body class for full color background %>
-<% content_for :extra_class_names_for_body do %>colored-bg<% end %>
+<% content_for :extra_class_names_for_body do %>wrap-color-primary<% end %>
 
 <%= render "sandbox/sandbox_nav" %>
 
@@ -8,28 +8,67 @@
     <h1>Full Color Backgrounds</h1>
     <p>Can be attained by adding class <code>.color-bg</code> to the body tag. As of this writing, this is setup by adding a <code>content_for</code> block to the top of each view where a full color background is necessary. This may be improved somehow -- need to check.</p>
     <p>But the principle remains -- add the aforementioned class to the body tag.</p>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <div class="bg-color-white" style="overflow: auto; padding: 0 20px; margin: 0 0 20px 0;">
+      <p>I have the class <code>bg-color-white</code></p>
+    </div>
+
+    <div class="bg-color-secondary" style="overflow: auto; padding: 0 20px; margin: 0 0 20px 0;">
+      <p>I have the class <code>bg-color-secondary</code></p>
+    </div>
+
+    <div class="bg-color-black" style="overflow: auto; padding: 0 20px; margin: 0 0 20px 0;">
+      <p>I have the class <code>bg-color-black</code></p>
+    </div>
+
     <p>No matter how tall this page gets, the background color will always go all the way to the bottom.</p>
   </div> <!-- end: full-width -->
 </div> <!-- end: .container -->
 
-<div class="full-bleed full-bleed-light">
+<div class="full-bleed wrap-color-white">
   <div class="container">
     <div class="full-width">
       <h2>Full-Bleed Content</h2>
       <p>As you can see, the background of this section extends to the ends of the screen. This is done by simply adding a <code>div</code> with class <code>.full-bleed</code> around a <code>.container</code> element. Otherwise, you follow the rules with wrapping things inside the appropriate grid wrappers, such as <code>.full-width</code> and <code>.row></code>, etc.</p>
       <p>All types of gridded content (shown below) can be used inside of full-bleed areas without any tweaks needed.</p>
+
     </div> <!-- end: .full-width -->
+
+    <div class="row">
+      <div class="grid-tile bg-color-primary">
+        <p style="text-align:center; font-size:14px;">bg-color-primary</p>      
+      </div> <!-- end: .grid-tile -->
+      <div class="grid-tile bg-color-black">
+        <p style="text-align:center; font-size:14px;">bg-color-black</p>      
+      </div> <!-- end: .grid-tile -->
+      <div class="grid-tile bg-color-secondary">
+        <p style="text-align:center; font-size:14px;">bg-color-secondary</p>      
+      </div> <!-- end: .grid-tile -->
+      <div class="grid-tile bg-color-primary">
+        <p style="text-align:center; font-size:14px;">bg-color-primary</p>      
+      </div> <!-- end: .grid-tile -->
+    </div>
+
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed -->
 
-<div class="full-bleed full-bleed-dark">
+<div class="full-bleed wrap-color-black">
   <div class="container">
+    
     <div class="full-width">
       <h2>Full-Bleed Content, Dark Background</h2>
       <p>You can also have full bleed content on dark backgrounds.</p>
     </div> <!-- end: .full-width -->
+
+    <div class="row">
+      <div class="grid-half bg-color-primary">
+        <p style="text-align:center; font-size:14px;">bg-color-primary</p>
+      </div> <!-- end: .grid-half .bg-color-primary -->
+      <div class="grid-half bg-color-secondary">
+        <p style="text-align:center; font-size:14px;">bg-color-secondary</p>
+      </div> <!-- end: .grid-half .bg-color-primary -->
+    </div> <!-- end: .row -->
+
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed -->
 

@@ -1,0 +1,52 @@
+//-----------------------------------------------------------------------------
+//
+//  Full Bleed Content
+//
+//-----------------------------------------------------------------------------
+
+    // Wrap .container element in a .full-bleed <div>, and set the bg-color via class name as shown below.
+    
+    .full-bleed                   { /* Position and Layout Styles Here, Only -- color stuff goes below */ }
+
+//-----------------------------------------------------------------------------
+//
+//  Alt. Background Colors
+//
+//-----------------------------------------------------------------------------
+
+    // Default <body> background color is used unless specified otherwise via classname below.
+
+    // If modifying the bg-color of the <body> or a full-bleed element, use wrap-color-[colorName].
+    // If modifying the bg-color of a gridded tile element, use bg-color-[colorName].
+
+        // White Background
+        .wrap-color-white     { background: $white; color: $body_copy_color_reg; }
+        .bg-color-white       { background: $white; }
+        .bg-color-white       {
+          p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_reg; }
+          h1,h2,h3,h4,h5,h6           { color: $body_copy_color_strong; }
+        }
+
+        // Black Background
+        .wrap-color-black     { background: $black; color: $body_copy_color_onDark_reg; }
+        .bg-color-black       { background: $black; }
+        .bg-color-black       {
+          p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_onDark_reg;     }
+          h1,h2,h3,h4,h5,h6           { color: $body_copy_color_onDark_strong;  }
+        }
+
+        // Primary Color BG
+        .wrap-color-primary     { background: $color_primary; color: #fff; }
+        .bg-color-primary       { background: $color_primary; }
+        .bg-color-primary       {
+          p,li,code,pre,dd,dt,td,th   { color: #fff;  }
+          h1,h2,h3,h4,h5,h6           { color: #fff;  }
+        }
+
+        // Secondary Color BG
+        .wrap-color-secondary     { background: $color_secondary; color: #fff; }
+        .bg-color-secondary       { background: $color_secondary; }
+        .bg-color-secondary       {
+          p,li,code,pre,dd,dt,td,th   { color: #fff;  }
+          h1,h2,h3,h4,h5,h6           { color: #fff;  }
+        }

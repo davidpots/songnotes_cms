@@ -1,0 +1,60 @@
+//  =================================================================================================================================
+//  =================================================================================================================================
+//  Default, with side buffer space (add class "rows")
+//  =================================================================================================================================
+//  =================================================================================================================================
+    ul.tiles                                { margin: 0 0 3.0rem 0; padding: 0; }
+    ul.tiles > li                           { margin: 0 0 1px 0; list-style: none; }
+    ul.tiles > li .tile                     { padding: 24px; display: block; position: relative; background: $white; @include clearfix; }
+    ul.tiles > li .tile h1                  { font-size: 2.8rem; margin: 0 0 0.8rem 0; }
+    ul.tiles > li .tile h3                  { font-size: 1.8rem; margin: 0 0 0 0; color: $body_copy_color_lighter; }
+    ul.tiles > li .tile .right              { background: $color_secondary; position: absolute; right: 38px; color: #fff; top: 50%; font-size: 11px; line-height: 13px; display: inline-block; padding: 2px 4px 4px; margin-top: -9px; font-weight: 300; }
+    ul.tiles > li.new .tile                 { padding-right: 75px; }
+
+    ul.tiles > li:hover .tile h1,
+    ul.tiles > li:active .tile h1           { color: $color_secondary; }
+    ul.tiles > li:hover .tile h3,
+    ul.tiles > li:active .tile h3            { color: $color_secondary; }
+    ul.tiles > li:hover .tile h4,
+    ul.tiles > li:active .tile h4            { color: $color_secondary; }
+
+    // Arrow
+    ul.tiles > li.arrow .tile               { background: $white url(/assets/icon_arrow.png) right center no-repeat; background-size: 40px 24px; }
+
+
+
+
+// "Card" Tile Design (Apr 14, 2013)
+
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+    h1.sect_head { color: #fff; font-weight: normal; }
+
+    .cards_v1 {
+      margin-bottom: 35px; 
+      overflow: hidden;
+      width: auto;
+      margin-left: -20px;
+    }
+
+    .cards_v1 .card { 
+      width: 198px;
+      background: #fff;
+      margin: 0 0 20px 20px;
+      float: left; 
+      height: 205px;
+      display: block;
+    }
+
+    .cards_v1 .card {
+      .wrap { padding: 32px 20px 24px 20px; }
+      // Image
+      .thumb { margin: 0 auto 21px; width: 72px; height: 72px; }
+      .thumb img { border-radius: 36px; width: 72px; height: 72px; background: #ddd; }
+      // Typography
+      h1,h2,h3 { margin: 0; padding: 0; text-align: center; }
+      h1 { font-size: 19px; line-height: 21px; font-weight: bold;   color: $color_secondary;  margin: 0 0 8px 0; font-style: normal; }
+      h2 { font-size: 14px; line-height: 16px; font-weight: bold;   color: #555;              margin: 0 0 8px 0; font-style: normal; }
+      h3 { font-size: 14px; line-height: 16px; font-weight: normal; color: #ccc;              margin: 0 0 0 0;   font-style: normal; }
+    //  h1 { display: table-cell; vertical-align: middle; height: 50px; background:yellow; width: 200px; }
+    }

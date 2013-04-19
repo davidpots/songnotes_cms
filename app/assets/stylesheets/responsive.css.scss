@@ -22,7 +22,7 @@
     @media (min-width: 640px) and (max-width: 768px) { 
       html                        { font-size: 62.5%; }
       .container                  { width: 100%; }
-      .container .buffer          { padding: $top_buffer 12px; }
+      .container .buffer          { padding: 12px 12px; }
       .song_show .container       { width: 768px; }
       ul.tiles > li .tile         { padding: 21px 65px 21px 21px; }
       ul.tiles > li.arrow .tile   { background-size: 40px 24px; }
@@ -33,7 +33,7 @@
     @media (min-width: 480px) and (max-width: 639px) { 
       html                        { font-size: 57%; }
       .container                  { width: 100%; }
-      .container .buffer          { padding: $top_buffer 12px; }
+      .container .buffer          { padding: 12px 12px; }
       .song_show .container       { width: 768px; }
       ul.tiles > li .tile         { padding: 18px 60px 18px 18px; }
       ul.tiles > li.arrow .tile   { background-size: 25px 15px; }
@@ -44,7 +44,7 @@
     @media (max-width: 479px) { 
       html                        { font-size: 50%; }
       .container                  { width: 100%; }
-      .container .buffer          { padding: $top_buffer 10px; }
+      .container .buffer          { padding: 12px 10px; }
       .song_show .container       { width: 640px; }
       ul.tiles > li .tile         { padding: 14px 60px 14px 14px; }
       ul.tiles > li.arrow .tile   { background-size: 25px 15px; }
