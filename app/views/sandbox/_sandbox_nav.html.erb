@@ -1,14 +1,13 @@
 <div class="full-bleed full-bleed-dark">
   <div class="container">
     <div class="full-width">
-      <p style="margin: 0;color:#eee;padding: 14px 0 12px;font-size: 14px;line-height: 24px;">
-        <%= link_to "Sandbox Home", sandbox_url, :style=>"color:#ffffff;" %>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-        <%= link_to "Basic Elements", sandbox_basic_url, :style=>"color:#ffffff;" %>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-        <%= link_to "Grid & Scaffolding", sandbox_grid_url, :style=>"color:#ffffff;" %>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-        <%= link_to "Monospace Testing", sandbox_monospace_url, :style=>"color:#ffffff;" %>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-        <%= link_to "Sidebar", sandbox_sidebar_url, :style=>"color:#ffffff;" %>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-        <%= link_to "Backgrounds", sandbox_backgrounds_url, :style=>"color:#ffffff;" %>
-      </p>
+      <ul class="sandbox-nav">
+        <li class="<%= "active" if action_name == "index" %>"><%= link_to "Sandbox Home", sandbox_url %></li>
+        <li class="<%= "active" if action_name == "basic" %>"><%= link_to "Basic Elements", sandbox_basic_url %></li>
+        <li class="<%= "active" if action_name == "grid" %>"><%= link_to "Grid & Scaffolding", sandbox_grid_url %></li>
+        <li class="<%= "active" if action_name == "monospace" %>"><%= link_to "Monospace Testing", sandbox_monospace_url %></li>
+        <li class="<%= "active" if action_name == "backgrounds" %>"><%= link_to "Backgrounds", sandbox_backgrounds_url %></li>
+      </ul>
     </div> <!-- end: full-width -->
   </div> <!-- end: .container -->
 </div>

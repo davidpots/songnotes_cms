@@ -46,7 +46,6 @@
       // Preps the "row" container that all grids live in. The .full-width wrapper comes along for the ride (for clearfix, margin-bottom)
       .row, .full-width {
         clear: both;
-        margin-bottom: 1em;
         @include clearfix;
       }
 
@@ -59,7 +58,7 @@
       .full-width {
         float: left;                        // We're living in a float left world.
         width: $gridFullWidth;              // Establish base width. All grid sizes begin as fullWidth (for smaller screens), let breakpoints below mitigate otherwise.
-        margin:0 $gridGutterWidth 0;        // Establish universal gutters to the left/right of each grid unit.
+        margin: 0 $gridGutterWidth;       // Establish universal gutters to the left/right of each grid unit.
       }
 
       // Float exemption for full-width content

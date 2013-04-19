@@ -22,7 +22,6 @@ Songnotes::Application.routes.draw do
   match 'sandbox/monospace' => 'sandbox#monospace', :as => 'sandbox_monospace'
   match 'sandbox/misc' => 'sandbox#misc', :as => 'sandbox_misc'
   match 'sandbox/backgrounds' => 'sandbox#backgrounds', :as => 'sandbox_backgrounds'
-  match 'sandbox/sidebar' => 'sandbox#sidebar', :as => 'sandbox_sidebar'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
