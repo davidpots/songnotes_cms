@@ -54,6 +54,8 @@
       // Establish universal margin + base width + float
       .grid-half,
       .grid-tile,
+      .grid-onethirds,
+      .grid-twothirds,
       .full-width {
         float: left;                        // We're living in a float left world.
         width: $gridFullWidth;              // Establish base width. All grid sizes begin as fullWidth (for smaller screens), let breakpoints below mitigate otherwise.
@@ -71,6 +73,10 @@
 
       // "Halved" Grid Element (2-wide always)
       @media screen and (min-width: 320px) {  .grid-half  { width: $gridHalves;   }}
+
+      // One Third, Two Third
+      @media screen and (min-width: 900px) {  .grid-onethirds  { width: $gridOneThirds; }}
+      @media screen and (min-width: 900px) {  .grid-twothirds  { width: $gridTwoThirds; }}
 
       // "Tiled" Grid Element (1-wide --> 2-wide --> 3-wide --> 4-wide)
       @media screen and (min-width: 320px) {                                       }
