@@ -43,13 +43,18 @@
         position: relative;
       }
 
+      section {
+        padding-top: 4.0rem;
+      }
+
       // Preps the "row" container that all grids live in. The .full-width wrapper comes along for the ride (for clearfix, margin-bottom)
       .row, .full-width {
         clear: both;
         @include clearfix;
       }
       
-      .row { padding-bottom: 32px; }
+      .full-bleed,
+      .row { padding-bottom: 15px; }
 
       // All grid sizes need to go here!
       // Establish universal margin + base width + float
@@ -66,6 +71,7 @@
       // Float exemption for full-width content
       .full-width {
         float: none;
+        margin-bottom: 0;
       }
 
 //

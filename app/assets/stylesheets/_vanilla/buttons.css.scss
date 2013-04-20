@@ -1,0 +1,10 @@
+// Buttons
+
+    .btn        { display: inline-block; padding: 10px 25px 12px; background: $color_primary; color: $white; font-size: 1.8rem; line-height: 2.7rem; }
+    .btn:hover  { background: $color_primary_darker; color: #fff; }
+    
+    .btn-secondary { background: #eee; color: #777; }
+    .btn-secondary:hover { background: #ddd; color: #777; }
+
+    .btn-warning { background: #ff0000; color: #fff; }
+    .btn-warning:hover { background: #cc0000; color: #fff; }

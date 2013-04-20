@@ -1,59 +1,139 @@
 <%= render "sandbox/sandbox_nav" %>
 
+
+<div class="full-bleed bg-color-primary">
+  <div class="container">
+    <section>
+      <div class="full-width">
+        <h1>Responsive Grid Structure</h1>
+        <p>Here is how you need to structure your front-end markup so that it plays along with Mr. Grid.</p>
+      </div> <!-- .full-width -->
+    </section>
+  </div> <!-- end: .container -->
+</div> <!-- end: .full-bleed .bg-color-primary -->
+
 <div class="container">
-  <div class="full-width">
-    <h1>Responsive Grid Structure</h1>
-    <p>Here is how you need to structure your front-end markup so that it plays along with Mr. Grid.</p>
 
-    <hr />
-    
-    <h3>Full Width Content</h3>
-    <p>For content you always want to be full width, simply wrap it in a <code>div</code> with class <code>.full-width</code></p>
-    <div class="tile-teacher">I am a block of full width content.<span>.full-width</span></div>
-  </div>
-  <div class="full-width">
-    <h3>Halved Columns</h3>
-    <p>For content you always want to be split into two equally wide columns, create a <code>div</code> with class <code>.row</code>. Inside, insert two <code>div</code> elements with class <code>.grid-half</code></p>
-  </div> <!-- end: .full-width -->
-  <div class="row">
-    <div class="grid-half"><div class="tile-teacher">Half Width, all the time.<span>.row .grid-half</span></div></div>
-    <div class="grid-half"><div class="tile-teacher">Half Width, all the time.<span>.row .grid-half</span></div></div>
-  </div> <!-- end: .row -->
+  <section>
+    <div class="full-width">
+      <h1>Scaffold Overview</h1>
+      <p>Here are the basic ways you'll need to wrap your content. In all these examples, the <code>.container</code> class keeps things horizontally centered. The <code>&lt;section&gt;</code> tag keeps chunks of content comfortably spaced apart.</p>
+      
+      <h4>Basic Full-Width Content</h4>
+<pre class="boxed">
+&lt;div class="container"&gt;
+  &lt;section&gt;
+    &lt;div class="full-width"&gt;
+      
+      // Full-width content goes here
+      
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/div&gt;
+</pre>
 
-  <div class="full-width">
-    <h3>Main Column + Side Column</h3>
-    <p>If you need a main column and a side column, do it like this.</p>
-  </div> <!-- end: .full-width -->
-  <div class="row">
-    <div class="grid-twothirds">
-      <div class="tile-teacher">Main Column<span>.row .grid-twothirds</span></div>
+<h4>Gridded Content</h4>
+<pre class="boxed">
+&lt;div class="container"&gt;
+  &lt;section&gt;
+    &lt;div class="row"&gt;
+      
+      // Gridded content goes here
+      
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/div&gt;
+</pre>
+
+<h4>Full-Bleed Content</h4>
+<p>Note, content within full-bleed sections can either be (1) full-width or (2) gridded. In either case, refer to the interior structure above -- and use the external wrapper below.</p>
+<pre class="boxed">
+&lt;div class="full-bleed"&gt;
+  &lt;div class="container"&gt;
+    &lt;section&gt;
+      &lt;div class="full-width"&gt;
+      
+        // Full-bleed content goes here (can be gridded)
+      
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
     </div>
-    <div class="grid-onethirds">
-      <div class="tile-teacher">Side Column<span>.row .grid-onethirds</span></div>
+  </section>
+
+  <section>
+    <div class="full-width">
+      <h1>Full-Width and Gridded Structure</h1>
+      <p>For content you always want to be full width, simply wrap it in a <code>div</code> with class <code>.full-width</code></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.</p>
     </div>
-  </div> <!-- end: .row -->
+  </section>
 
-  <div class="full-width">
-    <h3>Repeating Tiles</h3>
-    <p>If you need repeating tiles that go up to four-wide (in the case shown here), create a <code>div</code> with class <code>.row</code>. Inside, insert as many <code>div</code> elements with class <code>.grid-tile</code> as you please. Note, <em>these need to be the same height</em> or things will break!</p>
-  </div> <!-- end: .full-width -->
-  <div class="row">
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-  </div> <!-- end: .row -->
 
-  <div class="full-width">
-    <hr />
-    <h3>Need another pattern?</h3>
-    <p>Add it to the stylesheet and also add documentation to this page.</p>
-  </div> <!-- end: .full-width -->
+  <section>
+    <div class="full-width">
+      <h2>Full Width Content</h2>
+      <p>For content you always want to be full width, simply wrap it in a <code>div</code> with class <code>.full-width</code></p>
+      <div class="tile-teacher" style="margin-bottom: 35px;">Full Width, always.<span>.full-width</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="full-width">
+      <h2>Halved Columns</h2>
+      <p>For content you always want to be split into two equally wide columns, create a <code>div</code> with class <code>.row</code>. Inside, insert two <code>div</code> elements with class <code>.grid-half</code></p>
+    </div> <!-- end: .full-width -->
+
+    <div class="row">
+      <div class="grid-half"><div class="tile-teacher">Half Width, all the time.<span>.row .grid-half</span></div></div>
+      <div class="grid-half"><div class="tile-teacher">Half Width, all the time.<span>.row .grid-half</span></div></div>
+    </div> <!-- end: .row -->
+
+  </section>
+
+  <section>
+    <div class="full-width">
+      <h2>Main Column + Side Column</h2>
+      <p>If you need a main column and a side column, do it like this.</p>
+    </div> <!-- end: .full-width -->
+
+    <div class="row">
+      <div class="grid-twothirds">
+        <div class="tile-teacher">Main Column<span>.row .grid-twothirds</span></div>
+      </div>
+      <div class="grid-onethirds">
+        <div class="tile-teacher">Side Column<span>.row .grid-onethirds</span></div>
+      </div>
+    </div> <!-- end: .row -->
+  </section>
+
+  <section>
+    <div class="full-width">
+      <h2>Repeating Tiles</h2>
+      <p>If you need repeating tiles that go up to four-wide (in the case shown here), create a <code>div</code> with class <code>.row</code>. Inside, insert as many <code>div</code> elements with class <code>.grid-tile</code> as you please. Note, <em>these need to be the same height</em> or things will break!</p>
+    </div> <!-- end: .full-width -->
+    <div class="row">
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
+    </div> <!-- end: .row -->
+  </section>
+
+  <section>
+    <div class="full-width">
+      <h2>Need another pattern?</h2>
+      <p>Add it to the stylesheet and also add documentation to this page.</p>
+    </div> <!-- end: .full-width -->
+  </section>
+
 </div> <!-- end: .container -->

@@ -3,28 +3,17 @@
     .tile-teacher { background: #ddd; text-align: center; padding: 120px 20px; color: #777; font-size: 18px; line-height: 24px; }
     .tile-teacher span { display: block; color: #999; color: red; font-family: $body_fonts_mono; margin: 10px 0 0 0; font-size: 14px; line-height: 24px; font-weight: bold; }
 
-    .sandbox-nav  { margin: 0;color:#eee;font-size: 14px;line-height: 24px; padding: 12px 0 4px 0; @include clearfix; }
-    .sandbox-nav  {
-
+    // Sandbox Navigation
+    .sandbox-nav-wrap { padding-bottom: 0; }
+    .sandbox-nav      { margin: 0; padding: 12px 0 4px 0; @include clearfix; }
+    .sandbox-nav      {
         li            { float: left; list-style: none; margin: 0 10px 8px 0; }
         li a          { display: block; font-size: 14px; height: 24px; border-radius: 12px; overflow: hidden; line-height: 25px; padding: 0 12px; color: #fff; background: $color_primary; }
         li a:hover    { background: $color_primary_darker; }
         li.active a   { background: $color_secondary; }
-
     }
 
 // Admin
 
-    .admin { font-family: "Helvetica Neue", Arial; padding: 20px; background: #fff; }
-
-    // Table Formatting
-    .admin table { border-collapse: collapse; }
-    .admin table a { display: block; }
-    .admin th,
-    .admin td { padding: 7px; border: 1px solid #ddd; text-align: left; font-size: 16px; white-space: nowrap;}
-    .admin th { background: #333; color: #fff; }
-    .admin th a { background: #333; color: #fff; }
-    .admin td { }
-    
     // Form Styling
     .admin textarea { height: 40px; }

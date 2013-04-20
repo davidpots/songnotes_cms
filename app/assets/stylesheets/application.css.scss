@@ -11,18 +11,20 @@
  *= require_self
  */
 
-//  Core Resets & Preparation
-    @import "_master_vars";
-    @import "_addons/clearfix";
-    @import "_reset";
+//  Prep: Reset, Clearfix
+    @import "_prep/reset";
+    @import "_prep/clearfix";
 
 //  Base Styleguide Foundation (app agnostic)
-    @import "scaffolding";   // Grid and container setup
-    @import "typography";    // Basic HTML elements
-    @import "backgrounds";   // Background Settings (full bleed, alt. color, etc)
-    @import "admin";
+    @import "_vanilla/_variables";
+    @import "_vanilla/scaffolding";
+    @import "_vanilla/typography";
+    @import "_vanilla/backgrounds";
+    @import "_vanilla/admin";
+    @import "_vanilla/buttons";
 
-//@import "buttons";
+    @import "tiles";
+
 //@import "admin";
 //@import "song_show";
 //@import "browse_nav";

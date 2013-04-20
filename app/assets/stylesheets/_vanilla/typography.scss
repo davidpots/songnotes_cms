@@ -1,0 +1,48 @@
+//  --------------------------------------------------------------------------------
+//  General Typography
+//  --------------------------------------------------------------------------------
+
+    html, body {-webkit-text-size-adjust: 100%;}
+    html {  font-size:    62.5%; }
+    body {  background:   $white; 
+            font-family:  $body_fonts_primary; 
+            line-height:  1.4rem;
+            color:        $body_copy_color_reg; }
+
+    //  Links
+        a,a:visited,a:hover,a:active                     { color: $color_primary; text-decoration: none; }
+        a:hover { color: $color_primary_darker; }
+        a:active { color: $color_secondary; }
+
+    //  Headers –– Universal
+        h1, h2, h3,
+        h4, h5, h6            { font-family: $body_fonts_primary; font-weight: bold; padding: 0; margin: 0 0 0.5em 0; nowhitespace: afterproperty; }
+
+    //  Headers –– Basic Variety
+        h1                    { font-size: 4.0rem; line-height: 4.0rem; margin: 0 0 2.4rem 0; font-weight: bold; }
+        h2                    { font-size: 3.2rem; line-height: 3.6rem; margin: 0 0 2.4rem 0; font-weight: bold; }
+        h3                    { font-size: 2.7rem; line-height: 3.2rem; margin: 0 0 2.0rem 0; font-weight: bold; }
+        h4                    { font-size: 2.4rem; line-height: 3.0rem; margin: 0 0 1.2rem 0; font-weight: bold; }
+        h5                    { font-size: 2.1rem; line-height: 2.7rem; margin: 0 0 1.2rem 0; font-weight: bold; }
+
+        p,li,code,pre,
+        dd,dt,td,th           { font-size: 2.1rem; line-height: 3.2rem; }
+        p,dd,ol,ul            { margin: 0 0 2.6rem 0; }
+
+        pre                   { font-size: 2.0rem; line-height: 2.8rem; font-family: $body_fonts_mono; font-weight: normal; white-space: pre; margin: 0 0 3.2rem 0; }
+        pre.boxed             { background: $ltGrey; padding: 18px 20px; }
+        
+        ul,ol                 { padding-left: 30px; }
+        dt                    { font-weight: 700; }
+                
+        hr                    { margin: 0 0 2.7rem 0; }
+
+    //  Tables
+
+        table { border-collapse: collapse; margin: 0 0 3.2rem 0; }
+        table a { display: block; }
+        th,
+        td { padding: 2px 10px; border: 1px solid #ddd; text-align: left; font-size: 1.4rem; white-space: nowrap;}
+        th { background: $black; color: $white; font-weight: normal; }
+        th a { background: $black; color: $white; }
+        td { }

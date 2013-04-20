@@ -1,0 +1,33 @@
+<%# Adds body class for full color background %>
+<% content_for :extra_class_names_for_body do %>wrap-color-ltGrey<% end %>
+
+<%= render "sandbox/sandbox_nav" %>
+
+<div class="full-bleed bg-color-dkGrey">
+  <div class="container">
+    <section>
+      <div class="full-width">
+        <h1>Tiles</h1>
+        <p>Ways that content are distributed via tiles.</p>
+      </div> <!-- .full-width -->
+    </section>
+  </div> <!-- end: .container -->
+</div> <!-- end: .full-bleed .bg-color-primary -->
+
+<div class="container">
+  <section>
+    <div class="full-width">
+      <p>Use the links in the navigation bar (above) to find what you need.</p>
+      <ul class="tiles-full">
+        <li>
+          <a href="">
+            <img class="thumb" src="" />
+            <h3>Primary Slug</h3>
+            <p class="meta">Secondary Slug</p>
+            <p class="meta-sub">Tertiary Slug</p>
+          </a>
+        </li>
+      </ul>
+    </div> <!-- end: .full-width -->
+  </section>
+</div> <!-- end: .container -->
