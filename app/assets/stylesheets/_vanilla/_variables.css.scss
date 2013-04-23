@@ -44,11 +44,16 @@
 // ------------------------------------------------------------
 //    Typography: Font Families
 // ------------------------------------------------------------
+  
+    // Generic
+    // -----------------------------------------------
+    // $body_fonts_primary: 'Open Sans','Helvetica Neue', Arial;
+    // $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
 
-    $body_fonts_primary: 'Open Sans','Helvetica Neue', Arial;
-    // Formerly used "Bitter"
-    
-    $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
+    // Songnotes
+    // -----------------------------------------------
+       $body_fonts_primary: 'Bitter','Helvetica Neue', Arial;
+       $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
 
 // ------------------------------------------------------------
 //    Misc. Variables
