@@ -42,6 +42,8 @@
         margin:0px auto;
         position: relative;
       }
+      
+      .container-narrow .container { max-width: 728px; }
 
       section {
         padding-top: 4.0rem;
