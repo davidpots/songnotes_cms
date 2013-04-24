@@ -21,6 +21,8 @@ Songnotes::Application.routes.draw do
   match 'sandbox/basic' => 'sandbox#basic', :as => 'sandbox_basic'
   match 'sandbox/backgrounds' => 'sandbox#backgrounds', :as => 'sandbox_backgrounds'
   match 'sandbox/tiles' => 'sandbox#tiles', :as => 'sandbox_tiles'
+  match 'sandbox/tiles_2' => 'sandbox#tiles_2', :as => 'sandbox_tiles_2'
+  match 'sandbox/song_1' => 'sandbox#song_1', :as => 'sandbox_song_1'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
