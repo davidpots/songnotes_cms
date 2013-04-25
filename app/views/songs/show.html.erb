@@ -110,7 +110,7 @@
         <p class="thumb">
           <img src="<%= @artist_img_dir + song.artist.image_url %>" />
         </p>
-        <h1><%= truncate(song.title, length:28) %></h1>
+        <h1><%= truncate(song.title, length:35) %></h1>
         <h2><%= song.artist.name %></h2>
       </a>
     <% end %>
@@ -130,8 +130,20 @@
         </li>
       <% end %>
       </ul>    
+
+    <h3 class="bucket_head">Looking for more?</h3>
+    <ul class="tiles">
+      <li class="arrow">
+        <%= link_to ("<h1>Browse all #{@song_count} songs</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
+      </li>
+      <li class="arrow">
+        <%= link_to ("<h1>Like us on Facebook</h1>").html_safe, "http://facebook.com/songnotes", :class => "tile" %>
+      </li>
+    </ul>
     
-      <%= render "shared/back_to_list" %>
+    <p style="color:white;">Recommend Songnotes on Facebook! It is the best way to keep informed of new song additions.</p>
+    <div class="fb-like" data-href="http://www.songnotes.cc" style="" data-send="false" data-width="500" data-layout="button_count" data-show-faces="false" data-action="recommend"></div>
+    
     </div> <!-- end: .buffer -->
   </div> <!-- end: .container -->
 </div> <!-- end: song_show -->

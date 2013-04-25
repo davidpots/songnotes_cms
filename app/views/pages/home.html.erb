@@ -2,7 +2,7 @@
   <div class="container">
     <h1>Songnotes</h1>
     <p>Premium guitar tabs, chords, and lyrics.<br />Hand-made with care by <a href="http://twitter.com/davidpots" target="_blank">@davidpots</a>.</p>
-    <div class="fb-like" data-href="http://songnotes.davidpots.com" style="position: relative; left: 50%; margin-left: -150px;" data-send="false" data-width="300" data-show-faces="false" data-action="recommend"></div>
+    <div class="fb-like" data-href="http://www.songnotes.cc" style="position: relative; left: 50%; margin-left: -150px;" data-send="false" data-width="300" data-show-faces="false" data-action="recommend"></div>
   </div> <!-- end: .container -->
 </div> <!-- end: .welcome -->
 
@@ -26,7 +26,7 @@
         <p class="thumb">
           <img src="<%= @artist_img_dir + song.artist.image_url %>" />
         </p>
-        <h1><%= truncate(song.title, length:28) %></h1>
+        <h1><%= truncate(song.title, length:35) %></h1>
         <h2><%= song.artist.name %></h2>
       </a>
     <% end %>
