@@ -12,7 +12,7 @@
 
     $black:   #333333;
     $white:   #ffffff;
-    $ltGrey:  #eaeaea;
+    $ltGrey:  #ececec;
     $dkGrey:  #444;
 
     $bg_color: #f1fdf7;
@@ -59,30 +59,4 @@
 //    Misc. Variables
 // ------------------------------------------------------------
 
-    $nav_height: 48px;
-
-// ------------------------------------------------------------
-//    Responsive Columns
-// ------------------------------------------------------------
-
-
-    $gridGutterWidth: 1.515151515152%;    // 10     ÷ 660
-                                      
-
-                                      // See responsive.scss for details.
-                                      //
-                                      // Wrapping container is 100% minus ($gutterWidth x 2)
-                                      // e.g., 100 - (1.515151 * 2) = 96.96969696%
-                                      
-                                      // Each column has margin of $gutterWidth on both left + right side
-                                      // e.g. 46.875% + margin: 0 $gutterWidth
-
-    $gridFullWidth: 96.9696969697%;       // 640    ÷ 660
-    $gridHalves: 46.875%;                 // 300    ÷ 640
-    $gridThirds: 30.208333333%;           // 193.33 ÷ 640
-    $gridQuarters: 21.875%;               // 140    ÷ 640
-    $gridFifths: 16.875%;                 // 108    ÷ 640
-    $gridSixths: 13.541666666%;           // 86.667 ÷ 640
-    
-    $gridOneThirds: 35.0%;                // 224    ÷ 640
-    $gridTwoThirds: 58.75%;               // 376    ÷ 640
+    $border_radius: 3px;

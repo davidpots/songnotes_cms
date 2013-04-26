@@ -3,180 +3,128 @@
 
 <%= render "sandbox/sandbox_nav" %>
 
-<div class="full-bleed bg-color-primary">
+<div class="full-bleed wrap-color-primary">
   <div class="container">
-    <section>
-      <div class="full-width">
-        <h1>Background Colors</h1>
-        <p>Controlling the background color of individual elements, full-bleed sections, and the &lt;body&gt;.</p>
-      </div> <!-- .full-width -->
-    </section>
+    <div class="content">
+      <h1>Background Colors</h1>
+      <p>Controlling the background color of individual elements, full-bleed sections, and the &lt;body&gt;.</p>
+    </div> <!-- end: .content -->
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed .bg-color-primary -->
 
 <div class="container">
-  <section>
-    <div class="full-width">
-      <h1>Page Background Color</h1>
-      <p>Can be attained by adding class to the &lt;body&gt; tag. This can be done manually, or via Rails magic. A page with color specified in the &lt;body&gt; will have its entire background set to a certain color -- no matter how tall the page gets.</p>
-      <p>The following classes are available:</p>
-      <ul>
-        <li><code>wrap-color-white</code> (default)</li>
-        <li><code>wrap-color-black</code></li>
-        <li><code>wrap-color-ltGrey</code></li>
-        <li><code>wrap-color-dkGrey</code></li>
-        <li><code>wrap-color-primary</code></li>
-        <li><code>wrap-color-secondary</code></li>
-      </ul>
-      <p>The classes above should be applied to either the &lt;body&gt; or &lt;div class="full-bleed"&gt;. Any other elements can be given a colored background as per the specs below.</p>
-    </div> <!-- end: full-width -->
-  </section>
-</div> <!-- end: .container -->
+  <div class="content content-island">
+    <h1>Page Background Color</h1>
+    <p>Can be attained by adding class to the &lt;body&gt; tag. This can be done manually, or via Rails magic. A page with color specified in the &lt;body&gt; will have its entire background set to a certain color -- no matter how tall the page gets.</p>
+    <p>The following classes are available:</p>
+    <ul>
+      <li><code>wrap-color-white</code> (default)</li>
+      <li><code>wrap-color-black</code></li>
+      <li><code>wrap-color-ltGrey</code></li>
+      <li><code>wrap-color-dkGrey</code></li>
+      <li><code>wrap-color-primary</code></li>
+      <li><code>wrap-color-secondary</code></li>
+    </ul>
+    <p>The classes above should be applied to either the &lt;body&gt; or &lt;div class="full-bleed"&gt;. Any other elements can be given a colored background as per the specs below.</p>
+  </div> <!-- end: .content -->
 
+  <div class="content content-island">
+    <h1>Element Background Color</h1>
+    <p>Can be attained by adding class to any element tag. This can be a gridded item of any size, or any other block level element.</p>
+    <p>The following classes are available:</p>
+    <ul>
+      <li><code>bg-color-white</code> (default)</li>
+      <li><code>bg-color-black</code></li>
+      <li><code>bg-color-ltGrey</code></li>
+      <li><code>bg-color-dkGrey</code></li>
+      <li><code>bg-color-primary</code></li>
+      <li><code>bg-color-secondary</code></li>
+    </ul>
+    <p>When the classes above are assigned, the colors of content within are setup to match via the backgrounds.scss file.</p>
 
-<div class="container">
-  <section>
-    <div class="full-width">
-      <h1>Element Background Color</h1>
-      <p>Can be attained by adding class to any element tag. This can be a gridded item of any size, or any other block level element.</p>
-      <p>The following classes are available:</p>
-      <ul>
-        <li><code>bg-color-white</code> (default)</li>
-        <li><code>bg-color-black</code></li>
-        <li><code>bg-color-ltGrey</code></li>
-        <li><code>bg-color-dkGrey</code></li>
-        <li><code>bg-color-primary</code></li>
-        <li><code>bg-color-secondary</code></li>
-      </ul>
-      <p>When the classes above are assigned, the colors of content within are setup to match via the backgrounds.scss file.</p>
-    </div> <!-- end: full-width -->
-    <div class="row">
-      <div class="grid-tile bg-color-primary">
-        <p style="text-align:center; font-size:14px;margin:0;line-height: 72px;">bg-color-primary</p>
-      </div> <!-- end: .grid-tile -->
-      <div class="grid-tile bg-color-secondary">
-        <p style="text-align:center; font-size:14px;margin:0;line-height: 72px;">bg-color-secondary</p>
-      </div> <!-- end: .grid-tile -->
-      <div class="grid-tile bg-color-dkGrey">
-        <p style="text-align:center; font-size:14px;margin:0;line-height: 72px;">bg-color-dkGrey</p>
-      </div> <!-- end: .grid-tile -->
-      <div class="grid-tile bg-color-black">
-        <p style="text-align:center; font-size:14px;margin:0;line-height: 72px;">bg-color-black</p>
-      </div> <!-- end: .grid-tile -->
-    </div> <!-- end: .row -->
-  </section>
-  <section>
-    <div class="full-width">
-      <h1>Full-Bleed Sections</h1>
-      <p>As you can see, the backgrounds of sections below extend to the ends of the screen. This is done by simply adding a <code>div</code> with class <code>.full-bleed</code> around a <code>.container</code> element. Otherwise, you follow the rules with wrapping things inside the appropriate grid wrappers, such as <code>.full-width</code> and <code>.row></code>, etc.</p>
-      <p>All types of gridded content (shown below) can be used inside of full-bleed areas without any tweaks needed.</p>
-    </div> <!-- end: .full-width -->
-  </section>
+    <div class="bg-color-primary" style="padding: 28px 20px 0; margin: 0 0 20px 0; text-align: center; overflow: hidden;">
+      <p>bg-color-primary</p>
+    </div>
+    <div class="bg-color-secondary" style="padding: 28px 20px 0; margin: 0 0 20px 0; text-align: center; overflow: hidden;">
+      <p>bg-color-secondary</p>
+    </div>
+    <div class="bg-color-dkGrey" style="padding: 28px 20px 0; margin: 0 0 20px 0; text-align: center; overflow: hidden;">
+      <p>bg-color-dkGrey</p>
+    </div>
+    <div class="bg-color-ltGrey" style="padding: 28px 20px 0; margin: 0 0 20px 0; text-align: center; overflow: hidden;">
+      <p>bg-color-ltGrey</p>
+    </div>
+    <div class="bg-color-black" style="padding: 28px 20px 0; margin: 0 0 20px 0; text-align: center; overflow: hidden;">
+      <p>bg-color-black</p>
+    </div>
+
+    <h1>Full-Bleed Sections</h1>
+    <p>As you can see, the backgrounds of sections below extend to the ends of the screen. This is done by simply adding a <code>div</code> with class <code>.full-bleed</code> around a <code>.container</code> element. Otherwise, you follow the rules with wrapping things inside the appropriate grid wrappers, such as <code>.full-width</code> and <code>.row></code>, etc.</p>
+    <p>All types of gridded content (shown below) can be used inside of full-bleed areas without any tweaks needed.</p>
+  </div> <!-- end:. content -->
+
 </div> <!-- end: .container -->
 
 <div class="full-bleed wrap-color-primary">
   <div class="container">
-    
-    <section>
-      <div class="full-width">
-        <h2>Full-Bleed Sample ("Primary" Color)</h2>
-        <p>You can also have full bleed content on dark backgrounds.</p>
-      </div> <!-- end: .full-width -->
-    </section>
-
+    <div class="content">
+      <h2>Full-Bleed Sample ("Primary" Color)</h2>
+    </div> <!-- end: .content -->
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed -->
 
 <div class="full-bleed wrap-color-secondary">
   <div class="container">
-    
-    <section>
-      <div class="full-width">
-        <h2>Full-Bleed Sample ("Secondary" Color)</h2>
-        <p>You can also have full bleed content on dark backgrounds.</p>
-      </div> <!-- end: .full-width -->
-    </section>
-
+    <div class="content">
+      <h2>Full-Bleed Sample ("Secondary" Color)</h2>
+    </div> <!-- end: .content -->
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed -->
 
 <div class="full-bleed wrap-color-white">
   <div class="container">
-    
-    <section>
-      <div class="full-width">
-        <h2>Full-Bleed Sample (white)</h2>
-        <p>You can also have full bleed content on dark backgrounds.</p>
-      </div> <!-- end: .full-width -->
-    </section>
-
+    <div class="content">
+      <h2>Full-Bleed Sample (white)</h2>
+    </div> <!-- end: .content -->
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed -->
 
 
 <div class="full-bleed wrap-color-ltGrey">
   <div class="container">
-    
-    <section>
-      <div class="full-width">
-        <h2>Full-Bleed Sample (ltGrey)</h2>
-        <p>You can also have full bleed content on dark backgrounds.</p>
-      </div> <!-- end: .full-width -->
-    </section>
-
+    <div class="content">
+      <h2>Full-Bleed Sample (ltGrey)</h2>
+    </div> <!-- end: .content -->
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed -->
 
 
 <div class="full-bleed wrap-color-dkGrey">
   <div class="container">
-    
-    <section>
-      <div class="full-width">
-        <h2>Full-Bleed Sample (dkGrey)</h2>
-        <p>You can also have full bleed content on dark backgrounds.</p>
-      </div> <!-- end: .full-width -->
-    </section>
-
+    <div class="content">
+      <h2>Full-Bleed Sample (dkGrey)</h2>
+    </div> <!-- end: .content -->
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed -->
 
 <div class="full-bleed wrap-color-black">
   <div class="container">
-    
-    <section>
-      <div class="full-width">
-        <h2>Full-Bleed Sample (black)</h2>
-        <p>You can also have full bleed content on dark backgrounds.</p>
-      </div> <!-- end: .full-width -->
-    </section>
-
+    <div class="content">
+      <h2>Full-Bleed Sample (black)</h2>
+    </div> <!-- end: .content -->
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed -->
 
-
-
-
-
-
-
-
-
-
-<div class="container">
-  
-  <section>
-    <div class="full-width">
-      <p>And at the end of the day, you can see the full color background comes back to save the day.</p>
-      <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-      <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      <p>Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor.</p>
-      <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      <p>Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-      <p>Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-      <p>Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
-      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper.</p>
-    </div> <!-- end: full-width -->
-  </section>
-  
+<div class="container">  
+  <div class="content content-island">
+    <p>And at the end of the day, you can see the full color background comes back to save the day.</p>
+    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <p>Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor.</p>
+    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <p>Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    <p>Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+    <p>Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
+    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper.</p>
+  </div> <!-- end: content -->
 </div> <!-- end: .container -->

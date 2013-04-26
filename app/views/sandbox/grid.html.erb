@@ -3,45 +3,37 @@
 
 <div class="full-bleed bg-color-primary">
   <div class="container">
-    <section>
-      <div class="full-width">
-        <h1>Responsive Grid Structure</h1>
-        <p>Here is how you need to structure your front-end markup so that it plays along with Mr. Grid.</p>
-      </div> <!-- .full-width -->
-    </section>
+    <div class="content">
+      <h1>Responsive Grid Structure</h1>
+      <p>Here is how you need to structure your front-end markup so that it plays along with Mr. Grid.</p>
+    </div> <!-- end: .content -->
   </div> <!-- end: .container -->
 </div> <!-- end: .full-bleed .bg-color-primary -->
 
 <div class="container">
-
-  <section>
-    <div class="full-width">
+  <div class="content content-island">
       <h1>Scaffold Overview</h1>
       <p>Here are the basic ways you'll need to wrap your content. In all these examples, the <code>.container</code> class keeps things horizontally centered. The <code>&lt;section&gt;</code> tag keeps chunks of content comfortably spaced apart.</p>
       
-      <h4>Basic Full-Width Content</h4>
+      <h4>Centered content, with padding</h4>
 <pre class="boxed">
 &lt;div class="container"&gt;
-  &lt;section&gt;
-    &lt;div class="full-width"&gt;
+  &lt;div class="content"&gt;
       
-      // Full-width content goes here
+      // Content goes here
       
-    &lt;/div&gt;
-  &lt;/section&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </pre>
 
-<h4>Gridded Content</h4>
+<h4>Centered content, in an island</h4>
 <pre class="boxed">
 &lt;div class="container"&gt;
-  &lt;section&gt;
-    &lt;div class="row"&gt;
+  &lt;div class="content content-island"&gt;
       
-      // Gridded content goes here
+      // Content goes here
       
-    &lt;/div&gt;
-  &lt;/section&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </pre>
 
@@ -50,90 +42,21 @@
 <pre class="boxed">
 &lt;div class="full-bleed"&gt;
   &lt;div class="container"&gt;
-    &lt;section&gt;
-      &lt;div class="full-width"&gt;
+    &lt;div class="content"&gt;
       
-        // Full-bleed content goes here (can be gridded)
+        // Full-bleed content goes here
       
       &lt;/div&gt;
-    &lt;/section&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </pre>
-    </div>
-  </section>
 
-  <section>
-    <div class="full-width">
-      <h1>Full-Width and Gridded Structure</h1>
-      <p>For content you always want to be full width, simply wrap it in a <code>div</code> with class <code>.full-width</code></p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.</p>
-    </div>
-  </section>
-
-
-  <section>
-    <div class="full-width">
-      <h2>Full Width Content</h2>
-      <p>For content you always want to be full width, simply wrap it in a <code>div</code> with class <code>.full-width</code></p>
-      <div class="tile-teacher" style="margin-bottom: 35px;">Full Width, always.<span>.full-width</span></div>
-    </div>
-  </section>
-
-  <section>
-    <div class="full-width">
-      <h2>Halved Columns</h2>
-      <p>For content you always want to be split into two equally wide columns, create a <code>div</code> with class <code>.row</code>. Inside, insert two <code>div</code> elements with class <code>.grid-half</code></p>
-    </div> <!-- end: .full-width -->
-
-    <div class="row">
-      <div class="grid-half"><div class="tile-teacher">Half Width, all the time.<span>.row .grid-half</span></div></div>
-      <div class="grid-half"><div class="tile-teacher">Half Width, all the time.<span>.row .grid-half</span></div></div>
-    </div> <!-- end: .row -->
-
-  </section>
-
-  <section>
-    <div class="full-width">
-      <h2>Main Column + Side Column</h2>
-      <p>If you need a main column and a side column, do it like this.</p>
-    </div> <!-- end: .full-width -->
-
-    <div class="row">
-      <div class="grid-twothirds">
-        <div class="tile-teacher">Main Column<span>.row .grid-twothirds</span></div>
-      </div>
-      <div class="grid-onethirds">
-        <div class="tile-teacher">Side Column<span>.row .grid-onethirds</span></div>
-      </div>
-    </div> <!-- end: .row -->
-  </section>
-
-  <section>
-    <div class="full-width">
-      <h2>Repeating Tiles</h2>
-      <p>If you need repeating tiles that go up to four-wide (in the case shown here), create a <code>div</code> with class <code>.row</code>. Inside, insert as many <code>div</code> elements with class <code>.grid-tile</code> as you please. Note, <em>these need to be the same height</em> or things will break!</p>
-    </div> <!-- end: .full-width -->
-    <div class="row">
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-      <div class="grid-tile"><div class="tile-teacher">Tile, one of many.<span>.row .grid-tile</span></div></div>
-    </div> <!-- end: .row -->
-  </section>
-
-  <section>
-    <div class="full-width">
-      <h2>Need another pattern?</h2>
-      <p>Add it to the stylesheet and also add documentation to this page.</p>
-    </div> <!-- end: .full-width -->
-  </section>
-
+  </div> <!-- end: .content -->
 </div> <!-- end: .container -->
+
+<div class="full-bleed wrap-color-white">
+  <div class="content">
+    <h2>Full Bleed, Not Centered</h2>
+    <p>Sometimes you may need to have full-bleed content that you don't want to be centered. An example use case is an administrative section where you'll have very long tables, perhaps.</p>
+  </div> <!-- .content -->
+</div> <!-- end: full-bleed -->

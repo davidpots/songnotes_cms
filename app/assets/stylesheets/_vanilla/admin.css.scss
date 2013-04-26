@@ -4,13 +4,14 @@
     .tile-teacher span { display: block; color: #999; color: red; font-family: $body_fonts_mono; margin: 10px 0 0 0; font-size: 14px; line-height: 24px; font-weight: bold; }
 
     // Sandbox Navigation
-    .sandbox-nav-wrap { padding-bottom: 0; }
-    .sandbox-nav      { margin: 0; padding: 12px 0 4px 0; @include clearfix; }
-    .sandbox-nav      {
-        li            { float: left; list-style: none; margin: 0 10px 8px 0; }
-        li a          { display: block; font-size: 14px; height: 24px; border-radius: 12px; overflow: hidden; line-height: 25px; padding: 0 12px; color: #fff; background: $color_primary; }
-        li a:hover    { background: $color_primary_darker; }
-        li.active a   { background: $color_secondary; }
+    .sandbox-nav-wrap   { padding-bottom: 0;
+      .content          { padding: 14px 10px; margin: 0; }
+      ul                { margin: 0; padding: 0; @include clearfix; 
+        li              { float: left; list-style: none; margin: 0 10px 0 0; }
+        li a            { display: block; font-size: 14px; height: 24px; border-radius: 12px; overflow: hidden; line-height: 25px; padding: 0 12px; color: #fff; background: $color_primary; }
+        li a:hover      { background: $color_primary_darker; }
+        li.active a     { background: $color_secondary; }
+      }
     }
 
 // Admin
