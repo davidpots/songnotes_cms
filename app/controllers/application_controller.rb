@@ -2,6 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :layout_vars
   def layout_vars
+    @page_url = "http://www.songnotes.cc#{request.fullpath}"
     @google_font_Bitter = "Bitter:400,700,400italic"
     @google_font_Anonymous = "Anonymous+Pro:400,700"
     @google_font_OpenSans = "Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300"
