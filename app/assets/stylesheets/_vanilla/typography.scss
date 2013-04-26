@@ -27,16 +27,18 @@
 
         // Songnotes-specific -- extract later!
         .song_1 {
-          h4.section_head  { font-size: 1.9rem; font-family: Bitter; font-weight: bold; }
-          .pre_lyrics h4.section_head  { margin: 0 0 -1rem 0; }
+          h4.section_head  { font-size: 1.9rem; font-weight: bold; }
+          .pre_lyrics h4.section_head  { margin: 0 0 -1.1rem 0; }
           .chords_inline,
           .chord                { color: $color_secondary; }
           span.chord_notation   { color: #777; }
           .note                 { color: #aaa; font-style: italic; }
           p                     { font-size: 1.6rem; line-height: 2.1rem; }
           pre.pre_notes         { margin-top: -1rem; }
-          h2                    { font-weight: normal; font-style: italic; font-size: 4.8rem; margin-bottom: 3.6rem; color: $color_secondary;}
+          h2                    { display: inline-block; padding: 0 40px; margin: 0 0 0 -40px; font-weight: normal; font-style: italic; font-size: 3.6rem; line-height: 7.4rem; margin-bottom: 3.2rem; background: $color_secondary; color: $white; }
           .full-width.bordered  { border-top: 3px double #eee; padding-top: 42px; }
+          section.bg-dark       { color: #fff; }
+          section.song-head     { border-radius: 3px 3px 0 0; }
         }
 
         p,li,code,pre,

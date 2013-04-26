@@ -32,12 +32,28 @@
       /* apply a natural box layout model to all elements */
       * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+// SIMPLE FULL WIDTH
+// -----------------
+      .full-width-simple {
+        width: 940px;
+        background: #fff;
+        position: relative;
+        margin: 24px auto 0 auto;
+        border-radius: 3px;
+        box-shadow: 0px 1px 8px rgba(0,0,0,0.1);
+
+        section          { padding: 28px 28px; }
+        section.bg-dark  { background: $color_primary; }
+
+      }
+
+
 // CONTAINER SETUP
 // -----------------
 // Taken from Foldy via https://github.com/davatron5000/Foldy960#readme
 
       .container {
-        max-width: 900px; // Determines how wide the container will get, at most
+        max-width: 940px; // Determines how wide the container will get, at most
         width: $gridFullWidth;
         margin:0px auto;
         position: relative;
