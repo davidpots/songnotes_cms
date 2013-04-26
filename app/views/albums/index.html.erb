@@ -27,7 +27,7 @@
 
     <% @albums.each do |album| %>
       <tr>
-        <td><%= album.name %></td>
+        <td><%= link_to album.name, edit_album_url(album) %></td>
         <td><%= album.artist.blank? ? "--" : album.artist.name %></td>
         <td><%= album.songs.count %></td>
         <td><%= album.label %></td>
