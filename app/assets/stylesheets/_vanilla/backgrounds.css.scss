@@ -22,47 +22,53 @@
         // White Background
         .wrap-color-white     { background: $white; color: $body_copy_color_reg; }
         .bg-color-white       { background: $white; }
-        .bg-color-white       {
+        .bg-color-white,
+        .wrap-color-white     {
           p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_reg; }
-          h1,h2,h3,h4,h5,h6           { color: $body_copy_color_strong; }
+          h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_strong; }
         }
 
         // Light Grey Background
         .wrap-color-ltGrey     { background: $ltGrey; color: $body_copy_color_reg; }
         .bg-color-ltGrey       { background: $ltGrey; }
-        .bg-color-ltGrey       {
+        .bg-color-ltGrey,
+        .wrap-color-ltGrey     {
           p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_reg; }
-          h1,h2,h3,h4,h5,h6           { color: $body_copy_color_strong; }
+          h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_strong; }
         }
 
         // Dark Grey Background
         .wrap-color-dkGrey     { background: $dkGrey; color: $body_copy_color_onDark_reg; }
         .bg-color-dkGrey       { background: $dkGrey; }
-        .bg-color-dkGrey       {
+        .bg-color-dkGrey,
+        .wrap-color-dkGrey     {
           p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_onDark_reg; }
-          h1,h2,h3,h4,h5,h6           { color: $body_copy_color_onDark_strong; }
+          h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_onDark_strong; }
         }
 
         // Black Background
         .wrap-color-black     { background: $black; color: $body_copy_color_onDark_reg; }
         .bg-color-black       { background: $black; }
-        .bg-color-black       {
+        .bg-color-black,
+        .wrap-color-black     {
           p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_onDark_reg;     }
-          h1,h2,h3,h4,h5,h6           { color: $body_copy_color_onDark_strong;  }
+          h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_onDark_strong;  }
         }
 
         // Primary Color BG
         .wrap-color-primary     { background: $color_primary; color: $white; }
         .bg-color-primary       { background: $color_primary; }
-        .bg-color-primary       {
+        .bg-color-primary,
+        .wrap-color-primary     {
           p,li,code,pre,dd,dt,td,th   { color: $white;  }
-          h1,h2,h3,h4,h5,h6           { color: $white;  }
+          h1,h2,h3,h4,h5,h6,strong,dt { color: $white;  }
         }
 
         // Secondary Color BG
         .wrap-color-secondary     { background: $color_secondary; color: $white; }
         .bg-color-secondary       { background: $color_secondary; }
-        .bg-color-secondary       {
+        .bg-color-secondary,
+        .wrap-color-secondary     {
           p,li,code,pre,dd,dt,td,th   { color: $white;  }
-          h1,h2,h3,h4,h5,h6           { color: $white;  }
+          h1,h2,h3,h4,h5,h6,strong,dt { color: $white;  }
         }
