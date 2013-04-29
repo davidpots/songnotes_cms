@@ -24,7 +24,7 @@
         .bg-color-white       { background: $white; }
         .bg-color-white,
         .wrap-color-white     {
-          p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_reg; }
+          p,li,code,pre,dd,dt         { color: $body_copy_color_reg; }
           h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_strong; }
         }
 
@@ -33,7 +33,7 @@
         .bg-color-ltGrey       { background: $ltGrey; }
         .bg-color-ltGrey,
         .wrap-color-ltGrey     {
-          p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_reg; }
+          p,li,code,pre,dd,dt         { color: $body_copy_color_reg; }
           h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_strong; }
         }
 
@@ -42,7 +42,7 @@
         .bg-color-dkGrey       { background: $dkGrey; }
         .bg-color-dkGrey,
         .wrap-color-dkGrey     {
-          p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_onDark_reg; }
+          p,li,code,pre,dd,dt         { color: $body_copy_color_onDark_reg; }
           h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_onDark_strong; }
         }
 
@@ -51,7 +51,7 @@
         .bg-color-black       { background: $black; }
         .bg-color-black,
         .wrap-color-black     {
-          p,li,code,pre,dd,dt,td,th   { color: $body_copy_color_onDark_reg;     }
+          p,li,code,pre,dd,dt         { color: $body_copy_color_onDark_reg;     }
           h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_onDark_strong;  }
         }
 
@@ -60,7 +60,7 @@
         .bg-color-primary       { background: $color_primary; }
         .bg-color-primary,
         .wrap-color-primary     {
-          p,li,code,pre,dd,dt,td,th   { color: $white;  }
+          p,li,code,pre,dd,dt         { color: $white;  }
           h1,h2,h3,h4,h5,h6,strong,dt { color: $white;  }
         }
 
@@ -69,6 +69,6 @@
         .bg-color-secondary       { background: $color_secondary; }
         .bg-color-secondary,
         .wrap-color-secondary     {
-          p,li,code,pre,dd,dt,td,th   { color: $white;  }
+          p,li,code,pre,dd,dt         { color: $white;  }
           h1,h2,h3,h4,h5,h6,strong,dt { color: $white;  }
         }

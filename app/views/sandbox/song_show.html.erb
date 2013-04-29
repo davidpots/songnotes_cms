@@ -1,24 +1,32 @@
-<% content_for :extra_class_names_for_body do %>wrap-color-ltGrey<% end %>
+<% content_for :extra_class_names_for_body do %><% end %>
 
 <%= render "sandbox/sandbox_nav" %>
 
 <div class="container">
-  <div class="content content-island">
-    <div class="song_show">
-      <div class="full-width-simple">
-        <section class='song-head bg-dark'>
-          <img class="thumb" style="float: right; width: 80px; height: 80px; border-radius: 40px; margin: 0 0 0 0;" src="http://fireflygrove.com/songnotes/images/artists/OfMonstersAndMen.png" />
-          <h1 style="margin: 8px 0 12px 0; font-weight: normal; font-size: 48px; font-weight: normal">Little Talks</h1>
-          <p style="font-size: 16px; opacity: 0.8; margin: 0 0 0 0;">Of Monsters and Men</p>
-        </section>
-        <section>
-          <%= render :partial => '_song_lyrics_1' %>
-        </section>
-        <section>
-          <h2>Notes &amp; Tabs</h2>
-          <%= render :partial => 'song_tabs_1' %>
-        </section>
-      </div>
-    </div> <!-- end: .song_show -->
-  </div> <!-- end: .content .content-island -->
+  <div class="content content-island song_show">
+    <section class='song-head' style="background: #0a9ce1; margin: -28px -28px 28px; padding: 28px 28px 20px; position: relative;">
+      <img class="thumb" style="position: absolute; right: 25px; top: 19px; width: 90px; height: 90px; border-radius: 45px; margin: 0 0 0 0;" src="http://fireflygrove.com/songnotes/images/artists/AvettBrothers.jpg" />
+      <h1 style="margin: 0 105px 8px 0; color: #fff; font-weight: bold; font-size: 48px; line-height: 48px; font-weight: normal;">Live and Die</h1>
+      <p style="font-size: 16px; opacity: 0.8; margin: 0 0 0 0;">The Avett Brothers</p>
+    </section>
+    <section>
+      <%= render :partial => '_song_lyrics_1' %>
+    </section>
+    <section>
+      <h2 class="ribbon">Notes &amp; Tabs</h2>
+      <%= render :partial => '_song_tabs_1' %>
+    </section>
+    <section>
+      <h2 class="ribbon">Listen &amp; Play</h2>
+      <%= render :partial => '_song_listen_play' %>
+    </section>
+    <section>
+      <h2 class="ribbon">Chord Progressions</h2>
+      <%= render :partial => '_song_chord_prog' %>
+    </section>
+    <section>
+      <h2 class="ribbon">About This Song</h2>
+      <%= render :partial => '_song_about' %>
+    </section>
+  </div> <!-- end: .content .content-island .song_show -->
 </div> <!-- end: .container -->
