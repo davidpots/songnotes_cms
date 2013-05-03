@@ -2,7 +2,8 @@
 <% description "Learn how to play #{@song.title} by #{@song.artist.name}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes. This song is heard on the album '#{@song.album.name}' released in #{@song.year}." %>
 
 <div class="container">
-  <div class="content content-island song-show">
+  <p style="margin: 10px 0 0 0; font-size: 16px;"><a style="display: block; padding: 12px 0 15px;" href="<%= root_url %>">&larr; back to the song list</a></p>
+  <div class="content content-island song-show" style="margin-top: 0;">
     
     <%# ----- Song Header ----- %>
     <section class='song-head' style="background: #0a9ce1; margin: -28px -28px 28px; padding: 28px 28px 20px; position: relative;">
