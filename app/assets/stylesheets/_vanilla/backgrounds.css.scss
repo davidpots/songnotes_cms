@@ -19,14 +19,7 @@
     // If modifying the bg-color of the <body> or a full-bleed element, use wrap-color-[colorName].
     // If modifying the bg-color of a gridded tile element, use bg-color-[colorName].
 
-        // White Background
-        .wrap-color-white     { background: $white; color: $body_copy_color_reg; }
-        .bg-color-white       { background: $white; }
-        .bg-color-white,
-        .wrap-color-white     {
-          p,li,code,pre,dd,dt         { color: $body_copy_color_reg; }
-          h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_strong; }
-        }
+
 
         // Light Grey Background
         .wrap-color-ltGrey     { background: $ltGrey; color: $body_copy_color_reg; }
@@ -71,4 +64,13 @@
         .wrap-color-secondary     {
           p,li,code,pre,dd,dt         { color: $white;  }
           h1,h2,h3,h4,h5,h6,strong,dt { color: $white;  }
+        }
+
+        // White Background
+        .wrap-color-white     { background: $white; color: $body_copy_color_reg; }
+        .bg-color-white       { background: $white; }
+        .bg-color-white,
+        .wrap-color-white     {
+          p,li,code,pre,dd,dt         { color: $body_copy_color_reg; }
+          h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_strong; }
         }

@@ -1,8 +1,9 @@
         // Songnotes-specific -- extract later!
-        .song-show {            position: relative;
+        .song-show {            position: relative; margin-top: 20px;
           .pre_lyrics h4.section_head  { margin: 0 0 -1.1rem 0; }
           .chords_inline,
           .chord                { color: $color_secondary; }
+          .chords_repeated      { display: none; }
           span.chord_notation   { color: #777; }
           .note                 { color: #aaa; }
           pre.pre_notes         { margin-top: -1rem; }

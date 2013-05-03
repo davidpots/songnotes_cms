@@ -2,32 +2,26 @@
 <html>
 <head>
   <title><%= content_for?(:title) ? content_for(:title) : "Songnotes :: Hand-Crafted Guitar Tabs, Chords, and Lyrics" %></title>
-  <meta name="description" content="<%= content_for?(:description) ? content_for(:description) : "Songnotes provides guitar tabs, chords, and lyrics to your favorite songs. All tabs are hand-crafted by @davidpots." %>">
 
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
 
-  <meta name="google-site-verification" content="-k15quufCzoJ4igMiFVldZfqbthfpAGbTFLAZTq3knw" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+  <%# Loads the meta tags %>
+  <%= render :partial => 'layouts/meta_preload' %>
 
-  <script type="text/javascript">
+  <%# Loads the <link> tag that enables Google Fonts usage %>
+  <%= render :partial => 'layouts/googlefonts_preload' %>
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-37785168-1']);
-    _gaq.push(['_trackPageview']);
+  <%# Loads the required JS that enables Google Analytics tracking %>
+  <%= render :partial => 'layouts/googleanalytics_preload' %>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
+  <%# Loads the required JS that enables Facebook "Like" button usage %>
+  <%= render :partial => 'layouts/facebook_preload' %>
 
 </head>
-<body class="<%= "admin" if ((action_name == "admin") || (action_name == "new") || (action_name == "edit") || (action_name == "details")) %>">
+<body class="<%= klass_pagename + klass_extra %>">
+
   <%= yield %>
+
 </body>
 </html>

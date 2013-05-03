@@ -1,64 +1,52 @@
-<div class="welcome">
+<div class="full-bleed wrap-color-white">
   <div class="container">
-    <h1>Songnotes</h1>
-    <p>Premium guitar tabs, chords, and lyrics.<br />Hand-made with care by <a href="http://twitter.com/davidpots" target="_blank">@davidpots</a>.</p>
-    <div class="fb-like" data-href="http://songnotes.davidpots.com" style="position: relative; left: 50%; margin-left: -150px;" data-send="false" data-width="300" data-show-faces="false" data-action="recommend"></div>
-  </div> <!-- end: .container -->
-</div> <!-- end: .welcome -->
+    <div class="content">
+      
+      <h1 style="font-size: 54px; line-height: 60px; margin: 0 0 32px 0;">Songnotes</h1>
+      <p style="margin-bottom: 18px;">Human-friendly guitar tabs, chords, and lyrics to your favorite songs.<br /> Designed, developed, and edited by <a href="http://twitter.com/davidpots" target="_blank">@davidpots</a>.</p>
+      <p style="margin-bottom: 21px;">Want to know more? Read the story behind <%= link_to "why I'm building this site", about_url %>.</p>
+      <p style="margin-right: 10px; float: left;"><a href="https://twitter.com/playsongnotes" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @davidpots</a></p>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <div class="fb-like" style="margin-bottom: 20px;" data-href="http://www.songnotes.cc" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div>
+    </div>
+  </div>
+</div>
+
+<div class="full-bleed wrap-color-primary">
+  <div class="container">
+    <div class="content">
+      <h2>Recently Added</h2>
+      <p>I add approximately 2-3 songs each week, and would be glad to <a style="color: #bbffff; border-bottom: 1px solid #aaeeff;" href="mailto:play.songnotes@gmail.com">take any requests</a> you might have.</p>
+      <div class="tile-v5-wrap">
+        <% @recent_songs.each do |song| %>
+        <a class="tile-v5" href="<%= song_url(song) %>">
+          <img src="<%= @artist_img_dir + song.artist.image_url %>" />
+          <h2>
+            <strong><%= song.artist.name %></strong>
+            <span><%= song.title %></span>
+          </h2>
+        </a>
+        <% end %>
+      </div> <!-- end: tile-v5-wrap -->
+      <p>To keep notified of song additions, you should follow Songnotes on <a style="color: #bbffff; border-bottom: 1px solid #aaeeff;" target="_blank" href="http://www.facebook.com/songnotes">Facebook</a> or <a target="_blank" style="color: #bbffff; border-bottom: 1px solid #aaeeff;" href="http://www.twitter.com/playsongnotes">Twitter</a>.</p>
+    </div> <!-- end: content -->
+  </div> <!-- end: container -->
+</div> <!-- end: full-bleed -->
+
 
 <div class="container">
-  <div class="buffer">
-
-    <h3 class="bucket_head">Welcome!</h3>
-    <ul class="tiles">
-      <li class="arrow">
-        <%= link_to ("<h1>About this site</h1>").html_safe, about_url, :class => "tile" %>
-      </li>
-      <li class="arrow">
-        <%= link_to ("<h1>Browse all #{@song_count} songs</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
-      </li>
-    </ul>
-  
-    <h3 class="bucket_head">Recently added songs</h3>
-    <div class="cards_v1">
-    <% @recent_songs.each do |song| %>
-      <a class="card" href="<%= song_url(song) %>">
-        <div class="wrap">
-          <p class="thumb">
-            <img src="<%= @artist_img_dir + song.artist.image_url %>" />
-          </p>
-          <h1><%= truncate(song.title, length:28) %></h1>
-          <h2><%= song.artist.name %></h2>
-        </div>
-      </a>
-    <% end %>
-    </div>
-
-    <h3 class="bucket_head">Some random suggestions</h3>
-    <ul class="tiles">
-      <% @songs_random.each do |song| %>
-      <li class="arrow">
-        <%= link_to(song, :class => "tile") do %>
-          <h1><%= song.title %></h1>
-          <h3><%= song.artist.name %></h3>
-        <% end %>
-      </li>
+  <div class="content content-island">
+    <h2 class="ribbon">Browse All Songs</h2>
+    <% @artists.each do |artist| %>
+    <dl class="tile-v4 with-thumb">
+      <img src="<%= @artist_img_dir + artist.image_url %>" />
+      <dt><%= artist.name %></dt>
+      <% artist.songs.order('title').each do |song| %>
+      <dd><a href="<%= song_url(song) %>"><strong><%= song.title %></strong><span><%= song.year %></span></a></dd>
       <% end %>
-    </ul>
-
-    <h3 class="bucket_head">Looking for more?</h3>
-    <ul class="tiles">
-      <li class="arrow">
-        <%= link_to ("<h1>Browse all #{@song_count} songs</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
-      </li>
-      <li class="arrow">
-        <%= link_to ("<h1>Like us on Facebook</h1>").html_safe, "http://facebook.com/songnotes", :class => "tile" %>
-      </li>
-    </ul>
-
-    <p>You should follow Songnotes on twitter!</p>
-<a href="https://twitter.com/playsongnotes" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @davidpots</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-  </div> <!-- end: buffer -->
-</div> <!-- end: .container -->
+    </dl>
+    <% end %>
+  </div> <!-- end: content -->
+  <div class="fb-like" style="margin-bottom: 20px;" data-href="http://www.songnotes.cc" data-send="false" data-width="950" data-show-faces="true" data-font="segoe ui" data-action="recommend"></div>
+  <br /><br />
+</div> <!-- end: container -->

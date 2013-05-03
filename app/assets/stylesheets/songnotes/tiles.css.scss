@@ -13,7 +13,7 @@
 
 // ----------------
 
-    .tile-v5-wrap { margin-left: -20px; @include clearfix; }
+    .tile-v5-wrap { margin-left: -20px; margin-bottom: 5px; @include clearfix; }
     .tile-v5      { display: block; background: $white; float: left; width: 220px; margin: 0 0 20px 20px; text-align: center; border-radius: 3px; height: 240px;
   
       h2          { padding: 0 15px; width: 220px; height: 94px; display: table-cell; vertical-align: middle; font-weight: bold; font-style: normal; }
@@ -26,11 +26,13 @@
 // ----------------
 
     .tile-v4      { margin: 0 0 32px 0; position: relative;
-      dt          { font-size: 2.4rem; line-height: 2.4rem; margin: 0 0 14px 0; }
+      dt          { font-size: 2.4rem; line-height: 2.4rem; margin: 0 0 14px 0; color: $body_copy_color_strong; }
       dd          { margin: 0 0 5px 0; }
       dd strong   { font-size: 1.8rem; line-height: 2.1rem; display: block; color: $color_secondary; margin: 0 0 0 0; }
       dd span     { font-size: 1.4rem; line-height: 1.7rem; color: #aaa;}
-
+      dd a:hover strong,
+      dd a:hover span   { color: $color_primary; }
+      
       // With Thumbnail
       &.with-thumb  { padding-left: 78px; margin-bottom: 50px;
         img         { width: 60px; height: 60px; border-radius: 30px; background: #888; position: absolute; left: 0; top: 0; }    

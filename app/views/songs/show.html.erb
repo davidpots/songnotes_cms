@@ -1,137 +1,114 @@
 <% title "'#{@song.title}' by #{@song.artist.name} - Chords, Lyrics, and Guitar Tabs" %>
 <% description "Learn how to play #{@song.title} by #{@song.artist.name}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes. This song is heard on the album '#{@song.album.name}' released in #{@song.year}." %>
 
-<div class="song_show">
-
-  <div class="uni_header">
-    <div class="container">
-      <div class="buffer">
-        <%= link_to "Songnotes", root_path %>
-      </div> <!-- end: buffer -->
-    </div> <!-- end: .container -->
-  </div> <!-- end: .uni_header -->
-
-  <div class="container">
-    <div class="buffer">
-      <%= render "shared/back_to_list" %>
-      <div class="tile">
-
-        <%# ---------------------------------------------- %>
-        <%#    SONG HEADER                                 %>
-        <%# ---------------------------------------------- %>
-        <div class="song_header bucket">
-          <h1><%= @song.title %></h1>
-          <p><%= @song.artist.name %></p>
-        </div>
-
-        <%# ---------------------------------------------- %>
-        <%#    LYRICS                                      %>
-        <%# ---------------------------------------------- %>
-        <div class="song_lyrics bucket">
-          <%= @song.lyrics_html_mono.present? ? (@song.lyrics_html_mono).html_safe : (@song.lyrics_text).html_safe %>
-        </div>
-
-        <%# ---------------------------------------------- %>
-        <%#    NOTES                                       %>
-        <%# ---------------------------------------------- %>
-        <% if @song.notes.present? %>
-        <div class="song_notes">
-          <div class="bucket">
-            <h2>Notes &amp; Tabs</h2>
-            <%= (@song.notes).html_safe %>
-          </div> <!-- end: .bucket -->
-        </div>
-        <% end %>
-
-        <%# ---------------------------------------------- %>
-        <%#    CHORD PROGRESSIONS                          %>
-        <%# ---------------------------------------------- %>
-        <% if @song.chords.present? %>
-        <div class="song_chords">
-          <div class="bucket">
-            <h2>Chord Progressions</h2>
-            <%= (@song.chords).html_safe %>
-          </div>
-        </div>
-        <% end %>
-
-        <%# ---------------------------------------------- %>
-        <%#    SONG INFO                                   %>
-        <%# ---------------------------------------------- %>
-        <div class="song_info">
-          <h2>About This Song</h2>
-          <p>
-            <strong>Song: </strong><%= @song.title %><br />
-            <strong>Artist: </strong><%= @song.artist.name %><br />
-            <strong>Album: </strong><%= @song.album.present? ? @song.album.name : "--" %><br />
-            <strong>Year: </strong><%= @song.year %><br />
-            <strong>Label: </strong><%= @song.record_label.present? ? @song.record_label : "--" %>
-          </p>
-        </div>
-        
-        <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>        
-        
-        <p style="font-size: 12px; font-style:italic; margin-top: 24px; margin-bottom: 0; border-top: 3px double #e6e6e6; padding-top: 18px;">This tab was created by me (David Potsiadlo) unless otherwise noted. <a href="mailto:play.songnotes@gmail.com" target="_blank">Send me an email</a> if you have questions / suggestions / comments.</p>
-        
-      </div> <!-- end: .tile -->
-      
-      <% unless @artist.songs.count < 2 %>
-        <h3 class="bucket_head">Other songs by <%= @artist.name %></h3>
-        <ul class="tiles" style="margin-bottom:0;">    
-        <% @artist.songs.each do |song| %>
-          <li class="arrow">
-            <%= link_to(song, :class => "tile") do %>
-              <h1><%= song.title %></h1>
-              <h3><%= song.year %></h3>
-            <% end %>
-          </li>
-        <% end %>
-        </ul>
-      <% end %>
-      
-      <% unless @songs_same_year.count < 2 %>
-        <h3 class="bucket_head">Other songs from <%= @year %></h3>
-        <ul class="tiles" style="margin-bottom:0;">    
-        <% @songs_same_year.each do |song| %>
-          <li class="arrow">
-            <%= link_to(song, :class => "tile") do %>
-              <h1><%= song.title %></h1>
-              <h3><%= song.artist.name %></h3>
-            <% end %>
-          </li>
-        <% end %>
-        </ul>
-      <% end %>
-      
-    <h3 class="bucket_head">Recently added songs</h3>
-    <div class="cards_v1">
-    <% @recent_songs.each do |song| %>
-      <a class="card" href="<%= song_url(song) %>">
-        <p class="thumb">
-          <img src="<%= @artist_img_dir + song.artist.image_url %>" />
-        </p>
-        <h1><%= truncate(song.title, length:28) %></h1>
-        <h2><%= song.artist.name %></h2>
-      </a>
-    <% end %>
-    </div>
-
-
-      
-      
-      <h3 class="bucket_head">Some random suggestions</h3>
-      <ul class="tiles" style="margin-bottom:0;">    
-      <% @songs_random.each do |song| %>
-        <li class="arrow">
-          <%= link_to(song, :class => "tile") do %>
-            <h1><%= song.title %></h1>
-            <h3><%= song.artist.name %></h3>
-          <% end %>
-        </li>
-      <% end %>
-      </ul>    
+<div class="container">
+  <div class="content content-island song-show">
     
-      <%= render "shared/back_to_list" %>
-    </div> <!-- end: .buffer -->
-  </div> <!-- end: .container -->
-</div> <!-- end: song_show -->
+    <%# ----- Song Header ----- %>
+    <section class='song-head' style="background: #0a9ce1; margin: -28px -28px 28px; padding: 28px 28px 20px; position: relative;">
+      <img class="thumb" style="position: absolute; right: 25px; top: 19px; width: 90px; height: 90px; border-radius: 45px; margin: 0 0 0 0;" src="<%= @artist_img_dir + @song.artist.image_url %>" />
+      <h1 style="margin: 0 105px 8px 0; color: #fff; font-weight: bold; font-size: 48px; line-height: 48px; font-weight: normal;"><%= @song.title %></h1>
+      <p style="font-size: 16px; opacity: 0.8; margin: 0 0 0 0;"><%= @song.artist.name %></p>
+    </section>
+
+    <%# ----- Lyrics ----- %>
+    <% if @song.lyrics_html_mono.present? %>
+    <section>
+      <%= (@song.lyrics_html_mono).html_safe %>
+    </section>
+    <% end %>
+
+    <%# ----- Notes and Tabs ----- %>
+    <% if @song.notes.present? %>
+    <section>
+      <h2 class="ribbon">Notes &amp; Tabs</h2>
+      <%= (@song.notes).html_safe %>
+    </section>
+    <% end %>
+
+    <%# ----- Chord Progressions ----- %>
+    <% if @song.chords.present? %>
+    <section>
+      <h2 class="ribbon">Chord Progressions</h2>
+      <%= (@song.chords).html_safe %>
+    </section>
+    <% end %>
+
+    <%# ----- About Song ----- %>
+    <section>
+      <h2 class="ribbon">About This Song</h2>
+      <p>
+        <strong>Song: </strong><%= @song.title %><br />
+        <strong>Artist: </strong><%= @song.artist.name %><br />
+        <strong>Album: </strong><%= @song.album.present? ? @song.album.name : "--" %><br />
+        <strong>Year: </strong><%= @song.year %><br />
+        <strong>Label: </strong><%= @song.record_label.present? ? @song.record_label : "--" %>
+      </p>
+    </section>
+  </div> <!-- end: .content -->
+
+  <% unless @artist.songs.count < 2 %>
+  <div class="content content-island">
+    <dl class="tile-v4">
+      <dt>Other songs by <%= @song.artist.name %>...</dt>
+      <% @artist.songs.each do |song| %>
+      <dd><a href="<%= song_url(song) %>"><strong><%= song.title %></strong><span><%= song.year %></span></a></dd>
+      <% end %>
+    </dl>
+  </div> <!-- end: .content .content-island .song_show -->
+  <% end %>
+
+  <div class="content content-island">
+    <dl class="tile-v4">
+      <dt>Other songs from <%= @song.year %>...</dt>
+      <% @songs_same_year.each do |song| %>
+      <dd><a href="<%= song_url(song) %>"><strong><%= song.title %></strong><span><%= song.artist.name %></span></a></dd>
+      <% end %>
+    </dl>
+  </div> <!-- end: .content .content-island .song_show -->
+</div> <!-- end: .container -->
+
+<div class="full-bleed wrap-color-primary">
+  <div class="container">
+    <div class="content">
+      <h2>Recently Added</h2>
+      <p>I add approximately 2-3 songs each week, and would be glad to <a style="color: #bbffff; border-bottom: 1px solid #aaeeff;" href="mailto:play.songnotes@gmail.com">take any requests</a> you might have.</p>
+      <div class="tile-v5-wrap">
+        <% @recent_songs.each do |song| %>
+        <a class="tile-v5" href="<%= song_url(song) %>">
+          <img src="<%= @artist_img_dir + song.artist.image_url %>" />
+          <h2>
+            <strong><%= song.artist.name %></strong>
+            <span><%= song.title %></span>
+          </h2>
+        </a>
+        <% end %>
+      </div> <!-- end: tile-v5-wrap -->
+      <p>To keep notified of song additions, you should follow Songnotes on <a style="color: #bbffff; border-bottom: 1px solid #aaeeff;" target="_blank" href="http://www.facebook.com/songnotes">Facebook</a> or <a target="_blank" style="color: #bbffff; border-bottom: 1px solid #aaeeff;" href="http://www.twitter.com/playsongnotes">Twitter</a>.</p>
+    </div> <!-- end: content -->
+  </div> <!-- end: container -->
+</div> <!-- end: full-bleed -->
+
+<div class="container">
+  <div class="content content-island">
+    <h2 class="ribbon">Browse All Songs</h2>
+    <% @artists.each do |artist| %>
+    <dl class="tile-v4 with-thumb">
+      <img src="<%= @artist_img_dir + artist.image_url %>" />
+      <dt><%= artist.name %></dt>
+      <% artist.songs.order('title').each do |song| %>
+      <dd><a href="<%= song_url(song) %>"><strong><%= song.title %></strong><span><%= song.year %></span></a></dd>
+      <% end %>
+    </dl>
+    <% end %>
+  </div> <!-- end: content -->
+
+  <div class="content content-island">
+    <h3>About Songnotes</h3>
+    <p style="margin-bottom: 18px;">Songnotes is delighted to provide human-friendly guitar tabs, chords, and lyrics to your favorite songs. The site is designed, developed, and edited by <a href="http://twitter.com/davidpots" target="_blank">@davidpots</a>.</p>
+    <p style="margin-bottom: 21px;">Want to know more? Read the story behind <%= link_to "why I'm building this site", about_url %>.</p>
+    <p style="margin-right: 10px; float: left;"><a href="https://twitter.com/playsongnotes" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @davidpots</a></p>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <div class="fb-like" style="margin-bottom: 20px;" data-href="http://www.songnotes.cc" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div>
+  </div> <!-- end: .content -->
+</div> <!-- end: container -->

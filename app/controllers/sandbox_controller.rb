@@ -1,5 +1,4 @@
 class SandboxController < ApplicationController
-  layout 'sandbox'
 
   def index
   end
@@ -25,6 +24,6 @@ class SandboxController < ApplicationController
     @new_doc = @new_doc.gsub("\n\n\n","\n\n")
     # Gets rid of leading line break (start of text)... SEEMS LIKE COULD BE WAY BETTER!
     @new_doc = @new_doc.sub("\n","")
-    render :layout => 'redux'
+
   end
 end
