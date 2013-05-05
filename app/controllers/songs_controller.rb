@@ -1,31 +1,19 @@
 class SongsController < ApplicationController
   before_filter :prepare_artists, :prepare_albums
   helper_method :sort_column, :sort_direction
+
   def index
-    @nav = sort_column
-    # @songs = Song.order(sort_column + ' ' + sort_direction)
-    @songs_all = Song.where(published: true).all(:order => 'created_at DESC')
-    # @songs = Song.where(published: true).all
-    # @songs_by_months = @songs_all.group_by { |t| t.created_at.beginning_of_month }
-    @songs_by_months = Song.where(published: true).all(:order => 'created_at DESC').group_by { |s| s.created_at.beginning_of_month }
-    @songs_by_artist = Song.where(published: true).all(:order => 'title ASC').group_by { |s| s.artist }
-    @songs_by_year = Song.where(published: true).all(:order => 'year DESC').group_by { |s| s.year }
-    @songs_by_created_at = Song.where(published: true).all(:order => 'created_at DESC').group_by { |s| s.created_at }
-    @songs_by_title = Song.where(published: true).all(:order => 'title ASC').group_by { |s| s.title[0].capitalize.match(/[A-Z]/) ? s.title[0].capitalize : "#" }
   end
 
   def show
+    # Song being viewed
     @song = Song.find(params[:id])
-    @songs_all = Song.where(published: true).all(:order => 'created_at DESC',:limit=>10)
-    @songs_random = Song.where(published: true).all(:order => 'created_at DESC').sample(7)
 
+    # Songs from same year as @song
     @year = @song.year
     @songs_same_year = Song.where(published: true, year: @year).all(:order => 'title ASC')
 
-    @artist = @song.artist
-    @artists = Artist.all(order: 'lower(name)')
-
-    # Added Apr14, most recent
+    # Songs recently added to the site
     @recent_songs = Song.where(published: true).all(order: 'created_at DESC', limit: 8)
   end
 
@@ -79,7 +67,7 @@ class SongsController < ApplicationController
   end
   
   def prepare_artists
-    @artists = Artist.all
+    @artists = Artist.all(order: 'lower(name)')
   end
 
   def prepare_albums

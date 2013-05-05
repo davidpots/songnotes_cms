@@ -1,6 +1,8 @@
 <%= render "shared/admin_nav" %>
 
-<div class="admin">
+<div class="full-bleed wrap-color-white admin">
+  <div class="content">
+
     <% unless notice.blank? %>
       <p style="background:yellow; padding: 12px 15px;"><%= notice %></p>
     <% end %>
@@ -35,4 +37,5 @@
 
     <p style="margin:20px 0"><%= link_to 'Add New Song', new_song_path, :class => 'btn' %></p>
 
-</div>
+  </div> <!-- end: .content -->
+</div> <!-- end: .full-bleed -->

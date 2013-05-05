@@ -48,11 +48,11 @@
     </section>
   </div> <!-- end: .content -->
 
-  <% unless @artist.songs.count < 2 %>
+  <% unless @song.artist.songs.count < 2 %>
   <div class="content content-island">
     <dl class="tile-v4">
       <dt>Other songs by <%= @song.artist.name %>...</dt>
-      <% @artist.songs.each do |song| %>
+      <% @song.artist.songs.order('title').each do |song| %>
       <dd><a href="<%= song_url(song) %>"><strong><%= song.title %></strong><span><%= song.year %></span></a></dd>
       <% end %>
     </dl>
@@ -97,7 +97,7 @@
     <dl class="tile-v4 with-thumb">
       <img src="<%= @artist_img_dir + artist.image_url %>" />
       <dt><%= artist.name %></dt>
-      <% artist.songs.order('title').each do |song| %>
+      <% artist.songs.where(published: true).order('title').each do |song| %>
       <dd><a href="<%= song_url(song) %>"><strong><%= song.title %></strong><span><%= song.year %></span></a></dd>
       <% end %>
     </dl>
@@ -106,7 +106,7 @@
 
   <div class="content content-island">
     <h3>About Songnotes</h3>
-    <p style="margin-bottom: 18px;">Songnotes is delighted to provide human-friendly guitar tabs, chords, and lyrics to your favorite songs. The site is designed, developed, and edited by <a href="http://twitter.com/davidpots" target="_blank">@davidpots</a>.</p>
+    <p style="margin-bottom: 18px;">Songnotes is delighted to provide hand-crafted guitar tabs, chords, and lyrics to your favorite songs. The site is designed, developed, and edited by <a href="http://twitter.com/davidpots" target="_blank">@davidpots</a>.</p>
     <p style="margin-bottom: 21px;">Want to know more? Read the story behind <%= link_to "why I'm building this site", about_url %>.</p>
     <p style="margin-right: 10px; float: left;"><a href="https://twitter.com/playsongnotes" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @davidpots</a></p>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
