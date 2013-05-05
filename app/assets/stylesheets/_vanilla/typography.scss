@@ -1,0 +1,58 @@
+//  --------------------------------------------------------------------------------
+//  General Typography
+//  --------------------------------------------------------------------------------
+
+    html, body {-webkit-text-size-adjust: 100%;}
+    html {  font-size:    62.5%; }
+    body {  background:   $ltGrey; 
+            margin: 0;
+            padding: 0;
+            font-family:  $body_fonts_primary; 
+            line-height:  1.4rem;
+            color:        $body_copy_color_reg; }
+
+    //  Links
+        a,a:visited,a:hover,a:active { color: $color_primary; text-decoration: none; }
+        a:hover { color: $color_primary_darker; }
+        a:active { color: $color_secondary; }
+
+    //  Headers –– Universal
+        h1, h2, h3,
+        h4, h5, h6,
+        strong, dt            { color: $body_copy_color_strong; font-weight: bold; }
+
+        h1, h2, h3,
+        h4, h5, h6            { padding: 0; margin: 0 0 0.5em 0; nowhitespace: afterproperty; }
+
+    //  Headers –– Basic Variety
+        h1                    { font-size: 4.0rem; line-height: 4.0rem; margin: 0 0 2.4rem 0; font-weight: bold; }
+        h2                    { font-size: 3.2rem; line-height: 3.6rem; margin: 0 0 2.4rem 0; font-weight: normal; font-style: italic; }
+        h3                    { font-size: 2.7rem; line-height: 3.2rem; margin: 0 0 2.0rem 0; font-weight: bold; }
+        h4                    { font-size: 1.9rem; line-height: 3.0rem; margin: 3.2rem 0 1.0rem 0; font-weight: bold; }
+        h5                    { font-size: 1.8rem; line-height: 2.1rem; margin: 0 0 1.2rem 0; font-weight: normal; font-style: italic; color: #aaa; }
+
+        // Alt. Headers
+        h2.ribbon             { display: inline-block; padding: 0 40px; margin: 0 0 0 -48px; font-weight: normal; font-style: italic; font-size: 3.6rem; line-height: 7.4rem; margin-bottom: 3.2rem; background: $color_secondary; color: $white; }
+
+        p,li,code,pre,
+        dd,dt,td,th           { font-size: 1.7rem; line-height: 2.5rem; }
+        p,dd,ol,ul            { margin: 0 0 2.8rem 0; }
+
+        pre                   { font-size: 1.8rem; line-height: 2.1rem; font-family: $body_fonts_mono; font-weight: normal; white-space: pre; margin: 0 0 3.2rem 0; }
+        pre h4                { font-family: $body_fonts_primary; }
+        pre.boxed             { background: $ltGrey; padding: 18px 20px; }
+        
+        ul,ol                 { padding-left: 30px; }
+        dt                    { font-weight: 700; }
+                
+        hr                    { margin: 0 0 2.7rem 0; }
+
+    //  Tables
+
+        table { border-collapse: collapse; margin: 0 0 3.2rem 0; }
+        table a { display: block; }
+        th,
+        td { padding: 2px 10px; border: 1px solid #ddd; text-align: left; font-size: 1.4rem; white-space: nowrap;}
+        th { background: $black; color: $white; font-weight: normal; }
+        th a { background: $black; color: $white; }
+        td { }
