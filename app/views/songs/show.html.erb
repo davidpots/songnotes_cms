@@ -100,56 +100,10 @@
       <% artist.songs.order('title').each do |song| %>
       <dd><a href="<%= song_url(song) %>"><strong><%= song.title %></strong><span><%= song.year %></span></a></dd>
       <% end %>
-<<<<<<< HEAD
-      
-    <h3 class="bucket_head">Recently added songs</h3>
-    <div class="cards_v1">
-    <% @recent_songs.each do |song| %>
-      <a class="card" href="<%= song_url(song) %>">
-        <p class="thumb">
-          <img src="<%= @artist_img_dir + song.artist.image_url %>" />
-        </p>
-        <h1><%= truncate(song.title, length:35) %></h1>
-        <h2><%= song.artist.name %></h2>
-      </a>
-=======
     </dl>
->>>>>>> styleguide
     <% end %>
   </div> <!-- end: content -->
 
-<<<<<<< HEAD
-      
-      
-      <h3 class="bucket_head">Some random suggestions</h3>
-      <ul class="tiles" style="margin-bottom:0;">    
-      <% @songs_random.each do |song| %>
-        <li class="arrow">
-          <%= link_to(song, :class => "tile") do %>
-            <h1><%= song.title %></h1>
-            <h3><%= song.artist.name %></h3>
-          <% end %>
-        </li>
-      <% end %>
-      </ul>    
-
-    <h3 class="bucket_head">Looking for more?</h3>
-    <ul class="tiles">
-      <li class="arrow">
-        <%= link_to ("<h1>Browse all #{@song_count} songs</h1>").html_safe, song_directory_url(:sort => "title", :direction => "ASC"), :class => "tile" %>
-      </li>
-      <li class="arrow">
-        <%= link_to ("<h1>Like us on Facebook</h1>").html_safe, "http://facebook.com/songnotes", :class => "tile" %>
-      </li>
-    </ul>
-    
-    <p style="color:white;">Recommend Songnotes on Facebook! It is the best way to keep informed of new song additions.</p>
-    <div class="fb-like" data-href="http://www.songnotes.cc" style="" data-send="false" data-width="500" data-layout="button_count" data-show-faces="false" data-action="recommend"></div>
-    
-    </div> <!-- end: .buffer -->
-  </div> <!-- end: .container -->
-</div> <!-- end: song_show -->
-=======
   <div class="content content-island">
     <h3>About Songnotes</h3>
     <p style="margin-bottom: 18px;">Songnotes is delighted to provide human-friendly guitar tabs, chords, and lyrics to your favorite songs. The site is designed, developed, and edited by <a href="http://twitter.com/davidpots" target="_blank">@davidpots</a>.</p>
@@ -159,4 +113,3 @@
     <div class="fb-like" style="margin-bottom: 20px;" data-href="http://www.songnotes.cc" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div>
   </div> <!-- end: .content -->
 </div> <!-- end: container -->
->>>>>>> styleguide
