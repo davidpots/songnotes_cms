@@ -10,51 +10,53 @@
 //    Brand Colors
 // ------------------------------------------------------------
 
-    $black: #262626;
-    $white: #ffffff;
+    $black:   #333333;
+    $white:   #fff;
+    $ltGrey:  #ececec;
+    $dkGrey:  #444;
 
-    $bg_color: #e6e6e6;
+    $bg_color: #f1fdf7;
 
     // Rdio Blue, as per v1
-    $color_primary: #34b1c4;
-    $color_primary_darker: #1D69A5;
-    $color_primary_screen: #F1F9FA;
+    $color_primary: #0a9ce1;
+    $color_primary_darker: #0a9ce1;
 
     // Rdio Orange, as per v1
-    $color_secondary: #ed3f1c;
+    $color_secondary: #eb531e;
 
 // ------------------------------------------------------------
 //    Typography: Colors
 // ------------------------------------------------------------
 
-    $link_color: #0088cc;
-    $body_copy_color_reg: #555;
-    $body_copy_color_darker: #252525;
-    $body_copy_color_lighter: #aaa;
-    $body_copy_color_lightest: #ccc;
+    $link_color: #0076da;
+    $body_copy_color_reg: #444;
+    $body_copy_color_strong: #222;
+    $body_copy_color_subtle: #888;
 
+    $body_copy_color_onDark_reg: #ddd;
+    $body_copy_color_onDark_strong: #fff;
 // ------------------------------------------------------------
 //    Typography: Font Sizes & Line Height
 // ------------------------------------------------------------
 
-    $body_copy_size_larger: 19px;
-    $body_copy_size_reg: 14px;
-    $body_copy_size_smaller: 12px;
-
-    $body_copy_height_reg: 135%;
-    $body_copy_height_smaller: 125%;
+    // ...
 
 // ------------------------------------------------------------
 //    Typography: Font Families
 // ------------------------------------------------------------
+  
+    // Generic
+    // -----------------------------------------------
+    // $body_fonts_primary: 'Open Sans','Helvetica Neue', Arial;
+    // $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
 
-    $body_fonts_primary: 'Bitter','Helvetica Neue', Arial;
-    $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
+    // Songnotes
+    // -----------------------------------------------
+       $body_fonts_primary: 'Bitter','Helvetica Neue', Arial;
+       $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
 
 // ------------------------------------------------------------
 //    Misc. Variables
 // ------------------------------------------------------------
 
-    $side_buffer: 24px;
-    $top_buffer: 21px;
-    $nav_height: 48px;
+    $border_radius: 3px;

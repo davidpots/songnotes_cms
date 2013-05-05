@@ -1,0 +1,73 @@
+// RESPONSIVE RESETS
+// -----------------
+// Taken from Foldy via https://github.com/davatron5000/Foldy960#readme
+
+      @-o-viewport {
+        width: device-width;
+      }
+      @-ms-viewport {
+        width: device-width;
+      }
+      @viewport {
+        width: device-width;
+      }
+
+      html {
+        overflow-y: auto;
+      }
+
+      img,
+      audio,
+      video,
+      canvas {
+        max-width: 100%;
+      }
+
+      /* apply a natural box layout model to all elements */
+      * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+// SIMPLE FULL WIDTH
+// -----------------
+
+      .container {
+        width: 980px;
+        position: relative;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .content {
+        @include clearfix;
+        padding: 28px 0 0;
+        margin: 32px 0;
+      }      
+      
+      .container .content.content-island {
+        background: $white;
+        border-radius: $border_radius;
+        padding: 28px 28px 0;
+      }
+      
+      .full-bleed .container .content {
+        margin: 0;
+      }
+
+      // After a full-bleed section, give the immediate next .content area some more upper space
+      .full-bleed + .container .content {
+        margin-top: 32px;
+      }
+
+          // But, if the full-bleed secttion is in the header bar, don't add this extra space
+          .full-bleed.header-bar + .container .content {
+            margin-top: 0px;
+          }
+
+          // But, if the following .content is an island, do have the margin
+          .full-bleed.header-bar + .container .content.content-island {
+            margin-top: 32px;
+          }
+      
+      .full-bleed > .content {
+        padding-left: 28px;
+        padding-right: 28px;
+      }

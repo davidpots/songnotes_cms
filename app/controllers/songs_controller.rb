@@ -1,7 +1,6 @@
 class SongsController < ApplicationController
   before_filter :prepare_artists, :prepare_albums
   helper_method :sort_column, :sort_direction
-  layout 'redux'
   def index
     @nav = sort_column
     # @songs = Song.order(sort_column + ' ' + sort_direction)
@@ -24,9 +23,10 @@ class SongsController < ApplicationController
     @songs_same_year = Song.where(published: true, year: @year).all(:order => 'title ASC')
 
     @artist = @song.artist
+    @artists = Artist.all(order: 'lower(name)')
 
     # Added Apr14, most recent
-    @recent_songs = Song.where(published: true).all(order: 'created_at DESC', limit: 12)
+    @recent_songs = Song.where(published: true).all(order: 'created_at DESC', limit: 8)
   end
 
   def admin
