@@ -27,6 +27,14 @@
     </section>
     <% end %>
 
+    <%# ----- Listen & Play ----- %>
+    <% if @song.listenplay.present? %>
+    <section>
+      <h2 class="ribbon">Listen &amp; Play</h2>
+      <%= (@song.listenplay).html_safe %>
+    </section>
+    <% end %>
+
     <%# ----- Chord Progressions ----- %>
     <% if @song.chords.present? %>
     <section>

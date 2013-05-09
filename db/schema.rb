@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130407104651) do
+ActiveRecord::Schema.define(:version => 20130509122837) do
 
   create_table "albums", :force => true do |t|
     t.string   "name"
@@ -61,6 +61,7 @@ ActiveRecord::Schema.define(:version => 20130407104651) do
     t.string   "url_wikipedia"
     t.string   "url_youtube_official"
     t.string   "url_rdio"
+    t.text     "listenplay"
   end
 
   add_index "songs", ["slug"], :name => "index_songs_on_urlslug"

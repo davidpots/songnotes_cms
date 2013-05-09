@@ -30,7 +30,7 @@
         <td><%= song.album.blank? ? "--" : song.album.name %></td>
         <td><%= song.created_at.strftime("%b %e, %Y") %></td>
         <td><%= song.record_label? ? song.record_label : "--" %></td>
-        <td><%= link_to 'Delete', admin_url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', song, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
     </table>
