@@ -14,7 +14,7 @@ end
 group :development do
   # WHY DO YOU HAVE SQLITE AS A GEM HERE?
   gem 'sqlite3', '1.3.5'
-  #gem 'thin'
+  gem 'thin'
 end
 
 group :test do
