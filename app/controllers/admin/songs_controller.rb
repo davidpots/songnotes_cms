@@ -36,7 +36,7 @@ class Admin::SongsController < Admin::BaseController
     @song = Song.find(params[:id])
     @song.destroy
     respond_to do |format|
-      format.html { redirect_to admin_songs_url }
+      format.html { redirect_to admin_songs_url, notice: "Successfully deleted song." }
       format.json { head :no_content }
     end
   end

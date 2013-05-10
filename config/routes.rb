@@ -2,18 +2,14 @@ Songnotes::Application.routes.draw do
 
   devise_for :admin_users
 
-  resources :albums
-
-  resources :artists
-
   root to: 'pages#home'
 
   namespace :admin do
     match '/' => "songs#index"
     resources :songs, :except => :show
+    resources :artists, :except => :show
+    resources :albums, :except => :show
   end
-
-  # match 'adminius' => 'songs#admin', :as => 'admin'
 
   match 'directory' => 'songs#index', :as => 'song_directory'
 
@@ -21,6 +17,8 @@ Songnotes::Application.routes.draw do
   match 'about' => 'pages#about', :as => 'about'
 
   resources :songs, :only => [:index, :show]
+  resources :artists, :only => [:index, :show]
+  resources :albums, :only => [:index, :show]
 
   # Sandbox
   match 'sandbox' => 'sandbox#index', :as => 'sandbox'

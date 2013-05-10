@@ -1,4 +1,4 @@
-<%= form_for(@artist) do |f| %>
+<%= form_for [:admin, @artist] do |f| %>
   <% if @artist.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@artist.errors.count, "error") %> prohibited this artist from being saved:</h2>

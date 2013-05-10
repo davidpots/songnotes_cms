@@ -1,0 +1,53 @@
+<div class="admin">
+
+  <% unless notice.blank? %>
+    <p style="background:yellow; padding: 12px 15px;"><%= notice %></p>
+  <% end %>
+
+  <h1>Artists</h1>
+
+  <p style="margin:20px 0"><%= link_to 'Add New Artist', new_admin_artist_path, :class => 'btn' %></p>
+
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th># Albums</th>
+      <th># Songs</th>
+      <th>Bio short</th>
+      <th>Bio long</th>
+      <th>Image url</th>
+      <th>Url website</th>
+      <th>Url twitter</th>
+      <th>Url facebook</th>
+      <th>Url wikipedia</th>
+      <th>Url youtube official</th>
+      <th>Url rdio</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+
+  <% @artists.each do |artist| %>
+    <tr>
+      <td><%= artist.id %></td>
+      <td><%= link_to artist.name, edit_admin_artist_path(artist) %></td>
+      <td><%= artist.albums.count %></td>
+      <td><%= artist.songs.count %></td>
+      <td><%= artist.bio_short %></td>
+      <td><%= artist.bio_long %></td>
+      <td><%= artist.image_url %></td>
+      <td><%= artist.url_website %></td>
+      <td><%= artist.url_twitter %></td>
+      <td><%= artist.url_facebook %></td>
+      <td><%= artist.url_wikipedia %></td>
+      <td><%= artist.url_youtube_official %></td>
+      <td><%= artist.url_rdio %></td>
+      <td><%= link_to 'Show', artist %></td>
+      <td><%= link_to 'Edit', edit_artist_path(artist) %></td>
+      <td><%= link_to 'Destroy', [:admin, artist], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+  </table>
+
+</div>
