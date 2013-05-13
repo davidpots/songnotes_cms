@@ -1,0 +1,120 @@
+#40
+by Dave Matthews
+===============================================================================
+INTRO
+    C → G/B → C/F ... C/G ... (repeat, see tab below)
+
+VERSE
+    C      G/B    C/F             C/G 
+    Tables turned again... you my friend
+    You and I face each other all time and time out
+    I know it's sometimes hard, but knowing just does
+    That we will get along until we're old and gray...
+    ...And doubled up, we're doubled up, we'll sit
+    And laugh of times were hard, laugh of times
+    When we thought all of it would end, it all was over, then again
+
+BRIDGE
+            C         G/B  D/F#        G 
+        And know that I am yours, less rain
+        D/F#                           G          A 
+        ...And to leave you, well I'll die, oh my friend...
+                   Bm            Bm/G# 
+        It will be you until the end with me, always...
+
+REFRAIN
+            G/B   C       C  G/B  C/F   C/G 
+            Al----ways................. ahhhh, I will
+            G/B   C       C  G/B  C/F   C/G 
+            Al----ways... yeah ......................
+            G/B   C 
+            Al----ways
+                  (let C ring to end)
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Editor's Notes
+Here we are, one of the most infamously beloved earlier Dave Matthews songs that never saw a proper album release. There are many bootlegged live recordings of this song, each of which may have entirely different lyrics (often somewhat indecipherable) and are of a various lengths (between 90 seconds and 4 minutes). Explore the versions out there, find one you like, and use that as a guide. The lyrics above are from the live version as heard on the album "Listener Supported." That said, for me the best recording is the 4+ minute version played at Yoshi's in San Francisco back in 1995 (a recording of which can be heard below). Enjoy!
+
+Basic Guitar Chords
+Here are the basic guitar chords you'll need to play this song. These chords, in addition to the tabs I outline below, will get you 98% of the way there when it comes to recreating this song just like Dave Matthews plays it. If you're looking for an 100% exact and precise version matching every specific note that Dave Matthews plays, I recommend this tab (http://tabs.ultimate-guitar.com/d/dave_matthews_band/40_tab.htm). Otherwise, these notes are meant to cover the high level basics to get you properly started.
+
+e-|-------------------------------|---2-----3----0----2---------
+B-|----1-----0------1------1------|---3-----0----2----3---------
+G-|----0-----0------0------0------|---2-----0----2----4----4----
+D-|----2-----0------2------2------|---0-----0----2----4----4----
+A-|----3-----2--------------------|---0-----2----0----2----2----
+E-|-----------------1------3------|---2-----3--------------4----
+       C    G/B    C/F    C/G        D/F#   G    A    Bm  Bm/G# 
+
+Playing the Main Intro/Verse Riff
+Most of this song consists of a single C-based progression repeated over and over. Most of what you'll change is the bass note at the bottom of the chord. When playing through this progression, where possible keep the non-bass fingers affixed in their proper C-chord position wherever possible. Note -- this tab doesn't account for the exact rhythm and strumming pattern; listen along to get an idea for that. This is meant to show the basics of the walkdown (and how to properly stress each bass note by playing it before the rest of the chord).
+
+e-|-------------------- ---------- ------------
+B-|--------1--------0-- ------1--- -------1----
+G-|--------0--------0-- ------0--- -------0----
+D-|------2--------0---- ----2----- -----2------    (...repeat)
+A-|----3--------2------ ---------- ------------
+E-|-------------------- --1------- ---3--------
+       C       G/B        C/F         C/G 
+      "Tables  turned  again..."
+
+Tabs for the Refrain (Ending)
+For the refrain section of the song (where he sings "al---ways"), here are some tabs showing how you can approach it. Pick your poison, here. There are a few ways to play it that are slightly different than what Dave plays -- but sound just as good in my opinion.
+
+Simple, Open Version        How Dave Plays it        How I Play it
+e-|--------------------     --------------------     --------------------
+B-|---0-----1----------     --------------------     --------------------
+G-|---0-----0----------     ---4-----5----------     ----4-----5---------
+D-|---0-----2----------     ---4-----5----------     ----5-----5---------
+A-|---2-----3----------     ---3-----3----------     ----2-----3---------
+E-|--------------------     --------------------     --------------------
+     "Al----ways..."          "Al----ways..."           "Al----ways..."
+
+===============================================================================
+LISTEN & PLAY
+===============================================================================
+
+"Listener Supported" Version
+To listen and watch the live version of this song that was released on the album Listener Supported, check out the video below. There are plenty of good opportunities to see how Dave Matthews plays through the chord progression.
+http://www.youtube.com/watch?v=bGbj_wyctl0
+
+Alternative Longer Version
+My favorite version, by far, is this longer version as performed by Dave Matthews back in 1995 (at Yoshi's in San Francisco). The lyrics are different than shown above, and often hard to make out -- but the audio quality is quite clear. Listen along and use this as reference when it comes to the strumming pattern and rhythm. You also get to hear (in the first 30 seconds) Dave Matthews explaining how he never wrote proper lyrics for the song.
+http://www.youtube.com/watch?v=9sLSrW86Lco
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+Intro & Verse
+"Tables turned again..."
+ C → G/B → | C/F . . . | C/G . . . |
+                         (...repeat)
+
+
+Bridge
+"And though all that I know is this way..."
+ C → G/B → | D/F# . . . |  G  . . . |
+           | D/F# . . . |  G  . . . |
+           |   A  . . . | Bm  . . . |
+                (repeat as necessary, starting on D/F#)
+
+Refrain
+"Always..."
+ G/B → C ... C → G/B → | C/F . . . | C/G . . . |
+                                   (...repeat)
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: #40
+Artist: Dave Matthews
+Album: Listener Supported
+Released: November 23, 1999
+Label: BMG
+Rdio URL: http://www.rdio.com/artist/Dave_Matthews_Band/album/Listener_Supported/track/40/
+YouTube (offical video): http://www.youtube.com/watch?v=bGbj_wyctl0
