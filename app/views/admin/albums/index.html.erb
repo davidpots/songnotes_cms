@@ -34,7 +34,7 @@
         <td><%= album.url_wikipedia %></td>
         <td><%= album.url_rdio %></td>
         <td><%= link_to 'Show', album %></td>
-        <td><%= link_to 'Edit', edit_album_path(album) %></td>
+        <td><%= link_to 'Edit', edit_admin_album_path(album) %></td>
         <td><%= link_to 'Destroy', [:admin, album], method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
