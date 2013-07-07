@@ -54,10 +54,10 @@ class Admin::SongsController < Admin::BaseController
   helper_method :sort_direction
   
   def prepare_artists
-    @artists = Artist.all
+    @artists = Artist.find(:all, :order => "LOWER(name)")
   end
 
   def prepare_albums
-    @albums = Album.all
+    @albums = Album.find(:all, :order => "LOWER(name)")
   end
 end
