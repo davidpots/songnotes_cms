@@ -1,0 +1,193 @@
+LOLA
+by The Kinks
+===============================================================================
+INTRO
+    | C . . . | C . D . | E . . . | E . . . |
+
+VERSE
+    E 
+    I met her in a club down in old Soho
+              A                      D 
+    Where you drink champagne and it tastes just like
+         E               A 
+    Coca-cola... C-O-L-A cola
+
+        E 
+    She walked up to me and she asked me to dance
+      A                       D 
+    I asked her name and in a dark-brown voice she said 
+    E               A       D               C        C  D  E 
+    Lola... L-O-L-A Lola....... la-la-la-la Lola
+
+    (short break, stay on the E chord)
+
+    Well, I'm not the world's most physical guy
+    But when she squeezed me tight she nearly broke my spine
+    Oh my Lola... lo-lo-lo-lo Lola
+
+    Well, I'm not dumb but I can't understand
+    Why she walked like a woman but talked like a man
+    Oh, my Lola... la-la-la-la Lola... la-la-la-la Lola
+
+    (short break, stay on the E chord)
+
+CHORUS
+                B 
+        Well, we drank champagne and danced all night
+        F# 
+        Under electric candlelight
+            A 
+        She picked me up and sat me on her knee
+            Am 
+        And said, "Little boy, won't you come home with me"
+
+    Well, I'm not the world's most passionate guy
+    But when I looked in her eyes well I almost fell
+    For my Lola... La-la-la-la Lola... la-la-la-la Lola
+
+    Lola... la-la-la-la Lola... la-la-la-la Lola
+
+    (short break, stay on the E chord)
+
+BRIDGE
+              A      C#m  B 
+            I pushed her away
+              A      C#m    B 
+            I walked to the door
+              A    C#m    B 
+            I fell to the floor
+                  E    G#m   C#m 
+            I got down on my knees
+                  B 
+            Well, I looked at her and she at me
+
+    That's the way that I want it to stay
+    And I'll always want it to be that way 
+    For my Lola... La-la-la-la Lola
+
+    Girls will be boys and boys will be girls
+    It's a mixed up muddled up shook up world
+    Except for Lola... La-la-la-la Lola
+
+        Well, I'd left home just a week before
+        And I'd never ever kissed a woman before
+        But Lola smiled and took me by the hand
+        And said, "Little boy, I'm gonna make you a man"
+
+    Well, I'm not the world's most masculine man 
+    But I know what I am and I’m glad I'm a man
+    And so is Lola... La-la-la-la Lola... la-la-la-la Lola
+
+    Lola... la-la-la-la Lola... la-la-la-la Lola
+                                        (repeat & jam)
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Guitar Chords Used
+Here's how to play the guitar chords used in this song. The chorus and bridge get a bit tricker with barre chords, but you can get away with simple open chords for the intro and verse sections.
+
+e-|---0----0----2----0----0-----0----------2-----4-----4----
+B-|---0----1----3----2----3-----1-----4----2-----5-----4----
+G-|---1----0----2----2----2-----2-----4----3-----6-----4----
+D-|---2----2----0----2----2-----2-----4----4-----6-----6----
+A-|---2----3---------0----0-----0-----2----4-----4-----6----
+E-|---0-------------------------------2----------------4----
+      E    C    D    A  Asus4   Am    B    F#   C#m   G#m 
+
+Intro Riff
+Here is the guitar tab used for playing the intro to the song. THough it isn't required, this shows the regular C chord with an added G for the bass note. For the picking pattern at the end of this riff, be sure to listen along to get an idea of the timing. THe key with picking a pattern such as this is keeping your pick hand continuously moving (similar to a strum motion) -- this will ensure the rhythm is even and natural. As always, it is best to listen along to reference.
+
+e-|---0-----0-----0--0--0--0-----2--2-----0---0-----0-----0-----0-------0---
+B-|---1-----1-----1--1--1--1-----3--3-----0-----0-----0-----0---------0-----
+G-|---0-----0-----0--0--0--0-----2--2-----1-------1-----1-----1-----1-------
+D-|---2-----2-----2--2--2--2-----0--0-----2---------------------------------
+A-|---3-----3-----3--3--3--3--------------2---------------------------------
+E-|---3-----3-----3--3--3--3--------------0---------------------------------
+      v     v     v  ^  v  ^     ^  v     v
+      C                          D        E 
+
+Extended Intro & Verse Riff
+Here is how I play an extended intro to this song, which is basically an instrumental version of the main verse (can can be played during the verse, as well). This can be heard on some of The Kinks live performances. This may not be the exact way Ray Davies (etc) play it but it still should be perfectly suitable. Listen along for strumming pattern and rhythm, of course.
+
+e-|---/4--4--4----2----0--0--------0--0--0--------------------0--0------0----
+B-|---/5--5--5----0----0--0-------/5--5--5-----7--7--7--7-----5--5------0----
+G-|---/4--4--4----2----1--1-------/6--6--6-----7--7--7--7--x--7--7------1----
+D-|--------------------2--2-------/7--7--7-----7--7--7--7--x--7--7------2----
+A-|-------------------------------/7--7--7-----0--0--0--0--x--0--0------2----
+E-|---------------------------------------------------------------------0----
+       E                           A           D                        E 
+      "Met in her a club...        drink...    taste just like...       cola"
+
+Alternatively, a simpler version of the same general fill can be played like this. For the E chord, use your pinky and ring finger to play the notes on the high E-string.
+
+e-|----4--4--4----2----0--0--------0--0--0-----2--2--2--0--x------------0----
+B-|----0--0--0----0----0--0--------2--2--2-----3--3--3--3--x--3--3------0----
+G-|----1--1--1----1----1--1--------2--2--2-----2--2--2--2--x--2--2------1----
+D-|----2--2--2----2----2--2--------2--2--2-----0--------------0--0------2----
+A-|--------------------------------0------------------------------------2----
+E-|---------------------------------------------------------------------0----
+       E                           A           D                        E 
+      "Met in her a club...        drink...    taste just like...       cola"
+
+Audio of the Intro + Verse Riff
+Here is a audio short recording of me putting the intro + verse riffs together. This should give an idea of what this sounds like -- but as always, feel free to make it your own as you see fit.
+https://soundcloud.com/davidpots/lola-acoustic-guitar-intro
+
+===============================================================================
+LISTEN & PLAY
+===============================================================================
+
+Recorded Album Version by The Kinks
+Want to hear the official album version as recorded by The Kinks? Here you go.
+http://www.youtube.com/watch?v=nVXmMMSo47s
+
+Recommended Cover Version
+For a nicely shot video of a great cover version, check this out. This is played by Mike Masse and Jeff Hall. Very cool acoustic riffing in the very beginning -- it shows the good fun you can have with this tune.
+http://www.youtube.com/watch?v=qWWU5x5RLbI
+
+Recommended Guitar Lessons
+For a more detailed breakdown how to play this song, check out these videos. First, I recommend this great intro by Marty Schwartz.
+http://www.youtube.com/watch?v=D9KjUhuU6-k
+
+If you want more, check out this lesson via Neil at TotallyGuitars.com. Between this video and Marty's above, you should be off to a good start in learning this song.
+http://www.youtube.com/watch?v=f4KSuleTCq4
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+| C . . . | C . D . | E . . . | . . . . |
+
+VERSE
+"I met her in a club down in old Soho..."
+| E . . . | . . . . | A . . . | D . . . |
+| E . . . | . . . . | A . . . | . . . . |
+| E . . . | . . . . | A . . . | D . . . |
+| E . . . | . . . . | A . . . | D . . . |
+| C . . . | C . D . | E . . . | . . . . |
+
+CHORUS
+"Well, we drank champagne and danced all night..."
+| B . . . | . . . . | F# . . . | . . . . |
+| A . . . | . . . . |  . . . . | . . . . |
+
+BRIDGE
+"I pushed her away, I walked to the door..."
+| A . C#m . | B . . . | A . C#m . |  B  . . . |
+| A . C#m . | B . . . | E . G#m . | C#m . . . |
+| B .  .  . | . . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================
+
+Song: Lola
+Artist: The Kinks
+Album: Lola Versus Powerman and the Moneygoround, Part One
+Released: 1970
+Label: Pye
+Wikipedia URL: http://en.wikipedia.org/wiki/Lola_(song)
+Rdio URL: http://rd.io/x/QVzN1jfENU8/
