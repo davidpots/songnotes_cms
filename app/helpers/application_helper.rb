@@ -24,4 +24,8 @@ module ApplicationHelper
   def description(page_description)
     content_for(:description) { page_description }
   end
+
+  def fb_img(page_fb_img)
+    content_for(:fb_img) { page_fb_img }
+  end
 end

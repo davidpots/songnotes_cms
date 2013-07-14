@@ -7,5 +7,7 @@
 <meta property="og:title" content="<%= content_for?(:title) ? content_for(:title) : "Songnotes :: Hand-Crafted Guitar Tabs, Chords, and Lyrics" %>" />
 <meta property="og:description" content="<%= content_for?(:description) ? content_for(:description) : "Songnotes provides guitar tabs, chords, and lyrics to your favorite songs. All tabs are hand-crafted by @davidpots." %>" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="http://www.songnotes.cc/songnotes-avatar.png"/>
+<meta property="og:image" content="<%= content_for?(:fb_img) ? content_for(:fb_img) : "http://www.songnotes.cc/songnotes-avatar.png" %>"/>
+<meta property="og:url" content="<%= @page_url %>" />
 <meta property="fb:app_id" content="361890643934216" />
+
