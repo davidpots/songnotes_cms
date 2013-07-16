@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
 <head>
   <title><%= content_for?(:title) ? content_for(:title) : "Songnotes :: Hand-Crafted Guitar Tabs, Chords, and Lyrics" %></title>
 
@@ -20,10 +20,11 @@
 </head>
 <body class="<%= klass_pagename + klass_extra %>">
 
-  <%= yield %>
-
   <%# Loads the required JS that enables Facebook "Like" button usage %>
   <%= render :partial => 'layouts/facebook_preload' %>
+
+  <%= yield %>
+
 
 </body>
 </html>
