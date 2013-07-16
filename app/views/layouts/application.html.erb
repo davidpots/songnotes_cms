@@ -15,13 +15,15 @@
   <%# Loads the required JS that enables Google Analytics tracking %>
   <%= render :partial => 'layouts/googleanalytics_preload' %>
 
-  <%# Loads the required JS that enables Facebook "Like" button usage %>
-  <%= render :partial => 'layouts/facebook_preload' %>
+
 
 </head>
 <body class="<%= klass_pagename + klass_extra %>">
 
   <%= yield %>
+
+  <%# Loads the required JS that enables Facebook "Like" button usage %>
+  <%= render :partial => 'layouts/facebook_preload' %>
 
 </body>
 </html>
