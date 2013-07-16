@@ -14,4 +14,3 @@
 //= require jquery_ujs
 //= require ios-orientationchange-fix
 //= require_tree .
-
