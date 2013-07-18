@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require ios-orientationchange-fix
 //= require_tree .
+
+$(document).ready(function(){
+  $(".pri_nav li.dropdown_reveal").click(function(){
+    $(this).toggleClass('open');
+    $('li.dropdown_itself').toggleClass('visible');
+    return false;
+  });
+  $(".pri_nav li.dropdown_itself a").click(function(){
+    $('.pri_nav li.dropdown_reveal').toggleClass('open');
+    $('li.dropdown_itself').toggleClass('visible');
+  });
+});

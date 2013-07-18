@@ -2,14 +2,15 @@
 <% description "Learn how to play #{@song.title} by #{@song.artist.name}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes. This song is heard on the album '#{@song.album.name}' released in #{@song.year}." %>
 <% fb_img "#{@artist_img_dir}#{@song.artist.image_url}" %>
 
+<%= render :partial => 'shared/global_nav' %>
+
 <div class="container">
-  <p style="margin: 10px 0 0 0; font-size: 16px;"><a style="display: block; padding: 12px 0 15px;" href="<%= root_url %>">&larr; back to the song list</a></p>
-  <div class="content content-island song-show" style="margin-top: 0;">
+  <div class="content content-island song-show">
     
     <%# ----- Song Header ----- %>
-    <section class='song-head' style="background: #0a9ce1; margin: -28px -28px 28px; padding: 28px 28px 20px; position: relative;">
+    <section class='song-head' style="margin: -28px -28px 28px; padding: 28px 28px 24px; position: relative; border-bottom: 3px double #eaeaea;">
       <img class="thumb" style="position: absolute; right: 25px; top: 19px; width: 90px; height: 90px; border-radius: 45px; margin: 0 0 0 0;" src="<%= @artist_img_dir + @song.artist.image_url %>" />
-      <h1 style="margin: 0 105px 8px 0; color: #fff; font-weight: bold; font-size: 48px; line-height: 48px; font-weight: normal;"><%= @song.title %></h1>
+      <h1 style="margin: 0 105px 12px 0; color: #333; font-weight: bold; font-size: 48px; line-height: 48px;"><%= @song.title %></h1>
       <p style="font-size: 16px; opacity: 0.8; margin: 0 0 0 0;"><%= @song.artist.name %></p>
     </section>
 
@@ -119,6 +120,6 @@
     <p style="margin-bottom: 21px;">Want to know more? Read the story behind <%= link_to "why I'm building this site", about_url %>.</p>
     <p style="margin-right: 10px; float: left;"><a href="https://twitter.com/playsongnotes" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @davidpots</a></p>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    <div class="fb-like" style="margin-bottom: 20px;" data-href="http://www.songnotes.cc" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div>
+    <div class="fb-like" style="margin-bottom: 20px;" data-href="http://www.facebook.com/songnotes" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div>
   </div> <!-- end: .content -->
 </div> <!-- end: container -->
