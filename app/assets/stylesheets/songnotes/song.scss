@@ -1,5 +1,6 @@
         // Songnotes-specific -- extract later!
         .song-show {            position: relative; margin-top: 20px; 
+          .pre_lyrics                   { margin-top: 28px; }
           .pre_lyrics h4.section_head  { margin: 0 0 -1.1rem 0; }
           .chords_inline,
           .chord                { color: $color_secondary; }
@@ -16,10 +17,22 @@
 
 
         .song-show .song-head { 
-          margin: -28px -28px 28px; padding: 21px 28px 21px; position: relative; border-bottom: 3px double #eaeaea;
+          margin: -28px -28px 0px; padding: 28px 28px 21px; position: relative;
           
-          img.thumb     { position: absolute; right: 25px; top: 24px; width: 90px; height: 90px; border-radius: 45px; margin: 0 0 0 0; }
+          img.thumb     { position: absolute; right: 25px; top: 24px; width: 90px; height: 90px; border-radius: 45px; margin: 0 0 0 0; background: #ccc; }
           p             { color: #999; margin: 0 0 2px 0; padding: 0; font-size: 14px; font-family: $proxima_nova_light; }
           p strong      { color: #777; font-family: $proxima_nova_semi; font-weight: normal; }
-          h1            { margin: 0 105px 8px 0; color: #333; font-weight: bold; font-size: 48px; line-height: 54px; }
+          h1            { margin: 5px 105px 5px 0; color: #333; font-weight: bold; font-size: 48px; line-height: 54px; }
+        }
+        
+        .song-show .song-nav { 
+          
+          ul        { @include clearfix; padding: 12px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin: 0; }
+          li        { list-style: none; float: left; margin: 0 8px 0 0; }
+          li a      { font-size: 14px; line-height: 27px; border-radius: 14px; display: block; padding: 1px 15px 0; background: transparent; border: 1px solid $color_secondary; color: $color_secondary; font-family: $proxima_nova_semi; }
+          li a.active { background: $color_secondary; color: #fff; }
+          
+          &.fixed     { position: fixed; top: 0; left: 0; right: 0; background: rgba(255,255,255,0.95); box-shadow: 0px 2px 0px rgba(0,0,0,0.1);}
+          &.fixed ul  { margin: 0 auto; width: 884px; border: none; }
+
         }

@@ -10,45 +10,56 @@
     <%# ----- Song Header ----- %>
     <section class='song-head'>
       <img class="thumb" src="<%= @artist_img_dir + @song.artist.image_url %>" />
-      <p>here's how I play</p>
       <h1><%= @song.title %></h1>
       <p>by <strong><%= @song.artist.name %></strong> from the album <strong><%= @song.album.name %></strong> released in <strong><%= @song.year %></strong></p>
     </section>
 
+    <%# ----- Song Secondary Nav ----- %>
+    <div class="song-nav">
+      <ul>
+        <li class="active"><a href="#lyrics">Lyrics</a></li>
+        <li><a href="#notes_tabs">Notes &amp; Tabs</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#chord_progressions">Chord Progressions</a></li>
+        <li><a href="#song_info">Song Info</a></li>
+      </ul>
+    </div> <!-- end: .song-nav -->
+
     <%# ----- Lyrics ----- %>
     <% if @song.lyrics_html_mono.present? %>
-    <section>
+    <section id="lyrics">
+      <h2 style="display:none;" class="ribbon">Lyrics</h2>
       <%= (@song.lyrics_html_mono).html_safe %>
     </section>
     <% end %>
 
     <%# ----- Notes and Tabs ----- %>
     <% if @song.notes.present? %>
-    <section>
+    <section id="notes_tabs">
       <h2 class="ribbon">Notes &amp; Tabs</h2>
       <%= (@song.notes).html_safe %>
     </section>
     <% end %>
 
-    <%# ----- Listen & Play ----- %>
+    <%# ----- Videos ----- %>
     <% if @song.listenplay.present? %>
-    <section>
-      <h2 class="ribbon">Listen &amp; Play</h2>
+    <section id="videos">
+      <h2 class="ribbon">Videos</h2>
       <%= (@song.listenplay).html_safe %>
     </section>
     <% end %>
 
     <%# ----- Chord Progressions ----- %>
     <% if @song.chords.present? %>
-    <section>
+    <section id="chord_progressions">
       <h2 class="ribbon">Chord Progressions</h2>
       <%= (@song.chords).html_safe %>
     </section>
     <% end %>
 
     <%# ----- About Song ----- %>
-    <section>
-      <h2 class="ribbon">About This Song</h2>
+    <section id="song_info">
+      <h2 class="ribbon">Song Info</h2>
       <p>
         <strong>Song: </strong><%= @song.title %><br />
         <strong>Artist: </strong><%= @song.artist.name %><br />

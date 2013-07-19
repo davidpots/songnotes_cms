@@ -15,6 +15,8 @@
 //= require ios-orientationchange-fix
 //= require_tree .
 
+
+// The dropdown in the global nav for showing / hiding the "follow" contents
 $(document).ready(function(){
   $(".pri_nav li.dropdown_reveal").click(function(){
     $(this).toggleClass('open');
@@ -24,5 +26,44 @@ $(document).ready(function(){
   $(".pri_nav li.dropdown_itself a").click(function(){
     $('.pri_nav li.dropdown_reveal').toggleClass('open');
     $('li.dropdown_itself').toggleClass('visible');
+  });
+});
+
+
+
+
+// The song stickynav
+$(document).ready(function(){
+
+  var nav = $('.song-nav');
+  var navHeight = nav.outerHeight();
+  var aboveFold = nav.offset().top;
+  var y = $('.song-show').outerHeight();
+
+  $(window).scroll(function(){
+      if ($(window).scrollTop() > aboveFold){
+        $('.song-nav').css('top',0).addClass('fixed');
+        $('body').css('margin-top',navHeight);
+      } else { 
+        $('.song-nav').css('top',aboveFold).removeClass('fixed');
+        $('body').css('margin-top',0);
+      }
+      if ($(window).scrollTop() > y){
+        $('.song-nav').removeClass('fixed');
+        $('body').css('margin-top',0);
+      }
+  });
+});
+
+// Song wayfinding
+$(document).ready(function(){
+
+  $(window).scroll(function () {
+    var inview = '#' + $('section:in-viewport:first h2').parent().attr('id'),
+      $link = $('.song-nav a').filter('[href="' + inview + '"]');
+      if ($link.length && !$link.is('.active')) {
+        $('.song-nav a').removeClass('active');
+        $link.addClass('active');    
+      }
   });
 });
