@@ -8,10 +8,11 @@
   <div class="content content-island song-show">
     
     <%# ----- Song Header ----- %>
-    <section class='song-head' style="margin: -28px -28px 28px; padding: 28px 28px 24px; position: relative; border-bottom: 3px double #eaeaea;">
-      <img class="thumb" style="position: absolute; right: 25px; top: 19px; width: 90px; height: 90px; border-radius: 45px; margin: 0 0 0 0;" src="<%= @artist_img_dir + @song.artist.image_url %>" />
-      <h1 style="margin: 0 105px 12px 0; color: #333; font-weight: bold; font-size: 48px; line-height: 48px;"><%= @song.title %></h1>
-      <p style="font-size: 16px; opacity: 0.8; margin: 0 0 0 0;"><%= @song.artist.name %></p>
+    <section class='song-head'>
+      <img class="thumb" src="<%= @artist_img_dir + @song.artist.image_url %>" />
+      <p>here's how I play</p>
+      <h1><%= @song.title %></h1>
+      <p>by <strong><%= @song.artist.name %></strong> from the album <strong><%= @song.album.name %></strong> released in <strong><%= @song.year %></strong></p>
     </section>
 
     <%# ----- Lyrics ----- %>

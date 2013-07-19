@@ -1,27 +1,27 @@
-.global_nav { padding: 0; height: 76px; 
+.global_nav { padding: 0; height: 72px; 
   
   .logo_link      { display: inline-block; }
-  .logo_link h1   { font-size: 24px; font-weight: normal; margin: 15px 0 3px 0; padding: 0; line-height: 28px; }
-  .logo_link p    { font-size: 14px; color: #888; margin: 0; padding: 0; line-height: 18px; }
+  .logo_link h1   { font-size: 21px; text-transform: uppercase; letter-spacing: 1px; margin: 18px 0 0 0; padding: 0; line-height: 24px; font-family: $body_font_secondary_bold; font-weight: normal; }
+  .logo_link p    { font-size: 14px; color: #888; margin: 0; padding: 0; line-height: 18px; font-family: $body_font_secondary; }
   
   .pri_nav                      { float: right; display: inline-block; position: relative; }
-  .pri_nav > li.reg             { list-style: none; float: left; border-right: 1px solid #444; }
-  .pri_nav > li.reg:first-child { border-left: 1px solid #444; }
-  .pri_nav > li.reg > a         { display: block; padding: 0 24px; height: 76px; overflow: hidden; line-height: 79px; color: #eee; font-style: italic; }
+  .pri_nav > li.reg             { list-style: none; float: left; height: 72px; overflow: hidden; margin: 24px 0 0 0; }
+  .pri_nav > li.reg > a         { display: block; padding: 0 14px; color: #eee; text-transform: uppercase; font-family: $body_font_secondary; font-size: 13px; line-height: 28px; border-radius: 14px; }
   .pri_nav > li.reg > a:hover   { background: $color_secondary; }
 
-  .pri_nav > li.dropdown_reveal      { position: relative; }
-  .pri_nav > li.dropdown_reveal > a  { padding-right: 48px; }
-  .pri_nav > li.dropdown_reveal span { display: block; content: ""; position: absolute; border-top: 6px solid #999; border-left: 6px solid transparent; border-right: 6px solid transparent; width: 0; height: 0; top: 38px; right: 24px; }
+  .pri_nav > li.dropdown_reveal      { position: relative; margin-left: 7px; }
+  .pri_nav > li.dropdown_reveal > a  { padding-right: 40px; border: 1px solid #fff; border-radius: 14px; }
+  .pri_nav > li.dropdown_reveal > a:hover { border-color: $color_secondary; color: #fff; background: $color_secondary; }
+  .pri_nav > li.dropdown_reveal span { display: block; content: ""; position: absolute; border-top: 5px solid #fff; border-left: 5px solid transparent; border-right: 5px solid transparent; width: 0; height: 0; top: 13px; right: 15px; }
   .pri_nav > li.dropdown_reveal > a:hover span,
   .pri_nav > li.dropdown_reveal.open span { border-top: 6px solid #fff; }
-  .pri_nav > li.dropdown_reveal.open { background: $color_secondary; }
+  .pri_nav > li.dropdown_reveal.open > a  { background: $color_secondary; border-color: $color_secondary; }
 
-  .pri_nav > li.dropdown_itself         { display: none; list-style: none; position: absolute; top: 82px; right: -10px; z-index: 1; background: #444; width: 200px; }
+  .pri_nav > li.dropdown_itself         { display: none; list-style: none; position: absolute; top: 64px; right: -10px; z-index: 1; background: #444; width: 300px; border-radius: 6px; }
   .pri_nav > li.dropdown_itself.visible { display: block; }
-  .pri_nav > li.dropdown_itself:before  { content: ""; width: 0; height: 0; position: absolute; border-bottom: 15px solid #444; border-left: 15px solid transparent; border-right: 15px solid transparent; top: -15px; right: 25px; }
+  .pri_nav > li.dropdown_itself:before  { content: ""; width: 0; height: 0; position: absolute; border-bottom: 7px solid #444; border-left: 7px solid transparent; border-right: 7px solid transparent; top: -7px; right: 23px; }
   .pri_nav > li.dropdown_itself ul      { margin: 0; padding: 0; }  
-  .pri_nav > li.dropdown_itself ul li   { list-style:none; border-top: 1px solid #555; }
+  .pri_nav > li.dropdown_itself ul li   { list-style:none; border-top: 1px solid #555; padding: 10px 15px; }
   .pri_nav > li.dropdown_itself ul li:first-child { border: none; }
 
   .pri_nav > li.dropdown_itself ul li a { color: #eee; display: block; padding: 10px 15px; }

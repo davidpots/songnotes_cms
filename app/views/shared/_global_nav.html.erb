@@ -3,17 +3,38 @@
     <div class="content global_nav">
       <a href="<%= root_url %>" class="logo_link">
         <h1>songnotes</h1>
-        <p>hand-crafted music notation by @davidpots</p>
+        <p>the hand-crafted music library of @davidpots</p>
       </a>
       <ul class="pri_nav">
+        <li class="reg"><a href="<%= root_url %>">home</a></li>
         <li class="reg"><a href="<%= root_url %>">browse all songs</a></li>
         <li class="reg"><a href="<%= about_url %>">about</a></li>
         <li class="reg dropdown_reveal"><a href="#">follow<span></span></a></li>
         <li class="dropdown_itself">
           <ul>
-            <li><a target="_blank" href="http://facebook.com/songnotes">Facebook</a></li>
-            <li><a target="_blank" href="http://twitter.com/playsongnotes">Twitter</a></li>
-            <li><a target="_blank" href="https://plus.google.com/108964489013808568272/posts">Google+</a></li>
+            <li>
+              <span style="display:block; margin: 0 0 5px 0;">Recommend us on Facebook</span>
+              <div class="fb-like" data-href="http://www.facebook.com/songnotes" data-send="false" data-layout="button_count" data-width="400" data-show-faces="false" data-action="recommend"></div>
+            </li>
+            <li>
+              <span style="display:block; margin: 0 0 5px 0;">Follow us on Twitter</span>
+              <a href="https://twitter.com/playsongnotes" class="twitter-follow-button" data-show-count="true">Follow @playsongnotes</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </li>
+            <li>
+              <span style="display:block; margin: 0 0 5px 0;">Get song updates on Google+</span>
+              <!-- Place this tag where you want the +1 button to render. -->
+              <div class="g-plusone" data-size="medium"></div>
+
+              <!-- Place this tag after the last +1 button tag. -->
+              <script type="text/javascript">
+                (function() {
+                  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                  po.src = 'https://apis.google.com/js/plusone.js';
+                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                })();
+              </script>
+            </li>
           </ul>
         </li>
       </ul>

@@ -15,6 +15,9 @@
     @import "_prep/reset";
     @import "_prep/clearfix";
 
+//  Font: Proxima Nova
+ 	  @import "fonts/proximanova/stylesheet";
+
 //  Base Styleguide Foundation (app agnostic)
     @import "_vanilla/_variables";
     @import "_vanilla/scaffolding";

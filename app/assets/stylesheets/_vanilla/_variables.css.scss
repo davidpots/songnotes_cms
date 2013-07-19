@@ -10,7 +10,7 @@
 //    Brand Colors
 // ------------------------------------------------------------
 
-    $black:   #333333;
+    $black:   #252525;
     $white:   #fff;
     $ltGrey:  #ececec;
     $dkGrey:  #444;
@@ -53,10 +53,19 @@
     // Songnotes
     // -----------------------------------------------
        $body_fonts_primary: 'Bitter','Helvetica Neue', Arial;
+       $body_font_secondary: 'ProximaNovaRegular', 'Lucida Grande','Helvetica Neue', Arial;
+       $body_font_secondary_bold: 'ProximaNovaBold', 'Lucida Grande','Helvetica Neue', Arial;
        $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
+       
+       $proxima_nova_reg: 'ProximaNovaRegular', 'Lucida Grande','Helvetica Neue', Arial;
+       $proxima_nova_bold: 'ProximaNovaBold', 'Lucida Grande','Helvetica Neue', Arial;
+       $proxima_nova_semi: 'ProximaNovaSemi', 'Lucida Grande','Helvetica Neue', Arial;
+       $proxima_nova_light: 'ProximaNovaLight', 'Lucida Grande','Helvetica Neue', Arial;
+       $proxima_nova_thin: 'ProximaNovaThin', 'Lucida Grande','Helvetica Neue', Arial;
+       $font_bitter: 'Bitter','Helvetica Neue', Arial;
 
 // ------------------------------------------------------------
 //    Misc. Variables
 // ------------------------------------------------------------
 
-    $border_radius: 3px;
+    $border_radius: 6px;
