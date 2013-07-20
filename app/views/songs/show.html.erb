@@ -15,8 +15,8 @@
     </section>
 
     <%# ----- Song Secondary Nav ----- %>
-    <div class="song-nav" style="height: 58px;">
-      <ul>
+    <div class="song-nav" style="">
+      <ul style="position: relative;">
         <li><a class="active" href="#lyrics">Lyrics</a></li>
 
         <% if @song.notes.present? %>
@@ -32,7 +32,7 @@
         <% end %>
 
         <li><a href="#song_info">Song Info</a></li>
-        <li style="float: right;"><div class="fb-like" style="margin-top: 6px;" data-href="<%= @page_url %>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div></li>
+        <li style="position: absolute; right: 0;"><div class="fb-like" style="margin-top: 6px;" data-href="<%= @page_url %>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div></li>
       </ul>
     </div> <!-- end: .song-nav -->
 
