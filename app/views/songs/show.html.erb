@@ -1,4 +1,4 @@
-<% title "'#{@song.title}' by #{@song.artist.name} - Chords, Lyrics, and Guitar Tabs" %>
+<% title "'#{@song.title}' by #{@song.artist.name} - Chords, Lyrics, and Guitar Tabs from Songnotes" %>
 <% description "Learn how to play #{@song.title} by #{@song.artist.name}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes. This song is heard on the album '#{@song.album.name}' released in #{@song.year}." %>
 <% fb_img "#{@artist_img_dir}#{@song.artist.image_url}" %>
 
@@ -8,46 +8,69 @@
   <div class="content content-island song-show">
     
     <%# ----- Song Header ----- %>
-    <section class='song-head' style="margin: -28px -28px 28px; padding: 28px 28px 24px; position: relative; border-bottom: 3px double #eaeaea;">
-      <img class="thumb" style="position: absolute; right: 25px; top: 19px; width: 90px; height: 90px; border-radius: 45px; margin: 0 0 0 0;" src="<%= @artist_img_dir + @song.artist.image_url %>" />
-      <h1 style="margin: 0 105px 12px 0; color: #333; font-weight: bold; font-size: 48px; line-height: 48px;"><%= @song.title %></h1>
-      <p style="font-size: 16px; opacity: 0.8; margin: 0 0 0 0;"><%= @song.artist.name %></p>
+    <section class='song-head'>
+      <img class="thumb" src="<%= @artist_img_dir + @song.artist.image_url %>" />
+      <h1><%= @song.title %></h1>
+      <p>by <strong><%= @song.artist.name %></strong> from the album <strong><%= @song.album.name %></strong> released in <strong><%= @song.year %></strong></p>
     </section>
+
+    <%# ----- Song Secondary Nav ----- %>
+    <div class="song-nav">
+      <ul>
+        <li><a class="active" href="#lyrics">Lyrics</a></li>
+
+        <% if @song.notes.present? %>
+          <li><a href="#notes_tabs">Notes &amp; Tabs</a></li>
+        <% end %>
+        
+        <% if @song.listenplay.present? %>
+          <li><a href="#videos">Videos</a></li>
+        <% end %>
+
+        <% if @song.chords.present? %>
+          <li><a href="#chord_progressions">Chord Progressions</a></li>
+        <% end %>
+
+        <li><a href="#song_info">Song Info</a></li>
+        <li style="position: relative; height: 30px; overflow: hidden; float: right;"><div class="fb-like" style="margin-top: 6px;" data-href="<%= @page_url %>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div></li>
+      </ul>
+    </div> <!-- end: .song-nav -->
 
     <%# ----- Lyrics ----- %>
     <% if @song.lyrics_html_mono.present? %>
-    <section>
+    <section id="lyrics">
+      <h2 style="display:none;" class="ribbon">Lyrics</h2>
       <%= (@song.lyrics_html_mono).html_safe %>
     </section>
     <% end %>
 
     <%# ----- Notes and Tabs ----- %>
     <% if @song.notes.present? %>
-    <section>
+    <section id="notes_tabs">
       <h2 class="ribbon">Notes &amp; Tabs</h2>
       <%= (@song.notes).html_safe %>
     </section>
     <% end %>
 
-    <%# ----- Listen & Play ----- %>
+    <%# ----- Videos ----- %>
     <% if @song.listenplay.present? %>
-    <section>
-      <h2 class="ribbon">Listen &amp; Play</h2>
+    <section id="videos">
+      <h2 class="ribbon">Videos</h2>
       <%= (@song.listenplay).html_safe %>
     </section>
     <% end %>
 
     <%# ----- Chord Progressions ----- %>
     <% if @song.chords.present? %>
-    <section>
+    <section id="chord_progressions">
       <h2 class="ribbon">Chord Progressions</h2>
       <%= (@song.chords).html_safe %>
     </section>
     <% end %>
 
     <%# ----- About Song ----- %>
-    <section>
-      <h2 class="ribbon">About This Song</h2>
+    <section id="song_info">
+      <h2 class="ribbon">Song Info</h2>
       <p>
         <strong>Song: </strong><%= @song.title %><br />
         <strong>Artist: </strong><%= @song.artist.name %><br />
