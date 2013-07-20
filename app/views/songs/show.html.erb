@@ -1,4 +1,4 @@
-<% title "'#{@song.title}' by #{@song.artist.name} - Chords, Lyrics, and Guitar Tabs" %>
+<% title "'#{@song.title}' by #{@song.artist.name} - Chords, Lyrics, and Guitar Tabs from Songnotes" %>
 <% description "Learn how to play #{@song.title} by #{@song.artist.name}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes. This song is heard on the album '#{@song.album.name}' released in #{@song.year}." %>
 <% fb_img "#{@artist_img_dir}#{@song.artist.image_url}" %>
 
@@ -17,11 +17,22 @@
     <%# ----- Song Secondary Nav ----- %>
     <div class="song-nav">
       <ul>
-        <li class="active"><a href="#lyrics">Lyrics</a></li>
-        <li><a href="#notes_tabs">Notes &amp; Tabs</a></li>
-        <li><a href="#videos">Videos</a></li>
-        <li><a href="#chord_progressions">Chord Progressions</a></li>
+        <li><a class="active" href="#lyrics">Lyrics</a></li>
+
+        <% if @song.notes.present? %>
+          <li><a href="#notes_tabs">Notes &amp; Tabs</a></li>
+        <% end %>
+        
+        <% if @song.listenplay.present? %>
+          <li><a href="#videos">Videos</a></li>
+        <% end %>
+
+        <% if @song.chords.present? %>
+          <li><a href="#chord_progressions">Chord Progressions</a></li>
+        <% end %>
+
         <li><a href="#song_info">Song Info</a></li>
+        <li style="position: relative; height: 30px; overflow: hidden; float: right;"><div class="fb-like" style="margin-top: 6px;" data-href="<%= @page_url %>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div></li>
       </ul>
     </div> <!-- end: .song-nav -->
 
