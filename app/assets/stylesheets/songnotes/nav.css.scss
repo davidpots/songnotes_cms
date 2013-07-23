@@ -5,7 +5,7 @@
   .logo_link p    { font-size: 14px; color: #888; margin: 0; padding: 0; line-height: 18px; font-family: $body_font_secondary; }
   
   .pri_nav                      { float: right; display: inline-block; position: relative; }
-  .pri_nav > li.reg             { list-style: none; float: left; height: 72px; overflow: hidden; margin: 24px 0 0 0; }
+  .pri_nav > li.reg             { list-style: none; float: left; overflow: hidden; margin: 24px 0 0 0; }
   .pri_nav > li.reg > a         { display: block; padding: 0 14px; color: #eee; text-transform: uppercase; font-family: $body_font_secondary; font-size: 13px; line-height: 28px; border-radius: 14px; }
   .pri_nav > li.reg > a:hover   { background: $color_secondary; }
 
@@ -21,10 +21,20 @@
   .pri_nav > li.dropdown_itself.visible { display: block; }
   .pri_nav > li.dropdown_itself:before  { content: ""; width: 0; height: 0; position: absolute; border-bottom: 7px solid #444; border-left: 7px solid transparent; border-right: 7px solid transparent; top: -7px; right: 23px; }
   .pri_nav > li.dropdown_itself ul      { margin: 0; padding: 0; }  
-  .pri_nav > li.dropdown_itself ul li   { list-style:none; border-top: 1px solid #555; padding: 10px 15px; }
+  .pri_nav > li.dropdown_itself ul li   { list-style:none; border-top: 1px solid #555; padding: 10px 15px; font-size: 1.4rem; }
   .pri_nav > li.dropdown_itself ul li:first-child { border: none; }
 
   .pri_nav > li.dropdown_itself ul li a { color: #eee; display: block; padding: 10px 15px; }
   .pri_nav > li.dropdown_itself ul li a:hover { background: $color_primary; }
   
 }
+
+
+// Homepage variation - clean this up
+
+body.pages.home .global_nav .pri_nav > li.dropdown_itself { background-color: #282828; color: #999; }
+body.pages.home .global_nav .pri_nav > li.dropdown_itself:before  { border-bottom: 7px solid #282828; }
+body.pages.home .logo_link h1 { color: #fff; margin-top: 28px; }
+
+body.pages.home .hero h1  { margin-top: 50px; font-size: 44px; line-height: 50px; font-family: $proxima_nova_semi; font-weight: normal; }
+body.pages.home .hero p   { color: #fff; font-family: $proxima_nova_light; font-weight: normal; }

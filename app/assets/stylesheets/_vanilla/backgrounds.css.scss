@@ -74,3 +74,8 @@
           p,li,code,pre,dd,dt         { color: $body_copy_color_reg; }
           h1,h2,h3,h4,h5,h6,strong,dt { color: $body_copy_color_strong; }
         }
+        
+        // Transparent White Background
+        .wrap-color-trans       { background-color: transparent; }
+        .wrap-color-white-trans { background: rgba(255,255,255,0.8); };
+        .wrap-color-black-trans { background: rgba(0,0,0,0.5); }
