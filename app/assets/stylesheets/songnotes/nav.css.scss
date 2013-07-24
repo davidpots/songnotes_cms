@@ -37,4 +37,5 @@ body.pages.home .global_nav .pri_nav > li.dropdown_itself:before  { border-botto
 body.pages.home .logo_link h1 { color: #fff; margin-top: 28px; }
 
 body.pages.home .hero h1  { margin-top: 50px; font-size: 44px; line-height: 50px; font-family: $proxima_nova_semi; font-weight: normal; }
-body.pages.home .hero p   { color: #fff; font-family: $proxima_nova_light; font-weight: normal; }
+body.pages.home .hero p   { color: #fff; font-family: $proxima_nova_light; font-weight: normal; margin-bottom: 18px; }
+body.pages.home .hero p a { color: #72ddff; font-family: $proxima_nova_semi; }
