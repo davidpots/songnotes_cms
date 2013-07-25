@@ -4,7 +4,7 @@
 
     html, body {-webkit-text-size-adjust: 100%;}
     html {  font-size:    62.5%; }
-    body {  background:   #7acee9; 
+    body {  background:   $color-primary; 
             margin: 0;
             padding: 0;
             font-family:  $proxima_nova_reg;
@@ -12,9 +12,9 @@
             color:        $body_copy_color_reg; }
 
     //  Links
-        a,a:visited,a:hover,a:active { color: $color_primary; text-decoration: none; }
-        a:hover { color: $color_primary_darker; }
-        a:active { color: $color_secondary; }
+        a,a:visited,a:hover,a:active { color: $color-primary; text-decoration: none; }
+        a:hover { color: $color-primary; }
+        a:active { color: $color-secondary; }
 
     //  Headers –– Universal
         h1, h2, h3,
@@ -25,25 +25,31 @@
         h4, h5, h6            { padding: 0; margin: 0 0 0.5em 0; nowhitespace: afterproperty; }
 
     //  Headers –– Basic Variety
-        h1                    { font-size: 4.0rem; line-height: 4.0rem; margin: 0 0 2.4rem 0; font-weight: bold; }
-        h2                    { font-size: 3.2rem; line-height: 3.6rem; margin: 0 0 2.4rem 0; font-weight: normal; }
-        h3                    { font-size: 2.7rem; line-height: 3.2rem; margin: 0 0 2.0rem 0; font-weight: bold; }
-        h4                    { font-size: 1.9rem; line-height: 3.0rem; margin: 3.2rem 0 0.6rem 0; font-weight: bold; }
-        h5                    { font-size: 1.7rem; line-height: 2.1rem; margin: 0 0 0.8rem 0; font-weight: normal; font-family: $proxima_nova_light; color: #aaa; }
+        h1                    { font-size: 4.0rem; line-height: 4.0rem; margin: 1.0rem 0 2.1rem 0; font-weight: normal; font-family: $proxima_nova_bold; }
+        h2                    { font-size: 3.2rem; line-height: 3.6rem; margin: 3.2rem 0 2.1rem 0; font-weight: normal; font-family: $proxima_nova_bold; }
+        h3                    { font-size: 2.7rem; line-height: 3.2rem; margin: 3.2rem 0 2.0rem 0; font-weight: normal; font-family: $proxima_nova_bold; }
+        h4                    { font-size: 1.9rem; line-height: 3.0rem; margin: 2.1rem 0 1.2rem 0; font-weight: normal; font-family: $proxima_nova_bold; }
+        h5                    { font-size: 1.7rem; line-height: 2.1rem; margin: 0 0 0.8rem 0; font-style: italic; font-weight: normal; font-family: $proxima_nova_light; color: #999; }
 
         // Alt. Headers
-        h2.ribbon             { display: inline-block; padding: 0 40px; margin: 0 0 0 -42px; font-weight: normal; font-family: $proxima_nova_semi; font-size: 3.6rem; line-height: 7.4rem; margin-bottom: 3.2rem; background: $color_secondary; color: $white; }
+        h2.ribbon             { display: inline-block; padding: 0 40px; margin: 0 0 0 -42px; font-weight: normal; font-family: $proxima_nova_semi; font-size: 3.6rem; line-height: 7.4rem; margin-bottom: 3.2rem; background: $color_secondary; color: $color-white; }
+
+        // Tightened Headers (tighter margins)
+        h3.tight              { margin-bottom: 0.5rem; }
 
         p,li,code,pre,
         dd,dt,td,th           { font-size: 1.7rem; line-height: 2.3rem; }
-        p,dd,ol,ul            { margin: 0 0 2.8rem 0; }
+        p,dd,ol,ul            { margin: 0 0 2.1rem 0; }
 
-        pre                   { font-size: 1.5rem; line-height: 1.8rem; font-family: $body_fonts_mono; font-weight: normal; white-space: pre; margin: 0 0 3.2rem 0; }
-        pre.boxed             { background: $ltGrey; padding: 18px 20px; }
+        pre                   { font-size: 1.5rem; line-height: 1.8rem; font-family: $body_fonts_mono; font-weight: normal; white-space: pre; margin: 0 0 2.8rem 0; }
+        pre.boxed             { background: $color-ltGrey; padding: 18px 20px; }
         pre strong            { font-family: $body_fonts_mono; font-weight: bold; }
         
-        ul,ol                 { padding-left: 30px; }
-        dt                    { font-weight: 700; }
+        ul,ol     { margin: 0 0 20px 28px; padding: 0; }
+        dl        { margin: 0 0 20px 0; }
+        dl dt     { font-weight: 600; color: #444; margin-bottom: 4px; }
+        dl dd     { margin-bottom: 0px; margin-left: 24px; }
+
                 
         hr                    { margin: 0 0 2.7rem 0; }
 
@@ -53,6 +59,6 @@
         table a { display: block; }
         th,
         td { padding: 2px 10px; border: 1px solid #ddd; text-align: left; font-size: 1.4rem; white-space: nowrap;}
-        th { background: $black; color: $white; font-weight: normal; }
-        th a { background: $black; color: $white; }
+        th { background: $color-black; color: $color-white; font-weight: normal; }
+        th a { background: $color-black; color: $color-white; }
         td { }

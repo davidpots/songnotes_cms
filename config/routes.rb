@@ -22,9 +22,7 @@ Songnotes::Application.routes.draw do
 
   # Sandbox
   match 'sandbox' => 'sandbox#index', :as => 'sandbox'
-  match 'sandbox/grid' => 'sandbox#grid', :as => 'sandbox_grid'
   match 'sandbox/basic' => 'sandbox#basic', :as => 'sandbox_basic'
-  match 'sandbox/backgrounds' => 'sandbox#backgrounds', :as => 'sandbox_backgrounds'
   match 'sandbox/tiles' => 'sandbox#tiles', :as => 'sandbox_tiles'
   match 'sandbox/song_show' => 'sandbox#song_show', :as => 'sandbox_song_show'
 

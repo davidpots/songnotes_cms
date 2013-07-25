@@ -1,19 +1,18 @@
 // Sandbox Area Helpers
 
-    body.admin    { background: white; }
-    body.admin .content { margin-top: 0; }
+    body.admin          { background: $color-white; }
 
-    .tile-teacher { background: #ddd; text-align: center; padding: 120px 20px; color: #777; font-size: 18px; line-height: 24px; }
-    .tile-teacher span { display: block; color: #999; color: red; font-family: $body_fonts_mono; margin: 10px 0 0 0; font-size: 14px; line-height: 24px; font-weight: bold; }
+    .tile-teacher       { background: #ddd; text-align: center; padding: 120px 20px; color: #777; font-size: 18px; line-height: 24px; }
+    .tile-teacher span  { display: block; color: #999; color: red; font-family: $body_fonts_mono; margin: 10px 0 0 0; font-size: 14px; line-height: 24px; font-weight: bold; }
 
     // Sandbox Navigation
-    .sandbox-nav-wrap   { padding-bottom: 0;
-      .content          { padding: 14px 10px; margin: 0; }
+    .sandbox-nav-wrap   { padding: 0; margin: 0;
+      .wrapper          { padding: 14px 28px; }
       ul                { margin: 0; padding: 0; @include clearfix; 
         li              { float: left; list-style: none; margin: 0 10px 0 0; }
-        li a            { display: block; font-size: 14px; height: 24px; border-radius: 12px; overflow: hidden; line-height: 25px; padding: 0 12px; color: #fff; background: $color_primary; }
-        li a:hover      { background: $color_primary_darker; }
-        li.active a     { background: $color_secondary; }
+        li a            { display: block; font-size: 14px; height: 24px; border-radius: 12px; overflow: hidden; line-height: 25px; padding: 0 12px; color: #fff; background: $color-primary; }
+        li a:hover      { background: $color-primary; }
+        li.active a     { background: $color-secondary; }
       }
     }
 

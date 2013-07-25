@@ -7,39 +7,28 @@
     $google_font_SourceCodePro:     "Source+Code+Pro:300,400,600,700";
 
 // ------------------------------------------------------------
-//    Brand Colors
+//    Colors
 // ------------------------------------------------------------
 
-    $black:   #252525;
-    $white:   #fff;
-    $ltGrey:  #e7e7e7;
-    $dkGrey:  #444;
+    $color-black:     #252525;
+    $color-white:     #fff;
+    $color-ltGrey:    #e7e7e7;
+    $color-dkGrey:    #444;
 
-    $bg_color: #f1fdf7;
-
-    // Rdio Blue, as per v1
-    $color_primary: #7acee9;
-    $color_primary_darker: #0a9ce1;
-
-    // Rdio Orange, as per v1
-    $color_secondary: #eb531e;
+    $color-primary:   #008fd6;
+    $color-secondary: #f75800;
 
 // ------------------------------------------------------------
 //    Typography: Colors
 // ------------------------------------------------------------
 
     $link_color: #0076da;
-    $body_copy_color_reg: #555;
-    $body_copy_color_strong: #222;
-    $body_copy_color_subtle: #888;
+    $body_copy_color_reg: #eee;
+    $body_copy_color_strong: #fff;
+    $body_copy_color_subtle: #eee;
 
     $body_copy_color_onDark_reg: #ddd;
     $body_copy_color_onDark_strong: #fff;
-// ------------------------------------------------------------
-//    Typography: Font Sizes & Line Height
-// ------------------------------------------------------------
-
-    // ...
 
 // ------------------------------------------------------------
 //    Typography: Font Families

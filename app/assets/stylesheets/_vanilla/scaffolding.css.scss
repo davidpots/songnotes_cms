@@ -14,50 +14,27 @@
       }
 
       /* apply a natural box layout model to all elements */
-      * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+      //* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-// SIMPLE FULL WIDTH
-// -----------------
+/* -- LAYOUT -- */
 
-      .container {
-        width: 980px;
-        position: relative;
-        margin: 0 auto;
-        padding: 0 20px;
-      }
+        .section        { }
 
-      .content {
-        @include clearfix;
-        padding: 28px 0 0;
-        margin: 32px 0;
-      }      
-      
-      .container .content.content-island {
-        background: $white;
-        border-radius: $border_radius;
-        padding: 28px 28px 0;
-      }
-      
-      .full-bleed .container .content {
-        margin: 0;
-      }
+        .wrapper        { width: 940px; padding: 28px 28px 0; margin: 0 auto; overflow: hidden; }
+        .wrapper-full   { margin: 0; width: 100%; }
+              
 
-      // After a full-bleed section, give the immediate next .content area some more upper space
-      .full-bleed + .container .content {
-        margin-top: 32px;
-      }
+/* -- GRID -- */
 
-          // But, if the full-bleed secttion is in the header bar, don't add this extra space
-          .full-bleed.header-bar + .container .content {
-            margin-top: 0px;
-          }
+      .grid         { margin-left: -20px; @include clearfix; }
+      .grid .unit   { float: left;
+                      border-radius: $border-radius;
+                      margin-left:  20px;
+                      margin-bottom: 20px;
+                      padding: 28px 28px 12px;
+                      -moz-box-sizing: border-box;
+                      -webkit-box-sizing: border-box;
+                      box-sizing: border-box; }
 
-          // But, if the following .content is an island, do have the margin
-          .full-bleed.header-bar + .container .content.content-island {
-            margin-top: 32px;
-          }
-      
-      .full-bleed > .content {
-        padding-left: 28px;
-        padding-right: 28px;
-      }
+      .grid .unit.span-grid   { width: 940px; }
+      .grid .unit.one-of-four { width: 220px; }
