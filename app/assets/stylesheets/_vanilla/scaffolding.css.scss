@@ -28,13 +28,12 @@
 
       .grid         { margin-left: -20px; @include clearfix; }
       .grid .unit   { float: left;
-                      border-radius: $border-radius;
                       margin-left:  20px;
-                      margin-bottom: 20px;
-                      padding: 28px 28px 12px;
-                      -moz-box-sizing: border-box;
-                      -webkit-box-sizing: border-box;
-                      box-sizing: border-box; }
+                      margin-bottom: 20px; }
 
       .grid .unit.span-grid   { width: 940px; }
       .grid .unit.one-of-four { width: 220px; }
+
+/* -- TILES -- */
+
+      .tile   { border-radius: $border-radius; padding: 28px 28px 12px; }

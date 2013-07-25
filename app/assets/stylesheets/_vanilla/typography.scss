@@ -35,7 +35,10 @@
         h2.ribbon             { display: inline-block; padding: 0 40px; margin: 0 0 0 -42px; font-weight: normal; font-family: $proxima_nova_semi; font-size: 3.6rem; line-height: 7.4rem; margin-bottom: 3.2rem; background: $color_secondary; color: $color-white; }
 
         // Tightened Headers (tighter margins)
-        h3.tight              { margin-bottom: 0.5rem; }
+        .tight {
+          h3 { margin: 4.0rem 0 0.3rem 0; }
+          p { margin-bottom: 1rem; }
+        }
 
         p,li,code,pre,
         dd,dt,td,th           { font-size: 1.7rem; line-height: 2.3rem; }

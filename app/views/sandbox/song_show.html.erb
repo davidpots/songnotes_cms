@@ -5,78 +5,73 @@
 <div class="section">
   <div class="wrapper">
 
-    <div class="grid">
-      <div class="unit span-grid bg-white song-show">
+    <div class="song-show tile bg-white">
   
-        <%# ----- Song Header ----- %>
-        <section class='song-head'>
-          <img class="thumb" src="http://fireflygrove.com/songnotes/images/artists/AvettBrothers.jpg" />
-          <h1>Live and Die</h1>
-          <p>by <strong>The Avett Brothers</strong> from the album <strong>The Carpenter</strong> released in <strong>2012</strong></p>
-        </section>
-        
-        <%# ----- Song Secondary Nav ----- %>
-        <div class="song-nav">
-          <ul>
-            <li><a class="active" href="#lyrics">Lyrics</a></li>
-            <li><a href="#notes_tabs">Notes &amp; Tabs</a></li>
-            <li><a href="#videos">Videos</a></li>
-            <li><a href="#chord_progressions">Chord Progressions</a></li>
-            <li><a href="#song_info">Song Info</a></li>
-            <li class="fb-like-wrapper"><div class="fb-like" style="margin-top: 6px;" data-href="<%= @page_url %>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div></li>
-          </ul>
-        </div> <!-- end: .song-nav -->
-
-        <%# ----- Song Lyrics ----- %>    
-        <section id="lyrics">
-          <%= render :partial => '_song_lyrics_2' %>
-        </section>
-        
-        <%# ----- Notes and Tabs ----- %>
-        <section id="notes_tabs">
-          <h2 class="ribbon">Notes &amp; Tabs</h2>
-          <%= render :partial => '_song_tabs_1' %>
-        </section>
-        
-        <%# ----- Videos ----- %>
-        <section id="videos">
-          <h2 class="ribbon">Listen &amp; Play</h2>
-          <%= render :partial => '_song_listen_play' %>
-        </section>
-        
-        <%# ----- Chord Progressions ----- %>
-        <section id="chord_progressions">
-          <h2 class="ribbon">Chord Progressions</h2>
-          <%= render :partial => '_song_chord_prog' %>
-        </section>
-        
-        <%# ----- About Song ----- %>
-        <section id="song_info">
-          <h2 class="ribbon">About This Song</h2>
-          <%= render :partial => '_song_about' %>
-        </section>
-
-      </div> <!-- end: .unit .song_show -->
-    </div> <!-- end: .grid -->
-    
-    <h3>Recently added to Songnotes</h3>
-    <p>I typically learn one new song each week and add it to the site. Here is what I’ve been playing lately:</p>
-    
-    <div class="grid">
-      <div class="unit span-grid tiles">
+      <%# ----- Song Header ----- %>
+      <section class='song-head'>
+        <img class="thumb" src="http://fireflygrove.com/songnotes/images/artists/AvettBrothers.jpg" />
+        <h1>Live and Die</h1>
+        <p>by <strong>The Avett Brothers</strong> from the album <strong>The Carpenter</strong> released in <strong>2012</strong></p>
+      </section>
+      
+      <%# ----- Song Secondary Nav ----- %>
+      <div class="song-nav">
         <ul>
-          <li class="bg-white">
-            <a href="">
-              <h4>Here I Go Again</h4>
-              <p>by <strong>Whitesnake</strong> from the album <strong>Saints &amp; Sinners</strong> released in <strong>1981</strong></p>
-            </a>
-          </li>
+          <li><a class="active" href="#lyrics">Lyrics</a></li>
+          <li><a href="#notes_tabs">Notes &amp; Tabs</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#chord_progressions">Chord Progressions</a></li>
+          <li><a href="#song_info">Song Info</a></li>
+          <li class="fb-like-wrapper"><div class="fb-like" style="margin-top: 6px;" data-href="<%= @page_url %>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div></li>
         </ul>
-        <p><a href="">Banana Pancakes</a><br /><span>2005</span></p>
-        <p><a href="">Drink the Water</a><br /><span>2001</span></p>
-        <p><a href="">Mudfootball</a><br /><span>2001</span></p>
-      </div> <!-- end: .unit span-grid -->
-    </div> <!-- end: .grid -->
+      </div> <!-- end: .song-nav -->
+
+      <%# ----- Song Lyrics ----- %>    
+      <section id="lyrics">
+        <%= render :partial => '_song_lyrics_2' %>
+      </section>
+      
+      <%# ----- Notes and Tabs ----- %>
+      <section id="notes_tabs">
+        <h2 class="ribbon">Notes &amp; Tabs</h2>
+        <%= render :partial => '_song_tabs_1' %>
+      </section>
+      
+      <%# ----- Videos ----- %>
+      <section id="videos">
+        <h2 class="ribbon">Listen &amp; Play</h2>
+        <%= render :partial => '_song_listen_play' %>
+      </section>
+      
+      <%# ----- Chord Progressions ----- %>
+      <section id="chord_progressions">
+        <h2 class="ribbon">Chord Progressions</h2>
+        <%= render :partial => '_song_chord_prog' %>
+      </section>
+      
+      <%# ----- About Song ----- %>
+      <section id="song_info">
+        <h2 class="ribbon">About This Song</h2>
+        <%= render :partial => '_song_about' %>
+      </section>
+
+    </div>
+    
+    <div class="tight">
+      <h3>Recently added to Songnotes</h3>
+      <p>I typically learn one new song each week and add it to the site. Here is what I’ve been playing lately:</p>
+    </div> <!-- end: .tight -->
+    
+    <div class="tile song-list bg-white">
+      <ul>
+        <li>
+          <a href="" style="background-image: url(http://fireflygrove.com/songnotes/images/artists/Whitesnake.jpg);">
+            <h4>Here I Go Again</h4>
+            <p>by <strong>Whitesnake</strong> from the album <strong>Saints &amp; Sinners</strong> released in <strong>1981</strong></p>
+          </a>
+        </li>
+      </ul>
+    </div> <!-- end: .tile -->
 
 
 

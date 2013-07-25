@@ -1,7 +1,6 @@
         // Songnotes-specific -- extract later!
 
-        .song-show { position: relative; }
-        .grid .unit.song-show { padding-top: 0; }
+        .song-show { position: relative; padding-top: 0; }
 
         .song-show {                      
           section                       { padding-top: 32px; }
@@ -38,5 +37,4 @@
           &.fixed ul  { margin: 0 auto; width: 884px; border: none; }
 
           li.fb-like-wrapper { position: absolute; right: 0; }
-
         }

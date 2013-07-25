@@ -1,3 +1,14 @@
-.tiles    { padding: 0; margin: 0; }
-.tiles ul { margin: 0; }
-.tiles li { padding: 28px; list-style: none; }
+.song-list        { padding: 0; }
+.song-list ul     { margin: 0; }
+.song-list ul li  { list-style: none; }
+.song-list ul li a { 
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  display: block;
+  border-radius: $border-radius 0 0 $border-radius;
+  padding: 0 0 0 72px;
+  height: 60px; }
+
+.song-list ul li a h4 { margin: 0; }
+.song-list ul li a p  { color: #888; font-family: $proxima_nova_light; }
+.song-list ul li a p strong { font-family: $proxima_nova_semi;}
