@@ -14,26 +14,17 @@
       }
 
       /* apply a natural box layout model to all elements */
-      //* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+      * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /* -- LAYOUT -- */
 
-        .section        { }
+        .section        { padding: 28px; position: relative; z-index: 2; }
 
-        .wrapper        { width: 940px; padding: 28px 28px 0; margin: 0 auto; overflow: hidden; }
+        .wrapper        { width: 940px; margin: 0 auto; }
+        .wrapper-slim   { width: 700px; }
         .wrapper-full   { margin: 0; width: 100%; }
               
 
-/* -- GRID -- */
-
-      .grid         { margin-left: -20px; @include clearfix; }
-      .grid .unit   { float: left;
-                      margin-left:  20px;
-                      margin-bottom: 20px; }
-
-      .grid .unit.span-grid   { width: 940px; }
-      .grid .unit.one-of-four { width: 220px; }
-
 /* -- TILES -- */
 
-      .tile   { border-radius: $border-radius; padding: 28px 28px 12px; }
+      .tile   { border-radius: $border-radius; padding: 28px 28px 12px; background-color: $color-white; margin-bottom: 4.8rem; }

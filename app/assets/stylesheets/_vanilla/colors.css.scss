@@ -14,10 +14,16 @@
         .bg-white        { background: $color-white; }
         .bg-primary      { background: $color-primary; }
         .bg-secondary    { background: $color-secondary; }
+
+        .bg-white-trans  { background: rgba(255,255,255,0.3); }
+
         
         //
-        .bg-white       { color: #555; }
-        .bg-white       {
+        .bg-white,
+        .tile           { color: #555; }
+
+        .bg-white,
+        .tile           {
           h1, h2, h3,
           h4, h5, h6,
           strong        { color: #222; }

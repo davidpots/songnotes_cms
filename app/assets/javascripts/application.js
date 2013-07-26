@@ -67,3 +67,10 @@ $(document).ready(function(){
       }
   });
 });
+
+
+// Parallax scroll for homepage
+$(document).scroll(function(){
+	s = $(document).scrollTop();
+	$('.intro').css('-webkit-transform', 'translateY(' + (s/5) + 'px)');
+});
