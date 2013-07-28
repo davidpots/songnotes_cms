@@ -32,4 +32,7 @@
 }
 
 // On the homepage, add absolute positioning to make things work with the parallax
-body.sandbox.homepage .global_nav { position: absolute; z-index: 15; top: 0; left: 0; right: 0; padding: 0 20px; }
+body.sandbox.homepage,
+body.pages.home {
+  .global_nav { position: absolute; z-index: 15; top: 0; left: 0; right: 0; padding: 0 20px; }
+}
