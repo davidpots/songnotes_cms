@@ -9,6 +9,7 @@
 .song-list ul li            { list-style: none; margin: 0 0 7px 0; }
 .song-list ul li a          { background-repeat: no-repeat; background-size: 72px 72px; display: block; background-color: #fff; border-radius: $border-radius; padding: 14px 0 0 85px; height: 72px; }
 .song-list ul li a h4       { margin: 0 0 3px 0; font-family: $proxima_nova_bold; font-weight: normal; color: $color_secondary; }
+.song-list ul li a:hover h4 { color: $color-primary; } 
 .song-list ul li a p        { color: #888; font-family: $proxima_nova_light; font-size: 15px; line-height: 19px; }
 .song-list ul li a p strong { color: #666; font-family: $proxima_nova_semi; }
 
@@ -18,7 +19,9 @@
 .featured-songs li .label   { position: absolute; bottom: 0; left: 0; right: 0; z-index: 10; }
 .featured-songs li a h4     { padding-top: 220px; }
 
+
 .featured-songs li a h4       { padding: 13px 13px 4px; margin: 0; font-family: $proxima_nova_bold; font-weight: normal; color: $color_secondary; background: #fff; line-height: 2.3rem; }
+.featured-songs li a:hover h4 { color: $color-primary; }
 .featured-songs li a p        { padding: 0px 13px 10px; color: #888; font-family: $proxima_nova_light; font-size: 15px; line-height: 19px; margin: 0; background: #fff; border-radius: 0 0 $border-radius $border-radius; }
 .featured-songs li a p strong { color: #666; font-family: $proxima_nova_semi; }
 
