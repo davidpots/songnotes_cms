@@ -1,5 +1,7 @@
 .home_intro                   { position: relative; background: url(/assets/background_livingroom_2.jpg) top center no-repeat; height: 660px; }
+
 .home_intro .overlay          { background: url(/assets/background_overlay_1.png) repeat; position: fixed; top: 0; left: 0; bottom: 0; right: 0; z-index: 1; }
+
 .home_intro .hero.wrapper     { padding-top: 190px; position: relative; z-index: 10; }
 .home_intro .hero.wrapper h1  { font-family: $proxima_nova_semi; font-weight: normal; font-size: 48px; line-height: 54px; text-align: center; }
 .home_intro .hero.wrapper p   { font-family: $proxima_nova_thin; text-align: center; }

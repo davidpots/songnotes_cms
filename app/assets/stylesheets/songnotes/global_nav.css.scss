@@ -1,4 +1,6 @@
-.global_nav { z-index: 4; padding: 0; height: 72px; background: #2a2a2a;
+.global_nav { z-index: 4; padding: 0; height: 72px; background: $color-dkGrey; }
+
+.global_nav { 
   
   .logo_link      { display: inline-block; }
   .logo_link h1   { font-size: 21px; text-transform: uppercase; letter-spacing: 1px; margin: 18px 0 0 0; padding: 0; line-height: 24px; font-family: $body_font_secondary_bold; font-weight: normal; }
@@ -29,11 +31,5 @@
   
 }
 
-
-// Homepage variation - clean this up
-
-body.sandbox.homepage {
- 
-  .global_nav                               { position: absolute; z-index: 15; top: 0; left: 0; right: 0; padding: 0 20px;}
-
-}
+// On the homepage, add absolute positioning to make things work with the parallax
+body.sandbox.homepage .global_nav { position: absolute; z-index: 15; top: 0; left: 0; right: 0; padding: 0 20px; }

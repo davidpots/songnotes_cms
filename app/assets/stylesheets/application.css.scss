@@ -27,7 +27,7 @@
     @import "_vanilla/buttons";
 
 //  Songnotes-specific stuff
+    @import "songnotes/global_nav";
+    @import "songnotes/homepage";
+    @import "songnotes/song_show";
     @import "songnotes/tiles";
-    @import "songnotes/song";
-    @import "songnotes/nav";
-    @import "songnotes/background";
