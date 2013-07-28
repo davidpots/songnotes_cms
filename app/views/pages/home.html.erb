@@ -30,8 +30,10 @@
       <li>
         <a href="<%= song_url(song) %>" style="background-image: url(<%= @artist_img_dir + song.artist.image_url %>); background-size: 220px 220px; background-repeat: no-repeat;">
           <div class="label">
-            <h4><%= song.title %></h4>
-            <p><strong><%= song.artist.name %></strong></p>
+            <div class="label-inner">
+              <h4><%= song.title %></h4>
+              <p><strong><%= song.artist.name %></strong></p>
+            </div> <!-- end: .label-inner -->
           </div> <!-- end: .label -->
         </a>
       </li>
