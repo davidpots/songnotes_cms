@@ -1,38 +1,8 @@
-//body.sandbox.homepage { 
-//  // via http://css-tricks.com/perfect-full-page-background-image/
-//  background: transparent url(/assets/background_livingroom_2.jpg) no-repeat center center fixed; 
-//  -webkit-background-size: cover;
-//  -moz-background-size: cover;
-//  -o-background-size: cover;
-//  background-size: cover;
-//}
+.home_intro                   { position: relative; background: url(/assets/background_livingroom_2.jpg) top center no-repeat; height: 660px; }
+.home_intro .overlay          { background: url(/assets/background_overlay_1.png) repeat; position: fixed; top: 0; left: 0; bottom: 0; right: 0; z-index: 1; }
+.home_intro .hero.wrapper     { padding-top: 190px; position: relative; z-index: 10; }
+.home_intro .hero.wrapper h1  { font-family: $proxima_nova_semi; font-weight: normal; font-size: 48px; line-height: 54px; text-align: center; }
+.home_intro .hero.wrapper p   { font-family: $proxima_nova_thin; text-align: center; }
+.home_intro .hero.wrapper p a { color: #72ddff; font-family: $proxima_nova_semi; }
 
-.intro.section      { position: relative; background: url(/assets/background_livingroom_2.jpg) top center no-repeat; height: 700px; }
-.intro .wrapper     { padding-top: 160px; position: relative; z-index: 10; }
-.intro .wrapper h1  { font-family: $proxima_nova_semi; font-weight: normal; font-size: 36px; line-height: 40px; }
-.intro .wrapper p   { font-family: $proxima_nova_thin; }
-
-.loki { position: relative; z-index: 440; box-sizing: border-box; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body.pages.home .overlay,
-body.sandbox.homepage .overlay { background: url(/assets/background_overlay_1.png) repeat; position: fixed; top: 0; left: 0; bottom: 0; right: 0; z-index: 1; }
-
-.home-wrap { position: relative; z-index: 5; }
-
-.home-wrap .hero h1 { font-family: $proxima_nova_thin; font-weight: normal; color: #fff; text-align: center; }
+.home_intro .home_social_buttons { margin: 0 auto; position: absolute; overflow: hidden; display: inline-block; left: 350px; }
