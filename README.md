@@ -6,8 +6,8 @@ Songnotes is my personal music notation collection, featuring hand-crafted chord
 
 There are a few reasons:
 
-1. To help me easily remember how to play songs I learned in the past.
-2. To help others learn how to play songs I've spent a lot of time figuring out.
+1. To help me easily remember how to play songs I learned in the past. My typing out chords/lyrics/tabs and posting them online, I'm able to access my past work on any device from wherever I may be. In a sense, Songnotes is a digital extension of my music-notation memory.
+2. To help others learn how to play songs I've spent a lot of time figuring out. Given everything noted in the prior list item, it seems silly not to let others benefit from the music notation work I've done.
 3. To give myself a playground to exercise my muscles de la Ruby on Rails, product design, UX/UI/visual design, front-end development, and so on. Putting all of these skillsets to use on a real-world project is immensely satisfying and has helped me learn a great deal.
 
 ### About this app
