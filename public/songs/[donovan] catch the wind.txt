@@ -1,0 +1,157 @@
+CATCH THE WIND
+by Donovan
+===============================================================================
+
+(capo 3rd fret)
+
+INTRO
+    | C . . | C  . . | F9 . . | G . . |
+    | C . . | F9 . . | C  . . | C . . |
+                (...with acoustic riff)
+
+VERSE, part 1
+           C                Fadd9 
+    In the chilly hours and minutes
+         C            F 
+    Of uncertainty, I want to be
+    C                Fadd9   G      C     G7 
+    In the warm hold of your loving mind
+
+VERSE, part 2
+           C            Fadd9 
+        To feel you all around me
+               C               F 
+        And to take your hand along the sand
+        C                     Fadd9   G         C     Fadd9  C 
+        Ah, but I may as well try and catch the wind
+
+    When sundown pales the sky
+    I want to hide a while behind your smile
+    And everywhere I'd look your eyes I'd find
+
+        For me to love you now
+        Would be the sweetest thing 'twould make me sing
+        Ah, but I may as well try and catch the wind
+
+BRIDGE
+            F                           Em 
+            Dee dee, dee dee... dee dee dee dee
+                     F                  D7 
+            Dee dee, dee dee... dee dee dee dee
+                    G 
+            Dee dee dee...
+
+    When rain has hung the leaves with tears
+    I want you near to kill my fears
+    To help me to leave all my blues behind
+
+        For standing in your heart
+        Is where I want to be and long to be
+        Ah, but I may as well try and catch the wind
+
+    (instrumental verse, parts 1 & 2)
+
+        Ah, but I may as well try and catch the wind
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Capo 3rd Fret, Standard Tuning
+To play this song in the exact same key as Donovan, you need to use the chords above with a capo applied to the 3rd fret (in standard tuning). Using a capo is not required -- you can still use the chords above and play it just fine, though you'll be in a different key than the recorded version of this song. Tonally, the recorded version of this song is played in the key of Eb.
+
+Guitar Chords Used
+Here is how you play the guitar chords used in this song. Note that I sometime use "F9" in my notation (to save space) -- this is the same thing as "Fadd9". There are several ways you could add embellishment to the chords and acoustic runs heard throughout the song -- but for a starting point, use these chords.
+
+e-|---3----3----1----3----1----2----0----
+B-|---1----1----1----0----0----1----0----
+G-|---0----2----2----0----0----2----0----
+D-|---2----3----3----0----0----0----2----
+A-|---3---------3----2----2---------2----
+E-|-------------1----3----3---------0----
+      C  Fadd9  F    G    G7   D7   Em 
+
+How to Play the Intro Riff
+Here's a approximated tab of how you play the distinctive riff used in the intro (and parts of the verse) in this song. Listen along for reference, and if you're having trouble reading the tabs refer to the videos (on this page) for a great breakdown of how to play this. This tab is designed to emphasize the bass note played before the 2nd and 3rd beat of each measure.
+
+e-|----3-3------3-3------3--------3--------3-3------3--------3-3-------3-3---
+B-|----1-1------1-1------1--------0--------1-1------1--------1-1-------1-1---
+G-|----0-0----0-0-0------2--------0--------0-0------2--------0-0-------0-0---
+D-|----2-2------2-2----3-3-2----0-0--------2-2----3-3-2------2-2---0h2-2-2---
+A-|--3------------------------------2----3-----------------3-----------------
+E-|--------------------------------------------------------------------------
+     C                 Fadd9    G        C        Fadd9    C 
+
+For reference of exactly how this should sound, check out the Soundcloud audio snippet here. https://soundcloud.com/davidpots/catch-the-wind-acoustic-intro
+
+How to Play the Bridge Walk-Up
+At the end of the bridge, there is a nice distinctive bass-line walkup on the G chord. Quite simply, you'll focus on playing only the highest 4 strings of the guitar -- and modifying the bassnote with your middle and ring finger.
+
+e-|------3-3--------3-3--------3-3-------3-3----
+B-|------0-0--------0-0--------0-0-------0-0----
+G-|------0-0--------0-0--------0-0-------0-0----
+D-|---0----------2----------3---------2---------
+A-|---------------------------------------------
+E-|---------------------------------------------
+      G 
+
+Putting It All Together
+I'm not going to show guitar tablature for the entire song here -- but this should be enough to get you started. I recommend learning the intro as shown above, and then checking out Marty Schwartz's YouTube lesson (below). Most importantly, however, is listening along to the recording and familiarizing yourself enough with the song to be able to put all the pieces together. Have fun!
+
+
+===============================================================================
+VIDEOS
+===============================================================================
+
+Official Album Version
+Here is a video with the audio track from the official recorded version of this song. Listen along if you want to hear exactly how Donovan plays it on the record.
+http://www.youtube.com/watch?v=J8hjEYTpwE8
+
+Recommended Guitar Lesson
+Here is a great video lesson from Marty Schwartz, giving a fabulous intro to approaching this song on acoustic guitar. He does a great job slowly introducing the chords in each section, as well as the various embellishments Donovan uses throughout the song. As with all of Marty's videos, this one is highly recommended if you want to see someone break things down for proper instruction.
+http://www.youtube.com/watch?v=CTHqCAuChcU
+
+Recommended Acoustic Cover
+If you want to see a nicely produced video of someone else playing this song, I recommend this video from Mike Sinatra. His version is very much in line with the original Donovan version. I find it quite helpful to see someone play this song in an HD recording without any wildly changing camera angles. Enjoy.
+http://www.youtube.com/watch?v=_EvxFi4Xz2M
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+| C . . |  . . . | F9 . . | G . . |
+| C . . | F9 . . | C  . . | . . . |
+            (...with acoustic riff)
+
+VERSE, part 1
+"In the chilly hours and minutes..."
+| C . . | . . . | F9 . . | . . . |
+| C . . | . . . | F  . . | . . . |
+| C . . | . . . | F9 . . | G . . |
+| C . . | . . . | G7 . . | . . . |
+
+VERSE, part 2
+"To feel you all around me..."
+| C . . |  . . . | F9 . . | . . . |
+| C . . |  . . . | F  . . | . . . |
+| C . . |  . . . | F9 . . | G . . |
+| C . . | F9 . . | C  . . | . . . |
+
+BRIDGE
+"Dee dee, dee dee..."
+| F . . | . . . | Em . . | . . . |
+| F . . | . . . | D7 . . | . . . |
+| G . . | . . . |  . . . | . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: Catch the Wind
+Artist: Donovan
+Album: What's Bin Did and What's Bin Hid
+Released: March 12, 1965
+Label: Pye
+Wikipedia URL: http://en.wikipedia.org/wiki/Catch_the_Wind
+Rdio URL: http://www.rdio.com/artist/Donovan/album/Catch_The_Wind/track/Catch_The_Wind/
