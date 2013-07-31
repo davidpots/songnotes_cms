@@ -5,4 +5,10 @@ class Song < ActiveRecord::Base
   def to_param
     "#{id} #{slug}".parameterize
   end
+  def older
+    Song.where(["id < ?", id]).last
+  end
+  def newer
+    Song.where(["id > ?", id]).first
+  end
 end

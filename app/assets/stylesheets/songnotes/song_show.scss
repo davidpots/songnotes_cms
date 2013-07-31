@@ -1,5 +1,17 @@
-        // Songnotes-specific -- extract later!
+        // Stuff that appears before the main song "tile"
+        .song-prehead {
+          @include clearfix;
+          
+          .left { float: left; }
+          .right { float: right; }
+          
+          p { font-family: $proxima_nova_light; opacity: 0.8; font-size: 14px; line-height: 18px; margin: 0 0 12px 0; }
+          p a { color: $color-white; }
+          p a:hover { text-decoration: underline; }
+          p .divider { opacity: 0.5; }
+        }
 
+        // Main song "tile"
         .song-show { position: relative; padding-top: 0; }
 
         .song-show {                      
@@ -15,7 +27,6 @@
           h2 + h4                       { margin-top: 0; }
           h5.sub_head                   { color: #555; font-style: normal; font-size: 1.7rem; line-height: 2.3rem; margin: -1.0rem 0 0.6rem 0; }
         }
-
 
         .song-show .song-head { 
                         margin: 0 -28px 0px; padding: 28px 28px 21px; position: relative; border-radius: $border-radius $border-radius 0 0;

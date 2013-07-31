@@ -7,6 +7,11 @@
 <div class="section">
   <div class="wrapper">
 
+    <div class="song-prehead">
+      <p class="left">added on <%= @song.created_at.strftime('%B %e, %Y') %></p>
+      <p class="right"><%= link_to ("&laquo; previous song").html_safe, @song.newer if @song.newer %><% if @song.newer %><span class="divider">&nbsp;&nbsp;|&nbsp;&nbsp;</span><% end %><%= link_to ("next song &raquo;").html_safe, @song.older if @song.older %></p>
+    </div> <!-- end: .song-prehead -->
+
     <div class="song-show tile bg-white">
 
       <%# ----- Song Header ----- %>

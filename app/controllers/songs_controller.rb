@@ -16,6 +16,7 @@ class SongsController < ApplicationController
     # Songs recently added to the site
     @recent_songs = Song.where(published: true).all(order: 'created_at DESC', limit: 8)
 
+    # All songs
     @songs = Song.where(published: true).all(order: 'lower(title)')
 
   end
