@@ -1,6 +1,8 @@
 // Sandbox Area Helpers
 
-    body.admin          { background: $color-white; }
+    body.admin          { background: $color-white; color: #333; }
+    body.admin div.admin { padding: 28px; }
+    body.admin h1         { color: #333; }
 
     .tile-teacher       { background: #ddd; text-align: center; padding: 120px 20px; color: #777; font-size: 18px; line-height: 24px; }
     .tile-teacher span  { display: block; color: #999; color: red; font-family: $body_fonts_mono; margin: 10px 0 0 0; font-size: 14px; line-height: 24px; font-weight: bold; }
