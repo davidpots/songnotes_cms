@@ -1,9 +1,9 @@
 SWEET HOME ALABAMA
-by Artist_Name
+by Lynyrd Skynyrd
 ===============================================================================
 
 INTRO
-    D ... C9 ... G ... G ... X4, with riff
+    D ... C9 ... G ... G ... x4, with riff
 
 VERSE
     D     C9            G 
@@ -16,7 +16,7 @@ VERSE
     I miss ole 'Bamy once again (and I think it's a sin, yes)
 
 INTERLUDE
-        D ... C ... G ... G ... X2, with interlude riff
+        D ... C ... G ... G ... x2, with interlude riff
 
     Well I heard Mr. Young sing about her 
     Well, I heard ole Neil put her down 
@@ -34,6 +34,7 @@ CHORUS
             Lord, I'm coming home to you 
 
         (interlude)
+
                                           F    C    D 
     In Birmingham they love the governor (boo, hoo, hoo!)
     Now, we all did what we could do 
@@ -80,7 +81,7 @@ A great tune, as made famous by the Oscar-winning film "Con Air" in 1997. And I'
 Basic Chords Used
 This song is quite simply D-C-G the entire time, for all of the intro/verse/chorus/interlude/solo. Easy to remember! Actually, there are a few minor variations. The first is the inclusion of a F-C-D progression solely on the "Boo, hoo, hoo!" portion -- which is played once. Otherwise, let me note that C9 and C are basically interchangeable in this song -- C9 (which is really "Cadd9") is simply adding a single note, with your pinky or ring finger, which slightly modifies the C chord.
 
-e-|-----2------0------3---- ----1----
+e-|-----2------0----------- ----1----
 B-|-----3------3------3---- ----1----
 G-|-----2------0------0---- ----2----
 D-|-----0------2------0---- ----3----
@@ -89,7 +90,7 @@ E-|-------------------3---- ----1----
         D    Cadd9    G         F 
 
 Playing the Main Riff
-Here is the basic, essential core of the main riff heard in the intro and throughout this song. Note, you'll find micro variations of this riff elsewhere online and in the video lessons I reference on this page -- but for starting out, this tab is plenty to get you started. Remember, play it in a way that works for you -- and add to it / improve / refine as your talent and interest afford.
+Here is the basic, essential core of the main riff heard in the intro and throughout this song. Note, you'll find micro variations of this riff elsewhere online and in the video lessons I reference on this page -- but for starting out, this tab is plenty to get you started. Remember, play it in a way that works for you -- and add to it / improve / refine as your talent and interest afford. And listen along for reference, especially for the rhythm -- these tabs focus on the notes.
 
 e-|--------------------------------3------------------------|-
 B-|-------3------------3-----------3------------------------|-
@@ -102,7 +103,7 @@ E-|---------------------------3-3---------------------------|-
  -|--------------------------------3------------------------||
  -|-------3------------3-----------3------------------------||
  -|---------2------------0---------0----2-0-0--4-0-0--5b----||
- -|---0-0--------------------------0------------------------||  (...repeat)
+ -|---0-0--------------------------0------------------------||  ...repeat
  -|----------------3-3-------------2------------------------||
  -|---------------------------3-3---------------------------||
       D            C9         G 
@@ -149,15 +150,26 @@ E-|---------------------------------------|-
 Interlude Riff
 This is another fun riff to add to your bag of tricks. To hear this in the song, listen out for those "interlude" sections that I note inline with the lyrics. Here's a few ways to play that riff. 
 
-This first method used barred chords a bit up the fretboard. A key to understanding this method is realizing that your hands should be in position for the D at x9777x, and for the C at x7555x. Understanding those are your base positions, the following riffs are a bit easier to contextualize.
+This first method used barred chords a bit up the fretboard. A key to understanding this method is realizing that your hands should be in position for the D at x9777x, and for the C at x7555x. Understanding those are your base positions, the following riffs are a bit easier to contextualize. I prefer playing it like this (versus the method shown next), since you can anchor your hand in each barre chord position while playing the lead notes.
 
-e-|--------------------|----------------|-------------------|-------------
-B-|----------7--7------|---------5--5---|-------------------|-------------
-G-|----------7--7------|---------5--5---|----------0-0------|---4--2--0---
-D-|----------7--7--7---|---------5--5---|-------------------|-------------  x2
-A-|---7h8h9--------9---|----5h7---------|----0h1h2----------|-------------
-E-|--------------------|----------------|---------------3---|-------------
-      D                     C                G 
+e-|--------------------|---------------|------------------|-------------
+B-|----------7--7------|--------5--5---|------------------|-------------
+G-|----------7--7------|--------5--5---|---------0-0------|---4--2--0---
+D-|----------7--7--7---|--------5--5---|------------------|-------------  x2
+A-|---7h8h9--------9---|---5h7---------|---0h1h2----------|-------------
+E-|--------------------|---------------|--------------3---|-------------
+      D                    C               G 
+
+Alternatively, shown below is a way to play the same fill closer to the neck of the guitar (without barre chords). I find this technique a bit tricker, but if nothing else it is helpful to practice. Refer to the Nail Guitar Licks video lesson (below) to see this played, which is immensely helpful.
+
+e-|-----------------|------------------|------------------|-------------
+B-|----------3------|--------1--1------|------------------|-------------
+G-|-----------------|------------------|---------0-0------|---4--2--0---
+D-|---2h3h4-----4---|---1h2--------2---|------------------|-------------  x2
+A-|-----------------|------------------|---0h1h2----------|-------------
+E-|-----------------|------------------|--------------3---|-------------
+      D                 C                  G 
+
 
 ===============================================================================
 LISTEN & PLAY
@@ -179,7 +191,7 @@ If you want some other lessons for context, here's Marty Schwartz giving one of 
 http://www.youtube.com/watch?v=EW3MBqeN6gE
 
 And, here's Justin Sandercoe with two lessons on this song. In the 1st video he covers the basic chords and intro section, while in the 2nd video he continues into the verse, chorus, and interlude areas. Like Marty above, he does a great job breaking everything down.
-http://www.youtube.com/watch?v=zVVIplDK7lY
+http://www.youtube.com/watch?v=IlPp04KaWmg
 http://www.youtube.com/watch?v=HrORN7sdsqY
 
 ===============================================================================
@@ -187,7 +199,7 @@ CHORD PROGRESSIONS
 ===============================================================================
 
 Intro 
-| D . . . | C9 . . . | G . . . | G . . . | X4, with riff
+| D . . . | C9 . . . | G . . . | G . . . | x4, with riff
 
 Verse
 "Sweet wheels, keep on turning..."
