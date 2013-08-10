@@ -1,68 +1,215 @@
 SWEET HOME ALABAMA
 by Artist_Name
 ===============================================================================
+
 INTRO
-    | . . . . | . . . . | . . . . | . . . . | →
+    D ... C9 ... G ... G ... X4, with riff
 
 VERSE
-    Integer posuere erat a ante venenatis dapibus
-    Posuere velit aliquet, cras justo odio
-    Facilisis in, egestas eget quam loremius
-    Nullam quis risus eget urna mollis ornare vel eu leo
+    D     C9            G 
+    Big wheels, keep on turning 
+    D        C9             G 
+    Carry me home to see my kin 
+    D      C9               G 
+    Singing songs about the Southland 
+    D           C9         G 
+    I miss ole 'Bamy once again (and I think it's a sin, yes)
 
-PRE-CHORUS    
-        Integer posuere erat a ante venenatis dapibus
-        Pposuere velit aliquet, cras justo odio
-        Facilisis in, egestas eget quam loremius
-        Nullam quis risus eget urna mollis ornare vel eu leo
+INTERLUDE
+        D ... C ... G ... G ... X2, with interlude riff
 
-CHORUS    
-            Integer posuere erat a ante venenatis dapibus
-            Pposuere velit aliquet, cras justo odio
-            Facilisis in, egestas eget quam loremius
-            Nullam quis risus eget urna mollis ornare vel eu leo
+    Well I heard Mr. Young sing about her 
+    Well, I heard ole Neil put her down 
+    Well, I hope Neil Young will remember 
+    A Southern Man don't need him around, anyhow 
+
+CHORUS
+            D      C9      G 
+            Sweet home, Alabama 
+            D         C9           G 
+            Where the skies are so blue 
+            D     C9       G 
+            Sweet home, Alabama 
+            D         C9             G 
+            Lord, I'm coming home to you 
+
+        (interlude)
+
+                                          F    C    D 
+    In Birmingham they love the governor (boo, hoo, hoo!)
+    Now, we all did what we could do 
+    Now, Watergate does not bother me 
+    Does your conscience bother you? 
+    Tell the truth
+
+            Sweet home, Alabama 
+            Where the skies are so blue 
+            Sweet home, Alabama 
+            Lord, I'm coming home to you 
+            Here I come... Alabama...
+
+        (solo + interlude)
+
+    Now, Muscle Shoals has got the Swampers 
+    And they've been known to pick a song or two 
+    Lord, they get me off so much 
+    They pick me up when I'm feeling blue 
+    Now, how about you? 
+
+            Sweet home, Alabama 
+            Where the skies are so blue 
+            Sweet home, Alabama 
+            Lord, I'm coming home to you 
+
+    Sweet home, Alabama (Oh, sweet home, baby)
+    Where the skies are so blue (And the governor's true) 
+    Sweet home, Alabama (...Lordy)
+    Lord, I'm coming home to you (Yeah... yeah!)
+
+        (solo to end)
 
 ===============================================================================
 NOTES & TABS
 ===============================================================================
 
-SECTION ONE
-Lorem ipsum dolor sit amet.
+General Song Notes
+A great tune, as made famous by the Oscar-winning film "Con Air" in 1997. And I'm just kidding, of course. There isn't much I can add about this song with authority, but for an interesting read on the "takedown" of Neil Young in this song, here are a few articles that cover this and the general topic, including the relationship/friendship between Young and Ronnie Van Zant. For what they're worth, enjoy:
+- http://en.wikipedia.org/wiki/Sweet_Home_Alabama
+- http://www.thrasherswheat.org/jammin/lynyrd.htm
+- http://www.glidemagazine.com/4373/induct-skynyrd-a-legendary-hall-of-fame-injustice/
 
-e-|----------------------------------------------------------------------------
-B-|----------------------------------------------------------------------------
-G-|----------------------------------------------------------------------------
-D-|----------------------------------------------------------------------------
-A-|----------------------------------------------------------------------------
-E-|----------------------------------------------------------------------------
+Basic Chords Used
+This song is quite simply D-C-G the entire time, for all of the intro/verse/chorus/interlude/solo. Easy to remember! Actually, there are a few minor variations. The first is the inclusion of a F-C-D progression solely on the "Boo, hoo, hoo!" portion -- which is played once. Otherwise, let me note that C9 and C are basically interchangeable in this song -- C9 (which is really "Cadd9") is simply adding a single note, with your pinky or ring finger, which slightly modifies the C chord.
+
+e-|-----2------0------3---- ----1----
+B-|-----3------3------3---- ----1----
+G-|-----2------0------0---- ----2----
+D-|-----0------2------0---- ----3----
+A-|------------3------2---- ----3----
+E-|-------------------3---- ----1----
+        D    Cadd9    G         F 
+
+Playing the Main Riff
+Here is the basic, essential core of the main riff heard in the intro and throughout this song. Note, you'll find micro variations of this riff elsewhere online and in the video lessons I reference on this page -- but for starting out, this tab is plenty to get you started. Remember, play it in a way that works for you -- and add to it / improve / refine as your talent and interest afford.
+
+e-|--------------------------------3------------------------|-
+B-|-------3------------3-----------3------------------------|-
+G-|---------2------------0---------0------------------------|-
+D-|---0-0--------------------------0--------0h2--0----------|-
+A-|----------------3-3-------------2----0h2---------2--0h2--|-
+E-|---------------------------3-3---------------------------|-
+      D            C9         G 
+
+ -|--------------------------------3------------------------||
+ -|-------3------------3-----------3------------------------||
+ -|---------2------------0---------0----2-0-0--4-0-0--5b----||
+ -|---0-0--------------------------0------------------------||  (...repeat)
+ -|----------------3-3-------------2------------------------||
+ -|---------------------------3-3---------------------------||
+      D            C9         G 
+
+Variations to the Main Riff Hammer-On Portion
+When listening to the recorded version of this song, you'll notice several ways in which the tailing hammer-on portion of the main riff is changed. Here are a few. Learn and use these to the extent they're helpful.
+
+Here, you're taking the last two notes up to the G string (I use my ring finger to pull off the 2nd fret here). This is actually what is heard on the intro to the song, as per the album:
+
+e-|-------------------------|-
+B-|-------------------------|-
+G-|-------------------2p0---|-
+D-|---------0h2--0----------|-
+A-|-----0h2---------3-------|-
+E-|-------------------------|-
+
+When playing this turnaround during the choruses, you'll hear them ending this riff by resolving to the C-note (5th string, 3rd fret):
+
+e-|-------------------------|-
+B-|-------------------------|-
+G-|-------------------------|-
+D-|---------0h2--0----------|-
+A-|-----0h2------------3----|-
+E-|-------------------------|-
+
+Finally, for the very cool-sounding repeating hammer-on effect heard during the chorus, use something like this. This may take a bit of practice to pull off and stay perfectly in rhythm with the song tempo.
+
+e-|---------------------------------------|-
+B-|---------------------------------------|-
+G-|---------------------------------------|-
+D-|---------0-----0-----0-----0-----0-----|-
+A-|-----0h2---0h2---0h2---0h2---0h2---0---|-
+E-|---------------------------------------|-
+
+Interlude Riff
+This is another fun riff to add to your bag of tricks. To hear this in the song, listen out for those "interlude" sections that I note inline with the lyrics. Here's roughly how you play this riff. 
+
+For starters, recognize that the chord positions you're moving between look like this. You'll want to use your index finger to bar the 7th and 5th frets on the D and C chords, respectively.
+
+e-|---------------
+B-|---7---5---0---
+G-|---7---5---0---
+D-|---7---5---0---
+A-|---9---7---2---
+E-|-----------3---
+      D   C   G
+
+And with that understood, here's the tab for the riff itself. The strumming here is very approximated, if that -- listen along for the rhythm. This is meant to help you get the notes.
+
+e-|--------------------|----------------|-------------------|-------------
+B-|----------7--7------|---------5--5---|-------------------|-------------
+G-|----------7--7------|---------5--5---|----------0-0------|---4--2--0---
+D-|----------7--7--7---|---------5--5---|-------------------|-------------  x2
+A-|---7h8h9--------9---|----5h7---------|----0h1h2----------|-------------
+E-|--------------------|----------------|---------------3---|-------------
+      D                     C                G 
 
 ===============================================================================
 LISTEN & PLAY
 ===============================================================================
 
-...
+Official Album Version
+Here is a video featuring the audio from the album version of this song. If you want to reference the official recording, look no further.
+http://www.youtube.com/watch?v=5MhOZt5-Jl8
+
+Recommended Guitar Lesson
+After looking around YouTube, I believe this is the best of all the lessons available for this song (via Nail Guitar). Terrific breakdown of the chords, rhythm, strumming, and the riffs used throughout.
+http://www.youtube.com/watch?v=zVVIplDK7lY
+
+Other Recommended Lessons
+If you want some other lessons for context, here's Marty Schwartz giving one of his great-as-always guitar lessons for this song, breaking down the chords and each riff very slowly. Highly recommended if you want to see someone playing the song for reference.
+http://www.youtube.com/watch?v=EW3MBqeN6gE
+
+And, here's Justin Sandercoe with two lessons on this song. In the 1st video he covers the basic chords and intro section, while in the 2nd video he continues into the verse, chorus, and interlude areas. Like Marty above, he does a great job breaking everything down.
+http://www.youtube.com/watch?v=zVVIplDK7lY
+http://www.youtube.com/watch?v=HrORN7sdsqY
 
 ===============================================================================
 CHORD PROGRESSIONS
 ===============================================================================
 
-VERSE
-| . . . . | . . . . | . . . . | . . . . |
+Intro 
+| D . . . | C9 . . . | G . . . | G . . . | X4, with riff
 
-CHORUS
-"Lorem ipsum dolor sit amet..."
-| . . . . | . . . . | . . . . | . . . . |
-| . . . . | . . . . | . . . . | . . . . |
+Verse
+"Sweet wheels, keep on turning..."
+| D . . . | C9 . . . | G . . . | G . . . | x4
+
+Interlude
+| D . . . | C . . . | G . . . | G . . . | x2, with riff
+
+Chorus
+"Sweet home, Alabama..."
+| D . . . | C9 . . . | G . . . | G . . . | x4
+
+Solo
+| D . . . | C . . . | G . . . | G . . . | x4
 
 ===============================================================================
 ABOUT THIS SONG
 ===============================================================================    
 
-Song: ____
-Artist: ____
-Album: ____
-Released: Month Day, Year
-Label: ____
-Wikipedia URL: ____
-Rdio URL: ____
-YouTube (offical video): ____
+Song: Sweet Home Alabama
+Artist: Lynyrd Skynyrd
+Album: Second Helping
+Released: June 24, 1974
+Label: MCA
+Wikipedia URL: http://en.wikipedia.org/wiki/Sweet_Home_Alabama
+Rdio URL: http://www.rdio.com/artist/Lynyrd_Skynyrd/album/The_Essential_Lynyrd_Skynyrd/track/Sweet_Home_Alabama/
