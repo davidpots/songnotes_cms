@@ -34,7 +34,6 @@ CHORUS
             Lord, I'm coming home to you 
 
         (interlude)
-
                                           F    C    D 
     In Birmingham they love the governor (boo, hoo, hoo!)
     Now, we all did what we could do 
@@ -120,7 +119,16 @@ D-|---------0h2--0----------|-
 A-|-----0h2---------3-------|-
 E-|-------------------------|-
 
-When playing this turnaround during the choruses, you'll hear them ending this riff by resolving to the C-note (5th string, 3rd fret):
+In the verses, the hammer-on section is sometimes played like this:
+
+e-|-------------------------|-
+B-|-------------------------|-
+G-|-----------0---0---------|-
+D-|-------------------------|-
+A-|-----0h1h2-------0h2-----|-
+E-|-------------------------|-
+
+In the choruses, you'll hear them ending this riff by resolving to the C-note (5th string, 3rd fret):
 
 e-|-------------------------|-
 B-|-------------------------|-
@@ -139,19 +147,9 @@ A-|-----0h2---0h2---0h2---0h2---0h2---0---|-
 E-|---------------------------------------|-
 
 Interlude Riff
-This is another fun riff to add to your bag of tricks. To hear this in the song, listen out for those "interlude" sections that I note inline with the lyrics. Here's roughly how you play this riff. 
+This is another fun riff to add to your bag of tricks. To hear this in the song, listen out for those "interlude" sections that I note inline with the lyrics. Here's a few ways to play that riff. 
 
-For starters, recognize that the chord positions you're moving between look like this. You'll want to use your index finger to bar the 7th and 5th frets on the D and C chords, respectively.
-
-e-|---------------
-B-|---7---5---0---
-G-|---7---5---0---
-D-|---7---5---0---
-A-|---9---7---2---
-E-|-----------3---
-      D   C   G
-
-And with that understood, here's the tab for the riff itself. The strumming here is very approximated, if that -- listen along for the rhythm. This is meant to help you get the notes.
+This first method used barred chords a bit up the fretboard. A key to understanding this method is realizing that your hands should be in position for the D at x9777x, and for the C at x7555x. Understanding those are your base positions, the following riffs are a bit easier to contextualize.
 
 e-|--------------------|----------------|-------------------|-------------
 B-|----------7--7------|---------5--5---|-------------------|-------------
@@ -169,9 +167,12 @@ Official Album Version
 Here is a video featuring the audio from the album version of this song. If you want to reference the official recording, look no further.
 http://www.youtube.com/watch?v=5MhOZt5-Jl8
 
-Recommended Guitar Lesson
-After looking around YouTube, I believe this is the best of all the lessons available for this song (via Nail Guitar). Terrific breakdown of the chords, rhythm, strumming, and the riffs used throughout.
+Most Recommended Guitar Lesson
+After looking around YouTube, I believe this is the best of all the lessons available for this song (via Nail Guitar). Terrific breakdown of the chords, rhythm, strumming, and the main riff.
 http://www.youtube.com/watch?v=zVVIplDK7lY
+
+Nail Guitar also made this video, which focuses on the lead guitar lick used in this song (head in the interlude). Note that he plays this differently than Marty and Justin (whose videos are below) -- I recommend watching them all if you can, it will show you how there is often more than one proper way to play something.
+http://www.youtube.com/watch?v=NTEQLI3tItE
 
 Other Recommended Lessons
 If you want some other lessons for context, here's Marty Schwartz giving one of his great-as-always guitar lessons for this song, breaking down the chords and each riff very slowly. Highly recommended if you want to see someone playing the song for reference.
