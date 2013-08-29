@@ -15,9 +15,15 @@
 //= require ios-orientationchange-fix
 //= require_tree .
 
-
-// The dropdown in the global nav for showing / hiding the "follow" contents
 $(document).ready(function(){
+
+  // HTML-to-JSON plugin for API beta
+  $('#json_convert').click( function() { 
+    var table = $('#json_table').tableToJSON();
+    document.getElementById('target').innerHTML = JSON.stringify(table);
+  });
+
+  // The dropdown in the global nav for showing / hiding the "follow" contents
   $(".pri_nav li.dropdown_reveal").click(function(){
     $(this).toggleClass('open');
     $('li.dropdown_itself').toggleClass('visible');
@@ -27,19 +33,12 @@ $(document).ready(function(){
     $('.pri_nav li.dropdown_reveal').toggleClass('open');
     $('li.dropdown_itself').toggleClass('visible');
   });
-});
 
-
-
-
-// The song stickynav
-$(document).ready(function(){
-
+  // The song stickynav
   var nav = $('.song-nav');
   var navHeight = nav.outerHeight();
   var aboveFold = nav.offset().top;
   var y = $('.song-show').outerHeight();
-
   $(window).scroll(function(){
       if ($(window).scrollTop() > aboveFold){
         $('.song-nav').css('top',0).addClass('fixed');
@@ -53,11 +52,8 @@ $(document).ready(function(){
         $('body').css('margin-top',0);
       }
   });
-});
 
-// Song wayfinding
-$(document).ready(function(){
-
+  // Song wayfinding
   $(window).scroll(function () {
     var inview = '#' + $('section:in-viewport:first h2').parent().attr('id'),
       $link = $('.song-nav a').filter('[href="' + inview + '"]');

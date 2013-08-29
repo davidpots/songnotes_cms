@@ -15,6 +15,7 @@ Songnotes::Application.routes.draw do
 
   match 'home' => 'pages#home', :as => 'home'
   match 'about' => 'pages#about', :as => 'about'
+  match 'api' => 'pages#api', :as => 'api'
 
   resources :songs, :only => [:index, :show]
   resources :artists, :only => [:index, :show]

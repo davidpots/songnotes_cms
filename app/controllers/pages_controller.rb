@@ -7,4 +7,8 @@ class PagesController < ApplicationController
     @songs = Song.where(published: true).all(order: 'lower(title)')
   end
 
+  def api
+    @songs = Song.where(published: true).all(order: 'lower(title)')
+  end
+
 end

@@ -1,0 +1,36 @@
+<div class="section api" style="background: #fff;">
+  <div class="wrapper wrapper-full">
+
+    <table id="json_table">
+      <thead>
+        <tr>
+          <th>song_title</th>
+          <th>song_artist_name</th>
+          <th>song_year</th>
+          <th>song_url</th>
+          <th>song_artist_img</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @songs.each do |song| %>
+        <tr>
+          <td><%= song.title %></td>
+          <td><%= song.artist.name %></td>
+          <td><%= song.year %></td>
+          <td>http://www.songnotes.cc/songs/<%= song.id %>-<%= song.slug %></td>
+          <td><%= @artist_img_dir + song.artist.image_url %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+    <button id="json_convert">Convert to JSON</button>
+
+    <hr />
+    <p>Click "convert" above and the output in JSON format will display below:</p>
+    <pre id="target"></pre>
+
+  </div>
+</div>
+
+<script src="/assets/tabletojson.js"></script>
