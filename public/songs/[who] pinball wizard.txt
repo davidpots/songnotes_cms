@@ -1,0 +1,212 @@
+PINBALL WIZARD
+by The Who
+===============================================================================
+INTRO
+    Bm (droning riff with walkdown, see tab below) 
+
+    Bsus4 ... B ... x4 
+
+VERSE
+         Bsus4                         B 
+    Ever since I was a young boy, I've played the silver ball
+         Asus4                    A 
+    From Soho down to Brighton, I must have played 'em all
+          Gsus4                           G 
+    But I ain't seen anything like him in any amusement hall
+         F# 
+    That deaf, dumb, and blind kid... sure plays a mean pinball
+                                                B B → A → D → E ... x2 
+
+    He stands like a statue, becomes part of the machine
+    Feeling all the bumpers, always playing clean
+    Plays by intuition, the digit counters fall
+    That deaf, dumb, and blind kid... sure plays a mean pinball
+
+CHORUS
+               E  F#   B 
+        He's a pinball wizard
+              E      F#   B 
+        There has to be a twist
+          E  F#   B            G             D     Dsus4  D 
+        A pinball wizard's got such a supple wrist
+
+BRIDGE
+            D          Cadd9 G  D          Cadd9 G 
+            How do you think he does it? I don't know
+            D          Cadd9  G  D 
+            What makes him--- so good?
+
+    Ain't got no distractions, can't hear no buzzers and bells
+    Don't see no lights a-flashing, plays by sense of smell
+    Always gets the replay, never seen him fall
+    That deaf, dumb, and blind kid... sure plays a mean pinball
+
+        I thought I was
+        The Bally table king
+        But I just handed my pinball crown to him
+
+ENDING VERSE
+
+            (same as normal verse, but modulated up 3 half-steps)
+
+            Dsus4 ... D ... x4 
+
+                 Dsus4                    D 
+            Even on my favorite table, he can beat my best
+                Csus4                      C 
+            His disciples lead him in, and he just does the rest
+                 Bbsus4                     Bb 
+            He's got crazy flipper fingers, never seen him fall
+                 A 
+            That deaf, dumb, and blind kid... sure plays a mean pinball
+                                                D D → C → F → Bb (let ring) 
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+Intro Tab
+This intro tab starts with a Bm shaped chord and with each measure makes a single change, with all the while you consistently picking the same bass note. Definitely listen along for reference.
+
+e-|--2-----------------0-----------------0------------------0----------------|-
+B-|--3-----------------3-----------------2------------------2----------------|-
+G-|--4-----------------4-----------------4------------------3----------------|-
+D-|--4-4-4-4-4-4-4-4---4-4-4-4-4-4-4-4---4-4-4-4-4-4-4-4----4-4-4-4-4-4-4-4--|-
+A-|--------------------------------------------------------------------------|-
+E-|--------------------------------------------------------------------------|-
+      Bm 
+
+ -|--0-----------------0------------------------------------0----------------|-
+ -|-(2)----------------0-----------------0------------------2----------------|-
+ -|--2-----------------0-----------------4-4-4-4-4-4-4-4----3-3-3-3-3-3-3-3--|-
+ -|--4-4-4-4-4-4-4-4---4-4-4-4-4-4-4-4---5-5-5-5-5-5-5-5----4-4-4-4-4-4-4-4--|-
+ -|---------------------------------------------------------4-4-4-4-4-4-4-4--|-
+ -|--------------------------------------------------------------------------|-
+                                                            F# 
+
+After the F#, move to the Bsus4 → B progression used in the verse (which you'll repeat a few times before starting the verse proper).
+
+Verse
+Here's the general chord shaping you'll want to use for the verse, as well as the second half of the intro (where the heavy strumming comes in). The most important thing here is probably voicing that added sus4 note that comes and goes, so find a chord fingering style that works for you. Also, note that this same exact approach is used for the final verse -- which is modulated up 3 half-steps... basically, add 3 frets to everything you see here and you'll have it.
+
+e-|---7----7-------5----5-------3----3------2----
+B-|---7----7-------5----5-------3----3------2----
+G-|---9----8-------7----6-------5----4------3----
+D-|---9----9-------7----7-------5----5------4----
+A-|---9----9-------7----7-------5----5------4----
+E-|---7----7-------5----5-------3----3------2----
+    Bsus4  B     Asus4  A     Gsus4  G      F# 
+
+Here's the chors for the section played at the end of each verse (immediately after "...sure plays a mean pinball"). This is played twice.
+e-|------------------------------------------2-----0--0---
+B-|-----------------------------4--4-----2---3-----0--0---
+G-|-----------------------------4--4-----2---2-----1--1---
+D-|-----------------------------4--4-----2---0-----2--2---  x2
+A-|-----------------------------2--2-----0---------2--2---
+E-|------------------------------------------------0--0---
+                                B        A   D     E 
+     "Sure plays a mean pinball..."
+
+Chorus
+Nothing too tricky here, though you'll need to have your barre chords down. Again, listen along for the exact timing.
+
+e-|-----------0--2------------------0------2------------|-
+B-|-----------0--2----4-------------0------2----4-------|-
+G-|-----------1--3----4-------------1------3----4-------|-
+D-|-----------2--4----4-------------2------4----4-------|-
+A-|-----------2--4----2-------------2------4----2-------|-
+E-|-----------0--2------------------0------2------------|-
+              E  F#   B             E      F#   B 
+      "He's a pinball wizard, there has to be a twist..."
+      
+ -|------0--2---------------------3-------------2-------3----2----
+ -|------0--2----4----------------0-------------3-------3----3----
+ -|------1--3----4----------------0-------------2-------2----2----
+ -|------2--4----4----------------0-------------0-------0----0----
+ -|------2--4----2----------------2-------------------------------
+ -|------0--2---------------------3-------------------------------
+         E  F#   B                G             D     Dsus4  D 
+      "A pinball wizard, he's got such a supple wrist..."
+
+Bridge
+In the bridge section, you'll want to do this simple walkdown from C to Cadd9 to G. You can also add a C/B in there too. Listen along, and check out the tutorial videos for reference. This is approximate, but should suffice.
+
+e-|----2----------3-----3-----2----------3-----3-----
+B-|----3----------3-----3-----3----------3-----3-----
+G-|----2----------0-----0-----2----------0-----0-----
+D-|----0----------2-----0-----0----------2-----0-----   etc
+A-|---------------3-----2----------------3-----2-----
+E-|---------------------3----------------------3-----
+       D        Cadd9   G     D       Cadd9    G 
+      "How do you think he--- does it, I don't know..."
+
+===============================================================================
+LISTEN & PLAY
+===============================================================================
+
+Official Album Version
+Here's a recording of the song as it appears on the album "Tommy". If you don't have a recording handy, use this for reference.
+http://www.youtube.com/watch?v=4AKbUm8GrbM
+
+Recommended Cover Version
+Here is a terrific video of Mike Masse doing an acoustic version of this song. This is a great example of how a single guitar can still make this song rock.
+http://www.youtube.com/watch?v=Tp_cnNwk8I8
+
+Recommended Guitar Lesson
+If you want an in-depth look of how to play the entire song on acoustic guitar, I recommend this video. Each section of the song is carefully deconstructed. The video quality is quite good as well.
+http://www.youtube.com/watch?v=ui_AP2sfgqs
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+Droning walkdown section:
+Bm (refer to the tab for the exact chord variations)
+
+Full strumming section:
+| Bsus4 . . . | B . . . | x4
+
+VERSE
+"Ever since I was a young boy..."
+| Bsus4 . . . | B . . . |
+| Asus4 . . . | A . . . |
+| Gsus4 . . . | G . . . |
+| F#    . . . | . . . . |
+
+Just after the "Sure played a mean pinball..." lyric
+| B B → A → D | E . . . | x2
+
+CHORUS
+"He's a pinball wizard, there has to be a twist..."
+| E → F# → B B | x3
+
+"He's got such a supple wrist..."
+| G . . . | D . . . | . . . . | . . . . | x1
+
+BRIDGE
+"How do you think he does it, I don't know..."
+| D D → Cadd9 → G | x4
+
+FINAL VERSE
+"Even on my favorite table..."
+| Dsus4  . . . | D  . . . |
+| Csus4  . . . | C  . . . |
+| Bbsus4 . . . | Bb . . . |
+| A      . . . |  . . . . |
+
+Just after the "Sure played a mean pinball..." lyric
+| D D → C → F | Bb . . . | x1
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================
+
+Song: Pinball Wizard
+Artist: The Who
+Album: Tommy
+Released: 1969
+Label: Decca
+Wikipedia URL: http://en.wikipedia.org/wiki/Pinball_Wizard
+Rdio URL: http://rd.io/x/QVzN1jd1bhY/
+YouTube (offical video): http://www.youtube.com/watch?v=4AKbUm8GrbM
