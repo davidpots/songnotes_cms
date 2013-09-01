@@ -1,0 +1,99 @@
+SONG_TITLE
+by Artist_Name
+===============================================================================
+INTRO
+    | . . . . | . . . . | . . . . | . . . . | →
+
+VERSE
+    Integer posuere erat a ante venenatis dapibus
+    Posuere velit aliquet, cras justo odio
+    Facilisis in, egestas eget quam loremius
+    Nullam quis risus eget urna mollis ornare vel eu leo
+
+PRE-CHORUS    
+        Integer posuere erat a ante venenatis dapibus
+        Pposuere velit aliquet, cras justo odio
+        Facilisis in, egestas eget quam loremius
+        Nullam quis risus eget urna mollis ornare vel eu leo
+
+CHORUS    
+            Integer posuere erat a ante venenatis dapibus
+            Pposuere velit aliquet, cras justo odio
+            Facilisis in, egestas eget quam loremius
+            Nullam quis risus eget urna mollis ornare vel eu leo
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+SECTION ONE
+Lorem ipsum dolor sit amet.
+
+e-|----------------------------------------------------------------------------
+B-|----------------------------------------------------------------------------
+G-|----------------------------------------------------------------------------
+D-|----------------------------------------------------------------------------
+A-|----------------------------------------------------------------------------
+E-|----------------------------------------------------------------------------
+
+Main E-minor Bassline Rhythm
+As heard by itself after the first chorus on the album version of this song, around 0:50 in. Used at the beginning of the "counting" section. You can build this up into a full Em as the section builds, but this is your pulsing hearbeat (so to speak).
+e-|---(0)-------------------------------------|-
+B-|---(0)-------------------------------------|-
+G-|---(0)-------------------------------------|-
+D-|---(2)------x-------x-------x-----------x--|-  ...repeat
+A-|---(2)------x-------x-------x-----------x--|-
+E-|----0~~~-x--0-0--x--0~~~-x--0~~~--0--x--0--|-
+       Em
+
+C-major to E-minor Bassline Walkdown
+As heard by itself after the first chorus on the album version of this song, around 0:50 in. Used at the beginning of the "counting" section. You can build this up into a full Em as the section builds, but this is your pulsing hearbeat (so to speak).
+e-|--(0)----------------------------(0)---|-
+B-|--(1)----------------------------(0)---|-
+G-|--(0)----------------------------(0)---|-
+D-|--(2)----------------------------(2)---|-  x1, then back to Em bass rhythm 
+A-|---3--2--0-----3~~~~--3-2--0-----(2)---|-
+E-|------------3-----------------3---0----|-
+
+
+Bass Walk-Down Before Chorus
+Modeled after how he does it here around 0:37 http://www.youtube.com/watch?v=nG3CNpUtUj8
+e-|-----------------------------------------0------------------2-------------
+B-|-----------------------------------------1------------------3-------------
+G-|-----------------------------------------0------------------2-------------
+D-|-------2-------2-------------------------2------------------0-------------
+A-|-------2-------2----------------------2--3------------------0-------------
+E-|---0-0-0-0-0-0-0-0----3--2~~~--1--0-------------------------2-------------
+                                               "You can always kiss off..."
+
+
+===============================================================================
+LISTEN & PLAY
+===============================================================================
+
+...
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+VERSE
+| . . . . | . . . . | . . . . | . . . . |
+
+CHORUS
+"Lorem ipsum dolor sit amet..."
+| . . . . | . . . . | . . . . | . . . . |
+| . . . . | . . . . | . . . . | . . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: ____
+Artist: ____
+Album: ____
+Released: Month Day, Year
+Label: ____
+Wikipedia URL: ____
+Rdio URL: ____
+YouTube (offical video): ____
