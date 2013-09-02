@@ -1,50 +1,122 @@
-SONG_TITLE
-by Artist_Name
+KISS OFF
+by Violent Femmes
 ===============================================================================
+
 INTRO
-    | . . . . | . . . . | . . . . | . . . . | →
+    Em
 
 VERSE
-    Integer posuere erat a ante venenatis dapibus
-    Posuere velit aliquet, cras justo odio
-    Facilisis in, egestas eget quam loremius
-    Nullam quis risus eget urna mollis ornare vel eu leo
+      Em
+    I need someone, a person to talk to
+    Someone who'd care to love
+                C 
+    Could it be you?
+                Em 
+    Could it be you?
 
-PRE-CHORUS    
-        Integer posuere erat a ante venenatis dapibus
-        Pposuere velit aliquet, cras justo odio
-        Facilisis in, egestas eget quam loremius
-        Nullam quis risus eget urna mollis ornare vel eu leo
+    The situation gets rough, and I start to panic
+    It's not enough, it's just a habit
+    Hey, kid, you're sick
+    Well, darling, this is it
 
-CHORUS    
-            Integer posuere erat a ante venenatis dapibus
-            Pposuere velit aliquet, cras justo odio
-            Facilisis in, egestas eget quam loremius
-            Nullam quis risus eget urna mollis ornare vel eu leo
+CHORUS
+        C                D                 C 
+        You can all just kiss off into the air
+                  D                   C 
+        Behind my back I can see them stare
+                        D                C 
+        They'll hurt me bad, but I won't mind
+                        D                       C           D 
+        They'll hurt me bad, they do it all the time (yeah, yeah)
+
+                                 C           D 
+        Yeah, they do it all the time (yeah, yeah)
+                                 C                   D 
+        ..... they do it all the time (do it all the time)
+                                 C                   D 
+        ..... they do it all the time (do it all the time)
+                                 C                   D 
+        ..... they do it all the time, do it all the time!
+
+    Em 
+    I hope you know that this will go down on your permanent record!
+                                   C 
+    Oh, yeah? Well, don't get so distressed
+                                       Em 
+    Did I happen to mention that I'm impressed?
+
+BREAK
+            ...
+
+    (stay on Em)
+
+    I take 1, 1, 1 'cause you left me
+    ...and 2, 2, 2 for my family
+    ...and 3, 3, 3 for my heartache
+    ...and 4, 4, 4 for my headaches
+    ...and 5, 5, 5 for my lonely
+    ...and 6, 6, 6 for my sorrow
+    ...and 7, 7, n-n-n-no tomorrow
+    ...and 8, 8, I forget what eight was for
+    ...but 9, 9, 9 for a lost god
+    ...10, 10, 10, 10 for everything, everything, everything, everything
+
+        You can all just kiss off into the air
+        Behind my back I can see them stare
+        They'll hurt me bad, but I won't mind
+        They'll hurt me bad, they do it all the time (yeah, yeah)
+
+        Yeah, they do it all the time (yeah, yeah)
+        ..... they do it all the time (do it all the time)
+        ..... they do it all the time (do it all the time)
+        ..... they do it all the time, do it all the time!
+                                                (end on Em, let ring)
 
 ===============================================================================
 NOTES & TABS
 ===============================================================================
 
-SECTION ONE
-Lorem ipsum dolor sit amet.
+Guitar Chords Used
+At the simplest, you can get away with a simple Em, C, and D throughout this song. Of course, you can add embellishment and modify these chords slightly as desired. I'll include here the C/G and D/F# formations, which look like they're used by the band when playing this song. These are otherwise optional.
 
-e-|----------------------------------------------------------------------------
-B-|----------------------------------------------------------------------------
-G-|----------------------------------------------------------------------------
-D-|----------------------------------------------------------------------------
-A-|----------------------------------------------------------------------------
-E-|----------------------------------------------------------------------------
+e-|----0----0---2-----0-----2-----
+B-|----0----1---3-----1-----3-----
+G-|----0----0---2-----0-----2-----
+D-|----2----2---0-----2-----0-----
+A-|----2----3---------3-----0-----
+E-|----0--------------3-----2-----
+       Em   C   D    C/G   D/F#
 
 Main E-minor Bassline Rhythm
-As heard by itself after the first chorus on the album version of this song, around 0:50 in. Used at the beginning of the "counting" section. You can build this up into a full Em as the section builds, but this is your pulsing hearbeat (so to speak).
+A big part in making this song work is nailing the rhythm and the bassline, which is based around Em. Here's the single-string approximation of how to play this rhythm. This can be heard 0:50 into the song, just after the first chorus.
 e-|---(0)-------------------------------------|-
 B-|---(0)-------------------------------------|-
 G-|---(0)-------------------------------------|-
-D-|---(2)------x-------x-------x-----------x--|-  ...repeat
-A-|---(2)------x-------x-------x-----------x--|-
+D-|---(2)---x-------x-------x-----------x-----|-  ...repeat
+A-|---(2)---x-------x-------x-----------x-----|-
 E-|----0~~~-x--0-0--x--0~~~-x--0~~~--0--x--0--|-
        Em
+
+Main E-minor Strumming Rhythm
+Throughout most this song you'll need to be strumming an E-minor groove. Here are a few ways I'll strum it in order to mix things up and add some dynamicism. Mix & match these as you see fit, and of course play with it to make it your own.
+
+One method, shown here, is to use your pinky or ring finger to hammer-on the 3rd fret of the low E-string as part of your strumming.
+
+e-|----------------------------------------------------|-
+B-|----------------------------------------------------|-
+G-|----------------------------------------------------|-
+D-|---2-----------2-----------2-----------2------------|-  ...repeat
+A-|---2-----------2-----------2-----------2------------|-
+E-|---0--0--3--0--0--0--3--0--0--0--3--0--0--0--3--0---|-
+
+Another method is to pull your fingers off the Em chord altogether, as part of your embedded strumming pattern.
+
+e-|---0-----------0-----------0-----------0------------|-
+B-|---0-----------0-----------0-----------0------------|-
+G-|---0-----------0-----------0-----------0------------|-
+D-|---2--2--0--2--2--2--0--2--2--2--0--2--2--2--0--2---|-  ...repeat
+A-|---2--2--0--2--2--2--0--2--2--2--0--2--2--2--0--2---|-
+E-|---0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0---|-
 
 C-major to E-minor Bassline Walkdown
 As heard by itself after the first chorus on the album version of this song, around 0:50 in. Used at the beginning of the "counting" section. You can build this up into a full Em as the section builds, but this is your pulsing hearbeat (so to speak).
@@ -55,9 +127,8 @@ D-|--(2)----------------------------(2)---|-  x1, then back to Em bass rhythm
 A-|---3--2--0-----3~~~~--3-2--0-----(2)---|-
 E-|------------3-----------------3---0----|-
 
-
 Bass Walk-Down Before Chorus
-Modeled after how he does it here around 0:37 http://www.youtube.com/watch?v=nG3CNpUtUj8
+Just before the first chorus, you'll hear an aggressive bass walkdown that transitions the E-minor to the C-major chord. Playing with a solo acoustic guitar, I prefer imitating this walkdown as follows. This is modeled after this video, where the guitarist plays something similar around 0:37 into the video: http://www.youtube.com/watch?v=nG3CNpUtUj8
 e-|-----------------------------------------0------------------2-------------
 B-|-----------------------------------------1------------------3-------------
 G-|-----------------------------------------0------------------2-------------
@@ -66,6 +137,8 @@ A-|-------2-------2----------------------2--3------------------0-------------
 E-|---0-0-0-0-0-0-0-0----3--2~~~--1--0-------------------------2-------------
                                                "You can always kiss off..."
 
+Jamming it Out
+In the 'break' section after the second verse, you'll notice the band goes a bit off the rails and gets creative with their rhythmic jamming. This is tougher to emulate on a solo guitar, but there are a few ways to do it. For one, check out the cover versions embedded below -- you'll see two different approaches to playing this part of the song.
 
 ===============================================================================
 LISTEN & PLAY
