@@ -3,10 +3,10 @@ by Violent Femmes
 ===============================================================================
 
 INTRO
-    Em
+    Em 
 
 VERSE
-      Em
+      Em 
     I need someone, a person to talk to
     Someone who'd care to love
                 C 
@@ -20,8 +20,8 @@ VERSE
     Well, darling, this is it
 
 CHORUS
-        C                D                 C 
-        You can all just kiss off into the air
+        C                   D                 C 
+        ...You can all just kiss off into the air
                   D                   C 
         Behind my back I can see them stare
                         D                C 
@@ -35,7 +35,7 @@ CHORUS
         ..... they do it all the time (do it all the time)
                                  C                   D 
         ..... they do it all the time (do it all the time)
-                                 C                   D 
+                                 C                   D       Em 
         ..... they do it all the time, do it all the time!
 
     Em 
@@ -45,21 +45,22 @@ CHORUS
                                        Em 
     Did I happen to mention that I'm impressed?
 
-BREAK
-            ...
+JAM / SOLO
+            (instrumental jam based on Em ... played freely)
 
-    (stay on Em)
-
-    I take 1, 1, 1 'cause you left me
-    ...and 2, 2, 2 for my family
-    ...and 3, 3, 3 for my heartache
-    ...and 4, 4, 4 for my headaches
-    ...and 5, 5, 5 for my lonely
-    ...and 6, 6, 6 for my sorrow
-    ...and 7, 7, n-n-n-no tomorrow
-    ...and 8, 8, I forget what eight was for
-    ...but 9, 9, 9 for a lost god
-    ...10, 10, 10, 10 for everything, everything, everything, everything
+BRIDGE
+                       Em (for entire section)
+                I take 1, 1, 1 'cause you left me
+                ...and 2, 2, 2 for my family
+                ...and 3, 3, 3 for my heartache
+                ...and 4, 4, 4 for my headaches
+                ...and 5, 5, 5 for my lonely
+                ...and 6, 6, 6 for my sorrow
+                ...and 7, 7, n-n-n-no tomorrow
+                ...and 8, 8, I forget what eight was for
+                ...but 9, 9, 9 for a lost god
+                ...10, 10, 10, 10 for everything! 
+                       Everything! Everything! Everything!
 
         You can all just kiss off into the air
         Behind my back I can see them stare
@@ -97,7 +98,7 @@ A-|---(2)---x-------x-------x-----------x-----|-
 E-|----0~~~-x--0-0--x--0~~~-x--0~~~--0--x--0--|-
        Em
 
-Main E-minor Strumming Rhythm
+Main E-minor Strumming & Rhythm
 Throughout most this song you'll need to be strumming an E-minor groove. Here are a few ways I'll strum it in order to mix things up and add some dynamicism. Mix & match these as you see fit, and of course play with it to make it your own.
 
 One method, shown here, is to use your pinky or ring finger to hammer-on the 3rd fret of the low E-string as part of your strumming.
@@ -108,6 +109,7 @@ G-|----------------------------------------------------|-
 D-|---2-----------2-----------2-----------2------------|-  ...repeat
 A-|---2-----------2-----------2-----------2------------|-
 E-|---0--0--3--0--0--0--3--0--0--0--3--0--0--0--3--0---|-
+      Em 
 
 Another method is to pull your fingers off the Em chord altogether, as part of your embedded strumming pattern.
 
@@ -117,56 +119,82 @@ G-|---0-----------0-----------0-----------0------------|-
 D-|---2--2--0--2--2--2--0--2--2--2--0--2--2--2--0--2---|-  ...repeat
 A-|---2--2--0--2--2--2--0--2--2--2--0--2--2--2--0--2---|-
 E-|---0--0--0--0--0--0--0--0--0--0--0--0--0--0--0--0---|-
+      Em 
 
 C-major to E-minor Bassline Walkdown
-As heard by itself after the first chorus on the album version of this song, around 0:50 in. Used at the beginning of the "counting" section. You can build this up into a full Em as the section builds, but this is your pulsing hearbeat (so to speak).
+As heard by itself after the first chorus on the album version of this song, around 0:50 in. Used at the beginning of the "counting" section. You can build this up into a full Em as the section builds, but this is your pulsing heartbeat (so to speak).
 e-|--(0)----------------------------(0)---|-
 B-|--(1)----------------------------(0)---|-
 G-|--(0)----------------------------(0)---|-
 D-|--(2)----------------------------(2)---|-  x1, then back to Em bass rhythm 
 A-|---3--2--0-----3~~~~--3-2--0-----(2)---|-
 E-|------------3-----------------3---0----|-
+      C                              Em 
 
 Bass Walk-Down Before Chorus
 Just before the first chorus, you'll hear an aggressive bass walkdown that transitions the E-minor to the C-major chord. Playing with a solo acoustic guitar, I prefer imitating this walkdown as follows. This is modeled after this video, where the guitarist plays something similar around 0:37 into the video: http://www.youtube.com/watch?v=nG3CNpUtUj8
-e-|-----------------------------------------0------------------2-------------
-B-|-----------------------------------------1------------------3-------------
-G-|-----------------------------------------0------------------2-------------
-D-|-------2-------2-------------------------2------------------0-------------
-A-|-------2-------2----------------------2--3------------------0-------------
-E-|---0-0-0-0-0-0-0-0----3--2~~~--1--0-------------------------2-------------
-                                               "You can always kiss off..."
+e-|-----------------------------------------0--------------------2-------------
+B-|-----------------------------------------1--------------------3-------------
+G-|-----------------------------------------0--------------------2-------------
+D-|-------2-------2-------------------------2--------------------0-------------
+A-|-------2-------2----------------------2--3--------------------0-------------
+E-|---0-0-0-0-0-0-0-0----3--2~~~--1--0---------------------------2-------------
+          Em                                C                    D 
+                                               "You can all just kiss off..."
 
 Jamming it Out
-In the 'break' section after the second verse, you'll notice the band goes a bit off the rails and gets creative with their rhythmic jamming. This is tougher to emulate on a solo guitar, but there are a few ways to do it. For one, check out the cover versions embedded below -- you'll see two different approaches to playing this part of the song.
+In the 'break' section after the second verse, you'll notice the band goes a bit off the rails and gets creative with their rhythmic jamming. This is tougher to emulate on a solo guitar (without a bass leading the way), but there are a few ways to do it. For one, check out the cover versions embedded below -- you'll see two different approaches to playing this part of the song.
 
 ===============================================================================
 LISTEN & PLAY
 ===============================================================================
 
-...
+Official Album Version
+To hear the album version of this song, check out this video. This is handy if you don't have the track locally available and want to listen along for reference.
+http://www.youtube.com/watch?v=05k90ts2biw
+
+Violent Femmes Live Version
+Here is a version of the Violent Femmes playing this song live on the Craig Kilborn show. This is helpful toward the end of seeing exactly how they play it.
+http://www.youtube.com/watch?v=URuf-a1oi8E
+
+Recommended Guitar Lesson
+For a good breakdown of how to play this song from beginning to end, check out this guitar lesson. Each section is disected and carefully explained.
+http://www.youtube.com/watch?v=OHNAwvpxClg
+
+Recommended Cover Versions
+The following cover versions are included primarily because they show contrasting, yet effective, ways to approach the jam / solo section in the middle of the song. In this first version, Scotty Bills plays this section very similar to how the Violent Femmes play it (sounds a bit more chaotic).
+http://www.youtube.com/watch?v=G9JDlVLA-vA
+
+Alternatively, here is a version by Will Orchard which uses some creative riffing that seems more tightly in step with the implied tonality of the song. This technically is a bit unlike the official version, yet it works very nice in its own way.
+http://www.youtube.com/watch?v=nG3CNpUtUj8
 
 ===============================================================================
 CHORD PROGRESSIONS
 ===============================================================================
 
+INTRO
+| Em . . . | . . . . | . . . . | . . . . |
+
 VERSE
-| . . . . | . . . . | . . . . | . . . . |
+"I need someone, a person to talk to..."
+| Em . . . | . . . . |  . . . . | . . . . |
+| C  . . . | . . . . | Em . . . | . . . . |
 
 CHORUS
-"Lorem ipsum dolor sit amet..."
-| . . . . | . . . . | . . . . | . . . . |
-| . . . . | . . . . | . . . . | . . . . |
+"You can all just kiss off into the air..."
+| C . . . | D . . . | C . . . | D . . . |
+
+BRIDGE
+"I take one, one, one 'cause you left me..."
+| Em . . . | . . . . | . . . . | . . . . |
 
 ===============================================================================
 ABOUT THIS SONG
 ===============================================================================    
 
-Song: ____
-Artist: ____
-Album: ____
-Released: Month Day, Year
-Label: ____
-Wikipedia URL: ____
-Rdio URL: ____
-YouTube (offical video): ____
+Song: Kiss Off
+Artist: Violent Femmes
+Album: Violent Femmes
+Released: April 1983
+Label: Slash Records
+Rdio URL: http://rd.io/x/QVzN1jdM2ZQ/
