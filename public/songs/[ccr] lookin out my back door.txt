@@ -8,48 +8,55 @@ INTRO
     A ... F#m ... D . A . E . A .
 
 VESE
-    A                            F#m
+    A                            F#m 
     Just got home from Illinois, lock the front door, oh boy
-    D          A               E           E
+    D          A               E 
     Got to sit down and take a rest on the porch
-    A                    F#m
+    A                    F#m 
     Imagination sets in, pretty soon I’m singing
-    D         A            E           A
-    Doo, doo, doo, lookin’ out my back door
+    D         A              E           A 
+    Doo, doo, doo... lookin’ out my back door
 
     There’s a giant doing cartwheels, a statue wearin’ high-heels
-    Look at all the happy creatures dancin’ on the lawn
+    Look at all the happy creatures dancin' on the lawn
     A dinosaur Victrola, listenin’ to Buck Owens
-    Doo, doo, doo, lookin’ out my back door
+    Doo, doo, doo... lookin’ out my back door
 
 CHORUS
-          E                             D              A
+          E                             D              A 
         Tambourines and elephants are playin’ in the band
-                  A           F#m           E
-        Won’t you take a ride on the flying spoon?  Doo, doo, doo…
-        A                       F#m
-        Wonderous apparition provided by magician
-        D         A            E           A
-        Doo, doo, doo, lookin’ out my back door
+                  A           F#m           E 
+        Won’t you take a ride on the flying spoon? Doo, doo, doo...
+        A                        F#m 
+        Wonderous apparition, provided by magician
+        D         A              E           A 
+        Doo, doo, doo... lookin’ out my back door
 
     (instrumental verse w/ solo)
 
-    Tambourines and elephants are playin’ in the band
-    Won’t you take a ride on the flying spoon?  Doo, doo, doo…
-    Bother me tomorrow, today I’ll buy no sorrows
-    Doo, doo, doo, lookin’ out my back door
+        Tambourines and elephants are playin’ in the band
+        Won’t you take a ride on the flying spoon? Doo, doo, doo...
+        Bother me tomorrow, today I’ll buy no sorrows
+        Doo, doo, doo... lookin’ out my back door
 
-        (muted strumming → instrumental chorus)
+KEY CHANGE
 
-    Forward trouble Illinois, lock the front door, oh boy
+        (muted strumming → instrumental chorus in key of B...)
+
+        | F# . . . | E . B . | B . G#m . | F# . . . |
+
+    B                            G#m 
+    Forward troubles Illinois... lock the front door, oh boy
+    E               B               F# 
     Look at all the happy creatures dancing on the lawn
+    B                   G#m 
     Bother me tomorrow, today I’ll buy no sorrows
-    Doo, doo, doo, lookin’ out my back door
+    E         B              F#          B 
+    Doo, doo, doo... lookin’ out my back door
 
 OUTRO
 
-    (muted strumming → D A E A )
-            < Muted strumming >    D.. – A.. – E.. - A (let ring)
+    (muted strumming → E B F# B )
 
 ===============================================================================
 NOTES & TABS
