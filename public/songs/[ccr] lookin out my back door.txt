@@ -5,9 +5,11 @@ by Creedence Clearwater Revival
 (capo 1st Fret)
 
 INTRO
+    (muted strumming, then...)
+
     A ... F#m ... D . A . E . A .
 
-VESE
+VERSE
     A                            F#m 
     Just got home from Illinois, lock the front door, oh boy
     D          A               E 
@@ -23,7 +25,7 @@ VESE
     Doo, doo, doo... lookin’ out my back door
 
 CHORUS
-          E                             D              A 
+        E                             D                A 
         Tambourines and elephants are playin’ in the band
                   A           F#m           E 
         Won’t you take a ride on the flying spoon? Doo, doo, doo...
@@ -41,7 +43,7 @@ CHORUS
 
 KEY CHANGE
 
-        (muted strumming → instrumental chorus in key of B...)
+        (muted strumming, then...)
 
         | F# . . . | E . B . | B . G#m . | F# . . . |
 
@@ -62,21 +64,43 @@ OUTRO
 NOTES & TABS
 ===============================================================================
 
-SECTION ONE
-Lorem ipsum dolor sit amet.
+Standard Tuning, Capo 1st Fret
+This tab shows how to play this song using a capo (positioned on the 1st fret) in standard tuning. You only need to apply a capo (and play in the key of A major) if you want to play along with the album version. Otherwise, a capo is not required. Also, let me disclaim that I'm aware CCR may have played this song without a capo, starting in the key of Bb. If you're looking for the exact tab to play in Bb, seek elsewhere. I'm primarily concerned with creating a tab that is accessible to the masses (and playing in the key of A is certainly easier than that of Bb).
 
-e-|----------------------------------------------------------------------------
-B-|----------------------------------------------------------------------------
-G-|----------------------------------------------------------------------------
-D-|----------------------------------------------------------------------------
-A-|----------------------------------------------------------------------------
-E-|----------------------------------------------------------------------------
+Guitar Chords Used
+Here is how to play the guitar used in this song. First, the chords used in the key of A:
+
+e-|---0----2----2---0----
+B-|---2----2----3---0----
+G-|---2----2----2---1----
+D-|---2----4----0---2----
+A-|---0----4--------2----
+E-|--------2--------0----
+      A   F#m   D   E 
+
+After changing key to B, you'll want to use these chords:
+
+e-|--------4----0----2----
+B-|---4----4----0----2----
+G-|---4----4----1----3----
+D-|---4----6----2----4----
+A-|---2----6----2----4----
+E-|--------4----0----2----
+      B   G#m   E    F# 
+
+Note the Change in Key
+Late in the song, note that the song modulates (changes key) up one whole step. Using the chords shown above, you'll notice the change is from the key of A to the key of B. All chord progressions stay the same, as far as each chord's relative position to the root. Ultimately, this change in key is by no means required when playing the song -- but I wanted to make note of this for those interested in a faithful adaptation.
 
 ===============================================================================
 LISTEN & PLAY
 ===============================================================================
 
+Offical Album Recording
+To listen to the official album recording of this song, refer to this YouTube video:
+http://www.youtube.com/watch?v=Aae_RHRptRg
+
 Recommended Lesson
+For a video lesson on how to play this song on guitar, I recommend the following video. It provides a good breakdown of the chords used, shows how to play each section, the strumming pattern used, and so forth.
 http://www.youtube.com/watch?v=WPlrmWHedsE
 
 ===============================================================================
@@ -87,22 +111,24 @@ INTRO
 | A . . . | F#m . . . | D . A . | E . A . |
 
 VERSE
-| . . . . | . . . . | . . . . | . . . . |
+"Just got home from Illinois..."
+| A . . . | F#m . . . | D . A . | E . . . |
+| A . . . | F#m . . . | D . A . | E . A . |
 
 CHORUS
-"Lorem ipsum dolor sit amet..."
-| . . . . | . . . . | . . . . | . . . . |
-| . . . . | . . . . | . . . . | . . . . |
+"Tambourines and elephants are playin’ in the band..."
+| E . . . | D   . A . | A . F#m . | E . . . |
+| A . . . | F#m . . . | D .  A  . | E . A . |
 
 ===============================================================================
 ABOUT THIS SONG
 ===============================================================================    
 
-Song: ____
-Artist: ____
-Album: ____
-Released: Month Day, Year
-Label: ____
-Wikipedia URL: ____
-Rdio URL: ____
-YouTube (offical video): ____
+Song: Lookin' Out My Backdoor
+Artist: Creedence Clearwater Revival
+Album: Cosmo's Factory
+Released: 1970
+Label: Fantasy
+Wikipedia URL: http://en.wikipedia.org/wiki/Lookin'_Out_My_Back_Door
+Rdio URL: http://rd.io/x/QVzN1jdiZ8Y/
+YouTube (offical video): http://www.youtube.com/watch?v=Aae_RHRptRg
