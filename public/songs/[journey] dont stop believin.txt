@@ -6,7 +6,7 @@ INTRO
     | E . . . | B . . . | G#m . . . | A . . . |
 
 VERSE
-    E        B               C#m             B 
+    E        B               C#m             A 
       Just a small town girl...  living in a lonely world
     E              B                     G#m        A 
       She took the midnight train, going anywhere
