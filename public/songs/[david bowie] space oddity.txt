@@ -5,9 +5,9 @@ INTRO
     Fmaj7 ... Em ... Fmaj7 ... Em ... (repeat)
 
 VERSE
-    Em                      C 
+    C                       Em 
     Ground Control to Major Tom
-    Em                      C 
+    C                       Em 
     Ground Control to Major Tom
     Am        Am/G              D/F# 
     Take your protein pills and put your helmet on 
