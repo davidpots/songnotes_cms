@@ -95,16 +95,16 @@ NOTES & TABS
 Guitar Chords Used
 At its simplest, you can play this song using only the typical D, C, and G chords. With that said, there are a few subtle creative licenses you may want to take throughout the song -- so I've included some alternate ways to play each of the chords. Pick what works for you.
 
-e-|---2---0---3---   ---2---3---3---   ---x---  ----------------
-B-|---3---1---0---   ---3---3---3---   ---3---   ---7---5-------
-G-|---2---0---0---   ---2---0---0---   ---2---   ---7---5---4---
-D-|---0---2---0---   ---0---2---0---   ---0---   ---7---5---5---
-A-|-------3---2---   -------3---2---   -------   ---5---3---5---
-E-|-----------3---   -----------3---   -------   -----------3---
-      D   C   G         D   C9  G         D5        D   C   G 
+e-|---2---0---3---   ---2----3----3---   -------------------
+B-|---3---1---0---   ---3----3----3---   -------------------
+G-|---2---0---0---   ---2----0----0---   ---11----9-----4---
+D-|---0---2---0---   ---0----2----0---   ---12----10----5---
+A-|-------3---2---   --------3----2---   ---12----10----5---
+E-|-----------3---   -------------3---   ---10----8-----3---
+      D   C   G         D    C9   G         D     C     G 
 
-Playing the Verse with One Chord
-As noted above, the implied tonality of the verse is D the entire time, without any switches. This can be tricky to play with a guitar, as it can sound quite monotonous. To make it work, I'd recommend bringing in a heavy percussive element to your strumming (using muted strums, knocking the guitar, etc) -- with a focus on accenting the 2nd and 4th beat of each measure. Also, it may help to play the D5 variant of the D (by not playing the highest string) -- this lets the droning aspect of the chord shine through. Finally -- another option is to in fact use the D-C-G progression within the verse (the same progression used throughout the song)... one of the covers below employ this approach. Do what works for you, and have fun!
+Switching Chords During the Verse?
+On a guitar, you can get away with playing the verse using only the D chord (as shown here http://www.youtube.com/watch?v=CaknWuU_L4Y). Alternatively, you could employ the D-C-G progression that is used in the rest of the song (as shown here http://www.youtube.com/watch?v=knacaQWg24A). If you look in the lyrics section above, you'll see I added these C and G chords within the verse inside parentheses -- just so you know where the switches occur. Do what works for you, and have fun with it! There is no "wrong" way to play it, provided that you're making it work for your performance & entertainment needs.
 
 ===============================================================================
 LISTEN & PLAY
@@ -113,10 +113,6 @@ LISTEN & PLAY
 Official Music Video
 To hear the album version of this song, check out the official music video below.
 http://www.youtube.com/watch?v=nlcIKh6sBtc
-
-Recommended Guitar Lesson
-If you're looking for a guitar overview of this song that carefully shows you exactly how to play each chord / section, check out this video. He breaks down the 3 chords used very nicely.
-http://www.youtube.com/watch?v=RwhXaQ0ImP0
 
 Recommended Guitar Covers
 Here's a very well done cover of this song featuring a single acoustic guitar (and two talented singers). Their guitar approach is quite simple, yet you'll see that a simple approach is all that is needed -- the vocals can carry the bulk of the weight.
