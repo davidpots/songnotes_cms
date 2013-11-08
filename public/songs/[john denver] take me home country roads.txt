@@ -1,0 +1,148 @@
+TAKE ME HOME, COUNTRY ROADS
+by John Denver
+===============================================================================
+INTRO
+    A ... A ....
+
+VERSE
+    A                F#m 
+    ...Almost heaven... West Virginia
+    E                          D          A 
+    ...Blue Ridge Mountains... Shenandoah River
+    A                     F#m 
+    ...Life is old there, older than the trees 
+    E                           D              E 
+    Younger than the mountains, growing like a breeze 
+
+CHORUS
+                A              E 
+        Country roads, take me home
+               F#m       D 
+        To the place I belong 
+                A               E 
+        West Virginia, mountain mama 
+                D             A 
+        Take me home, country roads 
+
+    A                   F#m 
+    ...All my memories... gather around her
+    E                D                A 
+    ...Miner's lady, stranger to blue water 
+    A                  F#m 
+    ...Dark and dusty, painted on the sky 
+    E                         D              A 
+    Misty taste of moonshine, teardrop in my eye 
+
+        Country roads, take me home
+        To the place I belong 
+        West Virginia, mountain mama
+        Take me home, country roads
+
+BRIDGE        
+            F#m           E             A 
+            ...I hear her voice, in the morning hour, she calls me 
+                D       A              E 
+            The radio reminds me of my home far away 
+                F#m              G            D 
+            And driving down the road I get a feeling 
+                   A                     E                E7  
+            That I should have been home yesterday, yesterday 
+
+        Country roads, take me home
+        To the place I belong 
+        West Virginia, mountain mama
+        Take me home, country roads
+
+        Country roads, take me home
+        To the place I belong 
+        West Virginia, mountain mama
+        Take me home, country roads
+
+                E             A 
+        Take me home, country roads
+                E             A 
+        Take me home, country roads
+
+
+===============================================================================
+NOTES & TABS
+===============================================================================
+
+No Capo, Standard Tuning, Key of A 
+This tab takes the approach of playing this song in standard tuning, without a capo, in the key of A using the chords above. This will enable you to play along with the recorded album version of the song. With this said -- you can certainly play this (or any) song in whichever key you like, as long as your goal is not to play along with the album version. A popular alternative key is that of G -- which you could use a capo on the 2nd fret if you want to still be able to play with the album version. To play it in G, move every chord here down one whole step (A becomes G, E becomes D, D becomes C, etc).
+
+Guitar Chords Used
+Here is how to play the guitar chords used in this song. Very straightforward, a perfect campfire song.
+
+e-|---0----2----0----0-----2----3---
+B-|---2----2----0----3-----3----0---
+G-|---2----2----1----1-----2----0---
+D-|---2----4----2----2-----0----0---
+A-|---0----4----2----2----------2---
+E-|--------2----0----0----------3---
+      A   F#m   E    E7    D    G 
+
+Playing with an Alternating Bassline
+This is entirely optional, but a nice way to add some flavor to the song is to alternate the bassnotes played within each measure. Here is an example tab showing how you might approach this for the opening section of the verse. This should present the main idea. Refer to the video lessons below to see this in action.
+
+e-|-----0-0---0-0---0-0---0-0--|----2-2----2-2---2-2---2-2--|--
+B-|-----2-2---2-2---2-2---2-2--|----2-2----2-2---2-2---2-2--|--
+G-|-----2-2---2-2---2-2---2-2--|----2-2----2-2---2-2---2-2--|--
+D-|-----2-2---2-2---2-2---2-2--|----4-4----4-4---4-4---4-4--|--
+A-|---0-----------0------------|---------4-----------4------|--
+E-|---------0-----------0------|--2-------------2-----------|--
+      A                           F#m 
+     "Almost heaven...            ...West Virginia..."
+
+===============================================================================
+LISTEN & PLAY
+===============================================================================
+
+Official Album Version
+To hear the recorded studio version that John Denver originally released, check out this video.
+http://www.youtube.com/watch?v=1vrEljMfXYo
+
+Recommended Lesson in the Key of A
+Here is a video lesson that does a great job showing you how to play this with the chords & tabs I show above (key of A, without a capo). This is from Mike Gross.
+http://www.youtube.com/watch?v=Hj3g7fB1cHU
+
+Lessons for Playing in the Key of G
+As I mention above, many prefer to play this in the key of G instead of A. One lesson showing how to do this is by the excellent Marty Schwartz, who uses capo on the 2nd fret. Playing in G with a capo on the 2nd fret allows you play along with the album version, if you'd like to do so.
+http://www.youtube.com/watch?v=qERtWOPhAow
+
+Here is Neil from TotallyGuitars.com playing in the key of G as well, but without a capo. This is virtually the same exact thing as Marty shows above (with respect to chords used, etc) -- but Neil's lessons are always great so I wanted to share it regardless.
+http://www.youtube.com/watch?v=_7S5BAVucNU
+
+===============================================================================
+CHORD PROGRESSIONS
+===============================================================================
+
+INTRO
+| A . . . | A . . . |
+
+VERSE
+"Almost heaven, West Virginia..."
+| A . . . | F#m . . . | E . . . | D . A . . . |
+
+CHORUS
+"County roads, take me home..."
+| A . . . | E . . . | F#m . . . | D . . . |
+| A . . . | E . . . | D   . . . | A . . . |
+
+BRIDGE
+"I hear her voice, in the morning hour she calls me..."
+| F#m . E . | A . . . | D . A . | E  . . . |
+| F#m . G . | D . A . | E . . . | E7 . . . |
+
+===============================================================================
+ABOUT THIS SONG
+===============================================================================    
+
+Song: Take Me Home, Country Roads
+Artist: John Denver
+Album: Poems, Prayers, and Promises
+Released: Month Day, Year
+Label: RCA
+Wikipedia URL: http://en.wikipedia.org/wiki/Take_Me_Home,_Country_Roads
+Rdio URL: http://rd.io/x/QVzN1jdzYXw/
+YouTube (official video): http://www.youtube.com/watch?v=1vrEljMfXYo
