@@ -7,16 +7,16 @@ by alt-J
 VERSE
     C                      Em 
     ...She may contain the urge to run away
-                 Am
+                 Am 
     But hold her down with soggy clothes and breezeblocks
     C                     Em 
     ...Cetirizine, your fever's gripped me again
-          Am
+          Am 
     Never kisses, all you ever send are fullstops (la la la la!)
 
-    C              Em
+    C              Em 
     ...Do you know where the wilds things go
-         Am
+         Am 
     They go along to take your honey (la la la la!)
     C                                   Em 
     ...Break down, now weep... build up breakfast now let's eat
@@ -24,13 +24,13 @@ VERSE
     My love, my love... love... love... (la la la la!)
 
 CHORUS
-        C                        Em 
+        F                        C 
         ...Muscle to muscle, and toe to toe
-        Am                             C
+        Em                             Am           G/B 
         ...The fear has gripped me but... here I go
-        C                    Em
+        F                    C 
         ...My heart sinks as I jump up
-        Am                          C 
+        Em                          Am      G/B 
         ...Your hand grips hand, as my eyes shut
         
         C     Em    Am       C  
@@ -44,7 +44,7 @@ CHORUS
     My love, my love... love... love... (la la la la!)
 
     She bruises coughs, she splutters pistol shots
-    But hold her down with soggy clothes and breezeblocks
+    But hold her down with soggy clothes and breezeblocks (la la la la!)
     She's morphine, queen of my vaccine
     My love, my love... love... love... (la la la la!)
 
@@ -91,7 +91,7 @@ BRIDGE
 OUTRO
                 C                Em 
                 Please don't go... I'll eat you whole
-                Am                                   
+                Am 
                 ...I love you so... I love you so, I love you so
                 
                 (repeat as desired)
@@ -106,13 +106,13 @@ The chords I show here are for playing this song in standard tuning, with a capo
 Guitar Chords Used
 Here's how to play the guitar chords used in this song. I'm focused on the open-position basic version of these chords. If you want to get more advanced, go for it – but these work just fine.
 
-e-|---0----0-----0-----1---------
-B-|---1----0-----1-----3-----1---
-G-|---0----0-----2-----2-----2---
-D-|---2----2-----2-----0-----3---
-A-|---3----2-----0-----------3---
-E-|--------0---------------------
-      C    Em    Am    Dm    F 
+e-|---0----0-----0-----1----------------
+B-|---1----0-----1-----3-----1----0-----
+G-|---0----0-----2-----2-----2----0-----
+D-|---2----2-----2-----0-----3----0-----
+A-|---3----2-----0-----------3----2-----
+E-|--------0----------------------------
+      C    Em    Am    Dm    F   G/B 
 
 ===============================================================================
 LISTEN & PLAY
@@ -139,6 +139,9 @@ VERSE
 
 CHORUS
 "Muscle to muscle, and toe to toe..."
+| F . . . | C . . . | Em . . . | Am . G/B . |
+
+"Ahhh, ahhh, ahhh...."
 | C . . . | Em . . . | Am . . . | C . . . |
 
 BRIDGE
