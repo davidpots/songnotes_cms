@@ -62,7 +62,7 @@ CHORUS
     (quieter)
     She may contain the urge to run away
     But hold her down with soggy clothes and breezeblocks
-    Germolene, disinfect the scene8
+    Germolene, disinfect the scene
     My love, my love... love... love...
 
 BRIDGE
@@ -70,7 +70,8 @@ BRIDGE
             Dm               C                   Am 
             Please don't go... I love you so, my lovely
 
-            (on Am, begin instrumental break)
+            (on Am, begin this instrumental break)
+            
             Am ... C ... C ... F . C . x1
 
             Am 
@@ -88,7 +89,6 @@ BRIDGE
             I love you so, I love you so (please break my heart)
 
 OUTRO
-
                 C                Em 
                 Please don't go... I'll eat you whole
                 Am                                   
