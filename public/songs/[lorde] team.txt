@@ -47,7 +47,7 @@ PRE-CHORUS
 CHORUS
             F                     Am                        G 
             ...We live in cities..... you'll never see on screen
-            G                          Em               Am 
+            G                                           Am 
             ...Not very pretty, but we sure know how to run free
             F                       Am                          G 
             ...Living in the ruins..... of the palace within my dreams
@@ -78,7 +78,7 @@ REFRAIN
 
             F                     Am                        G 
             ...We live in cities..... you'll never see on screen
-            G                          Em               Am 
+            G                                           Am 
             ...Not very pretty, but we sure know how to run free
             F                       Am                          G 
             ...Living in the ruins..... of the palace within my dreams
@@ -97,7 +97,7 @@ REFRAIN
 
             F                     Am                        G 
             ...We live in cities..... you'll never see on screen
-            G 
+            G                                           Am 
             ...Not very pretty, but we sure know how to run free
             F                       Am                          G 
             ...Living in the ruins..... of the palace within my dreams
@@ -216,8 +216,8 @@ PRE-CHORUS
 
 CHORUS
 "We live in cities..."
-| F . . . | Am . . . | G . . . | Em . Am . |
-| F . . . | Am . . . | G . . . | G  . .  . |
+| F . . . | Am . . . | G . . . | G . Am . |
+| F . . . | Am . . . | G . . . | G . .  . |
 
 REFRAIN
 "I'm kinda over being told..."
