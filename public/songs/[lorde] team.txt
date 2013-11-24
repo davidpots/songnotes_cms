@@ -123,13 +123,13 @@ If you want to play along with the Lorde album version of this song, you'll need
 Guitar Chords Used
 Here is how to play the guitar chords used in this song. Note, the Lorde recording doesn't use a guitar, so I'm basing these solely off the tonal implications heard in her recording.
 
-e-|---0----3----0----1----0----
-B-|---1----0----1----1----0----
-G-|---0----0----2----2----0----
-D-|---2----0----2----3----2----
-A-|---3----2----0----3----2----
-E-|--------3---------1----0----
-      C    G    Am   F    Em 
+e-|---0----3----0----1----
+B-|---1----0----1----1----
+G-|---0----0----2----2----
+D-|---2----0----2----3----
+A-|---3----2----0----3----
+E-|--------3---------1----
+      C    G    Am   F 
 
 Strumming Pattern
 There is a very distinct strumming pattern that works well with this song, which I carefully explain in my video lesson. The trick is to combine your accented strum on the "1" (one) and "2+" (two-and) beats, while adding a percussive slap/chop on the "2 and "4" beats. Again, I recommend watching my video lesson to see/hear this in action. Here is a crude text representation of this pattern, showing both components:
@@ -142,7 +142,6 @@ v        v              v        v             v        v
 1  +  2  +  3  +  4  +  1  +  2  +  3  +  4  + 1  +  2  +  3  +  4  +    ...etc
 ======================================================================
       x           x           x           x          x           x 
-
 
 Intro Guitar Tab
 Here's how to play the intro, which Lorde sings over. These notes match the notes she sings. Check out the Juliana cover (below) to see/hear this played with the singing.
@@ -173,8 +172,8 @@ E-|------------------------------------|-
 
  -|------------------------------------|--------------------|-
  -|------------------------------------|--------------------|-
- -|----------5-------------------------|--------------------|-
- -|--3/5--5-----5----3----5----3----2--|--------------------|-
+ -|----------3-------------------------|--------------------|-
+ -|-/5----5-----5----3----5----3----2--|--------------------|-
  -|------------------------------------|---3----3---1----3--|-
  -|------------------------------------|--------------------|-
     "Look up~on your greatness that you'll send the call out..."
@@ -182,12 +181,10 @@ E-|------------------------------------|-
  -|--------------------|-------------------|--------------------|-
  -|--------------------|-------------------|--------------------|-
  -|--------------------|-------------------|--------------------|-
- -|--------------------|-------------------|--------------------|-
- -|---3----3---1----3--|--3----3---1----3--|--3----3---1----3---|-
+ -|--------------------|-------------------|--------------------|-  
+ -|---3----3---1----3--|--3----3---1----3--|--3----3---1----3---|-  ...etc
  -|--------------------|-------------------|--------------------|-
   "...send the call out,  send the call out,  send the call out..."
-
-                                           (repeat this as desired)
 
 ===============================================================================
 LISTEN & PLAY
