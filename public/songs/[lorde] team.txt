@@ -2,6 +2,8 @@ TEAM
 by Lorde
 ===============================================================================
 
+(capo 6th fret)
+
 INTRO
     (no chords, see below for tab)
     Wait 'til you’re announced
@@ -14,115 +16,221 @@ INTRO
                          (...repeat as desired)
 
 VERSE
-        Call all the ladies out
-        They’re in their finery
-        A hundred jewels on throats
-        A hundred jewels between teeth
+    C 
+    ...Call all the ladies out
+    C 
+    ...They’re in their finery
+    Am 
+    ...A hundred jewels on throats
+    G 
+    ...A hundred jewels between teeth
 
-        Now bring my boys in
-        Their skin in craters like the moon
-        The moon we love like a brother
-        While he glows through the room
+    C 
+    ...Now bring my boys in
+    C 
+    ...Their skin in craters like the moon
+    Am 
+    ...The moon we love like a brother
+    G 
+    ...While he glows through the room
 
 PRE-CHORUS
-            Dancin' around the lies we tell
-            Dancin' around big eyes as well
-            Ohhh... even the comatose
-            They don’t dance and tell
+        C 
+        Dancing around the lies we tell
+        C 
+        Dancing around big eyes as well
+           Am 
+        Oh-ohhhh... even the comatose
+        G (let ring) 
+        ...They don’t dance and tell
 
 CHORUS
-            We live in cities you'll never see on screen
-            Not very pretty, but we sure know how to run free
-            Living in the ruins of the palace within my dreams
-            And you know, we're on each other's team
+            F                     Am                        G 
+            ...We live in cities..... you'll never see on screen
+            G                          Em               Am 
+            ...Not very pretty, but we sure know how to run free
+            F                       Am                          G 
+            ...Living in the ruins..... of the palace within my dreams
+            G                                      F 
+            ...And you know, we're on each other's team
 
 REFRAIN
-                I'm kind of over getting told
+                (quiet strumming)
+                F              Am 
+                ...I'm kind of over getting told
+                            G 
                 To throw my hands up in the air... so there
 
-        So all the cups got broke
-        Shards beneath our feet
-        But it wasn’t my fault...
-        
-        And everyone’s competing
-        For a love they won't receive
-        'Cause what this palace wants... is release
+    (normal strumming)
+    C 
+    ...So all the cups got broke
+    C 
+    ...Shards beneath our feet
+    Am                          G 
+    ...But it wasn’t my fault...
+    
+    C 
+    ...And everyone’s competing
+    C                           Am 
+    ...For a love they won't receive
+    Am                         G (let ring) 
+    ...'Cause what this palace wants... is release
 
-            We live in cities you'll never see on screen
-            Not very pretty, but we sure know how to run free
-            Living in the ruins of the palace within my dreams
-            And you know, we're on each other's team
+            F                     Am                        G 
+            ...We live in cities..... you'll never see on screen
+            G                          Em               Am 
+            ...Not very pretty, but we sure know how to run free
+            F                       Am                          G 
+            ...Living in the ruins..... of the palace within my dreams
+            G                                      F 
+            ...And you know, we're on each other's team
 
-                I'm kind of over getting told
+                (quiet strumming)
+                F              Am 
+                ...I'm kind of over getting told
+                            G 
                 To throw my hands up in the air... so there
-                I’m kinda older than I was
+                F            Am 
+                ...I’m kinda older than I was
+                         G 
                 When I reveled without a care... so there
 
-            We live in cities you'll never see on screen
-            Not very pretty, but we sure know how to run free
-            Living in the ruins of the palace within my dreams
+            F                     Am                        G 
+            ...We live in cities..... you'll never see on screen
+            G 
+            ...Not very pretty, but we sure know how to run free
+            F                       Am                          G 
+            ...Living in the ruins..... of the palace within my dreams
 
-            And you know, we're on each other's team...
-            We're on each other's team
-            And you know, we're on each other's team...
-            We're on each other's team
-            And you know, and you know, and you know
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            G                                      F 
+            ...And you know, we're on each other's team...
+            Am                       G 
+            ...We're on each other's team
+            G                                      F 
+            ...And you know, we're on each other's team...
+            Am                       G 
+            ...We're on each other's team
+            G (let ring) 
+            ...And you know, and you know, and you know
 
 ===============================================================================
 NOTES & TABS
 ===============================================================================
 
-SECTION ONE
-Lorem ipsum dolor sit amet.
+Capo 6th Fret, Standard Tuning
+If you want to play along with the Lorde album version of this song, you'll need to put a capo on the 6th fret and use the chords shown here. You can certainly play this song without a capo, but if you use the chords I show here you'll be in a different key from Lorde's version -- which is fine unless you plan on playing along with her.
 
-e-|----------------------------------------------------------------------------
-B-|----------------------------------------------------------------------------
-G-|----------------------------------------------------------------------------
-D-|----------------------------------------------------------------------------
-A-|----------------------------------------------------------------------------
-E-|----------------------------------------------------------------------------
+Guitar Chords Used
+Here is how to play the guitar chords used in this song. Note, the Lorde recording doesn't use a guitar, so I'm basing these solely off the tonal implications heard in her recording.
+
+e-|---0----3----0----1----0----
+B-|---1----0----1----1----0----
+G-|---0----0----2----2----0----
+D-|---2----0----2----3----2----
+A-|---3----2----0----3----2----
+E-|--------3---------1----0----
+      C    G    Am   F    Em 
+
+Strumming Pattern
+There is a very distinct strumming pattern that works well with this song, which I carefully explain in my video lesson. The trick is to combine your accented strum on the "1" (one) and "2+" (two-and) beats, while adding a percussive slap/chop on the "2 and "4" beats. Again, I recommend watching my video lesson to see/hear this in action. Here is a crude text representation of this pattern, showing both components:
+
+v = strum!
+x = muted chop/slap
+
+v        v              v        v             v        v 
+======================================================================
+1  +  2  +  3  +  4  +  1  +  2  +  3  +  4  + 1  +  2  +  3  +  4  +    ...etc
+======================================================================
+      x           x           x           x          x           x 
+
+
+Intro Guitar Tab
+Here's how to play the intro, which Lorde sings over. These notes match the notes she sings. Check out the Juliana cover (below) to see/hear this played with the singing.
+
+e-|------------------------------------|-
+B-|------------------------------------|-
+G-|------------------------------------|-
+D-|--------------1------3--3/5---------|-
+A-|---/3-----3-------------------------|-
+E-|------------------------------------|-
+      "Wait 'til you're an~~~nounced..."
+      
+ -|----------------------------------------|-
+ -|----------------------------------------|-
+ -|--------------3-------------------------|-
+ -|---5------5-------5----3---5---3--3/2---|-
+ -|----------------------------------------|-
+ -|----------------------------------------|-
+      "We’ve not yet lost all our gra~~ces..."
+
+ -|----------------------------------------------|-
+ -|----------------------------------------------|-
+ -|---------------------------------5------------|-
+ -|--------------------2----3--3/5-----5--3--2---|-
+ -|-------/3------3------------------------------|-
+ -|----------------------------------------------|-
+      "The hounds will stay in chains~~~~~~~~~"
+
+ -|------------------------------------|--------------------|-
+ -|------------------------------------|--------------------|-
+ -|----------5-------------------------|--------------------|-
+ -|--3/5--5-----5----3----5----3----2--|--------------------|-
+ -|------------------------------------|---3----3---1----3--|-
+ -|------------------------------------|--------------------|-
+    "Look up~on your greatness that you'll send the call out..."
+      
+ -|--------------------|-------------------|--------------------|-
+ -|--------------------|-------------------|--------------------|-
+ -|--------------------|-------------------|--------------------|-
+ -|--------------------|-------------------|--------------------|-
+ -|---3----3---1----3--|--3----3---1----3--|--3----3---1----3---|-
+ -|--------------------|-------------------|--------------------|-
+  "...send the call out,  send the call out,  send the call out..."
+
+                                           (repeat this as desired)
 
 ===============================================================================
 LISTEN & PLAY
 ===============================================================================
 
-...
+Official Album Version
+Here is a video with the audio track from Lorde's album. This is handy if you want to listen along to the official song while practicing. Remember, you'll need a capo on the 6th fret if you want to be able to play along with her using the chords I show above.
+http://www.youtube.com/watch?v=4g03b4U_aPk
+
+Recommended Cover
+Here is a wonderful acoustic cover of this song by Juliana Richer Daily. Upon hearing, this had me hooked and listening on repeat. She does a great job. I'm modeling this arrangement directly after her cover, which I think is spot on.
+http://www.youtube.com/watch?v=WqLgY87h_jg
 
 ===============================================================================
 CHORD PROGRESSIONS
 ===============================================================================
 
 VERSE
-| . . . . | . . . . | . . . . | . . . . |
+"Call all the ladies out..."
+| C . . . | C . . . | Am . . . | G . . . |
+| C . . . | C . . . | Am . . . | G . . . |
+
+PRE-CHORUS
+"Dancing around the lies we tell..."
+| C . . . | C . . . | Am . . . | G . . . |
 
 CHORUS
-"Lorem ipsum dolor sit amet..."
-| . . . . | . . . . | . . . . | . . . . |
-| . . . . | . . . . | . . . . | . . . . |
+"We live in cities..."
+| F . . . | Am . . . | G . . . | Em . Am . |
+| F . . . | Am . . . | G . . . | G  . .  . |
+
+REFRAIN
+"I'm kinda over being told..."
+| F . . . | Am . . . | G . . . | G . . . |
 
 ===============================================================================
 ABOUT THIS SONG
 ===============================================================================    
 
-Song: ____
-Artist: ____
-Album: ____
-Released: Month Day, Year
-Label: ____
-Wikipedia URL: ____
-Rdio URL: ____
-YouTube (official video): ____
+Song: Team
+Artist: Lorde
+Album: Pure Heroine
+Released: 2013
+Label: Universal
+Wikipedia URL: http://en.wikipedia.org/wiki/Team_(song)
+Rdio URL: http://rd.io/x/QVzN1jdde2fG/
