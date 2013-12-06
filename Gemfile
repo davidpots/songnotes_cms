@@ -4,6 +4,7 @@ gem 'rails', '3.2.8'
 gem 'pg', '~>0.13.2'
 gem 'bourbon', '1.3.6'
 gem 'devise'
+gem 'dalli'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.5'

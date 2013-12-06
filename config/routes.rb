@@ -17,9 +17,16 @@ Songnotes::Application.routes.draw do
   match 'about' => 'pages#about', :as => 'about'
   match 'api' => 'pages#api', :as => 'api'
 
+
   resources :songs, :only => [:index, :show]
   resources :artists, :only => [:index, :show]
   resources :albums, :only => [:index, :show]
+
+  namespace :api do
+    namespace :v1 do
+      resources :songs, :only => [:index]
+    end
+  end
 
   # Sandbox
   match 'sandbox' => 'sandbox#index', :as => 'sandbox'

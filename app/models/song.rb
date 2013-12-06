@@ -11,4 +11,7 @@ class Song < ActiveRecord::Base
   def newer
     Song.where(["id > ?", id]).first
   end
+  def summary
+    {:title => title, :year => year, :key => key, :artist_name => artist.name }
+  end
 end
