@@ -29,9 +29,9 @@ PRE-CHORUS
         ...Touching me... touching you...
 
 CHORUS
-            A         D     (Bm)                             E 
+            A         D                                      E 
             Sweet Caroline....... good times never seemed so good
-            A           D     (Bm)                        E 
+            A           D                                 E 
             I've been inclined..... to believe they never would
                D      C#m    Bm    A 
             ...But... now... I...
@@ -73,10 +73,20 @@ Here's how you play the guitar chords used in this song. For the most part, you 
 e-|---0----2----0----2----2----4----
 B-|---2----3----0----2----3----5----
 G-|---2----2----1----2----4----6----
-D-|---2----0----2----4----4----6----
+D-|---2----0----2----2----4----6----
 A-|---0---------2----0----2----4----
 E-|-------------0-------------------
       A    D    E    A6   Bm  C#m 
+
+During the pre-chorus, I'll use these chords positions to do the buildup that comes before the chorus. These are by no means required, but add a bit of extra voicing to the buildup. The tab I show further below describes this approach in more detail.
+
+e-|---2----5----4----7---
+B-|---2----3----0----9---
+G-|---2----2----1----7---
+D-|---4----0----2----9---
+A-|---0---------x----7---
+E-|-------------0----0---
+      A6   D    E    E7 
 
 Intro Tab
 Here's how you can approximate the horn intro to the album version of this song using an acoustic guitar. The main part of this is the riff, which is played mostly all on the A string. For added oomph, you'll want to also be picking/strumming the low E string along with the bass riff. This can be pretty tricky to do well -- so if you're having trouble with it, focus on the bassline by itself first, and only add the droning low-E string as your comfort level rises.
@@ -98,7 +108,7 @@ E-|--(0)-----------------(0)--------------------------|-
  -|---------------------------------------------------||
  -|---------------------------------------------------||
  -|---------------------------------------------------||
- -|---------------------------------------11----10----||
+ -|---------------------------------------11----9-----||
  -|---9--11--12-------9--11--12-----11----------------||
  -|--(0)--------------------(0)-----------------------||
 
@@ -111,20 +121,20 @@ B-|----2--------2-----------------0---------------3---------------------9------
 G-|----2--------2-----------------1---------------2---------------------7------
 D-|----2--------4-----------------2---------------0---------------------9------
 A-|----0--------0-----------------x-------------------------------------7------
-E-|------------------------------(0)------------------------------------0------
+E-|-------------------------------0-------------------------------------0------
        A        A6                E               D                     E7 
       "Hands... touching hands... reaching out... touching me, touching you..."
 
 Rocking the Chorus Hook
 Here is one way you can approximate the audience-favorite "oh, oh, oh..." part on an acoustic guitar. This is by no means required (in fact, you can skip the Bm7 and stay on D instead), but it is a nice way to capture the spirit of that heavy bass walkdown in a solo acoustic rendition. Listen along for reference, and check out my video lesson to see how this is done.
 
-e-|---0---------2--------(2)---------(2)-------
+e-|---0---------2---------2-----2-----2--------
 B-|---2---------3---------3-----2-----3--------
 G-|---2---------2---------2-----2-----2--------
-D-|---2---------0---------0-----2-----4--------
-A-|---0-------------------------------2---------
+D-|---2---------0---------------------4--------
+A-|---0----------------------------------------
 E-|--------------------------------------------
-      A         D         D     A     Bm7 
+      A         D 
      "Sweet Caroline...   oh,   oh,   oh..."
 
 Bass Walk-Up from E to A
@@ -133,14 +143,26 @@ In the middle of the chorus, here is one way to transition up from the E to an A
 e-|---2-----------------------------0-----------------------|---0----
 B-|---3-----------------------------0-----------------------|---2----
 G-|---2-----------------------------1-----------------------|---2----
-D-|---0-----------------------------2-----------------------|---2----
+D-|---4-----------------------------2-----------------------|---2----
 A-|---------------------------------2-----------------------|---0----
 E-|---------------------------------0----------0---2---4----|--------
       D                             E                           A 
      "...Good times never seemed so good..."
 
+Or, you could do it on the higher strings like this.
+
+e-|---2-----------------------------0----------0---0---0----|---0----
+B-|---3-----------------------------0----------0---0---0----|---2----
+G-|---2-----------------------------1----------1---2---4----|---2----
+D-|---4-----------------------------2-----------------------|---2----
+A-|---------------------------------2-----------------------|---0----
+E-|---------------------------------0-----------------------|--------
+      D                             E                           A 
+     "...Good times never seemed so good..."
+
+
 Bass Walk-Down from E to A
-In the middle of the verse, here is one way you transition down from the E to an A. Again, listen along for reference.
+At the end of the verse progression, here is one way you transition down from the E to an A. Again, listen along for reference.
 
 e-|---0-------------------------------0---------------------|---0----
 B-|---2-------------------------------0---------------------|---2----
@@ -161,7 +183,7 @@ http://www.youtube.com/watch?v=PJZ3nBGyXo0
 
 Official Album Version
 Here's an audio clip of the original album version of this song. Listen along for reference, and use a capo on the 2nd fret if you want to play along.
-http://www.youtube.com/watch?v=r0XOET4BGEs
+http://www.youtube.com/watch?v=NsLyI1_R01M
 
 Acoustic Neil Diamond Version
 If you want to see Neil Diamond playing this acoustically, check out this version. He does have a backing band behind him (which lets him get away without much guitar flourish), but it is still cool to see for reference.
@@ -172,7 +194,7 @@ CHORD PROGRESSIONS
 ===============================================================================
 
 INTRO
-| E . . . | . . . . | . . . . | . . . . | (with riff)
+| E . . . | E . . . | E . . . | E . . . | (with riff)
 
 VERSE
 "Where it began, I can't begin to know it..."
@@ -188,7 +210,7 @@ PRE-CHORUS
 
 CHORUS
 "Sweet Caroline..."
-| A . . . | D . . . | Bm . . . | Bm . . . |
+| A . . . | D . . . | D . . . | D . . . |
 | E . . . | E . . . |
 
 "I've been inclined..."
@@ -201,8 +223,8 @@ ABOUT THIS SONG
 
 Song: Sweet Caroline
 Artist: Neil Diamond
-Album: Hot August Night
+Album: Brother Love's Travelling Salvation Show
 Released: 1969
-Label: MCA
+Label: UNI
 Wikipedia URL: http://en.wikipedia.org/wiki/Sweet_Caroline
 Rdio URL: http://rd.io/x/QVzN1jdwaHM/
