@@ -1,0 +1,71 @@
+/* -- SIDEBAR / NAV -- */
+  
+    /* Title: All Screensizes */
+    #title .title-link-wrap { display: block; border: none; }
+    #title h1 { text-transform: uppercase; color: #fff; letter-spacing: 1px; text-align: left; }
+    #title p { color: rgba(255,255,255,0.7); font-family: "ProximaNovaLight"; }
+    #title #navburger { border: none; }
+
+    /* Title: Wide Screens */
+    #title { text-align: center; }
+    #title img { margin: 20px 0 10px 0; width: 50px; }
+    #title h1 { font-size: 26px; line-height: 26px; margin: 0 0 8px 0; text-align: center; }
+    #title p { font-size: 14px; line-height: 18px; width: 150px; margin: 0 auto; }
+
+    /* Title: Small Screens */
+    @media screen and (max-width: 1028px) {
+      #title { text-align: left; height: 84px; }
+      #title img { margin: 14px 20px 0; width: 24px; position: absolute; left: 0; }
+      #title .text { position: absolute; left: 67px; top: 20px; }
+      #title h1 { margin: 0 0 4px 0; text-align: left; }
+      #title p { width: auto; }
+      #title #navburger { position: absolute; right: 20px; top: 20px; display: block; height: 44px; width: 44px; line-height: 44px; color: #fff; display: block; text-align: center; font-size: 32px; background: transparent url(../images/hamburger.png) center no-repeat; background-size: 20px 15px; border-radius: 4px; -webkit-tap-highlight-color: rgba(0,0,0,0); /* via http://css-tricks.com/snippets/css/remove-gray-highlight-when-tapping-links-in-mobile-safari/ */ }
+      #title #navburger:hover { background-color: rgba(0,0,0,0.1); }
+      #title #navburger.open { background-image: url(../images/hamburger-close.png); background-size: 16px 16px; }
+    }
+    
+    /* Title: Really Small Screens */
+    @media screen and (max-width: 480px) {
+      #title { height: 64px; }
+      #title img { display: none; }
+      #title .text { left: 12px; top: 16px; }
+      #title h1 { font-size: 21px; line-height: 21px; }
+      #title p { font-size: 12px; line-height: 12px; }
+      #title #navburger { right: 12px; top: 10px; }
+    }
+
+/* Drawer */
+@media screen and (max-width: 1028px) {
+  #drawer { display: none; }
+}
+
+/* Nav */
+#nav ul { margin: 0; z-index: 10; background: #44a0d9; }
+#nav ul > li { list-style: none; }
+#nav ul > li a { text-align: center; text-transform: uppercase; font-size: 13px; line-height: 14px; font-family: "ProximaNovaLight"; letter-spacing: 0.5px; color: #fff; padding: 18px 0px 15px; display: block; border-bottom: 1px solid #46b1db; transition: background-color 0.25s ease; }
+#nav ul > li:first-child a { border-top: 1px solid #46b1db; }
+#nav ul > li a:hover { background: rgba(0,0,0,0.1); }
+
+        /* Nav: Small Screens */
+        @media screen and (max-width: 1028px) {
+          #nav ul > li a { background: rgba(0,0,0,0.1); font-size: 14px; line-height: 18px; }
+          #nav ul > li a:hover { background: rgba(0,0,0,0.2); }
+        }
+
+    /* Social Icons */
+    #social { position: fixed; width: 210px; bottom: 24px; }
+    #social p { color: #fff; opacity: 0.8; font-family: "ProximaNovaLight"; font-size: 14px; line-height: 18px; text-align: center; margin: 0 0 9px 0; }
+    #social ul { margin: 0 0 0 -10px; text-align: center; font-size: 0; }
+    #social ul li { list-style: none; display: inline-block; }
+    #social ul li a { display: block; width: 36px; height: 36px; overflow: hidden; margin-left: 6px; border-radius: 4px; background-color: rgba(0,0,0,0.1); background-repeat: no-repeat; background-size: 32px 32px; background-position: center; transition: background-color 0.25s ease; border: none; }
+    #social ul li a:hover { background-color: rgba(0,0,0,0.3); }
+
+    #social ul li.tw a { background-image: url(../images/icon-twitter.png); }
+    #social ul li.fb a { background-image: url(../images/icon-fb.png); }
+    #social ul li.yt a { background-image: url(../images/icon-youtube.png); }
+    #social ul li.gplus a { background-image: url(../images/icon-gplus.png); }
+
+        /* Title: Small Screens */
+        @media screen and (max-width: 1028px) {
+          #social { position: static; width: 100%; padding: 24px 0 32px; }
+        }

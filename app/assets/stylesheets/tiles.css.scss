@@ -1,0 +1,26 @@
+/* TILES */
+
+    /* "Featured" Tiles -- most recent songs, etc */
+    .tile_featured { margin: 40px 0 0 -20px; overflow: hidden; width: auto; text-align: center; }
+    .tile_featured > li { width: 220px; height: 290px; max-height: 300px; list-style: none; margin: 0 -4px 6px 20px; display: inline-block; vertical-align: top; }
+    .tile_featured > li a { display: block; color: #888; border: none; }
+    .tile_featured > li:hover h5 { color: #44a0d9; }
+    .tile_featured > li:hover ul > li { color: #44a0d9; }
+    .tile_featured > li img { width: 150px; height: 150px; border-radius: 75px; margin: 0 0 10px 0; }
+    .tile_featured > li h5 { font-size: 24px; line-height: 27px; margin: 0 0 4px 0; transition: color 0.25s ease; }
+    .tile_featured > li ul { margin: 0; }
+    .tile_featured > li ul > li { list-style: none; font-family: "ProximaNovaLight"; font-size: 18px; color: #888; transition: color 0.25s ease; }
+    .tile_featured > li ul > li.ago { font-size: 12px; line-height: 14px; text-transform: uppercase; letter-spacing: 1px; opacity: 0.7; margin-top: 6px; }
+
+    /* List of all tiles */
+    .tile_list { margin-top: 40px; }
+    .tile_list > h5 { font-size: 24px; line-height: 24px; padding: 0 0 5px 0; margin: 0 0 8px 0; color: #f05a28; }
+    .tile_list > ul { margin: 10px 0 60px; }
+    .tile_list > ul > li { list-style: none; margin: 15px 0; min-height: 64px; display: table; width: 100%; }
+    .tile_list > ul > li:hover h5 { color: #44a0d9; }
+    .tile_list > ul > li:hover ul > li { color: #44a0d9; }
+    .tile_list > ul > li a { display: block; height: 64px; color: #888; display: table-cell; vertical-align: middle; border: none; }
+    .tile_list > ul > li img { background: #ddd; position: absolute; left: 0; top: 50%; margin-top: -32px; width: 64px; height: 64px; border-radius: 32px; }
+    .tile_list > ul > li h5 { font-size: 19px; line-height: 20px; margin: 2px 0 3px 75px; transition: color 0.25s ease; }
+    .tile_list > ul > li ul { margin: 0 0 0 75px; }
+    .tile_list > ul > li ul > li { list-style: none; font-family: "ProximaNovaLight"; font-size: 16px; line-height: 18px; transition: color 0.25s ease; }

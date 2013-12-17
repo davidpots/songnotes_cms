@@ -1,0 +1,113 @@
+/* -- SETUP -- */
+
+        * {
+          margin: 0;
+          padding: 0;
+          position: relative;
+          -webkit-box-sizing: border-box;
+             -moz-box-sizing: border-box;
+                  box-sizing: border-box;
+        }
+
+/* -- GENERAL TYPOGRAPHY -- */
+
+        body { 
+          color: rgba(0,0,0,0.6);
+          font-family: 'ProximaNovaReg','Helvetica Neue', Arial, sans-serif;
+          font-size: 18px;
+          line-height: 1.3;
+          background: #fff;
+          transition: background-color 0.5s ease;
+        }
+
+        a  { 
+          color: #44a0d9; 
+          text-decoration: none;
+          border-bottom: 1px solid #78bbe5;
+        }
+
+        h1,h2,h3,h4,h5,h6 { color: #262626; margin: 0 0 20px 0; font-weight: normal; font-family: "ProximaNovaBold"; }
+
+        h1      { font-size: 57px; line-height: 1.1; text-align: center; text-transform: uppercase; }
+            @media screen and (max-width: 320px) { h1 { font-size: 48px; } }
+        h2      { font-size: 54px; line-height: 1.0; color: #f05a28; text-transform: uppercase; text-align: center; letter-spacing: 2px; border-bottom: 3px double rgba(0,0,0,0.09); padding: 32px 0 24px; margin: 0 0 48px 0; }
+            @media screen and (max-width: 320px) { h2 { margin-bottom: 24px; } }
+            @media screen and (max-width: 480px) { h2 { margin-bottom: 32px; } }
+        h3      { font-size: 24px; }
+        h4      { font-size: 19px; line-height: 24px; margin: 32px 0 10px 0; color: rgba(0,0,0,0.8); font-weight: normal; }
+        h2 + h4 { margin-top: 0; }
+        h5      { font-size: 18px; }
+        h6      { font-size: 18px; }
+
+        p            { margin: 0 0 20px 0; }
+
+        p.super-lead { font-size: 51px; line-height: 54px; font-family: "ProximaNovaBold"; font-weight: normal; text-align: center; color: #262626; margin: 0 0 28px 0; }
+            @media screen and (max-width: 700px) { p.super-lead { font-size: 40px; line-height: 44px; } }
+            @media screen and (max-width: 600px) { p.super-lead { font-size: 36px; line-height: 40px; } }
+            @media screen and (max-width: 480px) { p.super-lead { font-size: 28px; line-height: 32px; margin-bottom: 20px; } }
+            @media screen and (max-width: 320px) { p.super-lead { font-size: 21px; line-height: 27px; } }
+
+        p.lead       { font-size: 24px; line-height: 28px; font-family: "ProximaNovaLight"; color: #777; text-align: center; }
+            @media screen and (max-width: 700px) { p.lead { font-size: 21px; line-height: 25px; margin: 0 0 15px 0; } }
+            @media screen and (max-width: 480px) { p.lead { font-size: 18px; line-height: 24px; margin: 0 0 12px 0; } }
+            @media screen and (max-width: 320px) { p.lead { font-size: 16px; line-height: 20px; margin: 0 0 12px 0; } }
+
+
+        p.mini       { font-size: 14px; color: #aaa; }
+
+        strong    { font-weight: normal; }
+        p strong  { font-family: "ProximaNovaBold"; color: rgba(0,0,0,0.72); }
+        
+        ul,ol     { margin: 0 0 20px 28px; padding: 0; }
+        dl        { margin: 0 0 20px 0; }
+        dl dt     { color: #444; margin-bottom: 4px; font-weight: bold; }
+        dl dd     { margin-bottom: 0px; margin-left: 24px; }
+        
+        pre,code  { font-size: 15px; line-height: 20px; font-family: 'Courier', monospace; }
+        pre strong,
+        code strong { font-weight: bold; }
+        pre       { overflow: auto; display: inline-block; max-width: 100%; margin: 0 0 20px 0; }
+        pre h4    { margin: 0 0 -25px 0; font-size: 15px; text-transform: uppercase; }
+        code      { display: inline-block; white-space: nowrap; padding: 2px 6px; border-radius: 3px; background: #f4f4f4; }
+
+                 
+                 @media screen and (max-width: 800px) {
+                    body { background: #f3f5f6; }
+                    pre { font-size: 14px; line-height: 16px; background: #fff; border: 1px solid rgba(0,0,0,0.1); padding: 28px 20px 20px; border-radius: 2px; }
+                    pre h4 { font-size: 14px; line-height: 16px; margin-bottom: -18px; }
+                  }
+
+                  /* PRE scroll bars */
+                  pre::-webkit-scrollbar {
+                    -webkit-appearance: none;
+                    height: 6px;
+                  }
+                  pre::-webkit-scrollbar-thumb {
+                      background-color: #d8d8d8;
+                  }
+
+        pre.pre_lyrics { width: 100%; margin-bottom: 50px; }
+        pre.pre_lyrics h4 { font-family: 'Courier'; color: #333; font-weight: bold; }
+
+        pre .chords_inline { color: #f05a28; }
+        pre strong.chord { color: #f05a28; }
+        pre .note { color: #b8b8b8; }
+
+        table     { border-collapse: collapse; table-layout:fixed; width:100%; margin: 0 0 20px 0; }
+        td,th     { padding: 8px 9px 7px; font-size: 14px; line-height: 17px; border: 1px solid #aaa; text-align: left; }
+        th        { background: #eee; }
+        td        { font-size: 13px; background: #fff; }
+
+/* "Welcome" Section */
+
+    .welcome { padding-top: 50px; }
+        @media screen and (max-width: 320px) { .welcome { padding-top: 0; } }
+        @media screen and (max-width: 480px) { .welcome { padding-top: 20px; } }
+  
+    .welcome .super-lead { color: #f05a28; }  
+    .welcome p { text-align: center; }
+    @media screen and (max-width: 320px) { 
+      .welcome p .prompt { display: block; }
+      .welcome p.learnMore { margin-top: 32px; }
+    }
+

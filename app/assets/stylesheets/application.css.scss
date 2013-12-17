@@ -16,19 +16,14 @@
     @import "_prep/clearfix";
 
 //  Font: Proxima Nova
- 	  @import "fonts/proximanova/stylesheet";
+ 	@import "fonts/proximanova/stylesheet";
 
-//  Base Styleguide Foundation (app agnostic)
-    @import "_vanilla/_variables";
-    @import "_vanilla/scaffolding";
-    @import "_vanilla/typography";
-    @import "_vanilla/colors";
-    @import "_vanilla/admin";
-    @import "_vanilla/buttons";
+//  Songnotes Styles
+    @import "_variables";
+    @import "typography";
+    @import "admin";
+    @import "scaffolding";
+    @import "nav";
+    @import "tiles";
+    @import "song";
 
-//  Songnotes-specific stuff
-    @import "songnotes/global_nav";
-    @import "songnotes/homepage";
-    @import "songnotes/song_show";
-    @import "songnotes/tiles";
-    @import "songnotes/api";

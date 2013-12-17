@@ -1,0 +1,52 @@
+/* -- HERO -- */
+
+    .hero { margin: 0 0 52px 0; }
+    .hero .avatar { text-align: center; margin: 55px 0 21px 0; }
+    .hero .avatar img { width: 180px; height: 180px; border-radius: 90px; }
+    .hero h1 { text-transform: uppercase; font-size: 80px; line-height: 1.0; text-align: center; margin: 0 0 18px 0; }
+    .hero h3 { font-size: 32px; line-height: 1.0; font-family: 'ProximaNovaLight'; font-weight: normal; text-align: center; text-transform: uppercase; color: rgba(0,0,0,0.5); margin: 0 0 35px 0; }
+    .hero p.meta { text-align: center; font-size: 13px; line-height: 20px; margin: 0 0 46px 0; }
+    .hero p.meta em { color: rgba(0,0,0,0.3); display: block; font-style: normal; font-family: 'ProximaNovaLight' }
+    .hero p.meta strong { color: rgba(0,0,0,0.5); font-weight: normal; text-transform: uppercase; letter-spacing: 0px; }
+    .hero p.jumpto { text-align: center; font-size: 12px; font-family: 'ProximaNovaLight'; color: rgba(0,0,0,0.6); text-transform: uppercase; }
+    .hero p.jumpto a { display: inline-block; }
+    .hero p.jumpto em { font-style: normal; display: inline-block; }
+    .hero p.jumpto em:after { content: "\00a0" }
+    .hero p.jumpto em:before { content: "\00a0" }
+
+            @media screen and (max-width: 728px) {
+              .hero p.jumpto { font-size: 13px; width: 65%; margin: 0 auto; }
+              .hero p.jumpto em { display: none; }
+              .hero p.jumpto em.prompt { display: block; padding-bottom: 5px; color: rgba(0,0,0,0.5); font-weight: normal; text-transform: uppercase; letter-spacing: 0px; font-family: 'ProximaNovaBold' }
+              .hero p.jumpto a { display: block; padding: 11px 0 10px; background: #fff; border: 1px solid rgba(0,0,0,0.15); margin-bottom: -1px; }
+            }
+
+/* -- VIDEOS -- */
+
+    /* Fluid Video - via http://webdesignerwall.com/tutorials/css-elastic-videos */
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden; }
+    .video-container iframe,  
+    .video-container object,  
+    .video-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .video-wrapper {
+      max-width: 100%; }
+
+/* -- CHORD PROGRESSIONS -- */
+
+      #chord_progressions h4 { margin: 10px 0 5px; }
+      #chord_progressions h5 { font-family: "ProximaNovaLight"; margin-bottom: 8px; color: rgba(0,0,0,0.6); }
+      #chord_progressions pre { margin-bottom: 15px; }
+
+/* -- SONG INFO -- */
+
+      #song_info { padding-bottom: 120px; }

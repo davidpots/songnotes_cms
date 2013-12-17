@@ -1,0 +1,35 @@
+// ------------------------------------------------------------
+//    Colors
+// ------------------------------------------------------------
+
+    $color_black:     #252525;
+    $color_white:     #fff;
+    $color_ltGrey:    #e7e7e7;
+    $color_dkGrey:    #3c3c3c;
+
+    $color_primary:   #008fd6; // Rdio blue
+    $color_secondary: #f75800;
+
+// ------------------------------------------------------------
+//    Typography: Colors
+// ------------------------------------------------------------
+
+    $link_color: #0076da;
+
+// ------------------------------------------------------------
+//    Typography: Font Families
+// ------------------------------------------------------------
+
+    // Main Font
+    $proxima_nova_bold: 'ProximaNovaBold', 'Lucida Grande','Helvetica Neue', Arial;
+    $proxima_nova_reg: 'ProximaNovaRegular', 'Lucida Grande','Helvetica Neue', Arial;
+    $proxima_nova_light: 'ProximaNovaLight', 'Lucida Grande','Helvetica Neue', Arial;
+
+    // Monospaced
+    $body_fonts_mono: "Courier New","Anonymous Pro",monospace;
+
+// ------------------------------------------------------------
+//    Misc. Variables
+// ------------------------------------------------------------
+
+    $border_radius: 6px;

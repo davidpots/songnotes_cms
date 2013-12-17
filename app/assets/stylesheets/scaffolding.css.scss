@@ -1,0 +1,59 @@
+/* -- LAYOUT -- */
+
+        html, body  { height: 100%; }
+        body        { min-width: 320px; }
+
+
+        body { 
+          padding-left: 240px; 
+        }
+
+                @media screen and (max-width: 1028px) {
+                  body { padding: 0; left: 0; right: 0; }
+                }
+
+        #shelf {
+          background: #44a0d9;
+          box-shadow: inset -1px 0px 4px #3e92c5;
+          width: 210px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          z-index: 500;
+        }
+
+                @media screen and (max-width: 1028px) {
+                  #shelf { 
+                    position: static;
+                    width: 100%;
+                  }
+                }
+
+        #content {
+          min-height: 1000px;
+          padding: 40px 30px 0 0;
+          position: relative;
+          width: 100%;
+        }
+
+                @media screen and (max-width: 1028px) { #content { padding-right: 0; padding-top: 40px; } }
+                @media screen and (max-width: 640px) { #content { padding-top: 30px; } }
+                @media screen and (max-width: 400px) { #content { padding-top: 20px; } }                
+
+        .wrapper {
+          padding: 0;
+          max-width: 800px;
+          margin: 0 auto;
+        }
+                @media screen and (max-width: 1028px) {
+                  .wrapper { padding: 0 15px; }
+                }
+
+                .wrapper-narrow   { max-width: 700px; margin: 0 auto; }
+                .wrapper-narrower { max-width: 480px; margin: 0 auto; }
+
+        section { padding-top: 40px; margin-bottom: 100px; }
+            @media screen and (max-width: 320px) { section { margin-bottom: 32px; } }
+            @media screen and (max-width: 480px) { section { margin-bottom: 48px; } }
+            @media screen and (max-width: 640px) { section { margin-bottom: 72px; } }
