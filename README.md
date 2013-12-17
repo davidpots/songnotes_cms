@@ -18,4 +18,4 @@ Songnotes is powered by a CMS I built with Ruby on Rails. Aside from crafting th
 
 Unfortunately, at this time I have no plans to accept outside song contributions into the Songnotes library. For one, this is a personal library that reflects my own guitar-playing history -- and for the time being I want to keep it this way. Song requests are welcome, though I can make no promises about when or if I'll add them to the library (as it is, I'm working on razor-thin margins of available time to dedicate to this site).
 
-Thanks! Email any questions or comments to davidpots@gmail.com
+Thanks! Email any questions or comments to info@songnotes.cc or davidpots@gmail.com
