@@ -1,71 +1,32 @@
-<div class="section home_intro">
-  <div class="overlay"></div>
-
-  <%= render :partial => 'shared/global_nav' %>
-
-  <div class="hero wrapper">
-    <h1>A whacko collection of hand-crafted<br /> guitar tabs, chords, and song lyrics.</h1>
-    <div style="width: 600px; margin: 0 auto;">
-      <p>Hello! My name is <a href="http://davidpots.com">David Potsiadlo</a> and I built Songnotes to help others learn to play the songs I love. All songs are 100% transcribed by me personally, with extra effort taken to ensure consistency, accuracy, and attention to detail.</p>
-      <p style="margin-bottom: 21px;">Learn more about <%= link_to "why I'm building this site »", about_url %></p>
-    </div>
-    <div class="home_social_buttons">
-      <p style="display: inline-block; margin-right: 10px; float: left;"><a href="https://twitter.com/_songnotes" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @davidpots</a></p>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      <div class="fb-like" style="display: inline-block; float: left;" data-href="http://www.facebook.com/songnotes" data-send="false" data-layout="button_count" data-width="400" data-show-faces="false"></div>
-    </div>
-  </div> <!-- end: .wrapper -->
+<div class="home_social_buttons">
+  <p style="display: inline-block; margin-right: 10px; float: left;"><a href="https://twitter.com/_songnotes" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @davidpots</a></p>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <div class="fb-like" style="display: inline-block; float: left;" data-href="http://www.facebook.com/songnotes" data-send="false" data-layout="button_count" data-width="400" data-show-faces="false"></div>
 </div>
 
-<div class="section bg-primary" style="box-shadow: 0px -10px 32px rgba(0,0,0,0.5)">
-  <div class="wrapper">
+<ul>
+  <% @recent_songs.each do |song| %>
+  <li>
+    <a href="<%= song_url(song) %>" style="background-image: url(<%= @artist_img_dir + song.artist.image_url %>);">
+      <%= song.title %>
+      <%= song.artist.name %>
+    </a>
+  </li>
+  <% end %>
+</ul>
 
+<ul>
+  <% @songs.each do |song| %>
+  <li>
+    <a href="<%= song_url(song) %>" style="background-image: url(<%= @artist_img_dir + song.artist.image_url %>);">
+      <%= song.title %>
+      <%= song.artist.name %>
+    </a>
+  </li>
+  <% end %>
+</ul>
 
-    <div class="tight">
-      <h3 style="margin-top: 10px;">Recently added to Songnotes</h3>
-      <p>I typically learn one new song each week &ndash; here's what I've been playing the last few months. Click any song to view its lyrics, chords, guitar tabs, and video lessons.</p>
-    </div> <!-- end: .tight -->
-    <ul class="featured-songs">
-      <% @recent_songs.each do |song| %>
-      <li>
-        <a href="<%= song_url(song) %>" style="background-image: url(<%= @artist_img_dir + song.artist.image_url %>); background-size: 220px 220px; background-repeat: no-repeat;">
-          <div class="label">
-            <div class="label-inner">
-              <h4><%= song.title %></h4>
-              <p><strong><%= song.artist.name %></strong></p>
-            </div> <!-- end: .label-inner -->
-          </div> <!-- end: .label -->
-        </a>
-      </li>
-      <% end %>
-    </ul>
-
-
-    <div id="browse_all" class="tight">
-      <h3>Browse All Songs</h3>
-      <p>Here is a list of all <%= @song_count %> songs I've added to this site. Click any song to learn how to play it.</p>
-    </div> <!-- end: .tight -->
-  
-    <div class="song-list">
-      <ul>
-        <% @songs.each do |song| %>
-        <li>
-          <a href="<%= song_url(song) %>" style="background-image: url(<%= @artist_img_dir + song.artist.image_url %>);">
-            <h4><%= song.title %></h4>
-            <p><strong><%= song.artist.name %></strong></p>
-          </a>
-        </li>
-        <% end %>
-      </ul>
-    </div> <!-- end: .song-list -->
-
-  </div> <!-- end: .wrapper -->
-
-</div> <!-- end: .section -->
-
-<div class="section" style="background: #fff;">
-  <div class="wrapper">
-    <p style="color: #555; margin: 0 0 10px 0;"><strong style="color: #333;">Songnotes</strong> is created, designed, developed, and edited by David Potsiadlo.</p>
-    <p style="color: #555;">Keep posted of updates by connecting on <a href="http://twitter.com/_songnotes">Twitter</a>, <a href="http://facebook.com/songnotes">Facebook</a>, <a href="http://www.youtube.com/user/playsongnotes">YouTube</a>, or <a href="https://plus.google.com/+songnotesCC" rel="publisher">Google+</a>.</p>
-  </div>
-</div>
+<a href="http://twitter.com/_songnotes">Twitter</a>
+<a href="http://facebook.com/songnotes">Facebook</a>
+<a href="http://www.youtube.com/user/playsongnotes">YouTube</a>
+<a href="https://plus.google.com/+songnotesCC" rel="publisher">Google+</a>
