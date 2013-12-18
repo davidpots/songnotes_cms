@@ -12,6 +12,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'rails_12factor', group: :production
+
 group :development do
   # WHY DO YOU HAVE SQLITE AS A GEM HERE?
   gem 'sqlite3', '1.3.5'
