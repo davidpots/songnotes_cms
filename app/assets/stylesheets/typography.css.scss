@@ -73,6 +73,7 @@
                  
                  @media screen and (max-width: 800px) {
                     body { background: #f3f5f6; }
+                    body.home { background: #fff; }
                     pre { font-size: 14px; line-height: 18px; background: #fff; border: 1px solid rgba(0,0,0,0.1); padding: 28px 20px 20px; border-radius: 2px; }
                     pre h4 { font-size: 14px; line-height: 18px; margin-bottom: -10px; }
                   }
