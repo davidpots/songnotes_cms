@@ -4,6 +4,10 @@
     .hero .avatar { text-align: center; margin: 55px 0 21px 0; }
     .hero .avatar img { width: 180px; height: 180px; border-radius: 90px; }
     .hero h1 { text-transform: uppercase; font-size: 80px; line-height: 1.0; text-align: center; margin: 0 0 18px 0; }
+        @media screen and (max-width: 728px) { .hero h1 { font-size: 70px; } }
+        @media screen and (max-width: 640px) { .hero h1 { font-size: 60px; } }
+        @media screen and (max-width: 480px) { .hero h1 { font-size: 50px; } }
+        @media screen and (max-width: 320px) { .hero h1 { font-size: 40px; } }
     .hero h3 { font-size: 32px; line-height: 1.0; font-family: 'ProximaNovaLight'; font-weight: normal; text-align: center; text-transform: uppercase; color: rgba(0,0,0,0.5); margin: 0 0 35px 0; }
     .hero p.meta { text-align: center; font-size: 13px; line-height: 20px; margin: 0 0 46px 0; }
     .hero p.meta em { color: rgba(0,0,0,0.3); display: block; font-style: normal; font-family: 'ProximaNovaLight' }
