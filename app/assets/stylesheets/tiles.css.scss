@@ -2,7 +2,7 @@
 
     /* "Featured" Tiles -- most recent songs, etc */
     .tile_featured { margin: 40px 0 0 -20px; overflow: hidden; width: auto; text-align: center; }
-    .tile_featured > li { width: 220px; height: 290px; max-height: 300px; list-style: none; margin: 0 -4px 6px 20px; display: inline-block; vertical-align: top; }
+    .tile_featured > li { width: 220px; height: 320px; max-height: 320px; list-style: none; margin: 0 -4px 6px 20px; display: inline-block; vertical-align: top; }
     .tile_featured > li a { display: block; color: #888; border: none; }
     .tile_featured > li:hover h5 { color: #44a0d9; }
     .tile_featured > li:hover ul > li { color: #44a0d9; }

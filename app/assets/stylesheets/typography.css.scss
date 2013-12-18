@@ -30,7 +30,7 @@
 
         h1      { font-size: 57px; line-height: 1.1; text-align: center; text-transform: uppercase; }
             @media screen and (max-width: 320px) { h1 { font-size: 48px; } }
-        h2      { font-size: 54px; line-height: 1.0; color: #f05a28; text-transform: uppercase; text-align: center; letter-spacing: 2px; border-bottom: 3px double rgba(0,0,0,0.09); padding: 32px 0 24px; margin: 0 0 48px 0; }
+        h2      { font-size: 54px; line-height: 1.0; color: #f05a28; text-transform: uppercase; text-align: center; letter-spacing: 2px; border-bottom: 3px double rgba(0,0,0,0.09);border-top: 3px double rgba(0,0,0,0.09); padding: 32px 0 24px; margin: 0 0 48px 0; }
             @media screen and (max-width: 320px) { h2 { margin-bottom: 24px; } }
             @media screen and (max-width: 480px) { h2 { margin-bottom: 32px; } }
         h3      { font-size: 24px; }
@@ -63,18 +63,18 @@
         dl dt     { color: #444; margin-bottom: 4px; font-weight: bold; }
         dl dd     { margin-bottom: 0px; margin-left: 24px; }
         
-        pre,code  { font-size: 15px; line-height: 20px; font-family: 'Courier', monospace; }
+        pre,code  { font-size: 15px; line-height: 20px; font-family: 'Courier', monospace; white-space: pre; }
         pre strong,
         code strong { font-weight: bold; }
         pre       { overflow: auto; display: inline-block; max-width: 100%; margin: 0 0 20px 0; }
-        pre h4    { margin: 0 0 -25px 0; font-size: 15px; text-transform: uppercase; }
-        code      { display: inline-block; white-space: nowrap; padding: 2px 6px; border-radius: 3px; background: #f4f4f4; }
+        pre h4    { margin: 0 0 -16px 0; font-size: 15px; text-transform: uppercase; }
+        code      { display: inline-block; padding: 2px 6px; border-radius: 3px; background: #f4f4f4; }
 
                  
                  @media screen and (max-width: 800px) {
                     body { background: #f3f5f6; }
-                    pre { font-size: 14px; line-height: 16px; background: #fff; border: 1px solid rgba(0,0,0,0.1); padding: 28px 20px 20px; border-radius: 2px; }
-                    pre h4 { font-size: 14px; line-height: 16px; margin-bottom: -18px; }
+                    pre { font-size: 14px; line-height: 18px; background: #fff; border: 1px solid rgba(0,0,0,0.1); padding: 28px 20px 20px; border-radius: 2px; }
+                    pre h4 { font-size: 14px; line-height: 18px; margin-bottom: -10px; }
                   }
 
                   /* PRE scroll bars */
@@ -91,7 +91,7 @@
 
         pre .chords_inline { color: #f05a28; }
         pre strong.chord { color: #f05a28; }
-        pre .note { color: #b8b8b8; }
+        pre .note { color: #b8b8b8; font-family: "Courier New", monospace; }
 
         table     { border-collapse: collapse; table-layout:fixed; width:100%; margin: 0 0 20px 0; }
         td,th     { padding: 8px 9px 7px; font-size: 14px; line-height: 17px; border: 1px solid #aaa; text-align: left; }

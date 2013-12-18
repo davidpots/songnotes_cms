@@ -1,29 +1,5 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
-// listed below.
-//
-// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
-//
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// the compiled file.
-//
-// WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
-// GO AFTER THE REQUIRES BELOW.
-//
-//= require jquery
-//= require jquery_ujs
-//= require ios-orientationchange-fix
-//= require_tree .
-
-$(document).ready(function(){
-
-  // HTML-to-JSON plugin for API beta
-  $('#json_convert').click( function() { 
-    var table = $('#json_table').tableToJSON();
-    document.getElementById('target').innerHTML = JSON.stringify(table);
-  });
-
-});
+// Add/remove a class based on size of window. Inspired by https://gist.github.com/RyanBrackett/6107983
+// This is used so I can know if a mobile device vs. a desktop device.
 
           // Change width value on page load
           $(document).ready(function(){
@@ -72,7 +48,7 @@ $(document).ready(function(){
 
 // FitText! via http://fittextjs.com/
 $(window).bind("load", function() {
-  $("h1.fit").fitText(0.8, { minFontSize: '52px', maxFontSize: '80px' });
+  $("h1.fit").fitText(0.8, { minFontSize: '64px', maxFontSize: '80px' });
   $("h2.fit").fitText(0.8, { minFontSize: '30px', maxFontSize: '54px' });
   $("h3.fit").fitText(0.8, { minFontSize: '27px', maxFontSize: '32px' });
 });

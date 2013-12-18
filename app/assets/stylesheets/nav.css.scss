@@ -19,9 +19,9 @@
       #title .text { position: absolute; left: 67px; top: 20px; }
       #title h1 { margin: 0 0 4px 0; text-align: left; }
       #title p { width: auto; }
-      #title #navburger { position: absolute; right: 20px; top: 20px; display: block; height: 44px; width: 44px; line-height: 44px; color: #fff; display: block; text-align: center; font-size: 32px; background: transparent url(../images/hamburger.png) center no-repeat; background-size: 20px 15px; border-radius: 4px; -webkit-tap-highlight-color: rgba(0,0,0,0); /* via http://css-tricks.com/snippets/css/remove-gray-highlight-when-tapping-links-in-mobile-safari/ */ }
+      #title #navburger { position: absolute; right: 20px; top: 20px; display: block; height: 44px; width: 44px; line-height: 44px; color: #fff; display: block; text-align: center; font-size: 32px; background: transparent url(/assets/hamburger.png) center no-repeat; background-size: 20px 15px; border-radius: 4px; -webkit-tap-highlight-color: rgba(0,0,0,0); /* via http://css-tricks.com/snippets/css/remove-gray-highlight-when-tapping-links-in-mobile-safari/ */ }
       #title #navburger:hover { background-color: rgba(0,0,0,0.1); }
-      #title #navburger.open { background-image: url(../images/hamburger-close.png); background-size: 16px 16px; }
+      #title #navburger.open { background-image: url(/assets/hamburger-close.png); background-size: 16px 16px; }
     }
     
     /* Title: Really Small Screens */
@@ -60,10 +60,10 @@
     #social ul li a { display: block; width: 36px; height: 36px; overflow: hidden; margin-left: 6px; border-radius: 4px; background-color: rgba(0,0,0,0.1); background-repeat: no-repeat; background-size: 32px 32px; background-position: center; transition: background-color 0.25s ease; border: none; }
     #social ul li a:hover { background-color: rgba(0,0,0,0.3); }
 
-    #social ul li.tw a { background-image: url(../images/icon-twitter.png); }
-    #social ul li.fb a { background-image: url(../images/icon-fb.png); }
-    #social ul li.yt a { background-image: url(../images/icon-youtube.png); }
-    #social ul li.gplus a { background-image: url(../images/icon-gplus.png); }
+    #social ul li.tw a { background-image: url(/assets/icon-twitter.png); }
+    #social ul li.fb a { background-image: url(/assets/icon-fb.png); }
+    #social ul li.yt a { background-image: url(/assets/icon-youtube.png); }
+    #social ul li.gplus a { background-image: url(/assets/icon-gplus.png); }
 
         /* Title: Small Screens */
         @media screen and (max-width: 1028px) {

@@ -1,34 +1,75 @@
+<%# ----- Global Nav ----- %>
 <%= render :partial => 'shared/nav' %>
 
-<div class="home_social_buttons">
-  <p style="display: inline-block; margin-right: 10px; float: left;"><a href="https://twitter.com/_songnotes" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @davidpots</a></p>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  <div class="fb-like" style="display: inline-block; float: left;" data-href="http://www.facebook.com/songnotes" data-send="false" data-layout="button_count" data-width="400" data-show-faces="false"></div>
-</div>
+<%# ----- Main Content Wrapper ----- %>
+<div id="content">
+  <div class="wrapper">    
+    <div class="wrapper-narrow">
 
-<ul>
-  <% @recent_songs.each do |song| %>
-  <li>
-    <a href="<%= song_url(song) %>" style="background-image: url(<%= @artist_img_dir + song.artist.image_url %>);">
-      <%= song.title %>
-      <%= song.artist.name %>
-    </a>
-  </li>
-  <% end %>
-</ul>
+      <section class="welcome">
+        <p class="super-lead">Welcome to my collection of guitar tabs, lyrics, and chords for the songs I love to play.</p>
+        <p class="lead">Content for each song has been hand-crafted solely by me. Utmost care has been taken to ensure all music notation is accurate, consistent, and complete.</p>
+        <p class="lead"><strong>&ndash; David Potsiadlo</strong></p>
+        <p class="mini learnMore"><span class="prompt">Still curious? Learn more</span> <a href="http://davidpots.com">about me</a> or <a href="#about">about this site</a>.</p>
+      </section>
 
-<ul>
-  <% @songs.each do |song| %>
-  <li>
-    <a href="<%= song_url(song) %>" style="background-image: url(<%= @artist_img_dir + song.artist.image_url %>);">
-      <%= song.title %>
-      <%= song.artist.name %>
-    </a>
-  </li>
-  <% end %>
-</ul>
+      <section id="recently_added">
+        <h1>Recently Added</h1>
+        <p class="lead">Here are the songs I have recently learned and added to the site. I typically will add one new song each week.</p>
+        <ul class="tile_featured">
+          <% @recent_songs.each do |song| %>
+          <li>
+            <a href="<%= song_url(song) %>">
+              <img src="<%= @artist_img_dir + song.artist.image_url %>" />
+              <h5><%= song.title %></h5>
+              <ul>
+                <li class="artist"><%= song.artist.name %></li>
+                <li class="ago"><%= song.created_at.strftime("%b %e, %Y") %></li>
+              </ul>
+            </a>
+          </li>
+          <% end %>
+        </ul>
+      </section>
 
-<a href="http://twitter.com/_songnotes">Twitter</a>
-<a href="http://facebook.com/songnotes">Facebook</a>
-<a href="http://www.youtube.com/user/playsongnotes">YouTube</a>
-<a href="https://plus.google.com/+songnotesCC" rel="publisher">Google+</a>
+      <section id="browse_all_songs">
+        <h1>Browse All Songs</h1>
+        <p class="lead">Here's a list of the <%= @song_count %> songs I've added to the site since December 2012. Each song was added by me personally.</p>
+        <p class="lead">Songs are grouped by the year they were released.</p>
+        <div class="wrapper-narrower tile_list">
+          <% @songs_by_year.each do |year, songs| %>
+          <h5><%= year %></h5>
+          <ul>
+            <% songs.each do |song| %>
+            <li>
+              <a href="<%= song_url(song) %>">
+                <img src="<%= @artist_img_dir + song.artist.image_url %>" />
+                <h5><%= song.title %></h5>
+                <ul>
+                  <li class="artist"><%= song.artist.name %></li>
+                </ul>
+              </a>
+            </li>
+            <% end %>
+          </ul>
+          <% end %>
+        </div> <!-- end: .wrapper-narrower .tile_list -->
+      </section>
+
+      <section id="about">
+        <h1>About</h1>
+        <p>My name is David Potsiadlo, and I created Songnotes to share my collection of guitar tabs, chords, and lyrics for my favorite songs.</p>
+        <p>Since I started playing guitar over 10 years ago, I've often been frustrated by the preponderance of mediocre and incomplete song tabs littered across the internet. To combat this, I started keeping my own collection of notes for each song I learn -- always taking the extra time to make sure accuracy and completeness are never compromised. Years later, my collection grew to the point where I knew I had to share it online with fellow aspiring musicians.</p>
+        <p>In December 2012, I began designing &amp; developing a website that became Songnotes. Here, I share my personal collection of hand-crafted music notation with all those online. I hope you enjoy.</p>
+        <div class="home_social_buttons">
+          <p style="display: inline-block; margin-right: 10px; float: left;"><a href="https://twitter.com/_songnotes" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @davidpots</a></p>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <div class="fb-like" style="display: inline-block; float: left;" data-href="http://www.facebook.com/songnotes" data-send="false" data-layout="button_count" data-width="400" data-show-faces="false"></div>
+        </div>
+      </section>
+
+      <br /><br /><br /><br /><br /><br />
+
+    </div> <!-- end: .wrapper-narrow -->
+  </div> <!-- end: .wrapper -->
+</div> <!-- end: #content -->
