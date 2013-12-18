@@ -22,6 +22,7 @@
       #title #navburger { position: absolute; right: 20px; top: 20px; display: block; height: 44px; width: 44px; line-height: 44px; color: #fff; display: block; text-align: center; font-size: 32px; background: transparent url(/assets/hamburger.png) center no-repeat; background-size: 20px 15px; border-radius: 4px; -webkit-tap-highlight-color: rgba(0,0,0,0); /* via http://css-tricks.com/snippets/css/remove-gray-highlight-when-tapping-links-in-mobile-safari/ */ }
       #title #navburger:hover { background-color: rgba(0,0,0,0.1); }
       #title #navburger.open { background-image: url(/assets/hamburger-close.png); background-size: 16px 16px; }
+      #title #navburger.open:hover { background-color: transparent; }
     }
     
     /* Title: Really Small Screens */
