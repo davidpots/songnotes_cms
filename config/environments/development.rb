@@ -34,4 +34,7 @@ Songnotes::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # To fix the caching issue... via http://stackoverflow.com/questions/15356800/have-to-always-run-rake-assetsprecompile-before-starting-server
+  config.serve_static_assets = false
 end

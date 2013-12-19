@@ -31,8 +31,10 @@
         h1      { font-size: 57px; line-height: 1.1; text-align: center; text-transform: uppercase; }
             @media screen and (max-width: 320px) { h1 { font-size: 48px; } }
         h2      { font-size: 54px; line-height: 1.0; color: #f05a28; text-transform: uppercase; text-align: center; letter-spacing: 2px; border-bottom: 3px double rgba(0,0,0,0.09);border-top: 3px double rgba(0,0,0,0.09); padding: 32px 0 24px; margin: 0 0 48px 0; }
-            @media screen and (max-width: 320px) { h2 { margin-bottom: 24px; } }
-            @media screen and (max-width: 480px) { h2 { margin-bottom: 32px; } }
+            @media screen and (max-width: 728px) { h2 { font-size: 48px; } }
+            @media screen and (max-width: 640px) { h2 { font-size: 44px; } }
+            @media screen and (max-width: 480px) { h2 { font-size: 38px; margin-bottom: 32px; } }
+            @media screen and (max-width: 320px) { h2 { font-size: 34px; margin-bottom: 24px; } }
         h3      { font-size: 24px; }
         h4      { font-size: 19px; line-height: 24px; margin: 32px 0 10px 0; color: rgba(0,0,0,0.8); font-weight: normal; }
         h2 + h4 { margin-top: 0; }
