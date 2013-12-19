@@ -52,14 +52,6 @@ $(document).ready(function(){
 
 });
 
-
-// FitText! via http://fittextjs.com/
-// $(window).bind("load", function() {
-//   $("h1.fit").fitText(0.8, { minFontSize: '52px', maxFontSize: '80px' });
-//   $("h2.fit").fitText(0.8, { minFontSize: '30px', maxFontSize: '54px' });
-//   $("h3.fit").fitText(0.8, { minFontSize: '27px', maxFontSize: '32px' });
-// });
-
 // Fast Click! via https://github.com/ftlabs/fastclick
 window.addEventListener('load', function() {
     FastClick.attach(document.body);
