@@ -1,6 +1,8 @@
 Songnotes::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
-
+  config.middleware.insert_after(::Rack::Runtime, "::Rack::Auth::Basic", "Staging") do |u, p|
+    [u, p] == ['super', 'secret']
+  end
   # Code is not reloaded between requests
   config.cache_classes = true
 
