@@ -9,12 +9,6 @@
 <div id="content">
   <div class="wrapper">    
 
-
-
-
-
-
-
     <%# ----- Song Header ----- %>
     <div class="hero">
       <div class="avatar">
@@ -24,6 +18,13 @@
       <h3 class="fit"><%= @song.artist.name %></h3>
       <p class="meta"><% if @song.album.present? %><em>from the album</em> <strong><%= @song.album.name %></strong> <% end %><em>released in</em> <strong><%= @song.year %></strong></p>
       
+      <%# ----- Share Links ----- %>      
+      <div class="share_wrap_outer">
+        <div class="share_wrap_inner">
+          <div class="fb-like" data-href="<%= @page_url %>" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="false"></div>
+        </div>
+      </div>
+
       <%# ----- Song Secondary Nav ----- %>
       <p class="jumpto">
         <em class="prompt">jump to:</em>
@@ -90,8 +91,15 @@
       <%# ----- Share ----- %>
       <section>
         <h1>Share</h1>
-        <p class="lead">Transcription, content, and notes for this song were written by David Potsiadlo. Like what you see? Tell your friends:</p>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <p class="lead">Transcription, content, and notes for this song were written by <a href="https://plus.google.com/u/0/106167658091550641205?rel=author">David Potsiadlo</a>. Like what you see? Tell your friends:</p>
+        <div class="share_wrap_outer">
+          <div class="share_wrap_inner" style="margin-left: -106px;">
+            <br />
+            <div class="fb-like" style="margin-bottom: 10px; margin-right: 10px;" data-href="<%= @page_url %>" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="false"></div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="<%= @page_url %>" data-via="_songnotes" data-lang="en">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+        </div>
       </section>
 
       <%# ----- Recently Added ----- %>

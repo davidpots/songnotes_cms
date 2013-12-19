@@ -9,7 +9,7 @@
         @media screen and (max-width: 480px) { .hero h1 { font-size: 50px; } }
         @media screen and (max-width: 320px) { .hero h1 { font-size: 44px; } }
     .hero h3 { font-size: 32px; line-height: 1.0; font-family: 'ProximaNovaLight'; font-weight: normal; text-align: center; text-transform: uppercase; color: rgba(0,0,0,0.5); margin: 0 0 35px 0; }
-    .hero p.meta { text-align: center; font-size: 13px; line-height: 20px; margin: 0 0 46px 0; }
+    .hero p.meta { text-align: center; font-size: 13px; line-height: 20px; margin: 0 0 32px 0; }
     .hero p.meta em { color: rgba(0,0,0,0.3); display: block; font-style: normal; font-family: 'ProximaNovaLight' }
     .hero p.meta strong { color: rgba(0,0,0,0.5); font-weight: normal; text-transform: uppercase; letter-spacing: 0px; }
     .hero p.jumpto { text-align: center; font-size: 12px; font-family: 'ProximaNovaLight'; color: rgba(0,0,0,0.6); text-transform: uppercase; }
@@ -54,3 +54,8 @@
 /* -- SONG INFO -- */
 
       #song_info { padding-bottom: 120px; }
+
+/* -- SHARE -- */
+
+    .share_wrap_outer { position: relative; height: 64px; width: 100%; }
+    .share_wrap_inner { position: absolute; left: 50%; margin-left: -61px; }
