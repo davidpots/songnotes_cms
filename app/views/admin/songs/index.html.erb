@@ -11,11 +11,11 @@
     <tr>
       <th><%= sortable "title" %></th>
       <th>Artist</th>
-      <th><%= sortable "year" %></th>
+      <th width="60"><%= sortable "year" %></th>
       <th>Album</th>
-      <th><%= sortable "created_at" %></th>
+      <th width="100"><%= sortable "created_at" %></th>
       <th><%= sortable "record_label","Record label" %></th>
-      <th></th>
+      <th width="60"></th>
     </tr>
 
   <% @songs.each do |song| %>

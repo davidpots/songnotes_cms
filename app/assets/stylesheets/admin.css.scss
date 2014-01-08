@@ -1,8 +1,35 @@
 // Sandbox Area Helpers
 
-    body.admin          { background: $color-white; color: #333; }
-    body.admin div.admin { padding: 28px; }
-    body.admin h1         { color: #333; }
+    body.admin              { background: #eee; color: #333; margin: 0; padding: 0; }
+    body.admin div.admin    { padding: 28px; }
+    body.admin h1           { color: #333; text-align: left; }
+
+    body.admin hr { margin: 20px 0; }
+    body.admin form {
+        label { font-family: "ProximaNovaBold"; margin: 0 0 4px 0; display: inline-block; }
+        input[type='text'] { padding: 8px; }
+        textarea { padding: 8px; width: 80%; height: 240px; font-family: $body_fonts_mono; font-size: 13px; line-height: 16px; }
+    
+        /* PRE scroll bars */
+        textarea::-webkit-scrollbar {
+            -webkit-appearance: none;
+            width: 6px;
+            border-radius: 3px; 
+        }
+        textarea::-webkit-scrollbar-thumb {
+            background-color: #d8d8d8;
+        }
+
+    } 
+
+    body.admin table {
+        a { text-decoration: none; border: none; font-family: "ProximaNovaBold"; display: block; }
+        th { background: #333; color: #fff; }
+        th a { color: yellow; }
+    }
+
+
+
 
     .tile-teacher       { background: #ddd; text-align: center; padding: 120px 20px; color: #777; font-size: 18px; line-height: 24px; }
     .tile-teacher span  { display: block; color: #999; color: red; font-family: $body_fonts_mono; margin: 10px 0 0 0; font-size: 14px; line-height: 24px; font-weight: bold; }

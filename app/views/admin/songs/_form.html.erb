@@ -1,4 +1,4 @@
-<div style="background:white;">
+
 <%= form_for [:admin, @song] do |f| %>
   <% if @song.errors.any? %>
     <div id="error_explanation">
@@ -61,13 +61,12 @@
     <%= f.text_area :notes %>
   </p>
   <p class="field">
-    <%= f.label "Chords Progressions" %><br />
-    <%= f.text_area :chords %>
-  </p>
-  <hr />
-  <p class="field">
     <%= f.label "Listen & Play" %><br />
     <%= f.text_area :listenplay %>
+  </p>
+  <p class="field">
+    <%= f.label "Chords Progressions" %><br />
+    <%= f.text_area :chords %>
   </p>
   <hr />
   <p class="field">
@@ -89,7 +88,7 @@
     <%= f.label :published, 'True', :value => 'True', :class => "radio_label" %>
     <%= f.radio_button :published, false %>
     <%= f.label :published, 'False', :value => 'False', :class => "radio_label" %>
-  </div>
+  </p>
   <p class="field">
     <%= f.label "Has repeated chords?" %>
     <%= f.radio_button :repeated_chords, true %>
@@ -102,4 +101,3 @@
     <%= f.submit %>
   </div>
 <% end %>
-</div>

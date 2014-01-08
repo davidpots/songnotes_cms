@@ -10,7 +10,7 @@
 
     <table>
       <tr>
-        <th>Name</th>
+        <th width="300">Name</th>
         <th>Artist</th>
         <th># Songs</th>
         <th>Label</th>
@@ -18,8 +18,6 @@
         <th>Image url</th>
         <th>Url wikipedia</th>
         <th>Url rdio</th>
-        <th></th>
-        <th></th>
         <th></th>
       </tr>
 
@@ -33,8 +31,6 @@
         <td><%= album.image_url %></td>
         <td><%= album.url_wikipedia %></td>
         <td><%= album.url_rdio %></td>
-        <td><%= link_to 'Show', album %></td>
-        <td><%= link_to 'Edit', edit_admin_album_path(album) %></td>
         <td><%= link_to 'Destroy', [:admin, album], method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
