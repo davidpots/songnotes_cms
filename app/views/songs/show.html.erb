@@ -1,5 +1,10 @@
 <% title "'#{@song.title}' by #{@song.artist.name} - Chords, Lyrics, and Guitar Tabs from Songnotes" %>
-<% description "Learn how to play #{@song.title} by #{@song.artist.name}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes. This song is heard on the album '#{@song.album.name}' released in #{@song.year}." %>
+
+<% if @song.album.present? %>
+  <% description "Learn how to play #{@song.title} by #{@song.artist.name}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes. This song is heard on the album '#{@song.album.name}' released in #{@song.year}." %>
+<% else %>
+  <% description "Learn how to play #{@song.title} by #{@song.artist.name}. Chords, lyrics, and guitar tabs all crafted with care by Songnotes." %>
+<% end %>
 <% fb_img "#{@artist_img_dir}#{@song.artist.image_url}" %>
 
 <%# ----- Global Nav ----- %>
