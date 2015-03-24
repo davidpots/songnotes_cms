@@ -8,6 +8,6 @@ class ApplicationController < ActionController::Base
     @google_font_OpenSans = "Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300"
     @google_font_AveriaSerifLibre = "Averia+Serif+Libre:300,400,700,300italic,400italic,700italic"
     @google_font_SourceCodePro = "Source+Code+Pro:300,400,600,700"  
-    @artist_img_dir = "http://fireflygrove.com/songnotes/images/artists/"
+    @artist_img_dir = "http://songnotes.cc/images/artists/"
   end
 end
