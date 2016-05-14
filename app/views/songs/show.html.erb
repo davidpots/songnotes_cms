@@ -114,25 +114,6 @@
         <p>Thanks so much!</p>
       </section>
 
-      <%# ----- Recently Added ----- %>
-      <section id="recently_added">
-        <h1>Recently Added</h1>
-        <p class="lead">Here are the songs I have recently learned and added to the site. I typically will add one new song each week.</p>
-        <ul class="tile_featured">
-          <% @recent_songs.each do |song| %>
-          <li>
-            <a href="<%= song_url(song) %>">
-              <img src="<%= @artist_img_dir + song.artist.image_url %>" />
-              <h5><%= song.title %></h5>
-              <ul>
-                <li class="artist"><%= song.artist.name %></li>
-                <li class="ago"><%= song.created_at.strftime("%b %e, %Y") %></li>
-              </ul>
-            </a>
-          </li>
-          <% end %>
-        </ul>
-      </section>
 
       <%# ----- Browse All Songs ----- %>
       <section id="browse_all_songs">
