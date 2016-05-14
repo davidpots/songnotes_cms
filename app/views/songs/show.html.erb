@@ -12,7 +12,7 @@
 
 <%# ----- Main Content Wrapper ----- %>
 <div id="content">
-  <div class="wrapper">    
+  <div class="wrapper">
 
     <%# ----- Song Header ----- %>
     <div class="hero">
@@ -22,8 +22,8 @@
       <h1 class="fit"><%= @song.title %></h1>
       <h3 class="fit"><%= @song.artist.name %></h3>
       <p class="meta"><% if @song.album.present? %><em>from the album</em> <strong><%= @song.album.name %></strong> <% end %><em>released in</em> <strong><%= @song.year %></strong></p>
-      
-      <%# ----- Share Links ----- %>      
+
+      <%# ----- Share Links ----- %>
       <div class="share_wrap_outer">
         <div class="share_wrap_inner">
           <div class="fb-like" data-href="<%= @page_url %>" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="false"></div>
@@ -92,7 +92,7 @@
     </section>
 
     <div class="wrapper-narrow">
-  
+
       <%# ----- Share ----- %>
       <section>
         <h1>Share</h1>
@@ -105,6 +105,13 @@
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
         </div>
+      </section>
+
+      <section id="tipjar">
+        <h1>Tip Jar</h1>
+        <p>Want to support Songnotes? If you would like to donate a dollar or few, that would make my day. I've spent over 1000+ hours building this site and transcribing these songs -- and happily make everything available freely. Visit my PayPal page if you'd like to toss something back my way.</p>
+        <h3><a href="https://paypal.me/songnotes">Donate via PayPal</a></h3>
+        <p>Thanks so much!</p>
       </section>
 
       <%# ----- Recently Added ----- %>
