@@ -22,6 +22,6 @@
     .tile_list > ul > li:hover ul > li { color: #44a0d9; }
     .tile_list > ul > li a { display: block; height: 64px; color: #888; display: table-cell; vertical-align: middle; border: none; }
     .tile_list > ul > li img { background: #ddd; position: absolute; left: 0; top: 50%; margin-top: -32px; width: 64px; height: 64px; border-radius: 32px; }
-    .tile_list > ul > li h5 { font-size: 19px; line-height: 20px; margin: 2px 0 3px 75px; transition: color 0.25s ease; }
-    .tile_list > ul > li ul { margin: 0 0 0 75px; }
+    .tile_list > ul > li h5 { font-size: 19px; line-height: 20px; margin: 2px 0 3px 0; transition: color 0.25s ease; }
+    .tile_list > ul > li ul { margin: 0 0 0 0; }
     .tile_list > ul > li ul > li { list-style: none; font-family: "ProximaNovaLight"; font-size: 16px; line-height: 18px; transition: color 0.25s ease; }
