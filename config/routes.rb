@@ -7,7 +7,9 @@ Songnotes::Application.routes.draw do
   # get "/songs/149-johnny-cash-i-walk-the-line" => redirect("http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/")
   # match "/songs/149-johnny-cash-i-walk-the-line" => redirect("http://example.com/blog"), :as => :blog
   # get '/songs/149-johnny-cash-i-walk-the-line', to: redirect('http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/', status: 301)
+  # match '____SONGNOTESCC_ORIGIN____', :to => redirect('____PLAYSONGNOTES_DESTINATION____', status: 301)
   match '/songs/149-johnny-cash-i-walk-the-line', :to => redirect('http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/', status: 301)
+  match '/songs/65-bryan-adams-summer-of-69', :to => redirect('http://playsongnotes.com/songs/bryan-adams-summer-of-69/', status: 301)
 
   namespace :admin do
     match '/' => "songs#index"
