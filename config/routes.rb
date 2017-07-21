@@ -18,7 +18,10 @@ Songnotes::Application.routes.draw do
   resources :artists, :only => [:index, :show]
   resources :albums, :only => [:index, :show]
 
-  get "/songs/149-johnny-cash-i-walk-the-line" => redirect("http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/")
+  # get "/songs/149-johnny-cash-i-walk-the-line" => redirect("http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/")
+  # match "/songs/149-johnny-cash-i-walk-the-line" => redirect("http://example.com/blog"), :as => :blog
+  get '/songs/149-johnny-cash-i-walk-the-line', to: redirect('http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/', status: 301)
+
 
 
   # The priority is based upon order of creation:
