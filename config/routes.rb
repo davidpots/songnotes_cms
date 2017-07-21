@@ -20,7 +20,8 @@ Songnotes::Application.routes.draw do
 
   # get "/songs/149-johnny-cash-i-walk-the-line" => redirect("http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/")
   # match "/songs/149-johnny-cash-i-walk-the-line" => redirect("http://example.com/blog"), :as => :blog
-  get '/songs/149-johnny-cash-i-walk-the-line', to: redirect('http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/', status: 301)
+  # get '/songs/149-johnny-cash-i-walk-the-line', to: redirect('http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/', status: 301)
+  match '/songs/149-johnny-cash-i-walk-the-line', :to => redirect('http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/', status: 301)
 
 
 
