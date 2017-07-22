@@ -10,6 +10,12 @@ Songnotes::Application.routes.draw do
   # match '____SONGNOTESCC_ORIGIN____', :to => redirect('____PLAYSONGNOTES_DESTINATION____', status: 301)
   match '/songs/149-johnny-cash-i-walk-the-line', :to => redirect('http://playsongnotes.com/songs/johnny-cash-i-walk-the-line/', status: 301)
   match '/songs/65-bryan-adams-summer-of-69', :to => redirect('http://playsongnotes.com/songs/bryan-adams-summer-of-69/', status: 301)
+  match '/songs/70-neil-young-out-on-the-weekend', :to => redirect('http://playsongnotes.com/songs/neil-young-out-on-the-weekend/', status: 301)
+  match '/songs/56-the-eagles-hotel-california', :to => redirect('http://playsongnotes.com/songs/eagles-hotel-california/', status: 301)
+  match '/songs/126-ricky-nelson-lonesome-town', :to => redirect('http://playsongnotes.com/songs/ricky-nelson-lonesome-town/', status: 301)
+  match '/songs/133-lynyrd-skynyrd-sweet-home-alabama', :to => redirect('http://playsongnotes.com/songs/lynyrd-skynyrd-sweet-home-alabama/', status: 301)
+  match '/songs/108-johnny-cash-folsom-prison-blues', :to => redirect('http://playsongnotes.com/songs/johnny-cash-folsom-prison-blues/', status: 301)
+  # match '____SONGNOTESCC_ORIGIN____', :to => redirect('____PLAYSONGNOTES_DESTINATION____', status: 301)
 
   namespace :admin do
     match '/' => "songs#index"
