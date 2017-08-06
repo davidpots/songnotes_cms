@@ -34,6 +34,7 @@ Songnotes::Application.routes.draw do
   match '/songs/107-jason-mraz-i-wont-give-up', :to => redirect('http://playsongnotes.com/songs/jason-mraz-i-wont-give-up/', status: 301)
   match '/songs/159-israel-kamakawiwoole-somewhere-over-the-rainbow-what-a-wonderful-world', :to => redirect('http://playsongnotes.com/songs/israel-kamakawiwoole-somewhere-over-the-rainbow-what-a-wonderful-world/', status: 301)
   match '/songs/168-toto-africa', :to => redirect('http://playsongnotes.com/songs/toto-africa/', status: 301)
+  match '/songs/44-taylor-swift-you-belong-with-me', :to => redirect('http://playsongnotes.com/songs/taylor-swift-you-belong-with-me/', status: 301)
 
   # match '____SONGNOTESCC_ORIGIN____', :to => redirect('____PLAYSONGNOTES_DESTINATION____', status: 301)
 
