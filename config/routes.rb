@@ -36,6 +36,7 @@ Songnotes::Application.routes.draw do
   match '/songs/168-toto-africa', :to => redirect('http://playsongnotes.com/songs/toto-africa/', status: 301)
   match '/songs/44-taylor-swift-you-belong-with-me', :to => redirect('http://playsongnotes.com/songs/taylor-swift-you-belong-with-me/', status: 301)
   match '/songs/61-taylor-swift-love-story', :to => redirect('http://playsongnotes.com/songs/taylor-swift-love-story/', status: 301)
+  match '/songs/128-the-kinks-lola', :to => redirect('http://playsongnotes.com/songs/kinks-lola/', status: 301)
 
   # match '____SONGNOTESCC_ORIGIN____', :to => redirect('____PLAYSONGNOTES_DESTINATION____', status: 301)
 
